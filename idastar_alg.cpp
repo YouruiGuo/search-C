@@ -1,3 +1,11 @@
+//
+//  idastar_alg.cpp
+//  search-C
+//
+//  Created by Yourui Guo on 2019-03-08.
+//  Copyright © 2019 Yourui Guo. All rights reserved.
+//
+
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -6,116 +14,125 @@
 #include <sstream>
 #include <iterator>
 #include <unordered_map>
-#include <string.h> 
+#include <string.h>
 #include <stdio.h>
 #include "heuristic.hpp"
-
+#include "stp_env.hpp"
 using namespace std;
 
 class Idastar_alg {
 private:
-	int expanded;
-	int nextThreshold;
-	State start;
-	Heuristic* heu;
-	Stp_env* env;
-	std::vector<Action> path;	
-
+    int expanded;
+    int nextThreshold;
+    State start;
+    Heuristic heu = Heuristic();
+    Stp_env env = Stp_env();
+   
+    
 public:
-	Idastar_alg(State s, State g);
-	~Idastar_alg();
-	bool search(Action initAct);
-	int DFS(int threshold, int gcost, State root, 
-					Action prevAct, std::vector<Action> path);
-	
+    Idastar_alg();
+    Idastar_alg(State s, State g);
+    ~Idastar_alg();
+    std::vector<Action> search(Action initAct);
+    bool DFS(int threshold, int gcost, State *root,
+            Action prevAct, std::vector<Action> *path);
+    
 };
 
 
 Idastar_alg::Idastar_alg(State s, State g){
-	expanded = 0;
-	start = s;
-	heu = new Heuristic(s, g);
-	env = heu->getEnv(); 	
-	nextThreshold = heu->HCost(s);
-	path = {};
+    expanded = 0;
+    start = s;
+    heu = Heuristic(s, g);
+    env = heu.getEnv();
+    nextThreshold = heu.HCost(s);
 }
 
 Idastar_alg::~Idastar_alg(){}
 
-bool Idastar_alg::search(Action initAct){
-	bool success = false;
-	int threshold = nextThreshold;
-	int gcost = 0;
-	while (!success) {
-		success = DFS(threshold, gcost, start, initAct, path);
-		threshold = nextThreshold;
-	}
-	return success;
 
+std::vector<Action> Idastar_alg::search(Action initAct){
+    bool success = false;
+    int threshold = nextThreshold;
+    int gcost = 0;
+    std::vector<Action> path;
+    while (!success) {
+        success = DFS(threshold, gcost, &start, initAct, &path);
+        threshold = nextThreshold;
+    }
+    return path;
+    
 }
 
-int Idastar_alg::DFS(int threshold, int gcost, State root, 
-					Action prevAct, std::vector<Action> path){
-	expanded += 1;
-	int fcost = gcost + heu->HCost(root);
-	if (env->isSuccess(root)) {
-		return prevAct.getAction();
-	}
-	if (threshold < fcost) {
-		if (nextThreshold > fcost || nextThreshold == threshold) {
-			nextThreshold = fcost;
-		}
-		return -1;
-	}
-
-	std::vector<Action> actions = env->getActions(root);
-	for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
-		Action action = actions[i];
-		if (env->isRepeat(prevAct, action)) {
-			continue;
-		}
-		int cost = 1; 
-		env->applyAction(action, root);
-		int p = DFS(threshold, gcost+cost, root, action, path);
-		env->undoAction(action, root);
-		if (p != -1) {
-			path.push_back(action);
-			return 1;
-		}
-	}
-	return -1;
-
+bool Idastar_alg::DFS(int threshold, int gcost, State* root,
+                     Action prevAct, std::vector<Action> *path){
+    expanded += 1;
+    int fcost = gcost + heu.HCost(*root);
+    if (env.isSuccess(*root)) {
+        return true;
+    }
+    if (threshold < fcost) {
+        if (nextThreshold > fcost || nextThreshold == threshold) {
+            nextThreshold = fcost;
+        }
+        return false;
+    }
+    
+    std::vector<Action> actions = env.getActions(*root);
+    for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
+        Action action = actions[i];
+        if (env.isRepeat(prevAct, action)) {
+            continue;
+        }
+        int cost = 1;
+        env.applyAction(action, root);
+        bool p = DFS(threshold, gcost+cost, root, action, path);
+        env.undoAction(action, root);
+        if (p) {
+            path->push_back(action);
+            return true;
+        }
+    }
+    return false;
+    
 }
 
 State loadstpFile(int index){
-
-	std::vector<State> instances;
-	std::string df = "./asg1/asg1/data/korf100.txt";
-	std::fstream infile(df, std::ios_base::in);
-	std::string line;
-	while (std::getline(infile, line)) {
-		std::istringstream buffer(line);
-		std::vector<string> tokens{std::istream_iterator<string>(buffer),
-                      std::istream_iterator<string>()};
+    
+    std::vector<State> instances;
+    std::string df = "/Users/margaret/Documents/cmput652/korf100.txt";
+    std::ifstream infile(df);
+    std::string line;
+    while (std::getline(infile, line)) {
+        std::istringstream iss(line);
+        std::vector<string> tokens{std::istream_iterator<string>(iss),
+            std::istream_iterator<string>()};
         std::vector<int> data;
         for(vector<string>::const_iterator i = tokens.begin()+1; i != tokens.end(); ++i) {
-		    // process i
-		    data.push_back(std::stoi(*i));
-		}
-		instances.push_back(State(data));
-	}
-	return instances[index];
+            // process i
+            data.push_back(std::stoi(*i));
+        }
+        instances.push_back(State(data));
+    }
+    return instances[index];
 }
 
 int main(int argc, char const *argv[])
 {
-	int index = 0;
-	Action initAct = Action(-1);
-	std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
-	State goal = State(g);
-	State benchmark = loadstpFile(index);
-	Idastar_alg search = Idastar_alg(benchmark, goal);
-	search.search(initAct);
-
-	return 0;
+    Action initAct = Action(-10);
+    std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
+    State goal = State(g);
+    
+    int index = 22;
+    State benchmark = loadstpFile(index);
+    //std::vector<int> s = {1,2,3,7,0,4,5,6,8,9,10,11,12,13,14,15};
+    //State benchmark = State(s);
+    
+    Idastar_alg search = Idastar_alg(benchmark, goal);
+    std::vector<Action> path = search.search(initAct);
+    for (std::vector<Action>::size_type i=0; i < path.size(); i++) {
+        cout << path[i].getAction() << ' ';
+    }
+    cout << endl;
+    return 0;
 }
