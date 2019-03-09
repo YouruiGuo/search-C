@@ -143,7 +143,8 @@ void Heuristic::BFS(State start) {
         std::vector<Action> actions = env.getActions(temp);
         for (std::vector<Action>::size_type i = 0; i < actions.size(); ++i) {
             Action action = actions[i];
-            State st = env.applyActionCopy(action, temp);
+            int t = env.applyActionCopy(action, temp);
+            State st = env.allStates[t].getState();
             int next_rank = ranking(st);
             std::map<int, int>::iterator f = ranks.find(next_rank);
             if (f == ranks.end()) {

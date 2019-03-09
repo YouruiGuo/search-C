@@ -55,15 +55,15 @@ class StateInfo
 {
 private:
     State state;
+public:
     int gcost;
     int hcost;
     int open_id;
     int parent;
-public:
+    StateInfo();
     StateInfo(State s);
-    State getState();
     ~StateInfo();
-    
+    State getState();
 };
 
 StateInfo::StateInfo(State s){
@@ -73,9 +73,8 @@ StateInfo::StateInfo(State s){
     open_id = -10;
     parent = -1;
 }
-
+StateInfo::StateInfo(){}
 StateInfo::~StateInfo(){}
-
 State StateInfo::getState(){
     return state;
 }
@@ -112,9 +111,10 @@ private:
     State start;
     State goal;
     std::map<unsigned long long, int> hashtable;
-    std::vector<StateInfo> allStates;
+    
     
 public:
+    std::vector<StateInfo> allStates;
     Stp_env();
     Stp_env(State s, State g);
     ~Stp_env();
@@ -123,31 +123,48 @@ public:
     bool isRepeat(Action prev, Action curr);
     unsigned long long getStateHash(State st);
     std::vector<Action> getActions(State st);
-    State applyActionCopy(Action a, State s);
+    int applyActionCopy(Action a, State s);
     void applyAction(Action a, State *s);
     void undoAction(Action a, State *s);
     int cost(State prev, State curr);
     unsigned int getSize();
+    int getHashIndex(unsigned long long i);
+    State getStart();
+    State getGoal();
 };
 
 Stp_env::Stp_env(){}
 Stp_env::~Stp_env(){}
 Stp_env::Stp_env(State s, State g) {
     size = 4;
-    StateInfo start = StateInfo(s);
-    StateInfo goal = StateInfo(g);
+    start = s;
+    goal = g;
+    StateInfo st = StateInfo(s);
+    StateInfo go = StateInfo(g);
     
-    allStates.push_back(s);
+    allStates.push_back(st);
     unsigned long long svalue = getStateHash(s);
     hashtable[svalue] = 0;
     
-    allStates.push_back(g);
+    allStates.push_back(go);
     unsigned long long gvalue = getStateHash(g);
     hashtable[gvalue] = 1;
 }
 
 unsigned int Stp_env::getSize() {
     return size;
+}
+
+State Stp_env::getStart() {
+    return start;
+}
+
+State Stp_env::getGoal() {
+    return goal;
+}
+
+int Stp_env::getHashIndex(unsigned long long i) {
+    return hashtable[i];
 }
 
 bool Stp_env::isSuccess(State st) {
@@ -212,7 +229,7 @@ std::vector<Action> Stp_env::getActions(State st) {
     
 }
 
-State Stp_env::applyActionCopy(Action a, State st) {
+int Stp_env::applyActionCopy(Action a, State st) {
     std::vector<int> s = st.getState();
     int empty = getEmpty(st);
     int row = (int)(empty/size);
@@ -234,16 +251,16 @@ State Stp_env::applyActionCopy(Action a, State st) {
         s[row*size+col-1] = 0;
     }
     State new_st = State(s);
-    unsigned long long value = getStateHash(st);
+    unsigned long long value = getStateHash(new_st);
     std::map<unsigned long long, int>::iterator
     f = hashtable.find(value);
     if (f != hashtable.end()) {
         int id = hashtable[value];
-        return allStates[id].getState();//
+        return id;//
     }
     allStates.push_back(StateInfo(new_st));
     hashtable[value] = (int)allStates.size()-1;
-    return new_st;
+    return hashtable[value];
 }
 
 void Stp_env::applyAction(Action a, State *st) {////
