@@ -16,13 +16,13 @@
 #include <unordered_map>
 #include <string.h>
 #include <stdio.h>
+#include <ctime>
 #include "heuristic.hpp"
 #include "stp_env.hpp"
 using namespace std;
 
 class Idastar_alg {
 private:
-    int expanded;
     int nextThreshold;
     State start;
     Heuristic heu = Heuristic();
@@ -30,6 +30,7 @@ private:
     std::vector<std::vector<Action>> actionVectors;
     
 public:
+    unsigned long long expanded;
     Idastar_alg();
     Idastar_alg(State s, State g);
     ~Idastar_alg();
@@ -104,7 +105,7 @@ bool Idastar_alg::DFS(int threshold, int gcost, State* root,
 State loadstpFile(int index){
     
     std::vector<State> instances;
-    std::string df = "/Users/margaret/Documents/cmput652/korf100.txt";
+    std::string df = "./korf100.txt";
     std::ifstream infile(df);
     std::string line;
     while (std::getline(infile, line)) {
@@ -127,16 +128,14 @@ int main(int argc, char const *argv[])
     std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     State goal = State(g);
     
-    int index = 22;
-    State benchmark = loadstpFile(index);
-    //std::vector<int> s = {1,2,3,7,0,4,5,6,8,9,10,11,12,13,14,15};
-    //State benchmark = State(s);
-    
-    Idastar_alg search = Idastar_alg(benchmark, goal);
-    std::vector<Action> path = search.search(initAct);
-    for (std::vector<Action>::size_type i=0; i < path.size(); i++) {
-        cout << path[i].getAction() << ' ';
+    for (int i = 16; i < 100; ++i) {
+        State benchmark = loadstpFile(i);
+        Idastar_alg search = Idastar_alg(benchmark, goal);
+        clock_t begin = clock();
+        std::vector<Action> path = search.search(initAct);
+        clock_t end = clock();
+        cout << "expanded: " << search.expanded << " time elapsed: " << double(end - begin) / CLOCKS_PER_SEC << endl;
     }
-    cout << endl;
+    
     return 0;
 }

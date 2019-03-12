@@ -216,14 +216,14 @@ void Stp_env::getActions(State st, std::vector<Action> *actions) {
     int col = (int)(empty%size);
     
     if (row == 0) actions->push_back(Action(2));
-    else if (row == size-1) actions->push_back(Action(0));
+    else if (row == (int)size-1) actions->push_back(Action(0));
     else{
         actions->push_back(Action(0));
         actions->push_back(Action(2));
     }
     
     if (col == 0) actions->push_back(Action(1));
-    else if (col == size-1) actions->push_back(Action(3));
+    else if (col == (int)size-1) actions->push_back(Action(3));
     else {
         actions->push_back(Action(1));
         actions->push_back(Action(3));

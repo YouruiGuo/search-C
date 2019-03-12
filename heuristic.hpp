@@ -142,7 +142,7 @@ State Heuristic::getPatternState(State state) {
     std::vector<int> t(size*size, -1);
     std::vector<int>::size_type j = 0;
     for (std::vector<int>::size_type i = 0; i < s.size(); ++i) {
-        for (j = 0; j < pattern_instance.getNumPattern(); j++) {
+        for (j = 0; j < (unsigned int)pattern_instance.getNumPattern(); j++) {
             if (s[i] == pattern[j]) t[i] = s[i];
         }
     }
