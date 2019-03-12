@@ -46,7 +46,7 @@ Idastar_alg::Idastar_alg(State s, State g){
     heu = Heuristic(s, g);
     env = heu.getEnv();
     nextThreshold = heu.HCost(s);
-    heu.setIsMD(true);
+    heu.setIsMD(false);
     heu.setIsMinCompressed(false);
     heu.setIsDeltaEnabled(false);
     actionVectors.resize(82);
