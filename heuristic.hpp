@@ -82,6 +82,8 @@ private:
     bool isMD;
     int factor;
     Pattern pattern_instance;
+    std::vector<int> ts;
+    std::vector<int> dual;
     
 public:
     Heuristic();
@@ -92,7 +94,6 @@ public:
     void patternDatabase(State p);
     void minCompression(int rank);
     void BFS(State start);
-    unsigned long long ranking(State p);
     unsigned long long lexicographicalRanking(State p);
     unsigned long long linearTimeRanking(State p);
     unsigned long long rank1(int n, std::vector<int> *state, std::vector<int> *dual);
@@ -159,7 +160,7 @@ int Heuristic::HCost(State state) {
             patternDatabase(pattern_instance.getPattern());
         }
         State temp = getPatternState(state);
-        unsigned long long r = ranking(temp);
+        unsigned long long r = lexicographicalRanking(temp);
         return ranks[r];
     }
 }
@@ -210,13 +211,13 @@ void Heuristic::BFS(State start) {
     env.hashtable[b] = (int)env.allStates.size()-1;
     Q.push(env.hashtable[b]);
     
-    unsigned long long s_rank = ranking(start);
-    ranks[s_rank] = 0;
+    temp_rank = lexicographicalRanking(start);
+    ranks[temp_rank] = 0;
     
     while(!Q.empty()) {
         c = Q.front();
         temp = env.allStates[c].getState();
-        temp_rank = ranking(temp);
+        temp_rank = lexicographicalRanking(temp);
         Q.pop();
         if (ranks[temp_rank] > depth){
             depth++;
@@ -231,7 +232,7 @@ void Heuristic::BFS(State start) {
             action = actions[i];
             a = env.applyActionCopy(action, temp);
             st = env.allStates[a].getState();
-            next_rank = ranking(st);
+            next_rank = lexicographicalRanking(st);
             if (ranks[next_rank] == -1) {
                 ranks[next_rank] = ranks[temp_rank]+1;
                 /*
@@ -252,33 +253,29 @@ void Heuristic::BFS(State start) {
     }
 }
 
-unsigned long long Heuristic::ranking(State p) {
-    unsigned long long result;
-    //result = linearTimeRanking(p);
-    result = lexicographicalRanking(p);
-    return result;
-}
 
 unsigned long long Heuristic::lexicographicalRanking(State p) {
-    unsigned long long r = 0;
+    unsigned long long r = 0, f;
+    std::vector<int>::size_type i, j;
     int size = env.getSize();
     size *= size;
     int nums = (int)pattern.size();
-    std::vector<int> s = p.getState();
-    std::vector<int> dual(size, -1);
+    ts = p.getState();
+    dual.resize(size, -1);
     int count = 0;
     
-    for (std::vector<int>::size_type i = 0; i <s.size(); i++) {
-        if (s[i] != -1) {
-            dual[s[i]] = (int)i;
+    
+    for (i = 0; i <ts.size(); i++) {
+        if (ts[i] != -1) {
+            dual[ts[i]] = (int)i;
         }
     }
-    unsigned long long f;
-    for (std::vector<int>::size_type i = 0; i < dual.size(); i++) {
+    
+    for (i = 0; i < dual.size(); i++) {
         if (dual[i] != -1){
             count++;
             int k = dual[i];
-            for (std::vector<int>::size_type j = 0; j < i; j++) {
+            for (j = 0; j < i; j++) {
                 if ((dual[j] != -1) && (dual[j] < dual[i])) {
                     k -= 1;
                 }
