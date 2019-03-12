@@ -27,7 +27,7 @@ private:
     State start;
     Heuristic heu = Heuristic();
     Stp_env env = Stp_env();
-   
+    std::vector<std::vector<Action>> actionVectors;
     
 public:
     Idastar_alg();
@@ -35,7 +35,7 @@ public:
     ~Idastar_alg();
     std::vector<Action> search(Action initAct);
     bool DFS(int threshold, int gcost, State *root,
-            Action prevAct, std::vector<Action> *path);
+             Action prevAct, std::vector<Action> *path);
     
 };
 
@@ -46,6 +46,10 @@ Idastar_alg::Idastar_alg(State s, State g){
     heu = Heuristic(s, g);
     env = heu.getEnv();
     nextThreshold = heu.HCost(s);
+    heu.setIsMD(true);
+    heu.setIsMinCompressed(false);
+    heu.setIsDeltaEnabled(false);
+    actionVectors.resize(82);
 }
 
 Idastar_alg::~Idastar_alg(){}
@@ -65,7 +69,7 @@ std::vector<Action> Idastar_alg::search(Action initAct){
 }
 
 bool Idastar_alg::DFS(int threshold, int gcost, State* root,
-                     Action prevAct, std::vector<Action> *path){
+                      Action prevAct, std::vector<Action> *path){
     expanded += 1;
     int fcost = gcost + heu.HCost(*root);
     if (env.isSuccess(*root)) {
@@ -78,18 +82,18 @@ bool Idastar_alg::DFS(int threshold, int gcost, State* root,
         return false;
     }
     
-    std::vector<Action> actions = env.getActions(*root);
-    for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
-        Action action = actions[i];
-        if (env.isRepeat(prevAct, action)) {
+    env.getActions(*root, &actionVectors[gcost]);
+    for (std::vector<Action>::size_type i = 0; i < actionVectors[gcost].size(); i++) {
+        //Action action = actionVectors[gcost][i];
+        if (env.isRepeat(prevAct, actionVectors[gcost][i])) {
             continue;
         }
         int cost = 1;
-        env.applyAction(action, root);
-        bool p = DFS(threshold, gcost+cost, root, action, path);
-        env.undoAction(action, root);
+        env.applyAction(actionVectors[gcost][i], root);
+        bool p = DFS(threshold, gcost+cost, root, actionVectors[gcost][i], path);
+        env.undoAction(actionVectors[gcost][i], root);
         if (p) {
-            path->push_back(action);
+            path->push_back(actionVectors[gcost][i]);
             return true;
         }
     }
