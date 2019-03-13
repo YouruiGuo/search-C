@@ -23,6 +23,10 @@ using namespace std;
 
 class Idastar_alg {
 private:
+<<<<<<< HEAD
+=======
+    
+>>>>>>> b69eeeaf3286468c65e9e9ae0cf0be1c83d7bb1a
     int nextThreshold;
     State start;
     Heuristic heu = Heuristic();
@@ -30,13 +34,18 @@ private:
     std::vector<std::vector<Action>> actionVectors;
     
 public:
+<<<<<<< HEAD
     unsigned long long expanded;
+=======
+    int expanded;
+>>>>>>> b69eeeaf3286468c65e9e9ae0cf0be1c83d7bb1a
     Idastar_alg();
     Idastar_alg(State s, State g);
     ~Idastar_alg();
     std::vector<Action> search(Action initAct);
     bool DFS(int threshold, int gcost, State *root,
              Action prevAct, std::vector<Action> *path);
+    void setStart(State s);
     
 };
 
@@ -55,6 +64,10 @@ Idastar_alg::Idastar_alg(State s, State g){
 
 Idastar_alg::~Idastar_alg(){}
 
+void Idastar_alg::setStart(State s) {
+    start = s;
+    
+}
 
 std::vector<Action> Idastar_alg::search(Action initAct){
     bool success = false;
@@ -128,14 +141,23 @@ int main(int argc, char const *argv[])
     std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     State goal = State(g);
     
+<<<<<<< HEAD
     for (int i = 11; i < 100; ++i) {
+=======
+    for (int i = 0; i < 100; i++) {
+>>>>>>> b69eeeaf3286468c65e9e9ae0cf0be1c83d7bb1a
         State benchmark = loadstpFile(i);
         Idastar_alg search = Idastar_alg(benchmark, goal);
         clock_t begin = clock();
         std::vector<Action> path = search.search(initAct);
         clock_t end = clock();
+<<<<<<< HEAD
         cout << "expanded: " << search.expanded << " time elapsed: " << double(end - begin) / CLOCKS_PER_SEC << endl;
         break;
+=======
+        cout << "expanded: " << search.expanded << " time_elpased: " << double(end-begin)/(CLOCKS_PER_SEC) << endl;
+        
+>>>>>>> b69eeeaf3286468c65e9e9ae0cf0be1c83d7bb1a
     }
     
     return 0;

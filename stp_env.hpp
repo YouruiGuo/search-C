@@ -111,7 +111,7 @@ private:
     State start_state;
     State goal_state;
     
-    
+    std::vector<int> aacs, issuccess, statehash, empty;
     
 public:
     std::map<unsigned long long, int> hashtable;
@@ -132,6 +132,8 @@ public:
     int getHashIndex(unsigned long long i);
     State getStart();
     State getGoal();
+    State applyActionBFS(Action a, State st);
+    void setStart(State s);
 };
 
 Stp_env::Stp_env(){}
@@ -152,6 +154,10 @@ Stp_env::Stp_env(State s, State g) {
     hashtable[gvalue] = 1;
 }
 
+void Stp_env::setStart(State s) {
+    start_state = s;
+}
+
 unsigned int Stp_env::getSize() {
     return size;
 }
@@ -169,9 +175,9 @@ int Stp_env::getHashIndex(unsigned long long i) {
 }
 
 bool Stp_env::isSuccess(State st) {
-    std::vector<int> s = st.getState();
+    issuccess = st.getState();
     for (std::vector<int>::size_type i = 0; i < size*size; ++i) {
-        if (s[i] != (int)i) {
+        if (issuccess[i] != (int)i) {
             return false;
         }
     }
@@ -186,21 +192,21 @@ bool Stp_env::isRepeat(Action prev, Action curr) {
 }
 
 unsigned long long Stp_env::getStateHash(State st) {
-    std::vector<int> s = st.getState();
+    statehash = st.getState();
     unsigned long long value = 0;
     for (std::vector<int>::size_type i = 0; i < size*size; ++i) {
         value = value << 4;
-        if (s[i] != -1) {
-            value += s[i];
+        if (statehash[i] != -1) {
+            value += statehash[i];
         }
     }
     return value;
 }
 
 int Stp_env::getEmpty(State st) {
-    std::vector<int> s = st.getState();
+    empty = st.getState();
     for (std::vector<int>::size_type i = 0; i < size*size; ++i) {
-        if (s[i] == 0) {
+        if (empty[i] == 0) {
             return (int)i;
         }
     }
@@ -231,80 +237,104 @@ void Stp_env::getActions(State st, std::vector<Action> *actions) {
 }
 
 int Stp_env::applyActionCopy(Action a, State st) {
-    std::vector<int> s = st.getState();
+    aacs = st.getState();
     int empty = getEmpty(st);
     int row = (int)(empty/size);
     int col = (int)(empty%size);
     if(a.getAction() == 0) {
-        s[row*size+col] = s[(row-1)*size+col];
-        s[(row-1)*size+col] = 0;
+        aacs[row*size+col] = aacs[(row-1)*size+col];
+        aacs[(row-1)*size+col] = 0;
     }
     else if (a.getAction() == 1) {
-        s[row*size+col] = s[row*size+col+1];
-        s[row*size+col+1] = 0;
+        aacs[row*size+col] = aacs[row*size+col+1];
+        aacs[row*size+col+1] = 0;
     }
     else if (a.getAction() == 2) {
-        s[row*size+col] = s[(row+1)*size+col];
-        s[(row+1)*size+col] = 0;
+        aacs[row*size+col] = aacs[(row+1)*size+col];
+        aacs[(row+1)*size+col] = 0;
     }
     else if (a.getAction() == 3) {
-        s[row*size+col] = s[row*size+col-1];
-        s[row*size+col-1] = 0;
+        aacs[row*size+col] = aacs[row*size+col-1];
+        aacs[row*size+col-1] = 0;
     }
-    State new_st = State(s);
+    State new_st = State(aacs);
     unsigned long long hv = getStateHash(new_st);
     allStates.push_back(StateInfo(new_st));
     hashtable[hv] = (int)allStates.size()-1;
     return hashtable[hv];
 }
 
+State Stp_env::applyActionBFS(Action a, State st) {
+    aacs = st.getState();
+    int empty = getEmpty(st);
+    int row = (int)(empty/size);
+    int col = (int)(empty%size);
+    if(a.getAction() == 0) {
+        aacs[row*size+col] = aacs[(row-1)*size+col];
+        aacs[(row-1)*size+col] = 0;
+    }
+    else if (a.getAction() == 1) {
+        aacs[row*size+col] = aacs[row*size+col+1];
+        aacs[row*size+col+1] = 0;
+    }
+    else if (a.getAction() == 2) {
+        aacs[row*size+col] = aacs[(row+1)*size+col];
+        aacs[(row+1)*size+col] = 0;
+    }
+    else if (a.getAction() == 3) {
+        aacs[row*size+col] = aacs[row*size+col-1];
+        aacs[row*size+col-1] = 0;
+    }
+    return State(aacs);
+}
+
 void Stp_env::applyAction(Action a, State *st) {////
-    std::vector<int> s = st->getState();
+    aacs = st->getState();
     int empty = getEmpty(*st);
     int row = (int)(empty/size);
     int col = (int)(empty%size);
     if(a.getAction() == 0) {
-        s[row*size+col] = s[(row-1)*size+col];
-        s[(row-1)*size+col] = 0;
+        aacs[row*size+col] = aacs[(row-1)*size+col];
+        aacs[(row-1)*size+col] = 0;
     }
     else if (a.getAction() == 1) {
-        s[row*size+col] = s[row*size+col+1];
-        s[row*size+col+1] = 0;
+        aacs[row*size+col] = aacs[row*size+col+1];
+        aacs[row*size+col+1] = 0;
     }
     else if (a.getAction() == 2) {
-        s[row*size+col] = s[(row+1)*size+col];
-        s[(row+1)*size+col] = 0;
+        aacs[row*size+col] = aacs[(row+1)*size+col];
+        aacs[(row+1)*size+col] = 0;
     }
     else if (a.getAction() == 3) {
-        s[row*size+col] = s[row*size+col-1];
-        s[row*size+col-1] = 0;
+        aacs[row*size+col] = aacs[row*size+col-1];
+        aacs[row*size+col-1] = 0;
     }
-    st->setState(s);
+    st->setState(aacs);
     
 }
 
 void Stp_env::undoAction(Action a, State *st) {
-    std::vector<int> s = st->getState();
+    aacs = st->getState();
     int empty = getEmpty(*st);
     int row = (int)(empty/size);
     int col = (int)(empty%size);
     if(a.getAction() == 0) { // down
-        s[row*size+col] = s[(row+1)*size+col];
-        s[(row+1)*size+col] = 0;
+        aacs[row*size+col] = aacs[(row+1)*size+col];
+        aacs[(row+1)*size+col] = 0;
     }
     else if (a.getAction() == 1) { // left
-        s[row*size+col] = s[row*size+col-1];
-        s[row*size+col-1] = 0;
+        aacs[row*size+col] = aacs[row*size+col-1];
+        aacs[row*size+col-1] = 0;
     }
     else if (a.getAction() == 2) { // up
-        s[row*size+col] = s[(row-1)*size+col];
-        s[(row-1)*size+col] = 0;
+        aacs[row*size+col] = aacs[(row-1)*size+col];
+        aacs[(row-1)*size+col] = 0;
     }
     else if (a.getAction() == 3) { // right
-        s[row*size+col] = s[row*size+col+1];
-        s[row*size+col+1] = 0;
+        aacs[row*size+col] = aacs[row*size+col+1];
+        aacs[row*size+col+1] = 0;
     }
-    st->setState(s);
+    st->setState(aacs);
 }
 
 int Stp_env::cost(State prev, State curr) {
