@@ -128,13 +128,14 @@ int main(int argc, char const *argv[])
     std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     State goal = State(g);
     
-    for (int i = 16; i < 100; ++i) {
+    for (int i = 11; i < 100; ++i) {
         State benchmark = loadstpFile(i);
         Idastar_alg search = Idastar_alg(benchmark, goal);
         clock_t begin = clock();
         std::vector<Action> path = search.search(initAct);
         clock_t end = clock();
         cout << "expanded: " << search.expanded << " time elapsed: " << double(end - begin) / CLOCKS_PER_SEC << endl;
+        break;
     }
     
     return 0;
