@@ -21,6 +21,8 @@
 #include <queue>
 #include <map>
 #include <cmath>
+#include <sys/stat.h>
+#include <unistd.h>
 #include "stp_env.hpp"
 
 using namespace std;
@@ -82,9 +84,10 @@ private:
     bool isMD;
     int factor;
     Pattern pattern_instance;
-    std::vector<int> ts;
-    std::vector<int> dual;
-    
+    std::vector<int> ts, dual, hstate, unrankstate;
+    std::vector<unsigned long long> unrank;
+    unsigned long long r, f, a, b;
+    std::vector<int> unstate;
 public:
     Heuristic();
     Heuristic(State s, State g);
@@ -103,6 +106,7 @@ public:
     void setIsMinCompressed(bool i);
     void setIsMD(bool i);
     State getPatternState(State st);
+    State unranking(unsigned long long r);
 };
 
 Heuristic::Heuristic(){}
@@ -120,6 +124,9 @@ Heuristic::Heuristic(State s, State g) {
     isMinCompressed = false;
     isMD = true;
     pattern_instance = Pattern(pattern, env.getGoal());
+    unrank.resize(pattern_instance.getNumPattern());
+    unstate.resize(16, -1);
+    //unrankstate.resize(size*size, -1);
 }
 
 void Heuristic::setIsDeltaEnabled(bool i) {
@@ -137,6 +144,7 @@ void Heuristic::setIsMD(bool i) {
 Stp_env Heuristic::getEnv() {
     return env;
 }
+
 
 State Heuristic::getPatternState(State state) {
     std::vector<int> s = state.getState();
@@ -184,45 +192,65 @@ int Heuristic::ManhattanDistance(State s) {
 }
 
 
+
+
 void Heuristic::patternDatabase(State p) {
-    unsigned long long a = factorial(size*size);
-    unsigned long long b = factorial(size*size-pattern_instance.getNumPattern());
-    numExpandNode = a/b;
-    ranks.reserve(numExpandNode);
-    for (std::vector<int>::size_type i = 0; i < numExpandNode; i++) {
-        ranks.push_back(-1);
+    struct stat buffer;
+    std::string name = "/Users/margaret/Documents/cmput652/search-C1/heuristic.txt";
+    if (stat (name.c_str(), &buffer) == 0) { // readfile
+        ifstream f(name);
+        assert(f.is_open());
+        std::copy(std::istream_iterator<int>(f), std::istream_iterator<int>(),
+                  std::back_inserter(ranks));
+        f.close();
     }
-    BFS(p);
+    else {
+        unsigned long long a = factorial(size*size);
+        unsigned long long b = factorial(size*size-pattern_instance.getNumPattern());
+        numExpandNode = a/b;
+        ranks.reserve(numExpandNode);
+        for (std::vector<int>::size_type i = 0; i < numExpandNode; i++) {
+            ranks.push_back(-1);
+        }
+        BFS(p);
+        
+        //write to file
+        ofstream f(name);
+        if (f.is_open()) {
+            for (int i = 0; i < numExpandNode; i++) {
+                f << ranks[i] << ' ';
+            }
+        }
+        f.close();
+        
+    }
+    
     isBuilt = 1;
 }
 
 
+
 void Heuristic::BFS(State start) {
-    std::queue<int> Q;
+    std::queue<unsigned long long> Q;
     int depth = 0, new_states = 0;
     State temp, st;
     Action action = Action(-1);
-    int a, c;
+    //int a, c;
     unsigned long long temp_rank, next_rank;
     std::vector<Action> actions;
     
-    unsigned long long b = env.getStateHash(start);
-    env.allStates.push_back(StateInfo(start));
-    env.hashtable[b] = (int)env.allStates.size()-1;
-    Q.push(env.hashtable[b]);
-    
     temp_rank = lexicographicalRanking(start);
     ranks[temp_rank] = 0;
+    Q.push(temp_rank);
     
     while(!Q.empty()) {
-        c = Q.front();
-        temp = env.allStates[c].getState();
-        temp_rank = lexicographicalRanking(temp);
+        temp_rank = Q.front();
+        temp = unranking(temp_rank);
         Q.pop();
         if (ranks[temp_rank] > depth){
-            depth++;
-            std::cout << "new_states:" << new_states << endl;
+            std::cout << "depth: " << depth << " new_states: " << new_states << endl;
             new_states = 1;
+            depth++;
         }
         else{
             new_states += 1;
@@ -230,9 +258,8 @@ void Heuristic::BFS(State start) {
         env.getActions(temp, &actions);
         for (std::vector<Action>::size_type i = 0; i < actions.size(); ++i) {
             action = actions[i];
-            a = env.applyActionCopy(action, temp);
-            st = env.allStates[a].getState();
-            next_rank = lexicographicalRanking(st);
+            env.applyAction(action, &temp);
+            next_rank = lexicographicalRanking(temp);
             if (ranks[next_rank] == -1) {
                 ranks[next_rank] = ranks[temp_rank]+1;
                 /*
@@ -242,28 +269,22 @@ void Heuristic::BFS(State start) {
                  if (isMinCompressed){
                  minCompression(next_rank);
                  }*/
-                Q.push(a);
+                Q.push(next_rank);
             }
-            else {
-                if (ranks[next_rank] > ranks[temp_rank]+1) {
-                    ranks[next_rank] = ranks[temp_rank]+1;
-                }
-            }
+            env.undoAction(action, &temp);
         }
     }
+    std::cout << "depth: " << depth << " new_states: " << new_states << endl;
 }
 
 
 unsigned long long Heuristic::lexicographicalRanking(State p) {
-    unsigned long long r = 0, f;
-    std::vector<int>::size_type i, j;
-    int size = env.getSize();
-    size *= size;
+    r = 0;
+    int i, j;
     int nums = (int)pattern.size();
     ts = p.getState();
-    dual.resize(size, -1);
+    dual.resize(size*size, -1);
     int count = 0;
-    
     
     for (i = 0; i <ts.size(); i++) {
         if (ts[i] != -1) {
@@ -280,17 +301,46 @@ unsigned long long Heuristic::lexicographicalRanking(State p) {
                     k -= 1;
                 }
             }
-            f = factorial(size-count);
+            f = factorial(size*size-count);
             r += k*f;
         }
     }
-    f = factorial(size-nums);
+    f = factorial(size*size-nums);
     r = r/f;
     return r;
 }
 
+State Heuristic::unranking(unsigned long long r) {
+    //State st;
+    unstate.clear();
+    unstate.resize(16, -1);
+    int i, j;
+    int nums = (int)pattern.size();
+    for (i = 0; i < nums-1; i++) {
+        a = r%((size*size)-nums+i+1);
+        b = r/((size*size)-nums+i+1);
+        unrank[nums-i-1] = a;
+        r = b;
+    }
+    unrank[0] = r;
+    for (i = nums-2; i >= 0; i--) {
+        for (j = i+1; j < nums; j++) {
+            if (unrank[i] <= unrank[j]) {
+                unrank[j]++;
+            }
+        }
+    }
+    for (i = 0; i < nums; i++) {
+        unstate[unrank[i]] = pattern[i];
+    }
+    //st = State(unstate);
+    return State(unstate);
+}
+
+
+
 unsigned long long Heuristic::linearTimeRanking(State p) {
-    unsigned long long r = 0;
+    r = 0;
     int nums = (int)pattern.size();
     std::vector<int> s = p.getState();
     std::vector<int> dual;
