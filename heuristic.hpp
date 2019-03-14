@@ -174,11 +174,15 @@ int Heuristic::HCost(State state) {
         }
         temprank = getPatternState(state, pattern1);
         rk1 = lexicographicalRanking(temprank, pattern1);
+
         temprank = getPatternState(state, pattern2);
         rk2 = lexicographicalRanking(temprank, pattern2);
+
         temprank = getPatternState(state, pattern3);
         rk3 = lexicographicalRanking(temprank, pattern3);
+
         rk4 = ManhattanDistance(state);
+
         int max = ranks1[rk1];
         if (ranks2[rk2] > max) {
             max = ranks2[rk2];
@@ -189,8 +193,8 @@ int Heuristic::HCost(State state) {
         if (rk4 > max){
             max = rk4;
         }
-        //cout << ranks1[rk1] << ' ' << ranks2[rk2] << ' ' << ranks3[rk3] << ' ' << rk4 << endl;
-        return rk4;
+        //cout << rk1 << ' ' << rk2 << ' ' << rk3 << ' ' << rk4 <<  ' ' << max << endl;
+        return max;
     }
 }
 
