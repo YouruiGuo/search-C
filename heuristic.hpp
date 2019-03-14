@@ -72,7 +72,7 @@ class Heuristic
 private:
     Stp_env env = Stp_env();
     unsigned int size;
-    std::vector<int> ranks; //ranking, heuristic
+    std::vector<int> ranks, ranks1, ranks2, ranks3; //ranking, heuristic
     unsigned long long numExpandNode;
     std::vector<int> pattern;
     std::vector<int> pattern1;
@@ -82,12 +82,13 @@ private:
     bool isDeltaEnabled;
     bool isMinCompressed;
     bool isMD;
-    int factor;
+    int factor, rk4;
     Pattern pattern_instance;
-    std::vector<int> ts, dual, hstate, unrankstate;
+    std::vector<int> ts, dual, hstate, unrankstate, patternstate, patterntemp;
     std::vector<unsigned long long> unrank;
-    unsigned long long r, f, a, b;
+    unsigned long long r, f, a, b, rk1, rk2, rk3;
     std::vector<int> unstate;
+    State temprank;
 public:
     Heuristic();
     Heuristic(State s, State g);
@@ -97,7 +98,7 @@ public:
     void patternDatabase(State p);
     void minCompression(int rank);
     void BFS(State start);
-    unsigned long long lexicographicalRanking(State p);
+    unsigned long long lexicographicalRanking(State p, std::vector<int> pat);
     unsigned long long linearTimeRanking(State p);
     unsigned long long rank1(int n, std::vector<int> *state, std::vector<int> *dual);
     unsigned long long factorial(unsigned long long n);
@@ -105,8 +106,9 @@ public:
     void setIsDeltaEnabled(bool i);
     void setIsMinCompressed(bool i);
     void setIsMD(bool i);
-    State getPatternState(State st);
+    State getPatternState(State state, std::vector<int> p);
     State unranking(unsigned long long r);
+    void statistics();
 };
 
 Heuristic::Heuristic(){}
@@ -117,12 +119,12 @@ Heuristic::Heuristic(State s, State g) {
     pattern1 = {0,1,2,3,4,5,6,7};
     pattern2 = {0,8,9,12,13};
     pattern3 = {0,10,11,14,15};
-    pattern = pattern1;
+    pattern = pattern3;
     isBuilt = 0;
     factor = 2;
     isDeltaEnabled = false;
     isMinCompressed = false;
-    isMD = true;
+    isMD = false;
     pattern_instance = Pattern(pattern, env.getGoal());
     unrank.resize(pattern_instance.getNumPattern());
     unstate.resize(16, -1);
@@ -146,19 +148,21 @@ Stp_env Heuristic::getEnv() {
 }
 
 
-State Heuristic::getPatternState(State state) {
-    std::vector<int> s = state.getState();
-    std::vector<int> t(size*size, -1);
-    std::vector<int>::size_type j = 0;
-    for (std::vector<int>::size_type i = 0; i < s.size(); ++i) {
-        for (j = 0; j < (unsigned int)pattern_instance.getNumPattern(); j++) {
-            if (s[i] == pattern[j]) t[i] = s[i];
+State Heuristic::getPatternState(State state, std::vector<int> pat) {
+    patternstate = state.getState();
+    patterntemp.clear();
+    patterntemp.resize(size*size, -1);
+    std::vector<int>::size_type i,j = 0;
+    for (i = 0; i < patternstate.size(); ++i) {
+        for (j = 0; j < pat.size(); j++) {
+            if (patternstate[i] == pat[j]) patterntemp[i] = pat[j];
         }
     }
-    return State(t);
+    return State(patterntemp);
 }
 
 int Heuristic::HCost(State state) {
+    //cout << "here" << endl;
     if (isMD){
         return ManhattanDistance(state);
     }
@@ -166,11 +170,49 @@ int Heuristic::HCost(State state) {
         if (!isBuilt) {
             //pattern_instance = Pattern(pattern, env.getGoal());
             patternDatabase(pattern_instance.getPattern());
+            //statistics();
         }
-        State temp = getPatternState(state);
-        unsigned long long r = lexicographicalRanking(temp);
-        return ranks[r];
+        temprank = getPatternState(state, pattern1);
+        rk1 = lexicographicalRanking(temprank, pattern1);
+        temprank = getPatternState(state, pattern2);
+        rk2 = lexicographicalRanking(temprank, pattern2);
+        temprank = getPatternState(state, pattern3);
+        rk3 = lexicographicalRanking(temprank, pattern3);
+        rk4 = ManhattanDistance(state);
+        int max = ranks1[rk1];
+        if (ranks2[rk2] > max) {
+            max = ranks2[rk2];
+        }
+        if (ranks3[rk3] > max){
+            max = ranks3[rk3];
+        }
+        if (rk4 > max){
+            max = rk4;
+        }
+        //cout << ranks1[rk1] << ' ' << ranks2[rk2] << ' ' << ranks3[rk3] << ' ' << rk4 << endl;
+        return rk4;
     }
+}
+
+void Heuristic::statistics() {
+    std::vector<int>::size_type i;
+    double avg=ranks1[0];
+    for (i = 1; i < ranks1.size(); ++i) {
+        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks1[i];
+    }
+    cout << "pdb1 average: " << avg << endl;
+
+    avg=ranks2[0];
+    for (i = 1; i < ranks2.size(); ++i) {
+        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks2[i];
+    }
+    cout << "pdb2 average: " << avg << endl;
+    
+    avg=ranks3[0];
+    for (i = 1; i < ranks3.size(); ++i) {
+        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks3[i];
+    }
+    cout << "pdb3 average: " << avg << endl;
 }
 
 int Heuristic::ManhattanDistance(State s) {
@@ -196,14 +238,34 @@ int Heuristic::ManhattanDistance(State s) {
 
 void Heuristic::patternDatabase(State p) {
     struct stat buffer;
-    std::string name = "/Users/margaret/Documents/cmput652/search-C1/heuristic.txt";
-    if (stat (name.c_str(), &buffer) == 0) { // readfile
-        ifstream f(name);
-        assert(f.is_open());
+    std::string name1 = "./heuristic1.txt";
+    std::string name2 = "./heuristic2.txt";
+    std::string name3 = "./heuristic3.txt";
+    if (stat (name1.c_str(), &buffer) == 0) { // readfile
+        ifstream f(name1);
+        //assert(f.is_open());
         std::copy(std::istream_iterator<int>(f), std::istream_iterator<int>(),
-                  std::back_inserter(ranks));
+                  std::back_inserter(ranks1));
         f.close();
+        cout << "PDB1 built" << endl;
     }
+    if (stat (name2.c_str(), &buffer) == 0) { // readfile
+        ifstream f(name2);
+        //assert(f.is_open());
+        std::copy(std::istream_iterator<int>(f), std::istream_iterator<int>(),
+                  std::back_inserter(ranks2));
+        f.close();
+        cout << "PDB2 built" << endl;
+    }
+    if (stat (name3.c_str(), &buffer) == 0) { // readfile
+        ifstream f(name3);
+        //assert(f.is_open());
+        std::copy(std::istream_iterator<int>(f), std::istream_iterator<int>(),
+                  std::back_inserter(ranks3));
+        f.close();
+        cout << "PDB3 built" << endl;
+    }
+    /*
     else {
         unsigned long long a = factorial(size*size);
         unsigned long long b = factorial(size*size-pattern_instance.getNumPattern());
@@ -223,7 +285,7 @@ void Heuristic::patternDatabase(State p) {
         }
         f.close();
         
-    }
+    }*/
     
     isBuilt = 1;
 }
@@ -239,7 +301,7 @@ void Heuristic::BFS(State start) {
     unsigned long long temp_rank, next_rank;
     std::vector<Action> actions;
     
-    temp_rank = lexicographicalRanking(start);
+    temp_rank = lexicographicalRanking(start, pattern);
     ranks[temp_rank] = 0;
     Q.push(temp_rank);
     
@@ -259,7 +321,7 @@ void Heuristic::BFS(State start) {
         for (std::vector<Action>::size_type i = 0; i < actions.size(); ++i) {
             action = actions[i];
             env.applyAction(action, &temp);
-            next_rank = lexicographicalRanking(temp);
+            next_rank = lexicographicalRanking(temp, pattern);
             if (ranks[next_rank] == -1) {
                 ranks[next_rank] = ranks[temp_rank]+1;
                 /*
@@ -278,24 +340,24 @@ void Heuristic::BFS(State start) {
 }
 
 
-unsigned long long Heuristic::lexicographicalRanking(State p) {
+unsigned long long Heuristic::lexicographicalRanking(State p, std::vector<int> pat) {
     r = 0;
-    int i, j;
-    int nums = (int)pattern.size();
+    int i, j, k;
+    //int n = pat.size();
     ts = p.getState();
     dual.resize(size*size, -1);
     int count = 0;
     
-    for (i = 0; i <ts.size(); i++) {
+    for (i = 0; i < (int)ts.size(); i++) {
         if (ts[i] != -1) {
             dual[ts[i]] = (int)i;
         }
     }
     
-    for (i = 0; i < dual.size(); i++) {
+    for (i = 0; i < (int)dual.size(); i++) {
         if (dual[i] != -1){
             count++;
-            int k = dual[i];
+            k = dual[i];
             for (j = 0; j < i; j++) {
                 if ((dual[j] != -1) && (dual[j] < dual[i])) {
                     k -= 1;
@@ -305,7 +367,7 @@ unsigned long long Heuristic::lexicographicalRanking(State p) {
             r += k*f;
         }
     }
-    f = factorial(size*size-nums);
+    f = factorial(size*size-pat.size());
     r = r/f;
     return r;
 }

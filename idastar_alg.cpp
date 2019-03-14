@@ -23,10 +23,6 @@ using namespace std;
 
 class Idastar_alg {
 private:
-<<<<<<< HEAD
-=======
-    
->>>>>>> b69eeeaf3286468c65e9e9ae0cf0be1c83d7bb1a
     int nextThreshold;
     State start;
     Heuristic heu = Heuristic();
@@ -34,11 +30,8 @@ private:
     std::vector<std::vector<Action>> actionVectors;
     
 public:
-<<<<<<< HEAD
     unsigned long long expanded;
-=======
-    int expanded;
->>>>>>> b69eeeaf3286468c65e9e9ae0cf0be1c83d7bb1a
+
     Idastar_alg();
     Idastar_alg(State s, State g);
     ~Idastar_alg();
@@ -56,9 +49,9 @@ Idastar_alg::Idastar_alg(State s, State g){
     heu = Heuristic(s, g);
     env = heu.getEnv();
     nextThreshold = heu.HCost(s);
-    heu.setIsMD(false);
-    heu.setIsMinCompressed(false);
-    heu.setIsDeltaEnabled(false);
+    //heu.setIsMD(false);
+    //heu.setIsMinCompressed(false);
+    //heu.setIsDeltaEnabled(false);
     actionVectors.resize(82);
 }
 
@@ -73,9 +66,11 @@ std::vector<Action> Idastar_alg::search(Action initAct){
     bool success = false;
     int threshold = nextThreshold;
     int gcost = 0;
+    expanded = 0;
     std::vector<Action> path;
     while (!success) {
         success = DFS(threshold, gcost, &start, initAct, &path);
+        cout << "depth: " << threshold << " expanded: " << expanded << endl;
         threshold = nextThreshold;
     }
     return path;
@@ -84,8 +79,9 @@ std::vector<Action> Idastar_alg::search(Action initAct){
 
 bool Idastar_alg::DFS(int threshold, int gcost, State* root,
                       Action prevAct, std::vector<Action> *path){
-    expanded += 1;
+    
     int fcost = gcost + heu.HCost(*root);
+    
     if (env.isSuccess(*root)) {
         return true;
     }
@@ -105,6 +101,7 @@ bool Idastar_alg::DFS(int threshold, int gcost, State* root,
         int cost = 1;
         env.applyAction(actionVectors[gcost][i], root);
         bool p = DFS(threshold, gcost+cost, root, actionVectors[gcost][i], path);
+        expanded++;
         env.undoAction(actionVectors[gcost][i], root);
         if (p) {
             path->push_back(actionVectors[gcost][i]);
@@ -141,24 +138,14 @@ int main(int argc, char const *argv[])
     std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     State goal = State(g);
     
-<<<<<<< HEAD
-    for (int i = 11; i < 100; ++i) {
-=======
-    for (int i = 0; i < 100; i++) {
->>>>>>> b69eeeaf3286468c65e9e9ae0cf0be1c83d7bb1a
+    for (int i = 1; i < 100; i++) {
         State benchmark = loadstpFile(i);
         Idastar_alg search = Idastar_alg(benchmark, goal);
         clock_t begin = clock();
         std::vector<Action> path = search.search(initAct);
         clock_t end = clock();
-<<<<<<< HEAD
         cout << "expanded: " << search.expanded << " time elapsed: " << double(end - begin) / CLOCKS_PER_SEC << endl;
         break;
-=======
-        cout << "expanded: " << search.expanded << " time_elpased: " << double(end-begin)/(CLOCKS_PER_SEC) << endl;
-        
->>>>>>> b69eeeaf3286468c65e9e9ae0cf0be1c83d7bb1a
-    }
-    
+    }  
     return 0;
 }

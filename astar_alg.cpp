@@ -171,6 +171,8 @@ Astar::~Astar(){}
 
 bool Astar::search() {
     State start = env.getStart();
+    std::vector<Action> actions;
+    Action action;
     openlist.heap_push(start_index, heu.HCost(start));
     while (openlist.getQueueLength() != 0) {
         int index = openlist.heap_pop();
@@ -181,9 +183,9 @@ bool Astar::search() {
             //path = getPath();
             return true;
         }
-        std::vector<Action> actions = env.getActions(st);
+        env.getActions(st, &actions);
         for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
-            Action action = actions[i];
+            action = actions[i];
             int next = env.applyActionCopy(action, st);
             State next_state = env.allStates[next].getState();
             int open_id = env.allStates[next].open_id;
@@ -250,7 +252,7 @@ int main(int argc, char const *argv[])
     std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     State goal = State(g);
     
-    int index = 0;
+    int index = 22;
     State benchmark = loadstpFile(index);
     //std::vector<int> s = {1,2,3,7,0,4,5,6,8,9,10,11,12,13,14,15};
     //State benchmark = State(s);

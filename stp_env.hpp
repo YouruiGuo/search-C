@@ -111,7 +111,7 @@ private:
     State start_state;
     State goal_state;
     
-    std::vector<int> aacs, issuccess, statehash, empty;
+    //std::vector<int> aacs, issuccess, statehash, empty;
     
 public:
     std::map<unsigned long long, int> hashtable;
@@ -152,6 +152,7 @@ Stp_env::Stp_env(State s, State g) {
     allStates.push_back(g);
     unsigned long long gvalue = getStateHash(g);
     hashtable[gvalue] = 1;
+
 }
 
 void Stp_env::setStart(State s) {
@@ -175,12 +176,14 @@ int Stp_env::getHashIndex(unsigned long long i) {
 }
 
 bool Stp_env::isSuccess(State st) {
-    issuccess = st.getState();
+    std::vector<int> issuccess = st.getState();
     for (std::vector<int>::size_type i = 0; i < size*size; ++i) {
+       // cout << issuccess[i] << ' ';
         if (issuccess[i] != (int)i) {
             return false;
         }
     }
+    // cout << endl;
     return true;
 }
 
@@ -192,7 +195,7 @@ bool Stp_env::isRepeat(Action prev, Action curr) {
 }
 
 unsigned long long Stp_env::getStateHash(State st) {
-    statehash = st.getState();
+    std::vector<int> statehash = st.getState();
     unsigned long long value = 0;
     for (std::vector<int>::size_type i = 0; i < size*size; ++i) {
         value = value << 4;
@@ -204,7 +207,7 @@ unsigned long long Stp_env::getStateHash(State st) {
 }
 
 int Stp_env::getEmpty(State st) {
-    empty = st.getState();
+    std::vector<int> empty = st.getState();
     for (std::vector<int>::size_type i = 0; i < size*size; ++i) {
         if (empty[i] == 0) {
             return (int)i;
@@ -237,7 +240,7 @@ void Stp_env::getActions(State st, std::vector<Action> *actions) {
 }
 
 int Stp_env::applyActionCopy(Action a, State st) {
-    aacs = st.getState();
+    std::vector<int> aacs = st.getState();
     int empty = getEmpty(st);
     int row = (int)(empty/size);
     int col = (int)(empty%size);
@@ -265,7 +268,7 @@ int Stp_env::applyActionCopy(Action a, State st) {
 }
 
 State Stp_env::applyActionBFS(Action a, State st) {
-    aacs = st.getState();
+    std::vector<int> aacs = st.getState();
     int empty = getEmpty(st);
     int row = (int)(empty/size);
     int col = (int)(empty%size);
@@ -289,7 +292,7 @@ State Stp_env::applyActionBFS(Action a, State st) {
 }
 
 void Stp_env::applyAction(Action a, State *st) {////
-    aacs = st->getState();
+    std::vector<int> aacs = st->getState();
     int empty = getEmpty(*st);
     int row = (int)(empty/size);
     int col = (int)(empty%size);
@@ -314,7 +317,7 @@ void Stp_env::applyAction(Action a, State *st) {////
 }
 
 void Stp_env::undoAction(Action a, State *st) {
-    aacs = st->getState();
+    std::vector<int> aacs = st->getState();
     int empty = getEmpty(*st);
     int row = (int)(empty/size);
     int col = (int)(empty%size);
