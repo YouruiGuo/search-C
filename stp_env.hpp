@@ -177,6 +177,7 @@ int Stp_env::getHashIndex(unsigned long long i) {
 
 bool Stp_env::isSuccess(State st) {
     std::vector<int> issuccess = st.getState();
+
     for (std::vector<int>::size_type i = 0; i < size*size; ++i) {
        // cout << issuccess[i] << ' ';
         if (issuccess[i] != (int)i) {
@@ -262,6 +263,12 @@ int Stp_env::applyActionCopy(Action a, State st) {
     }
     State new_st = State(aacs);
     unsigned long long hv = getStateHash(new_st);
+    std::map<unsigned long long, int>::iterator f =
+                    hashtable.find(hv);
+    if (f != hashtable.end()) {
+        int id = hashtable[hv];
+        return id;
+    }
     allStates.push_back(StateInfo(new_st));
     hashtable[hv] = (int)allStates.size()-1;
     return hashtable[hv];

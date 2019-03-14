@@ -1,0 +1,960 @@
+
+depth: 45 expanded: 0
+depth: 47 expanded: 14
+depth: 49 expanded: 238
+depth: 51 expanded: 3023
+depth: 53 expanded: 30067
+depth: 55 expanded: 247610
+depth: 57 expanded: 1849630
+expanded: 6358686 time elapsed: 12.3481
+
+depth: 43 expanded: 0
+depth: 45 expanded: 3
+depth: 47 expanded: 41
+depth: 49 expanded: 637
+depth: 51 expanded: 8469
+depth: 53 expanded: 86001
+depth: 55 expanded: 726117
+expanded: 803333 time elapsed: 1.56425
+
+depth: 47 expanded: 0
+depth: 49 expanded: 306
+depth: 51 expanded: 3112
+depth: 53 expanded: 28075
+depth: 55 expanded: 224679
+depth: 57 expanded: 1634924
+depth: 59 expanded: 11314745
+expanded: 14136707 time elapsed: 27.2569
+
+depth: 44 expanded: 0
+depth: 46 expanded: 33
+depth: 48 expanded: 511
+depth: 50 expanded: 4835
+depth: 52 expanded: 39194
+depth: 54 expanded: 290292
+depth: 56 expanded: 2044989
+expanded: 8734088 time elapsed: 17.3498
+
+depth: 42 expanded: 0
+depth: 44 expanded: 8
+depth: 46 expanded: 260
+depth: 48 expanded: 2419
+depth: 50 expanded: 17321
+depth: 52 expanded: 114718
+depth: 54 expanded: 741870
+depth: 56 expanded: 4700058
+expanded: 4887348 time elapsed: 9.55549
+
+depth: 38 expanded: 0
+depth: 40 expanded: 7
+depth: 42 expanded: 75
+depth: 44 expanded: 644
+depth: 46 expanded: 4670
+depth: 48 expanded: 29682
+depth: 50 expanded: 172496
+depth: 52 expanded: 951621
+expanded: 4389277 time elapsed: 8.50967
+
+depth: 38 expanded: 0
+depth: 40 expanded: 97
+depth: 42 expanded: 650
+depth: 44 expanded: 4409
+depth: 46 expanded: 25497
+depth: 48 expanded: 147838
+depth: 50 expanded: 842293
+depth: 52 expanded: 4702167
+expanded: 23102096 time elapsed: 44.2538
+
+depth: 36 expanded: 0
+depth: 38 expanded: 25
+depth: 40 expanded: 103
+depth: 42 expanded: 628
+depth: 44 expanded: 3735
+depth: 46 expanded: 20607
+depth: 48 expanded: 115368
+depth: 50 expanded: 644876
+expanded: 2337552 time elapsed: 4.86293
+
+depth: 38 expanded: 0
+depth: 40 expanded: 79
+depth: 42 expanded: 876
+depth: 44 expanded: 5966
+depth: 46 expanded: 36259
+expanded: 49671 time elapsed: 0.106527
+
+depth: 47 expanded: 0
+depth: 49 expanded: 109
+depth: 51 expanded: 1231
+depth: 53 expanded: 11493
+depth: 55 expanded: 96002
+depth: 57 expanded: 738880
+depth: 59 expanded: 5451849
+expanded: 6864995 time elapsed: 13.8963
+
+depth: 43 expanded: 0
+depth: 45 expanded: 89
+depth: 47 expanded: 724
+depth: 49 expanded: 4704
+depth: 51 expanded: 30298
+depth: 53 expanded: 192605
+depth: 55 expanded: 1186645
+depth: 57 expanded: 7158378
+expanded: 38766688 time elapsed: 78.0224
+
+depth: 35 expanded: 0
+depth: 37 expanded: 35
+depth: 39 expanded: 244
+depth: 41 expanded: 1391
+depth: 43 expanded: 7906
+depth: 45 expanded: 44015
+expanded: 228476 time elapsed: 0.470848
+
+depth: 36 expanded: 0
+depth: 38 expanded: 155
+depth: 40 expanded: 1666
+depth: 42 expanded: 12719
+depth: 44 expanded: 77786
+depth: 46 expanded: 429218
+expanded: 2195830 time elapsed: 4.41141
+
+depth: 41 expanded: 0
+depth: 43 expanded: 11
+depth: 45 expanded: 76
+depth: 47 expanded: 1365
+depth: 49 expanded: 9893
+depth: 51 expanded: 61554
+depth: 53 expanded: 359256
+depth: 55 expanded: 2014660
+depth: 57 expanded: 11076737
+depth: 59 expanded: 59869124
+expanded: 214944596 time elapsed: 415.349
+
+depth: 50 expanded: 0
+depth: 52 expanded: 118
+depth: 54 expanded: 1828
+depth: 56 expanded: 19224
+depth: 58 expanded: 170530
+depth: 60 expanded: 1378343
+depth: 62 expanded: 10551075
+expanded: 20294922 time elapsed: 42.1145
+
+
+depth: 36 expanded: 0
+depth: 38 expanded: 182
+depth: 40 expanded: 2736
+depth: 42 expanded: 24304
+expanded: 158796 time elapsed: 0.323941
+
+
+depth: 48 expanded: 0
+depth: 50 expanded: 34
+depth: 52 expanded: 309
+depth: 54 expanded: 1822
+depth: 56 expanded: 11305
+depth: 58 expanded: 67310
+depth: 60 expanded: 403826
+depth: 62 expanded: 2462732
+depth: 64 expanded: 15232786
+depth: 66 expanded: 95403300
+expanded: 573340310 time elapsed: 1134
+
+depth: 43 expanded: 0
+depth: 45 expanded: 7
+depth: 47 expanded: 442
+depth: 49 expanded: 3646
+depth: 51 expanded: 28770
+depth: 53 expanded: 202533
+depth: 55 expanded: 1332321
+expanded: 4469428 time elapsed: 8.75652
+
+depth: 38 expanded: 0
+depth: 40 expanded: 88
+depth: 42 expanded: 1102
+depth: 44 expanded: 8048
+depth: 46 expanded: 53849
+expanded: 81544 time elapsed: 0.168872
+
+depth: 40 expanded: 0
+depth: 42 expanded: 58
+depth: 44 expanded: 764
+depth: 46 expanded: 5305
+depth: 48 expanded: 35455
+depth: 50 expanded: 222672
+depth: 52 expanded: 1340596
+expanded: 2420348 time elapsed: 4.78705
+
+depth: 44 expanded: 0
+depth: 46 expanded: 43
+depth: 48 expanded: 632
+depth: 50 expanded: 8875
+depth: 52 expanded: 83440
+depth: 54 expanded: 654554
+expanded: 1352583 time elapsed: 2.92927
+
+depth: 41 expanded: 0
+depth: 43 expanded: 3
+depth: 45 expanded: 35
+depth: 47 expanded: 259
+depth: 49 expanded: 1824
+depth: 51 expanded: 11008
+depth: 53 expanded: 66183
+depth: 55 expanded: 392903
+depth: 57 expanded: 2320988
+depth: 59 expanded: 13697896
+expanded: 72219986 time elapsed: 141.483
+
+depth: 33 expanded: 0
+depth: 35 expanded: 4
+depth: 37 expanded: 30
+depth: 39 expanded: 195
+depth: 41 expanded: 986
+depth: 43 expanded: 5518
+depth: 45 expanded: 29601
+depth: 47 expanded: 154719
+depth: 49 expanded: 790102
+expanded: 840177 time elapsed: 1.65695
+
+depth: 40 expanded: 0
+depth: 42 expanded: 56
+depth: 44 expanded: 422
+depth: 46 expanded: 3047
+depth: 48 expanded: 19620
+depth: 50 expanded: 118809
+depth: 52 expanded: 694661
+depth: 54 expanded: 3982345
+expanded: 6180951 time elapsed: 12.0314
+
+depth: 34 expanded: 0
+depth: 36 expanded: 9
+depth: 38 expanded: 118
+depth: 40 expanded: 692
+depth: 42 expanded: 3334
+depth: 44 expanded: 17045
+depth: 46 expanded: 85912
+depth: 48 expanded: 437240
+depth: 50 expanded: 2236192
+depth: 52 expanded: 11394222
+expanded: 13038131 time elapsed: 25.3479
+
+depth: 40 expanded: 0
+depth: 42 expanded: 9
+depth: 44 expanded: 95
+depth: 46 expanded: 694
+depth: 48 expanded: 4349
+depth: 50 expanded: 28182
+depth: 52 expanded: 181881
+depth: 54 expanded: 1140865
+depth: 56 expanded: 7004201
+depth: 58 expanded: 42122251
+expanded: 61242520 time elapsed: 119.91
+
+depth: 39 expanded: 0
+depth: 41 expanded: 89
+depth: 43 expanded: 701
+depth: 45 expanded: 5318
+depth: 47 expanded: 33475
+depth: 49 expanded: 197846
+depth: 51 expanded: 1117883
+depth: 53 expanded: 6165037
+expanded: 7401581 time elapsed: 14.9068
+
+depth: 36 expanded: 0
+depth: 38 expanded: 8
+depth: 40 expanded: 60
+depth: 42 expanded: 323
+depth: 44 expanded: 1580
+depth: 46 expanded: 9076
+depth: 48 expanded: 51772
+depth: 50 expanded: 285835
+depth: 52 expanded: 1564553
+expanded: 1956619 time elapsed: 3.91496
+
+depth: 38 expanded: 0
+depth: 40 expanded: 5
+depth: 42 expanded: 193
+depth: 44 expanded: 1437
+depth: 46 expanded: 8942
+depth: 48 expanded: 52758
+depth: 50 expanded: 295341
+depth: 52 expanded: 1621704
+depth: 54 expanded: 8721200
+expanded: 14783431 time elapsed: 29.2212
+
+depth: 35 expanded: 0
+depth: 37 expanded: 59
+depth: 39 expanded: 359
+depth: 41 expanded: 2053
+depth: 43 expanded: 11067
+depth: 45 expanded: 57715
+depth: 47 expanded: 294255
+expanded: 766218 time elapsed: 1.65887
+
+depth: 40 expanded: 0
+depth: 42 expanded: 62
+depth: 44 expanded: 335
+depth: 46 expanded: 2575
+depth: 48 expanded: 17177
+depth: 50 expanded: 109162
+expanded: 583859 time elapsed: 1.27661
+
+depth: 47 expanded: 0
+depth: 49 expanded: 57
+depth: 51 expanded: 620
+depth: 53 expanded: 6900
+depth: 55 expanded: 66262
+depth: 57 expanded: 579511
+depth: 59 expanded: 4708395
+expanded: 23884044 time elapsed: 46.8936
+
+depth: 42 expanded: 0
+depth: 44 expanded: 4
+depth: 46 expanded: 21
+depth: 48 expanded: 237
+depth: 50 expanded: 1641
+depth: 52 expanded: 10045
+depth: 54 expanded: 63226
+depth: 56 expanded: 389719
+depth: 58 expanded: 2412554
+depth: 60 expanded: 14907424
+expanded: 25891688 time elapsed: 51.1064
+
+depth: 36 expanded: 0
+depth: 38 expanded: 7
+depth: 40 expanded: 28
+depth: 42 expanded: 250
+depth: 44 expanded: 2138
+depth: 46 expanded: 13708
+depth: 48 expanded: 83007
+depth: 50 expanded: 491605
+depth: 52 expanded: 2842181
+expanded: 4781831 time elapsed: 9.5149
+
+depth: 39 expanded: 0
+depth: 41 expanded: 3
+depth: 43 expanded: 10
+depth: 45 expanded: 220
+depth: 47 expanded: 1856
+depth: 49 expanded: 14089
+depth: 51 expanded: 95320
+depth: 53 expanded: 603873
+depth: 55 expanded: 3653980
+expanded: 8538901 time elapsed: 16.9653
+
+depth: 40 expanded: 0
+depth: 42 expanded: 34
+depth: 44 expanded: 255
+depth: 46 expanded: 2300
+depth: 48 expanded: 17770
+depth: 50 expanded: 119958
+depth: 52 expanded: 770826
+expanded: 3485534 time elapsed: 7.16725
+
+depth: 42 expanded: 0
+depth: 44 expanded: 51
+depth: 46 expanded: 512
+depth: 48 expanded: 3703
+depth: 50 expanded: 24619
+depth: 52 expanded: 154248
+depth: 54 expanded: 953454
+depth: 56 expanded: 5797594
+depth: 58 expanded: 34606051
+expanded: 37454151 time elapsed: 73.2706
+
+depth: 41 expanded: 0
+depth: 43 expanded: 70
+depth: 45 expanded: 669
+depth: 47 expanded: 4891
+depth: 49 expanded: 33032
+depth: 51 expanded: 211414
+depth: 53 expanded: 1300865
+expanded: 5077820 time elapsed: 10.048
+
+depth: 35 expanded: 0
+depth: 37 expanded: 31
+depth: 39 expanded: 224
+depth: 41 expanded: 1217
+depth: 43 expanded: 6369
+depth: 45 expanded: 32651
+depth: 47 expanded: 165102
+depth: 49 expanded: 834848
+expanded: 1158767 time elapsed: 2.50344
+
+depth: 36 expanded: 0
+depth: 38 expanded: 7
+depth: 40 expanded: 32
+depth: 42 expanded: 210
+depth: 44 expanded: 1246
+depth: 46 expanded: 7563
+depth: 48 expanded: 46323
+depth: 50 expanded: 272701
+depth: 52 expanded: 1574805
+depth: 54 expanded: 8914099
+expanded: 9683441 time elapsed: 18.9353
+
+depth: 46 expanded: 0
+depth: 48 expanded: 325
+depth: 50 expanded: 3969
+depth: 52 expanded: 36397
+depth: 54 expanded: 299023
+expanded: 631671 time elapsed: 1.23856
+
+depth: 30 expanded: 0
+depth: 32 expanded: 6
+depth: 34 expanded: 45
+depth: 36 expanded: 263
+depth: 38 expanded: 1252
+depth: 40 expanded: 6624
+depth: 42 expanded: 33223
+expanded: 149450 time elapsed: 0.295179
+
+depth: 50 expanded: 0
+depth: 52 expanded: 15
+depth: 54 expanded: 188
+depth: 56 expanded: 1545
+depth: 58 expanded: 12591
+depth: 60 expanded: 99556
+depth: 62 expanded: 800127
+depth: 64 expanded: 6403184
+expanded: 8215858 time elapsed: 16.5378
+
+depth: 36 expanded: 0
+depth: 38 expanded: 93
+depth: 40 expanded: 501
+depth: 42 expanded: 2402
+depth: 44 expanded: 12030
+depth: 46 expanded: 58776
+depth: 48 expanded: 298494
+depth: 50 expanded: 1517570
+expanded: 4226178 time elapsed: 8.30372
+
+depth: 39 expanded: 0
+depth: 41 expanded: 28
+depth: 43 expanded: 366
+depth: 45 expanded: 2668
+depth: 47 expanded: 18400
+depth: 49 expanded: 111862
+depth: 51 expanded: 645909
+expanded: 3080668 time elapsed: 6.06028
+
+depth: 39 expanded: 0
+depth: 41 expanded: 88
+depth: 43 expanded: 921
+depth: 45 expanded: 7446
+depth: 47 expanded: 54949
+depth: 49 expanded: 358043
+expanded: 481725 time elapsed: 1.01676
+
+depth: 35 expanded: 0
+depth: 37 expanded: 56
+depth: 39 expanded: 400
+depth: 41 expanded: 1985
+depth: 43 expanded: 9638
+depth: 45 expanded: 46169
+depth: 47 expanded: 220922
+expanded: 278235 time elapsed: 0.606085
+
+depth: 39 expanded: 0
+depth: 41 expanded: 3
+depth: 43 expanded: 59
+depth: 45 expanded: 703
+depth: 47 expanded: 5736
+depth: 49 expanded: 40194
+expanded: 176854 time elapsed: 0.351797
+
+depth: 35 expanded: 0
+depth: 37 expanded: 7
+depth: 39 expanded: 42
+depth: 41 expanded: 252
+depth: 43 expanded: 1212
+depth: 45 expanded: 5578
+depth: 47 expanded: 25790
+depth: 49 expanded: 122375
+depth: 51 expanded: 582192
+depth: 53 expanded: 2816339
+depth: 55 expanded: 13733435
+depth: 57 expanded: 67586571
+depth: 59 expanded: 334455842
+expanded: 791613371 time elapsed: 1539.78
+
+depth: 45 expanded: 0
+depth: 47 expanded: 83
+depth: 49 expanded: 1128
+depth: 51 expanded: 11435
+depth: 53 expanded: 104011
+expanded: 320697 time elapsed: 0.659217
+
+depth: 44 expanded: 0
+depth: 46 expanded: 272
+depth: 48 expanded: 2743
+depth: 50 expanded: 23114
+depth: 52 expanded: 168518
+depth: 54 expanded: 1130687
+depth: 56 expanded: 7113141
+expanded: 8650326 time elapsed: 17.0588
+
+depth: 40 expanded: 0
+depth: 42 expanded: 6
+depth: 44 expanded: 89
+depth: 46 expanded: 929
+depth: 48 expanded: 7812
+depth: 50 expanded: 54731
+depth: 52 expanded: 345324
+depth: 54 expanded: 2060203
+depth: 56 expanded: 11871573
+expanded: 54927861 time elapsed: 108.1
+
+depth: 50 expanded: 0
+depth: 52 expanded: 26
+depth: 54 expanded: 194
+depth: 56 expanded: 3528
+depth: 58 expanded: 36853
+depth: 60 expanded: 345708
+depth: 62 expanded: 2918013
+depth: 64 expanded: 22715900
+expanded: 34042854 time elapsed: 67.1064
+
+depth: 46 expanded: 0
+depth: 48 expanded: 213
+depth: 50 expanded: 1857
+depth: 52 expanded: 16572
+depth: 54 expanded: 129534
+depth: 56 expanded: 950456
+expanded: 1311565 time elapsed: 2.6081
+
+depth: 33 expanded: 0
+depth: 35 expanded: 47
+depth: 37 expanded: 490
+depth: 39 expanded: 3250
+depth: 41 expanded: 18115
+expanded: 52009 time elapsed: 0.115569
+
+depth: 33 expanded: 0
+depth: 35 expanded: 12
+depth: 37 expanded: 83
+depth: 39 expanded: 360
+depth: 41 expanded: 1704
+depth: 43 expanded: 8021
+depth: 45 expanded: 38750
+depth: 47 expanded: 189329
+depth: 49 expanded: 922386
+depth: 51 expanded: 4469455
+depth: 53 expanded: 21523407
+depth: 55 expanded: 102976901
+expanded: 127911944 time elapsed: 251.249
+
+depth: 46 expanded: 0
+depth: 48 expanded: 712
+depth: 50 expanded: 10582
+expanded: 34339 time elapsed: 0.071307
+
+depth: 37 expanded: 0
+depth: 39 expanded: 4
+depth: 41 expanded: 47
+depth: 43 expanded: 318
+depth: 45 expanded: 1660
+depth: 47 expanded: 10200
+depth: 49 expanded: 60374
+depth: 51 expanded: 353344
+expanded: 623826 time elapsed: 1.22376
+
+depth: 43 expanded: 0
+depth: 45 expanded: 27
+depth: 47 expanded: 329
+depth: 49 expanded: 3104
+depth: 51 expanded: 22586
+depth: 53 expanded: 158533
+depth: 55 expanded: 1060405
+depth: 57 expanded: 6937665
+expanded: 8789201 time elapsed: 17.2699
+
+depth: 48 expanded: 0
+depth: 50 expanded: 3
+depth: 52 expanded: 15
+depth: 54 expanded: 1085
+depth: 56 expanded: 13441
+depth: 58 expanded: 136614
+depth: 60 expanded: 1197767
+depth: 62 expanded: 9415322
+depth: 64 expanded: 68893928
+depth: 66 expanded: 478106905
+expanded: 750294070 time elapsed: 1471.97
+
+depth: 35 expanded: 0
+depth: 37 expanded: 27
+depth: 39 expanded: 227
+depth: 41 expanded: 1998
+depth: 43 expanded: 14798
+depth: 45 expanded: 96711
+expanded: 169661 time elapsed: 0.335914
+
+depth: 43 expanded: 0
+depth: 45 expanded: 3
+depth: 47 expanded: 52
+depth: 49 expanded: 749
+depth: 51 expanded: 6126
+depth: 53 expanded: 48747
+depth: 55 expanded: 361218
+depth: 57 expanded: 2511431
+expanded: 13193439 time elapsed: 25.7399
+
+depth: 46 expanded: 0
+depth: 48 expanded: 51
+depth: 50 expanded: 746
+depth: 52 expanded: 7141
+depth: 54 expanded: 63875
+depth: 56 expanded: 512453
+expanded: 2434034 time elapsed: 5.06609
+
+depth: 37 expanded: 0
+depth: 39 expanded: 13
+depth: 41 expanded: 199
+depth: 43 expanded: 1327
+depth: 45 expanded: 8661
+depth: 47 expanded: 54830
+depth: 49 expanded: 335053
+depth: 51 expanded: 1953511
+expanded: 6933038 time elapsed: 13.4627
+
+depth: 35 expanded: 0
+depth: 37 expanded: 35
+depth: 39 expanded: 321
+depth: 41 expanded: 1457
+depth: 43 expanded: 7939
+depth: 45 expanded: 45085
+depth: 47 expanded: 249823
+expanded: 749660 time elapsed: 1.45922
+
+depth: 43 expanded: 0
+depth: 45 expanded: 16
+depth: 47 expanded: 218
+depth: 49 expanded: 1573
+depth: 51 expanded: 12008
+depth: 53 expanded: 82494
+depth: 55 expanded: 543919
+depth: 57 expanded: 3465840
+depth: 59 expanded: 21448065
+depth: 61 expanded: 129587011
+expanded: 155183139 time elapsed: 304.845
+
+depth: 34 expanded: 0
+depth: 36 expanded: 70
+depth: 38 expanded: 410
+depth: 40 expanded: 2072
+depth: 42 expanded: 10317
+depth: 44 expanded: 50223
+depth: 46 expanded: 241669
+depth: 48 expanded: 1154457
+depth: 50 expanded: 5477298
+expanded: 10600886 time elapsed: 20.5371
+
+depth: 37 expanded: 0
+depth: 39 expanded: 54
+depth: 41 expanded: 406
+depth: 43 expanded: 2543
+depth: 45 expanded: 14307
+depth: 47 expanded: 81434
+depth: 49 expanded: 447330
+depth: 51 expanded: 2403396
+expanded: 3330332 time elapsed: 6.6256
+
+depth: 37 expanded: 0
+depth: 39 expanded: 11
+depth: 41 expanded: 59
+depth: 43 expanded: 277
+depth: 45 expanded: 1433
+depth: 47 expanded: 8495
+depth: 49 expanded: 50805
+depth: 51 expanded: 297118
+depth: 53 expanded: 1725885
+expanded: 7311720 time elapsed: 14.2312
+
+depth: 30 expanded: 0
+depth: 32 expanded: 5
+depth: 34 expanded: 35
+depth: 36 expanded: 146
+depth: 38 expanded: 565
+depth: 40 expanded: 2370
+depth: 42 expanded: 10498
+depth: 44 expanded: 47535
+depth: 46 expanded: 219432
+depth: 48 expanded: 1039742
+depth: 50 expanded: 5011630
+depth: 52 expanded: 24375354
+expanded: 31424539 time elapsed: 62.083
+
+depth: 34 expanded: 0
+depth: 36 expanded: 57
+depth: 38 expanded: 442
+depth: 40 expanded: 2511
+depth: 42 expanded: 14497
+depth: 44 expanded: 77137
+expanded: 136664 time elapsed: 0.271522
+
+depth: 40 expanded: 0
+depth: 42 expanded: 29
+depth: 44 expanded: 214
+depth: 46 expanded: 1126
+depth: 48 expanded: 7487
+depth: 50 expanded: 50407
+depth: 52 expanded: 341025
+depth: 54 expanded: 2186099
+depth: 56 expanded: 13490287
+expanded: 24027227 time elapsed: 47.2113
+
+depth: 37 expanded: 0
+depth: 39 expanded: 4
+depth: 41 expanded: 22
+depth: 43 expanded: 227
+depth: 45 expanded: 2056
+depth: 47 expanded: 18412
+depth: 49 expanded: 130078
+expanded: 419515 time elapsed: 0.824805
+
+depth: 46 expanded: 0
+depth: 48 expanded: 25
+depth: 50 expanded: 255
+depth: 52 expanded: 2333
+depth: 54 expanded: 19408
+depth: 56 expanded: 152332
+expanded: 331210 time elapsed: 0.723592
+
+depth: 32 expanded: 0
+depth: 34 expanded: 33
+depth: 36 expanded: 163
+depth: 38 expanded: 833
+depth: 40 expanded: 4325
+depth: 42 expanded: 22310
+depth: 44 expanded: 112097
+depth: 46 expanded: 566543
+depth: 48 expanded: 2849550
+expanded: 3591455 time elapsed: 7.29168
+
+depth: 47 expanded: 0
+depth: 49 expanded: 166
+depth: 51 expanded: 2605
+depth: 53 expanded: 25395
+depth: 55 expanded: 224838
+depth: 57 expanded: 1799029
+expanded: 2066464 time elapsed: 4.26959
+
+depth: 34 expanded: 0
+depth: 36 expanded: 3
+depth: 38 expanded: 10
+depth: 40 expanded: 55
+depth: 42 expanded: 257
+depth: 44 expanded: 1060
+depth: 46 expanded: 5318
+depth: 48 expanded: 27112
+depth: 50 expanded: 140669
+depth: 52 expanded: 740131
+depth: 54 expanded: 3934946
+expanded: 5979057 time elapsed: 11.7637
+
+depth: 45 expanded: 0
+depth: 47 expanded: 177
+depth: 49 expanded: 1383
+depth: 51 expanded: 14273
+depth: 53 expanded: 120390
+expanded: 564675 time elapsed: 1.10216
+
+depth: 30 expanded: 0
+depth: 32 expanded: 7
+depth: 34 expanded: 45
+depth: 36 expanded: 220
+depth: 38 expanded: 1334
+depth: 40 expanded: 6790
+depth: 42 expanded: 32230
+expanded: 100804 time elapsed: 0.21876
+
+depth: 43 expanded: 0
+depth: 45 expanded: 4
+depth: 47 expanded: 61
+depth: 49 expanded: 573
+depth: 51 expanded: 5472
+depth: 53 expanded: 42538
+depth: 55 expanded: 321087
+depth: 57 expanded: 2323265
+expanded: 4797941 time elapsed: 9.78245
+
+depth: 43 expanded: 0
+depth: 45 expanded: 56
+depth: 47 expanded: 435
+depth: 49 expanded: 3677
+depth: 51 expanded: 29026
+depth: 53 expanded: 202633
+expanded: 1075464 time elapsed: 2.16524
+
+depth: 44 expanded: 0
+depth: 46 expanded: 22
+depth: 48 expanded: 250
+depth: 50 expanded: 1855
+depth: 52 expanded: 12655
+depth: 54 expanded: 82979
+depth: 56 expanded: 536984
+depth: 58 expanded: 3400169
+depth: 60 expanded: 21084267
+depth: 62 expanded: 127848642
+expanded: 249077643 time elapsed: 488.56
+
+depth: 35 expanded: 0
+depth: 37 expanded: 31
+depth: 39 expanded: 220
+depth: 41 expanded: 1282
+depth: 43 expanded: 6434
+depth: 45 expanded: 33061
+depth: 47 expanded: 166322
+depth: 49 expanded: 834934
+expanded: 3696496 time elapsed: 7.18462
+
+depth: 45 expanded: 0
+depth: 47 expanded: 65
+depth: 49 expanded: 1029
+depth: 51 expanded: 10859
+depth: 53 expanded: 100815
+depth: 55 expanded: 830680
+expanded: 1749374 time elapsed: 3.41877
+
+depth: 36 expanded: 0
+depth: 38 expanded: 45
+depth: 40 expanded: 424
+depth: 42 expanded: 2684
+depth: 44 expanded: 16895
+expanded: 64587 time elapsed: 0.12746
+
+depth: 35 expanded: 0
+depth: 37 expanded: 12
+depth: 39 expanded: 730
+depth: 41 expanded: 5691
+depth: 43 expanded: 33462
+depth: 45 expanded: 180536
+expanded: 348335 time elapsed: 0.6815
+
+depth: 44 expanded: 0
+depth: 46 expanded: 60
+depth: 48 expanded: 923
+depth: 50 expanded: 12014
+depth: 52 expanded: 106650
+expanded: 156066 time elapsed: 0.30866
+
+depth: 49 expanded: 0
+depth: 51 expanded: 40
+depth: 53 expanded: 691
+depth: 55 expanded: 6399
+depth: 57 expanded: 51646
+depth: 59 expanded: 405195
+depth: 61 expanded: 3062356
+depth: 63 expanded: 22320134
+depth: 65 expanded: 157403390
+expanded: 174619184 time elapsed: 342.613
+
+depth: 38 expanded: 0
+depth: 40 expanded: 99
+depth: 42 expanded: 561
+depth: 44 expanded: 2922
+depth: 46 expanded: 15521
+depth: 48 expanded: 80503
+depth: 50 expanded: 415242
+depth: 52 expanded: 2111352
+depth: 54 expanded: 10666440
+expanded: 17171796 time elapsed: 33.8113
+
+depth: 36 expanded: 0
+depth: 38 expanded: 25
+depth: 40 expanded: 119
+depth: 42 expanded: 831
+depth: 44 expanded: 4660
+depth: 46 expanded: 26577
+depth: 48 expanded: 150731
+depth: 50 expanded: 847175
+expanded: 1392473 time elapsed: 2.7887
+
+depth: 41 expanded: 0
+depth: 43 expanded: 4
+depth: 45 expanded: 56
+depth: 47 expanded: 633
+depth: 49 expanded: 4567
+depth: 51 expanded: 34977
+depth: 53 expanded: 249367
+depth: 55 expanded: 1695897
+depth: 57 expanded: 10853663
+expanded: 27454662 time elapsed: 53.4229
+
+depth: 41 expanded: 0
+depth: 43 expanded: 120
+depth: 45 expanded: 995
+depth: 47 expanded: 8150
+depth: 49 expanded: 56563
+depth: 51 expanded: 357792
+depth: 53 expanded: 2137745
+depth: 55 expanded: 12316438
+depth: 57 expanded: 68890590
+expanded: 76048074 time elapsed: 148.135
+
+depth: 40 expanded: 0
+depth: 42 expanded: 276
+depth: 44 expanded: 3277
+depth: 46 expanded: 26088
+expanded: 34668 time elapsed: 0.156481
+
+depth: 45 expanded: 0
+depth: 47 expanded: 4
+depth: 49 expanded: 95
+depth: 51 expanded: 1388
+depth: 53 expanded: 14623
+expanded: 19066 time elapsed: 0.042443
+
+depth: 38 expanded: 0
+depth: 40 expanded: 19
+depth: 42 expanded: 232
+depth: 44 expanded: 1535
+depth: 46 expanded: 10418
+depth: 48 expanded: 65173
+depth: 50 expanded: 395839
+expanded: 538347 time elapsed: 1.05648
+
+depth: 35 expanded: 0
+depth: 37 expanded: 10
+depth: 39 expanded: 87
+depth: 41 expanded: 502
+depth: 43 expanded: 3281
+depth: 45 expanded: 20874
+depth: 47 expanded: 128206
+depth: 49 expanded: 752263
+expanded: 1263471 time elapsed: 2.45592
+
+depth: 38 expanded: 0
+depth: 40 expanded: 251
+depth: 42 expanded: 2199
+depth: 44 expanded: 14375
+expanded: 21312 time elapsed: 0.042272
+
+depth: 40 expanded: 0
+depth: 42 expanded: 99
+depth: 44 expanded: 834
+depth: 46 expanded: 5992
+depth: 48 expanded: 37164
+depth: 50 expanded: 211237
+depth: 52 expanded: 1175441
+depth: 54 expanded: 6382594
+expanded: 28862806 time elapsed: 57.1526
+
+depth: 43 expanded: 0
+depth: 45 expanded: 23
+depth: 47 expanded: 227
+depth: 49 expanded: 1744
+depth: 51 expanded: 13082
+depth: 53 expanded: 91385
+depth: 55 expanded: 615792
+depth: 57 expanded: 4026348
+expanded: 13818986 time elapsed: 27.3801
+
+depth: 40 expanded: 0
+depth: 42 expanded: 9
+depth: 44 expanded: 117
+depth: 46 expanded: 1272
+depth: 48 expanded: 11743
+depth: 50 expanded: 88511
+depth: 52 expanded: 590209
+depth: 54 expanded: 3670451
+expanded: 7410232 time elapsed: 14.5418
+

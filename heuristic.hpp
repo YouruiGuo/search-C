@@ -109,6 +109,7 @@ public:
     State getPatternState(State state, std::vector<int> p);
     State unranking(unsigned long long r);
     void statistics();
+    void writeToFile();
 };
 
 Heuristic::Heuristic(){}
@@ -161,6 +162,28 @@ State Heuristic::getPatternState(State state, std::vector<int> pat) {
     return State(patterntemp);
 }
 
+void Heuristic::writeToFile() {
+    State p = pattern_instance.getPattern();
+    std::string name = "./heuristic6.txt";
+    unsigned long long a = factorial(size*size);
+    unsigned long long b = factorial(size*size-pattern_instance.getNumPattern());
+    numExpandNode = a/b;
+    ranks.reserve(numExpandNode);
+    for (std::vector<int>::size_type i = 0; i < numExpandNode; i++) {
+        ranks.push_back(-1);
+    }
+    BFS(p);
+    
+    //write to file
+    ofstream f(name);
+    if (f.is_open()) {
+        for (int i = 0; i < numExpandNode; i++) {
+            f << ranks[i] << ' ';
+        }
+    }
+    f.close();
+}
+
 int Heuristic::HCost(State state) {
     //cout << "here" << endl;
     if (isMD){
@@ -172,6 +195,7 @@ int Heuristic::HCost(State state) {
             patternDatabase(pattern_instance.getPattern());
             //statistics();
         }
+
         temprank = getPatternState(state, pattern1);
         rk1 = lexicographicalRanking(temprank, pattern1);
 
@@ -193,7 +217,7 @@ int Heuristic::HCost(State state) {
         if (rk4 > max){
             max = rk4;
         }
-        //cout << rk1 << ' ' << rk2 << ' ' << rk3 << ' ' << rk4 <<  ' ' << max << endl;
+        //cout << ranks1[rk1] << ' ' << ranks2[rk2] << ' ' << ranks3[rk3] << ' ' << rk4 << endl;
         return max;
     }
 }
@@ -242,9 +266,9 @@ int Heuristic::ManhattanDistance(State s) {
 
 void Heuristic::patternDatabase(State p) {
     struct stat buffer;
-    std::string name1 = "./heuristic1.txt";
-    std::string name2 = "./heuristic2.txt";
-    std::string name3 = "./heuristic3.txt";
+    std::string name1 = "./heuristic4.txt";
+    std::string name2 = "./heuristic5.txt";
+    std::string name3 = "./heuristic6.txt";
     if (stat (name1.c_str(), &buffer) == 0) { // readfile
         ifstream f(name1);
         //assert(f.is_open());
@@ -269,27 +293,6 @@ void Heuristic::patternDatabase(State p) {
         f.close();
         cout << "PDB3 built" << endl;
     }
-    /*
-    else {
-        unsigned long long a = factorial(size*size);
-        unsigned long long b = factorial(size*size-pattern_instance.getNumPattern());
-        numExpandNode = a/b;
-        ranks.reserve(numExpandNode);
-        for (std::vector<int>::size_type i = 0; i < numExpandNode; i++) {
-            ranks.push_back(-1);
-        }
-        BFS(p);
-        
-        //write to file
-        ofstream f(name);
-        if (f.is_open()) {
-            for (int i = 0; i < numExpandNode; i++) {
-                f << ranks[i] << ' ';
-            }
-        }
-        f.close();
-        
-    }*/
     
     isBuilt = 1;
 }
@@ -349,6 +352,7 @@ unsigned long long Heuristic::lexicographicalRanking(State p, std::vector<int> p
     int i, j, k;
     //int n = pat.size();
     ts = p.getState();
+    dual.clear();
     dual.resize(size*size, -1);
     int count = 0;
     
