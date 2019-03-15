@@ -160,5 +160,16 @@ depth: 46 new_states: 1
 
 
 pdb1 average: 38.9112
+delta pdb1 average: 21.9112
+mincompression pdb1: 37.665
+mincompression delta pdb1: 20.9029
+
 pdb2 average: 27.6807
+delta pdb2 average: 17.6807
+mincompression pdb2: 26.053
+mincompression delta pdb2: 16.399
+
 pdb3 average: 28.4096
+delta pdb3 average: 18.4096
+mincompression pdb3: 26.85
+mincompression delta pdb3: 17.1902

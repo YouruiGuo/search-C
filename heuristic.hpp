@@ -89,6 +89,7 @@ private:
     unsigned long long r, f, a, b, rk1, rk2, rk3;
     std::vector<int> unstate;
     State temprank;
+    double delta;
 public:
     Heuristic();
     Heuristic(State s, State g);
@@ -107,7 +108,7 @@ public:
     void setIsMinCompressed(bool i);
     void setIsMD(bool i);
     State getPatternState(State state, std::vector<int> p);
-    State unranking(unsigned long long r);
+    State unranking(unsigned long long r, std::vector<int> pat);
     void statistics();
     void writeToFile();
 };
@@ -164,7 +165,7 @@ State Heuristic::getPatternState(State state, std::vector<int> pat) {
 
 void Heuristic::writeToFile() {
     State p = pattern_instance.getPattern();
-    std::string name = "./heuristic6.txt";
+    std::string name = "./heuristic_delta3.txt";
     unsigned long long a = factorial(size*size);
     unsigned long long b = factorial(size*size-pattern_instance.getNumPattern());
     numExpandNode = a/b;
@@ -182,6 +183,8 @@ void Heuristic::writeToFile() {
         }
     }
     f.close();
+    cout<< "file written" << endl;
+    cout << delta << endl;
 }
 
 int Heuristic::HCost(State state) {
@@ -193,7 +196,7 @@ int Heuristic::HCost(State state) {
         if (!isBuilt) {
             //pattern_instance = Pattern(pattern, env.getGoal());
             patternDatabase(pattern_instance.getPattern());
-            //statistics();
+            statistics();
         }
 
         temprank = getPatternState(state, pattern1);
@@ -224,21 +227,36 @@ int Heuristic::HCost(State state) {
 
 void Heuristic::statistics() {
     std::vector<int>::size_type i;
-    double avg=ranks1[0];
-    for (i = 1; i < ranks1.size(); ++i) {
-        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks1[i];
+    double avg=0;
+    int min, index;
+
+    avg = 0;
+    for (i = 1; i < ranks1.size()+1; ++i) {
+        index = (i-1)/2;
+        min = ranks1[index*2];
+        if (ranks1[index*2+1] < min) ranks1[index*2] = ranks1[index*2+1];
+        else ranks1[index*2+1] = ranks1[index*2];
+        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks1[i-1];
     }
     cout << "pdb1 average: " << avg << endl;
 
-    avg=ranks2[0];
-    for (i = 1; i < ranks2.size(); ++i) {
-        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks2[i];
+    avg = 0;
+    for (i = 1; i < ranks2.size()+1; ++i) {
+        index = (i-1)/2;
+        min = ranks2[index*2];
+        if (ranks2[index*2+1] < min) ranks2[index*2] = ranks2[index*2+1];
+        else ranks2[index*2+1] = ranks2[index*2];
+        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks2[i-1];
     }
     cout << "pdb2 average: " << avg << endl;
     
-    avg=ranks3[0];
-    for (i = 1; i < ranks3.size(); ++i) {
-        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks3[i];
+    avg=0;
+    for (i = 1; i < ranks3.size()+1; ++i) {
+        index = (i-1)/2;
+        min = ranks3[index*2];
+        if (ranks3[index*2+1] < min) ranks3[index*2] = ranks3[index*2+1];
+        else ranks3[index*2+1] = ranks3[index*2];
+        avg = ((i-1)*1.0/i)*avg + (1.0/i)*ranks3[i-1];
     }
     cout << "pdb3 average: " << avg << endl;
 }
@@ -266,9 +284,9 @@ int Heuristic::ManhattanDistance(State s) {
 
 void Heuristic::patternDatabase(State p) {
     struct stat buffer;
-    std::string name1 = "./heuristic4.txt";
-    std::string name2 = "./heuristic5.txt";
-    std::string name3 = "./heuristic6.txt";
+    std::string name1 = "./heuristic_delta1.txt";
+    std::string name2 = "./heuristic_delta2.txt";
+    std::string name3 = "./heuristic_delta3.txt";
     if (stat (name1.c_str(), &buffer) == 0) { // readfile
         ifstream f(name1);
         //assert(f.is_open());
@@ -307,15 +325,19 @@ void Heuristic::BFS(State start) {
     //int a, c;
     unsigned long long temp_rank, next_rank;
     std::vector<Action> actions;
-    
+    int count = 0;
+    delta = 0;
+
+
     temp_rank = lexicographicalRanking(start, pattern);
     ranks[temp_rank] = 0;
     Q.push(temp_rank);
     
     while(!Q.empty()) {
         temp_rank = Q.front();
-        temp = unranking(temp_rank);
+        temp = unranking(temp_rank, pattern);
         Q.pop();
+
         if (ranks[temp_rank] > depth){
             std::cout << "depth: " << depth << " new_states: " << new_states << endl;
             new_states = 1;
@@ -324,6 +346,7 @@ void Heuristic::BFS(State start) {
         else{
             new_states += 1;
         }
+     
         env.getActions(temp, &actions);
         for (std::vector<Action>::size_type i = 0; i < actions.size(); ++i) {
             action = actions[i];
@@ -331,16 +354,13 @@ void Heuristic::BFS(State start) {
             next_rank = lexicographicalRanking(temp, pattern);
             if (ranks[next_rank] == -1) {
                 ranks[next_rank] = ranks[temp_rank]+1;
-                /*
-                 if (isDeltaEnabled) {
-                 ranks[next_rank] -= ManhattanDistance(st);
-                 }
-                 if (isMinCompressed){
-                 minCompression(next_rank);
-                 }*/
                 Q.push(next_rank);
             }
             env.undoAction(action, &temp);
+        }
+        ranks[temp_rank] -= ManhattanDistance(temp);
+        if (ranks[temp_rank] < 0){
+            ranks[temp_rank] = 0;
         }
     }
     std::cout << "depth: " << depth << " new_states: " << new_states << endl;
@@ -380,12 +400,12 @@ unsigned long long Heuristic::lexicographicalRanking(State p, std::vector<int> p
     return r;
 }
 
-State Heuristic::unranking(unsigned long long r) {
+State Heuristic::unranking(unsigned long long r, std::vector<int> pat) {
     //State st;
     unstate.clear();
     unstate.resize(16, -1);
     int i, j;
-    int nums = (int)pattern.size();
+    int nums = pat.size();
     for (i = 0; i < nums-1; i++) {
         a = r%((size*size)-nums+i+1);
         b = r/((size*size)-nums+i+1);
@@ -401,7 +421,7 @@ State Heuristic::unranking(unsigned long long r) {
         }
     }
     for (i = 0; i < nums; i++) {
-        unstate[unrank[i]] = pattern[i];
+        unstate[unrank[i]] = pat[i];
     }
     //st = State(unstate);
     return State(unstate);
