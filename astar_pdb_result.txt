@@ -1,3 +1,7 @@
+0
+expanded: 2567199 updated: 65971 max open: 5094335
+
+
 1
 PDB1 built
 PDB2 built
@@ -436,7 +440,7 @@ PDB3 built
 terminate called after throwing an instance of 'std::bad_alloc'
   what():  std::bad_alloc
 ./script.sh: line 3: 19668 Aborted                 (core dumped) ./astar $i
-
+	
 real	1m20.737s
 user	1m18.344s
 sys	0m2.240s
@@ -824,3 +828,84 @@ PDB3 built
 real	1m11.006s
 user	1m8.766s
 sys	0m2.036s
+91
+PDB1 built
+PDB2 built
+PDB3 built
+./script.sh: line 3: 20514 Killed                  ./astar $i
+
+real	1m16.961s
+user	1m14.490s
+sys	0m2.408s
+92
+PDB1 built
+PDB2 built
+PDB3 built
+expanded: 38361 updated: 902 max open: 79015
+
+real	0m22.496s
+user	0m20.808s
+sys	0m1.672s
+93
+PDB1 built
+PDB2 built
+PDB3 built
+expanded: 39892 updated: 742 max open: 81426
+
+real	0m21.599s
+user	0m20.274s
+sys	0m1.324s
+94
+PDB1 built
+PDB2 built
+PDB3 built
+expanded: 411455 updated: 8404 max open: 827650
+
+real	0m25.761s
+user	0m24.263s
+sys	0m1.496s
+95
+PDB1 built
+PDB2 built
+PDB3 built
+expanded: 446474 updated: 8032 max open: 897315
+
+real	0m25.392s
+user	0m23.958s
+sys	0m1.432s
+96
+PDB1 built
+PDB2 built
+PDB3 built
+expanded: 21882 updated: 396 max open: 46304
+
+real	0m21.668s
+user	0m20.360s
+sys	0m1.304s
+97
+PDB1 built
+PDB2 built
+PDB3 built
+expanded: 2130918 updated: 49696 max open: 4211195
+
+real	0m47.473s
+user	0m45.505s
+sys	0m1.964s
+98
+PDB1 built
+PDB2 built
+PDB3 built
+expanded: 2182143 updated: 42622 max open: 4273579
+
+real	0m46.551s
+user	0m44.831s
+sys	0m1.716s
+99
+PDB1 built
+PDB2 built
+PDB3 built
+expanded: 1975060 updated: 51230 max open: 3886587
+
+real	0m44.546s
+user	0m42.785s
+sys	0m1.756s
