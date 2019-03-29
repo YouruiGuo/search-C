@@ -66,13 +66,9 @@ DifferentialHeuristic::DifferentialHeuristic(State s, State g) {
         totalnum *= (mapSize[i]+1);
     }
     allHash.resize(totalnum);
-<<<<<<< HEAD
+
     for (unsigned int i = 0; i < totalnum; i++) {
-        allHash[i].resize(30, 0);
-=======
-    for (int i = 0; i < totalnum; i++) {
         allHash[i].resize(30, env.inf);
->>>>>>> 3c27f3b8ca971fdcdf173029b7f564139be1263d
     }
     buildHeuristic();
 }
@@ -112,13 +108,10 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
     while (!Q.empty()) {
         numExpandNode++;
         temphash = Q.top().second;
-<<<<<<< HEAD
-        temp = env.allStates[env.hashtable[temphash]].getState();
 
-=======
         //temp = env.allStates[env.hashtable[temphash]].getState();
         temp = env.unranking(temphash);
->>>>>>> 3c27f3b8ca971fdcdf173029b7f564139be1263d
+
         /*if (Q.top().first > maxgcost) {
             lastState = temp;
         }*/
