@@ -66,7 +66,7 @@ int Heap::heap_pop() {
 }
 
 void Heap::sift_up(int index) {
-    
+
     while (((index-1)/2 >= 0)) {
         if (index == 0) {
             break;
@@ -89,7 +89,7 @@ void Heap::sift_up(int index) {
 }
 
 void Heap::sift_down(int index) {
-    while (index*2+1 < queue.size()) {
+    while (index*2+1 < (int)queue.size()) {
         int mc = min_child(index);
         int a = (*allStates)[queue[index]].gcost+ // parent
         (*allStates)[queue[index]].hcost;
@@ -103,7 +103,7 @@ void Heap::sift_down(int index) {
 }
 
 int Heap::min_child(int index) {
-    if (index*2+2 >= queue.size()) {
+    if (index*2+2 >= (int)queue.size()) {
         return index*2+1;
     }
     int a = (*allStates)[queue[index*2+1]].gcost+ // left child
@@ -140,7 +140,7 @@ private:
     State start;
     State goal;
     Heap openlist;
-    
+
 public:
     int expanded;
     int updated;
@@ -239,7 +239,7 @@ bool Astar::searchBPMX() {
             bestH = fmax(heu.HCost(next_state)-env.cost(st, next_state), bestH);
         }
         env.allStates[index].hcost = fmax(heu.HCost(st), bestH);
-        
+
         for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
             action = actions[i];
             int next = env.applyActionCopy(action, st);
@@ -293,7 +293,7 @@ std::queue<State> *Astar::getPath() {
 }
 
 State loadstpFile(int index, std::vector<int> *si){
-    
+
     std::vector<State> instances;
     std::string df = "/Users/margaret/Documents/cmput652/korf100.txt";
     std::ifstream infile(df);
@@ -316,7 +316,7 @@ void load3dfile(int index, std::vector<int> *s, std::vector<int> *g){
     s->clear();
     g->clear();
     std::vector<State> instances;
-    std::string df = "/Users/margaret/Documents/cmput652/searchAlg/data/Simple.3dmap.3dscen";
+    std::string df = "./Simple.3dmap.3dscen";
     std::ifstream infile(df);
     std::string line;
     int count = -2;
@@ -340,14 +340,14 @@ int main(int argc, char const *argv[])
 {
     //std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     //State goal = State(g);
-    
+
     int index = 41;
     std::vector<int> s, g;
     load3dfile(index, &s, &g);
     //State benchmark = loadstpFile(index, &si);
     //std::vector<int> s = {1,2,3,7,0,4,5,6,8,9,10,11,12,13,14,15};
     //State benchmark = State(s);
-    
+
     Astar search = Astar(s, g);
     search.search();
     //std::queue<State> *path = search.getPath();

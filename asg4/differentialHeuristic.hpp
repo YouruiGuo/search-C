@@ -39,7 +39,7 @@ private:
     State lastState;
     int numPivots;
     std::vector<int> mapSize;
-    
+
 public:
     DifferentialHeuristic();
     DifferentialHeuristic(State s, State g);
@@ -67,7 +67,7 @@ DifferentialHeuristic::DifferentialHeuristic(State s, State g) {
         totalnum *= mapSize[i];
     }
     allHash.resize(totalnum);
-    for (int i = 0; i < totalnum; i++) {
+    for (unsigned int i = 0; i < totalnum; i++) {
         allHash[i].resize(30, 0);
     }
     buildHeuristic();
@@ -95,31 +95,31 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
     unsigned long long temphash, next_hash;
     double cost = 0;
     State temp;
-    
+
     // push the start state to the priority queue
     for (unsigned int i = 0; i < s->size(); i++) {
         temphash = env.getStateHash((*s)[i]);
         Q.push(std::make_pair(0, temphash));
         //allHash[temphash][id] = 0;
     }
-    
+
     while (!Q.empty()) {
         numExpandNode++;
         temphash = Q.top().second;
         temp = env.allStates[env.hashtable[temphash]].getState();
-        
+
         /*if (Q.top().first > maxgcost) {
             lastState = temp;
         }*/
         Q.pop();
-        
+
         if (Q.empty()) {
             lastState = temp;
         }
         if (numExpandNode%10000 == 0) {
             std::cout << numExpandNode << endl;
         }
-        
+
         env.getActions(temp, &actions);
         for (std::vector<Action>::size_type i = 0; i < actions.size(); ++i) {
             action = actions[i];
@@ -129,10 +129,10 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
                 cost += abs(n);
             }
             cost = sqrt(cost);
-            
+
             env.applyAction(action, &temp);
             next_hash = env.getStateHash(temp);
-            
+
             /*tempgcost = -1;
             try {
                 tempgcost = allHash[next_hash][id];
@@ -154,6 +154,7 @@ void DifferentialHeuristic::randomPlacement() {
     unsigned long long hashtemp;
     bool isfilled = false;
     for (int i = 0; i < numPivots; i++) {
+        cout << "build "<< i <<" heuristic " << endl;
         t.clear();
         tempstate.clear();
         srand( static_cast<unsigned int>(time(NULL)));
@@ -205,7 +206,8 @@ void DifferentialHeuristic::furthestPlacement() {
 void DifferentialHeuristic::optimizedPlacement() {
     std::vector<int> tempstate;
     std::vector<State> t, samples;
-    unsigned long long hashtemp, t1, t2;
+    unsigned long long hashtemp;
+    //unsigned long long t1, t2;
     bool isfilled = false;
     std::vector<double> heugains;
     heugains.resize(30, 0);
@@ -227,7 +229,7 @@ void DifferentialHeuristic::optimizedPlacement() {
         dijkstraSearch(&t, i);
         t.push_back(lastState);
     }
-    
+
     // generate samples
     for (int i = 0; i < 100; i++) {
         tempstate.clear();
@@ -242,14 +244,14 @@ void DifferentialHeuristic::optimizedPlacement() {
         } while (!isfilled);
         samples.push_back(State(tempstate));
     }
-    
+
     // measure the best 10 heuristics by comparing heuristic gains.
     for (int i = 0; i < 50; i++) {
-        t1 = env.getStateHash(samples[i*2]);
-        t2 = env.getStateHash(samples[i*2+1]);
+        //t1 = env.getStateHash(samples[i*2]);
+        //t2 = env.getStateHash(samples[i*2+1]);
         // TODO
     }
-    
+
 }
 
 double DifferentialHeuristic::singleConsistentLookup(State st) {
