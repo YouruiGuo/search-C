@@ -40,8 +40,8 @@ class StateInfo
 private:
     State state;
 public:
-    double gcost;
-    double hcost;
+    float gcost;
+    float hcost;
     int open_id;
     int parent;
     StateInfo();
