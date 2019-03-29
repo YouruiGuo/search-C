@@ -17,7 +17,7 @@
 using namespace std;
 
 
-int num = 12;
+int num = 11;
 
 unsigned long long factorial(int n) {
     return (n == 1 || n == 0) ? 1 : factorial(n - 1) * n;
@@ -71,8 +71,10 @@ void permutations() {
 	std::vector<int> v(num), l(num);
 	std::vector<int> dual(num);
 
-	std::iota(v.begin(), v.end(), 0);
-	std::iota(l.begin(), l.end(), 0);
+    for (int i = 0; i < num; i++) {
+        v[i] = i;
+        l[i] = i;
+    }
 	
 	clock_t begin = clock();
 	lexicographicalRanking(v);
