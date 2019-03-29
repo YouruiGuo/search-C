@@ -28,8 +28,7 @@
 //#include "grid_env.hpp"
 
 using namespace std;
-typedef std::pair<double, unsigned long long> weight_vertex_pair;
-
+typedef std::pair<float, unsigned long long> weight_vertex_pair;
 
 class DifferentialHeuristic {
 private:
@@ -64,11 +63,16 @@ DifferentialHeuristic::DifferentialHeuristic(State s, State g) {
     totalnum = 1;
     mapSize = env.getMapsize();
     for (unsigned int i=0; i<mapSize.size(); i++) {
-        totalnum *= mapSize[i];
+        totalnum *= (mapSize[i]+1);
     }
     allHash.resize(totalnum);
+<<<<<<< HEAD
     for (unsigned int i = 0; i < totalnum; i++) {
         allHash[i].resize(30, 0);
+=======
+    for (int i = 0; i < totalnum; i++) {
+        allHash[i].resize(30, env.inf);
+>>>>>>> 3c27f3b8ca971fdcdf173029b7f564139be1263d
     }
     buildHeuristic();
 }
@@ -87,27 +91,34 @@ void DifferentialHeuristic::buildHeuristic() {
 }
 
 void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
+    
     std::priority_queue<weight_vertex_pair,
                         std::vector<weight_vertex_pair>,
-                        std::greater<weight_vertex_pair>> Q;
+                        greater<weight_vertex_pair>> Q;
+    
     std::vector<Action> actions;
     Action action = Action({-1});
     unsigned long long temphash, next_hash;
-    double cost = 0;
+    float cost = 0;
     State temp;
 
     // push the start state to the priority queue
     for (unsigned int i = 0; i < s->size(); i++) {
         temphash = env.getStateHash((*s)[i]);
         Q.push(std::make_pair(0, temphash));
-        //allHash[temphash][id] = 0;
+        allHash[temphash][id] = 0;
     }
 
     while (!Q.empty()) {
         numExpandNode++;
         temphash = Q.top().second;
+<<<<<<< HEAD
         temp = env.allStates[env.hashtable[temphash]].getState();
 
+=======
+        //temp = env.allStates[env.hashtable[temphash]].getState();
+        temp = env.unranking(temphash);
+>>>>>>> 3c27f3b8ca971fdcdf173029b7f564139be1263d
         /*if (Q.top().first > maxgcost) {
             lastState = temp;
         }*/
@@ -138,11 +149,11 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
                 tempgcost = allHash[next_hash][id];
             } catch (...) {
                 continue;
+            }*/
+            if (allHash[next_hash][id] > allHash[temphash][id] + cost) {
+                allHash[next_hash][id] = allHash[temphash][id] + cost;
+                Q.push(std::make_pair(allHash[next_hash][id], next_hash));
             }
-            if ((tempgcost == -1) || (tempgcost > allHash[temphash][id] + cost)) {*/
-            allHash[next_hash][id] = allHash[temphash][id] + cost;
-            Q.push(std::make_pair(allHash[next_hash][id], next_hash));
-            //}
             env.undoAction(action, &temp);
         }
     }

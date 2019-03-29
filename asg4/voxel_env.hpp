@@ -79,6 +79,7 @@ public:
     void loadMap();
     int getHashIndex(unsigned long long i);
     std::vector<int> getMapsize();
+    State unranking(unsigned long long h);
 };
 
 Voxel_env::Voxel_env(){}
@@ -178,6 +179,14 @@ unsigned long long Voxel_env::getStateHash(State st) {
     unsigned long long value = 0;
     value = (hashtemp[0]*mapsize[1]+hashtemp[1])*mapsize[2]+hashtemp[2];
     return value;
+}
+
+State Voxel_env::unranking(unsigned long long h) {
+    hashtemp[2] = h % mapsize[2];
+    h = h / mapsize[2];
+    hashtemp[1] = h % mapsize[1];
+    hashtemp[0] = int(h / mapsize[1]);
+    return State(hashtemp);
 }
 
 void Voxel_env::getActions(State st, std::vector<Action> *actions) {
