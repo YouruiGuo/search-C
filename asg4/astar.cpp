@@ -30,7 +30,7 @@ public:
     Heap();
     Heap(std::vector<StateInfo> *a);
     ~Heap();
-    void heap_push(int index, int hcost);
+    void heap_push(int index, float hcost);
     int heap_pop();
     void sift_up(int index);
     void sift_down(int index);
@@ -51,7 +51,7 @@ int Heap::getQueueLength() {
     return (int)queue.size();
 }
 
-void Heap::heap_push(int index, int hcost) {
+void Heap::heap_push(int index, float hcost) {
     queue.push_back(index);
     (*allStates)[index].open_id = (int)queue.size()-1;
     (*allStates)[index].hcost = hcost;
@@ -67,14 +67,14 @@ int Heap::heap_pop() {
 }
 
 void Heap::sift_up(int index) {
-
+    
     while (((index-1)/2 >= 0)) {
         if (index == 0) {
             break;
         }
-        int a = (*allStates)[queue[index]].gcost+
+        float a = (*allStates)[queue[index]].gcost+
         (*allStates)[queue[index]].hcost;
-        int b = (*allStates)[queue[(index-1)/2]].gcost+
+        float b = (*allStates)[queue[(index-1)/2]].gcost+
         (*allStates)[queue[(index-1)/2]].hcost;
         if (a == b) {
             if ((*allStates)[queue[index]].gcost <
@@ -92,9 +92,9 @@ void Heap::sift_up(int index) {
 void Heap::sift_down(int index) {
     while (index*2+1 < (int)queue.size()) {
         int mc = min_child(index);
-        int a = (*allStates)[queue[index]].gcost+ // parent
+        float a = (*allStates)[queue[index]].gcost+ // parent
         (*allStates)[queue[index]].hcost;
-        int b = (*allStates)[queue[mc]].gcost+ // child
+        float b = (*allStates)[queue[mc]].gcost+ // child
         (*allStates)[queue[mc]].hcost;
         if (a > b) {
             heap_swap(index, mc);
@@ -107,9 +107,9 @@ int Heap::min_child(int index) {
     if (index*2+2 >= (int)queue.size()) {
         return index*2+1;
     }
-    int a = (*allStates)[queue[index*2+1]].gcost+ // left child
+    float a = (*allStates)[queue[index*2+1]].gcost+ // left child
     (*allStates)[queue[index*2+1]].hcost;
-    int b = (*allStates)[queue[index*2+2]].gcost+ // fight child
+    float b = (*allStates)[queue[index*2+2]].gcost+ // fight child
     (*allStates)[queue[index*2+2]].hcost;
     if (a == b) {
         if ((*allStates)[queue[index*2+1]].gcost >
@@ -142,7 +142,7 @@ private:
     State goal;
     Heap openlist;
     std::vector<State> succes;
-
+    
 public:
     int expanded;
     int updated;
@@ -178,7 +178,7 @@ bool Astar::search() {
     float newcost;
     Action action = Action({0});
     State start = env.getStart();
-
+    
     openlist.heap_push(start_index, heu.HCost(start));
     while (openlist.getQueueLength() != 0) {
         index = openlist.heap_pop();
@@ -200,7 +200,7 @@ bool Astar::search() {
             }
             else if (open_id > -1) {
                 newcost = env.allStates[index].gcost+
-                            env.cost(st, next_state);
+                env.cost(st, next_state);
                 if (newcost < env.allStates[next].gcost) {
                     updated++;
                     env.allStates[next].gcost = newcost;
@@ -210,7 +210,7 @@ bool Astar::search() {
             }
             else {
                 env.allStates[next].gcost = env.allStates[index].gcost+
-                        env.cost(st, next_state);
+                env.cost(st, next_state);
                 env.allStates[next].parent = index;
                 openlist.heap_push(next, heu.HCost(next_state));
                 max_open++;
@@ -229,20 +229,20 @@ bool Astar::searchBPMX() {
     // push start to openlist
     State start = env.getStart();
     openlist.heap_push(start_index, heu.HCost(start));
-
+    
     while (openlist.getQueueLength() != 0) {
         
         // pop best node from openlist
         index = openlist.heap_pop();
         st = env.allStates[index].getState();
         env.allStates[index].open_id = -1;
-     
+        
         expanded += 1;
         if (env.isSuccess(st)) {
             path = getPath();
             return true;
         }
-
+        
         succes.clear();
         bestH = 0; // stores parent h-cost from pathmax
         // generate successors
@@ -260,20 +260,20 @@ bool Astar::searchBPMX() {
         {
             env.allStates[index].hcost = bestH;
         }
-
+        
         for (unsigned int i = 0; i < succes.size(); i++) {
             next_state = succes[i];
             next = env.getHashIndex(env.getStateHash(next_state));
             open_id = env.allStates[next].open_id;
             // generate edge cost
             edgecost = env.cost(st, next_state);
-
+            
             if (open_id == -1) { // closed list
                 if (env.allStates[next].hcost < bestH - edgecost){ // Bidirectional PathMax
                     env.allStates[next].hcost = bestH - edgecost;
                 }
                 // found a shorter path and re-open
-                if (env.allStates[index].gcost + edgecost < env.allStates[next].gcost) { 
+                if (env.allStates[index].gcost + edgecost < env.allStates[next].gcost) {
                     env.allStates[next].parent = index;
                     env.allStates[next].gcost = env.allStates[index].gcost + edgecost;
                     openlist.heap_push(next, env.allStates[next].hcost);
@@ -305,19 +305,22 @@ bool Astar::searchBPMX() {
 
 
 std::vector<State> Astar::getPath() {
+    float pathcost = 0;
     path.clear();
     path.push_back(env.getGoal());
     unsigned long long v = env.getStateHash(env.getGoal());
     StateInfo state = env.allStates[env.getHashIndex(v)];
     while (state.parent != -1) {
+        pathcost += env.cost(state.getState(), env.allStates[state.parent].getState());
         path.push_back(env.allStates[state.parent].getState());
         state = env.allStates[state.parent];
     }
+    cout << pathcost << endl;
     return path;
 }
 
 State loadstpFile(int index, std::vector<int> *si){
-
+    
     std::vector<State> instances;
     std::string df = "/Users/margaret/Documents/cmput652/korf100.txt";
     std::ifstream infile(df);
@@ -340,7 +343,7 @@ void load3dfile(int index, std::vector<int> *s, std::vector<int> *g){
     s->clear();
     g->clear();
     std::vector<State> instances;
-    std::string df = "./Simple.3dmap.3dscen";
+    std::string df = "/Users/margaret/Documents/cmput652/searchAlg/data/Simple.3dmap.3dscen";
     std::ifstream infile(df);
     std::string line;
     int count = -2;
@@ -375,16 +378,16 @@ int main(int argc, char const *argv[])
         clock_t end = clock();
         //std::queue<State> *path = search.getPath();
         if (result == true){
-            std::cout << "num: " << i <<" expanded: " << search.expanded << " updated: " << 
-                search.updated << " path_len: " << search.path.size() << " max_open: " << search.max_open << " time_elpased: "
-                << double(end - begin) / CLOCKS_PER_SEC << std::endl;
+            std::cout << "num: " << i <<" expanded: " << search.expanded << " updated: " <<
+            search.updated << " path_len: " << search.path.size() << " max_open: " << search.max_open << " time_elpased: "
+            << double(end - begin) / CLOCKS_PER_SEC << std::endl;
         }
         //break;
     }
-
+    
     //State benchmark = loadstpFile(index, &si);
     //std::vector<int> s = {1,2,3,7,0,4,5,6,8,9,10,11,12,13,14,15};
     //State benchmark = State(s);
-
-return 0;
+    
+    return 0;
 }

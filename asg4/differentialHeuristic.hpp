@@ -40,7 +40,7 @@ private:
     State lastState;
     int numPivots;
     std::vector<int> mapSize,tempstate1, tempstate2;
-
+    
 public:
     DifferentialHeuristic();
     DifferentialHeuristic(State s, State g);
@@ -69,7 +69,7 @@ DifferentialHeuristic::DifferentialHeuristic(State s, State g) {
         totalnum *= (mapSize[i]+1);
     }
     allHash.resize(totalnum);
-
+    
     for (unsigned int i = 0; i < totalnum; i++) {
         allHash[i].resize(30, env.inf);
     }
@@ -84,29 +84,29 @@ Voxel_env DifferentialHeuristic::getEnv() {
 }
 
 void DifferentialHeuristic::buildHeuristic() {
-    randomPlacement();
-    //furthestPlacement();
+    //randomPlacement();
+    furthestPlacement();
     //optimizedPlacement();
 }
 
 void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
     std::priority_queue<weight_vertex_pair,
-                        std::vector<weight_vertex_pair>,
-                        greater<weight_vertex_pair>> Q;
+    std::vector<weight_vertex_pair>,
+    greater<weight_vertex_pair>> Q;
     
     std::vector<Action> actions;
     Action action = Action({-1});
     unsigned long long temphash, next_hash;
     float cost = 0;
     State temp;
-
+    
     // push the start state to the priority queue
     for (unsigned int i = 0; i < s->size(); i++) {
         temphash = env.getStateHash((*s)[i]);
         Q.push(std::make_pair(0, temphash));
         allHash[temphash][id] = 0;
     }
-
+    
     while (!Q.empty()) {
         numExpandNode++;
         temphash = Q.top().second;
@@ -115,9 +115,9 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
         if (Q.empty()) {
             lastState = temp;
         }
-
+        
         env.getActions(temp, &actions);
-
+        
         for (std::vector<Action>::size_type i = 0; i < actions.size(); ++i) {
             action = actions[i];
             // get the cost of the action
@@ -126,10 +126,10 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
                 cost += abs(n);
             }
             cost = sqrt(cost);
-
+            
             env.applyAction(action, &temp);
             next_hash = env.getStateHash(temp);
-
+            
             if (allHash[next_hash][id] > allHash[temphash][id] + cost) {
                 allHash[next_hash][id] = allHash[temphash][id] + cost;
                 Q.push(std::make_pair(allHash[next_hash][id], next_hash));
@@ -140,7 +140,7 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
 }
 
 void DifferentialHeuristic::writeToFile() {
-    std::string name = "./heuristic_furthest.txt";
+    std::string name = "/Users/margaret/Documents/cmput652/searchAlg/data/heuristic_furthest.txt";
     ofstream f(name);
     if (f.is_open()) {
         for (unsigned int i = 0; i < totalnum; ++i) {
@@ -153,7 +153,7 @@ void DifferentialHeuristic::writeToFile() {
 }
 
 void DifferentialHeuristic::randomPlacement() {
-    std::string name = "./heuristic_random.txt";
+    std::string name = "/Users/margaret/Documents/cmput652/searchAlg/data/heuristic_random.txt";
     struct stat buffer;
     if (stat(name.c_str(), &buffer) == 0) {
         std::string line;
@@ -162,7 +162,7 @@ void DifferentialHeuristic::randomPlacement() {
         while (std::getline(f, line)) {
             std::istringstream iss(line);
             std::vector<std::string> tokens{std::istream_iterator<std::string>(iss),
-                    std::istream_iterator<std::string>()};
+                std::istream_iterator<std::string>()};
             for (int i = 0; i < 10; ++i) {
                 allHash[count][i] = std::stof(tokens[i]);
             }
@@ -188,7 +188,7 @@ void DifferentialHeuristic::randomPlacement() {
                 hashtemp = env.getStateHash(State(tempstate));
                 // make sure the random selected point is not an obstacle
                 std::map<unsigned long long, int>::iterator f =
-                                   env.hashtable.find(hashtemp);
+                env.hashtable.find(hashtemp);
                 if (f != env.hashtable.end()) {
                     if (env.allStates[hashtemp].gcost == env.inf) {
                         isfilled = true;
@@ -205,7 +205,7 @@ void DifferentialHeuristic::randomPlacement() {
 
 
 void DifferentialHeuristic::furthestPlacement() {
-    std::string name = "./heuristic_furthest.txt";
+    std::string name = "/Users/margaret/Documents/cmput652/searchAlg/data/heuristic_furthest.txt";
     struct stat buffer;
     if (stat(name.c_str(), &buffer) == 0) {
         std::string line;
@@ -214,7 +214,7 @@ void DifferentialHeuristic::furthestPlacement() {
         while (std::getline(f, line)) {
             std::istringstream iss(line);
             std::vector<std::string> tokens{std::istream_iterator<std::string>(iss),
-                    std::istream_iterator<std::string>()};
+                std::istream_iterator<std::string>()};
             for (int i = 0; i < 10; ++i) {
                 allHash[count][i] = std::stof(tokens[i]);
             }
@@ -238,7 +238,7 @@ void DifferentialHeuristic::furthestPlacement() {
             hashtemp = env.getStateHash(State(tempstate));
             // make sure the random selected point is not an obstacle
             std::map<unsigned long long, int>::iterator f =
-                               env.hashtable.find(hashtemp);
+            env.hashtable.find(hashtemp);
             if (f != env.hashtable.end()) {
                 if (env.allStates[hashtemp].gcost == env.inf) {
                     isfilled = true;
@@ -284,7 +284,7 @@ void DifferentialHeuristic::optimizedPlacement() {
         dijkstraSearch(&t, i);
         t.push_back(lastState);
     }
-
+    
     // generate samples
     for (int i = 0; i < 100; i++) {
         tempstate.clear();
@@ -299,14 +299,14 @@ void DifferentialHeuristic::optimizedPlacement() {
         } while (!isfilled);
         samples.push_back(State(tempstate));
     }
-
+    
     // measure the best 10 heuristics by comparing heuristic gains.
     for (int i = 0; i < 50; i++) {
         //t1 = env.getStateHash(samples[i*2]);
         //t2 = env.getStateHash(samples[i*2+1]);
         // TODO
     }
-
+    
 }
 
 float DifferentialHeuristic::singleConsistentLookup(State st) {
@@ -316,7 +316,7 @@ float DifferentialHeuristic::singleConsistentLookup(State st) {
     unsigned long long h2 = env.getStateHash(env.getGoal());
     value1 = allHash[h1][id];
     value2 = allHash[h2][id];
-    return abs(value1 - value2);
+    return fabs(value1 - value2);
 }
 
 float DifferentialHeuristic::singleInconsistentLookup(State st) {
@@ -327,7 +327,7 @@ float DifferentialHeuristic::singleInconsistentLookup(State st) {
     unsigned long long h2 = env.getStateHash(env.getGoal());
     value1 = allHash[h1][id];
     value2 = allHash[h2][id];
-    return abs(value1 - value2);
+    return fabs(value1 - value2);
 }
 
 float DifferentialHeuristic::multipleLookup(State st) {
@@ -335,7 +335,7 @@ float DifferentialHeuristic::multipleLookup(State st) {
     unsigned long long h1 = env.getStateHash(st);
     unsigned long long h2 = env.getStateHash(env.getGoal());
     for (int i = 0; i < numPivots; i++) {
-        value1 = abs(allHash[h1][i] - allHash[h2][i]);
+        value1 = fabs(allHash[h1][i] - allHash[h2][i]);
         if (maxv < value1) {
             maxv = value1;
         }
@@ -345,10 +345,10 @@ float DifferentialHeuristic::multipleLookup(State st) {
 
 float DifferentialHeuristic::HCost(State st) {
     //return 0;
-    return singleInconsistentLookup(st);
+    //return singleInconsistentLookup(st);
     //return singleConsistentLookup(st);
     //return multipleLookup(st);
-    /*float x,y,z,dmin,dmax,dmid;
+    float x,y,z,dmin,dmax,dmid;
     tempstate1 = st.getState();
     tempstate2 = env.getGoal().getState();
     x = abs(tempstate1[0] - tempstate2[0]);
@@ -358,9 +358,9 @@ float DifferentialHeuristic::HCost(State st) {
     dmin = fmin(dmin, z);
     dmax = fmax(x,y);
     dmax = fmax(dmax, z);
-
+    
     dmid = x+y+z-dmin-dmax;
-    return ((sqrt(3)-sqrt(2))*dmin + (sqrt(2)-1)*dmid + dmax);*/
+    return ((sqrt(3)-sqrt(2))*dmin + (sqrt(2)-1)*dmid + dmax);
 }
 
 
