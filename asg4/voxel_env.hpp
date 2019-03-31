@@ -50,12 +50,12 @@ class Voxel_env {
     State goal_state;
     std::vector<int> mapsize;
     std::vector<Action> allActions, singleAction;
-
+    
     std::vector<int> isuccess_t, isuccess_g, inmap, hashtemp, costp, costc;
     std::vector<int> isrepeat_p, isrepeat_c, lx, ly, lz, act;
-
-
-
+    
+    
+    
 public:
     double inf;
     std::map<unsigned long long, int> hashtable;
@@ -89,17 +89,17 @@ Voxel_env::Voxel_env(State s, State g) {
     start_state = s;
     goal_state = g;
     inf = std::numeric_limits<double>::infinity();
-
+    
     loadMap();
-
+    
     allStates.push_back(s);
     unsigned long long svalue = getStateHash(s);
     hashtable[svalue] = (int)allStates.size()-1;
-
+    
     allStates.push_back(g);
     unsigned long long gvalue = getStateHash(g);
     hashtable[gvalue] = (int)allStates.size()-1;
-
+    
     std::vector<int> v = {-1, 0, 1};
     for (int i=0; i<3; i++) {
         for (int j=0; j<3; j++) {
@@ -111,7 +111,7 @@ Voxel_env::Voxel_env(State s, State g) {
             }
         }
     }
-
+    
 }
 
 void Voxel_env::setStart(State s) {
@@ -224,7 +224,7 @@ void Voxel_env::getActions(State st, std::vector<Action> *actions) {
                     hv = getStateHash(st);
                     gcost = -1;
                     std::map<unsigned long long, int>::iterator f =
-                                                hashtable.find(hv);
+                    hashtable.find(hv);
                     if (f != hashtable.end()) {
                         gcost = allStates[hashtable[hv]].gcost;
                     }
@@ -281,7 +281,7 @@ void Voxel_env::loadMap() {
     std::vector<int> s;
     State st;
     unsigned long long h;
-    std::string df = "./Simple.3dmap";
+    std::string df = "/Users/margaret/Documents/cmput652/searchAlg/data/Simple.3dmap";
     std::ifstream infile(df);
     std::string line;
     std::getline(infile, line);
