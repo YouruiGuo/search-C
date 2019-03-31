@@ -67,7 +67,7 @@ int Heap::heap_pop() {
 }
 
 void Heap::sift_up(int index) {
-    
+
     while (((index-1)/2 >= 0)) {
         if (index == 0) {
             break;
@@ -142,7 +142,7 @@ private:
     State goal;
     Heap openlist;
     std::vector<State> succes;
-    
+
 public:
     int expanded;
     int updated;
@@ -178,7 +178,7 @@ bool Astar::search() {
     float newcost;
     Action action = Action({0});
     State start = env.getStart();
-    
+
     openlist.heap_push(start_index, heu.HCost(start));
     while (openlist.getQueueLength() != 0) {
         index = openlist.heap_pop();
@@ -200,7 +200,7 @@ bool Astar::search() {
             }
             else if (open_id > -1) {
                 newcost = env.allStates[index].gcost+
-                env.cost(st, next_state);
+                            env.cost(st, next_state);
                 if (newcost < env.allStates[next].gcost) {
                     updated++;
                     env.allStates[next].gcost = newcost;
@@ -210,7 +210,7 @@ bool Astar::search() {
             }
             else {
                 env.allStates[next].gcost = env.allStates[index].gcost+
-                env.cost(st, next_state);
+                        env.cost(st, next_state);
                 env.allStates[next].parent = index;
                 openlist.heap_push(next, heu.HCost(next_state));
                 max_open++;
@@ -229,20 +229,20 @@ bool Astar::searchBPMX() {
     // push start to openlist
     State start = env.getStart();
     openlist.heap_push(start_index, heu.HCost(start));
-    
+
     while (openlist.getQueueLength() != 0) {
         
         // pop best node from openlist
         index = openlist.heap_pop();
         st = env.allStates[index].getState();
         env.allStates[index].open_id = -1;
-        
+     
         expanded += 1;
         if (env.isSuccess(st)) {
             path = getPath();
             return true;
         }
-        
+
         succes.clear();
         bestH = 0; // stores parent h-cost from pathmax
         // generate successors
@@ -260,20 +260,20 @@ bool Astar::searchBPMX() {
         {
             env.allStates[index].hcost = bestH;
         }
-        
+
         for (unsigned int i = 0; i < succes.size(); i++) {
             next_state = succes[i];
             next = env.getHashIndex(env.getStateHash(next_state));
             open_id = env.allStates[next].open_id;
             // generate edge cost
             edgecost = env.cost(st, next_state);
-            
+
             if (open_id == -1) { // closed list
                 if (env.allStates[next].hcost < bestH - edgecost){ // Bidirectional PathMax
                     env.allStates[next].hcost = bestH - edgecost;
                 }
                 // found a shorter path and re-open
-                if (env.allStates[index].gcost + edgecost < env.allStates[next].gcost) {
+                if (env.allStates[index].gcost + edgecost < env.allStates[next].gcost) { 
                     env.allStates[next].parent = index;
                     env.allStates[next].gcost = env.allStates[index].gcost + edgecost;
                     openlist.heap_push(next, env.allStates[next].hcost);
@@ -320,7 +320,7 @@ std::vector<State> Astar::getPath() {
 }
 
 State loadstpFile(int index, std::vector<int> *si){
-    
+
     std::vector<State> instances;
     std::string df = "/Users/margaret/Documents/cmput652/korf100.txt";
     std::ifstream infile(df);
@@ -373,21 +373,21 @@ int main(int argc, char const *argv[])
         load3dfile(i, &s, &g);
         Astar search = Astar(s, g);
         clock_t begin = clock();
-        bool result = search.search();
-        //bool result = search.searchBPMX();
+        //bool result = search.search();
+        bool result = search.searchBPMX();
         clock_t end = clock();
         //std::queue<State> *path = search.getPath();
         if (result == true){
-            std::cout << "num: " << i <<" expanded: " << search.expanded << " updated: " <<
-            search.updated << " path_len: " << search.path.size() << " max_open: " << search.max_open << " time_elpased: "
-            << double(end - begin) / CLOCKS_PER_SEC << std::endl;
+            std::cout << "num: " << i <<" expanded: " << search.expanded << " updated: " << 
+                search.updated << " path_len: " << search.path.size() << " max_open: " << search.max_open << " time_elpased: "
+                << double(end - begin) / CLOCKS_PER_SEC << std::endl;
         }
         //break;
     }
-    
+
     //State benchmark = loadstpFile(index, &si);
     //std::vector<int> s = {1,2,3,7,0,4,5,6,8,9,10,11,12,13,14,15};
     //State benchmark = State(s);
-    
-    return 0;
+
+return 0;
 }
