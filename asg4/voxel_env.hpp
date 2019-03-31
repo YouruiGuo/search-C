@@ -75,7 +75,7 @@ public:
     int applyActionCopy(Action a, State s); //return index of stateinfo list
     void applyAction(Action a, State *s); //return cost
     void undoAction(Action a, State *s);
-    double cost(State prev, State curr);
+    float cost(State prev, State curr);
     void loadMap();
     int getHashIndex(unsigned long long i);
     std::vector<int> getMapsize();
@@ -94,11 +94,11 @@ Voxel_env::Voxel_env(State s, State g) {
 
     allStates.push_back(s);
     unsigned long long svalue = getStateHash(s);
-    hashtable[svalue] = 0;
+    hashtable[svalue] = (int)allStates.size()-1;
 
     allStates.push_back(g);
     unsigned long long gvalue = getStateHash(g);
-    hashtable[gvalue] = 1;
+    hashtable[gvalue] = (int)allStates.size()-1;
 
     std::vector<int> v = {-1, 0, 1};
     for (int i=0; i<3; i++) {
@@ -193,7 +193,7 @@ void Voxel_env::getActions(State st, std::vector<Action> *actions) {
     actions->clear();
     bool filled;
     unsigned long long hv;
-    double gcost;
+    float gcost;
     std::vector<int> lx, ly, lz;
     for (unsigned int i=0; i<allActions.size(); i++) {
         singleAction.clear();
@@ -223,13 +223,13 @@ void Voxel_env::getActions(State st, std::vector<Action> *actions) {
                     applyAction(Action({x,y,z}), &st);
                     hv = getStateHash(st);
                     gcost = -1;
-                    try {
+                    std::map<unsigned long long, int>::iterator f =
+                                                hashtable.find(hv);
+                    if (f != hashtable.end()) {
                         gcost = allStates[hashtable[hv]].gcost;
-                    } catch (...) {
-                        continue;
                     }
                     if (gcost == inf) {
-                        filled = false;
+                        filled = true;
                     }
                     if (!isInMap(st)) {
                         filled = true;
@@ -254,8 +254,7 @@ int Voxel_env::applyActionCopy(Action a, State s) {
     std::map<unsigned long long, int>::iterator f =
     hashtable.find(hv);
     if (f != hashtable.end()) {
-        int id = hashtable[hv];
-        return id;
+        return hashtable[hv];
     }
     allStates.push_back(StateInfo(newst));
     hashtable[hv] = (int)allStates.size()-1;
@@ -308,8 +307,8 @@ void Voxel_env::loadMap() {
     }
 }
 
-double Voxel_env::cost(State prev, State curr) {
-    double value = 0;
+float Voxel_env::cost(State prev, State curr) {
+    float value = 0;
     costc = curr.getState();
     costp = prev.getState();
     value += abs(costc[0] - costp[0]);

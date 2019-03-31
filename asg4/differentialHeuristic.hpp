@@ -9,6 +9,8 @@
 #ifndef differentialHeuristic_h
 #define differentialHeuristic_h
 
+#include <stdlib.h>
+#include <stdio.h>
 #include <iostream>
 #include <algorithm>
 #include <vector>
@@ -37,7 +39,7 @@ private:
     std::vector<std::vector<float>> allHash;
     State lastState;
     int numPivots;
-    std::vector<int> mapSize;
+    std::vector<int> mapSize,tempstate1, tempstate2;
 
 public:
     DifferentialHeuristic();
@@ -49,11 +51,12 @@ public:
     void randomPlacement();
     void furthestPlacement();
     void optimizedPlacement();
-    double singleConsistentLookup(State st);
-    double singleInconsistentLookup(State st);
-    double multipleLookup(State st);
+    float singleConsistentLookup(State st);
+    float singleInconsistentLookup(State st);
+    float multipleLookup(State st);
     unsigned long long lexicographicalRanking(State st);
-    double HCost(State st);
+    float HCost(State st);
+    void writeToFile();
 };
 
 DifferentialHeuristic::DifferentialHeuristic(State s, State g) {
@@ -87,7 +90,6 @@ void DifferentialHeuristic::buildHeuristic() {
 }
 
 void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
-    
     std::priority_queue<weight_vertex_pair,
                         std::vector<weight_vertex_pair>,
                         greater<weight_vertex_pair>> Q;
@@ -108,23 +110,14 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
     while (!Q.empty()) {
         numExpandNode++;
         temphash = Q.top().second;
-
-        //temp = env.allStates[env.hashtable[temphash]].getState();
         temp = env.unranking(temphash);
-
-        /*if (Q.top().first > maxgcost) {
-            lastState = temp;
-        }*/
         Q.pop();
-
         if (Q.empty()) {
             lastState = temp;
         }
-        if (numExpandNode%10000 == 0) {
-            std::cout << numExpandNode << endl;
-        }
 
         env.getActions(temp, &actions);
+
         for (std::vector<Action>::size_type i = 0; i < actions.size(); ++i) {
             action = actions[i];
             // get the cost of the action
@@ -137,12 +130,6 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
             env.applyAction(action, &temp);
             next_hash = env.getStateHash(temp);
 
-            /*tempgcost = -1;
-            try {
-                tempgcost = allHash[next_hash][id];
-            } catch (...) {
-                continue;
-            }*/
             if (allHash[next_hash][id] > allHash[temphash][id] + cost) {
                 allHash[next_hash][id] = allHash[temphash][id] + cost;
                 Q.push(std::make_pair(allHash[next_hash][id], next_hash));
@@ -152,17 +139,98 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
     }
 }
 
+void DifferentialHeuristic::writeToFile() {
+    std::string name = "./heuristic_furthest.txt";
+    ofstream f(name);
+    if (f.is_open()) {
+        for (unsigned int i = 0; i < totalnum; ++i) {
+            for (int j = 0; j < 10; ++j) {
+                f << allHash[i][j] << ' ';
+            }
+            f << endl;
+        }
+    }
+}
+
 void DifferentialHeuristic::randomPlacement() {
-    std::vector<int> tempstate;
-    std::vector<State> t;
-    unsigned long long hashtemp;
-    bool isfilled = false;
-    for (int i = 0; i < numPivots; i++) {
-        cout << "build "<< i <<" heuristic " << endl;
+    std::string name = "./heuristic_random.txt";
+    struct stat buffer;
+    if (stat(name.c_str(), &buffer) == 0) {
+        std::string line;
+        int count = 0;
+        ifstream f(name);
+        while (std::getline(f, line)) {
+            std::istringstream iss(line);
+            std::vector<std::string> tokens{std::istream_iterator<std::string>(iss),
+                    std::istream_iterator<std::string>()};
+            for (int i = 0; i < 10; ++i) {
+                allHash[count][i] = std::stof(tokens[i]);
+            }
+            count++;
+        }
+        //cout << "built" << endl;
+    }
+    else {
+        std::vector<int> tempstate;
+        std::vector<State> t;
+        unsigned long long hashtemp;
+        bool isfilled = false;
+        for (int i = 0; i < numPivots; i++) {
+            cout << "build "<< i <<" heuristic " << endl;
+            t.clear();
+            srand( static_cast<unsigned int>(time(NULL)));
+            do {
+                tempstate.clear();
+                isfilled = false;
+                tempstate.push_back(rand()%mapSize[0]);
+                tempstate.push_back(rand()%mapSize[1]);
+                tempstate.push_back(rand()%mapSize[2]);
+                hashtemp = env.getStateHash(State(tempstate));
+                // make sure the random selected point is not an obstacle
+                std::map<unsigned long long, int>::iterator f =
+                                   env.hashtable.find(hashtemp);
+                if (f != env.hashtable.end()) {
+                    if (env.allStates[hashtemp].gcost == env.inf) {
+                        isfilled = true;
+                    }
+                }
+            } while (isfilled);
+            t.push_back(State(tempstate));
+            cout << "pivot generated" << endl;
+            dijkstraSearch(&t, i);
+        }
+        writeToFile();
+    }
+}
+
+
+void DifferentialHeuristic::furthestPlacement() {
+    std::string name = "./heuristic_furthest.txt";
+    struct stat buffer;
+    if (stat(name.c_str(), &buffer) == 0) {
+        std::string line;
+        int count = 0;
+        ifstream f(name);
+        while (std::getline(f, line)) {
+            std::istringstream iss(line);
+            std::vector<std::string> tokens{std::istream_iterator<std::string>(iss),
+                    std::istream_iterator<std::string>()};
+            for (int i = 0; i < 10; ++i) {
+                allHash[count][i] = std::stof(tokens[i]);
+            }
+            count++;
+        }
+        //cout << "built" << endl;
+    }
+    else {
+        std::vector<int> tempstate;
+        std::vector<State> t;
         t.clear();
-        tempstate.clear();
+        unsigned long long hashtemp;
+        bool isfilled = false;
         srand( static_cast<unsigned int>(time(NULL)));
         do {
+            tempstate.clear();
             isfilled = false;
             tempstate.push_back(rand()%mapSize[0]);
             tempstate.push_back(rand()%mapSize[1]);
@@ -178,32 +246,16 @@ void DifferentialHeuristic::randomPlacement() {
             }
         } while (isfilled);
         t.push_back(State(tempstate));
-        dijkstraSearch(&t, i);
-    }
-}
-
-
-void DifferentialHeuristic::furthestPlacement() {
-    std::vector<int> tempstate;
-    std::vector<State> t;
-    unsigned long long hashtemp;
-    bool isfilled = false;
-    srand( static_cast<unsigned int>(time(NULL)));
-    do {
-        tempstate.push_back(rand()%mapSize[0]);
-        tempstate.push_back(rand()%mapSize[1]);
-        tempstate.push_back(rand()%mapSize[2]);
-        hashtemp = env.getStateHash(State(tempstate));
-        if (env.allStates[hashtemp].gcost == env.inf) {
-            isfilled = true;
+        dijkstraSearch(&t, 0);
+        t.clear();
+        cout << "random done" << endl;
+        //tempstate = lastState.getState();
+        for (int i = 0; i < 10; i++) {
+            t.push_back(lastState);
+            dijkstraSearch(&t, i);
+            cout << "heuristic" << i << "built";
         }
-    } while (!isfilled);
-    t.push_back(State(tempstate));
-    dijkstraSearch(&t, 0);
-    tempstate = lastState.getState();
-    for (int i = 0; i < 10; i++) {
-        dijkstraSearch(&t, i);
-        t.push_back(lastState);
+        writeToFile();
     }
 }
 
@@ -213,8 +265,7 @@ void DifferentialHeuristic::optimizedPlacement() {
     unsigned long long hashtemp;
     //unsigned long long t1, t2;
     bool isfilled = false;
-    std::vector<double> heugains;
-    heugains.resize(30, 0);
+    std::vector<float> heugains;
     srand( static_cast<unsigned int>(time(NULL)));
     do {
         tempstate.push_back(rand()%mapSize[0]);
@@ -258,8 +309,8 @@ void DifferentialHeuristic::optimizedPlacement() {
 
 }
 
-double DifferentialHeuristic::singleConsistentLookup(State st) {
-    double value1 = 0, value2 = 0;
+float DifferentialHeuristic::singleConsistentLookup(State st) {
+    float value1 = 0, value2 = 0;
     int id = 0;
     unsigned long long h1 = env.getStateHash(st);
     unsigned long long h2 = env.getStateHash(env.getGoal());
@@ -268,8 +319,8 @@ double DifferentialHeuristic::singleConsistentLookup(State st) {
     return abs(value1 - value2);
 }
 
-double DifferentialHeuristic::singleInconsistentLookup(State st) {
-    double value1 = 0, value2 = 0;
+float DifferentialHeuristic::singleInconsistentLookup(State st) {
+    float value1 = 0, value2 = 0;
     srand( static_cast<unsigned int>(time(NULL)));
     int id = rand()%numPivots;
     unsigned long long h1 = env.getStateHash(st);
@@ -279,25 +330,37 @@ double DifferentialHeuristic::singleInconsistentLookup(State st) {
     return abs(value1 - value2);
 }
 
-double DifferentialHeuristic::multipleLookup(State st) {
-    double value1 = 0, value2 = 0;
+float DifferentialHeuristic::multipleLookup(State st) {
+    float value1 = 0, maxv = 0;
     unsigned long long h1 = env.getStateHash(st);
     unsigned long long h2 = env.getStateHash(env.getGoal());
     for (int i = 0; i < numPivots; i++) {
-        if (allHash[h1][i] > value1) {
-            value1 = allHash[h1][i];
-        }
-        if (allHash[h2][i] > value2) {
-            value2 = allHash[h2][i];
+        value1 = abs(allHash[h1][i] - allHash[h2][i]);
+        if (maxv < value1) {
+            maxv = value1;
         }
     }
-    return abs(value1 - value2);
+    return maxv;
 }
 
-double DifferentialHeuristic::HCost(State st) {
+float DifferentialHeuristic::HCost(State st) {
+    //return 0;
     return singleInconsistentLookup(st);
     //return singleConsistentLookup(st);
     //return multipleLookup(st);
+    /*float x,y,z,dmin,dmax,dmid;
+    tempstate1 = st.getState();
+    tempstate2 = env.getGoal().getState();
+    x = abs(tempstate1[0] - tempstate2[0]);
+    y = abs(tempstate1[1] - tempstate2[1]);
+    z = abs(tempstate1[2] - tempstate2[2]);
+    dmin = fmin(x,y);
+    dmin = fmin(dmin, z);
+    dmax = fmax(x,y);
+    dmax = fmax(dmax, z);
+
+    dmid = x+y+z-dmin-dmax;
+    return ((sqrt(3)-sqrt(2))*dmin + (sqrt(2)-1)*dmid + dmax);*/
 }
 
 

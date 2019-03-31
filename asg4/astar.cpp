@@ -18,6 +18,7 @@
 #include <string.h>
 #include <deque>
 #include <cmath>
+#include <ctime>
 //#include "voxel_env.hpp"
 #include "differentialHeuristic.hpp"
 
@@ -140,17 +141,18 @@ private:
     State start;
     State goal;
     Heap openlist;
+    std::vector<State> succes;
 
 public:
     int expanded;
     int updated;
     int max_open;
-    std::queue<State> *path;
+    std::vector<State> path;
     Astar(State s, State g);
     ~Astar();
     bool search();
     bool searchBPMX();
-    std::queue<State> *getPath();
+    std::vector<State> getPath();
 };
 
 Astar::Astar(State s, State g) {
@@ -172,31 +174,35 @@ Astar::~Astar(){}
 
 bool Astar::search() {
     std::vector<Action> actions;
+    int next, open_id, index;
+    float newcost;
+    Action action = Action({0});
     State start = env.getStart();
+
     openlist.heap_push(start_index, heu.HCost(start));
     while (openlist.getQueueLength() != 0) {
-        int index = openlist.heap_pop();
+        index = openlist.heap_pop();
         State st = env.allStates[index].getState();
         env.allStates[index].open_id = -1;
-        expanded += 1;
+        expanded++;
         if (env.isSuccess(st)) {
-            //path = getPath();
+            path = getPath();
             return true;
         }
         env.getActions(st, &actions);
         for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
-            Action action = actions[i];
-            int next = env.applyActionCopy(action, st);
+            action = actions[i];
+            next = env.applyActionCopy(action, st);
             State next_state = env.allStates[next].getState();
-            int open_id = env.allStates[next].open_id;
+            open_id = env.allStates[next].open_id;
             if (open_id == -1) {
                 continue;
             }
             else if (open_id > -1) {
-                int newcost = env.allStates[index].gcost+
-                env.cost(st, next_state);
+                newcost = env.allStates[index].gcost+
+                            env.cost(st, next_state);
                 if (newcost < env.allStates[next].gcost) {
-                    updated += 1;
+                    updated++;
                     env.allStates[next].gcost = newcost;
                     env.allStates[next].parent = index;
                     openlist.sift_up(env.allStates[next].open_id);
@@ -204,10 +210,10 @@ bool Astar::search() {
             }
             else {
                 env.allStates[next].gcost = env.allStates[index].gcost+
-                env.cost(st, next_state);
+                        env.cost(st, next_state);
                 env.allStates[next].parent = index;
                 openlist.heap_push(next, heu.HCost(next_state));
-                max_open += 1;
+                max_open++;
             }
         }
     }
@@ -216,55 +222,72 @@ bool Astar::search() {
 
 bool Astar::searchBPMX() {
     Action action = Action({0});
-    State next_state;
+    State next_state, st;
     std::vector<Action> actions;
-    double bestH = 0;
+    float bestH = 0, edgecost, newcost;
+    int next, index, open_id;
+    // push start to openlist
     State start = env.getStart();
     openlist.heap_push(start_index, heu.HCost(start));
+
     while (openlist.getQueueLength() != 0) {
-        bestH = 0;
-        int index = openlist.heap_pop();
-        State st = env.allStates[index].getState();
+        
+        // pop best node from openlist
+        index = openlist.heap_pop();
+        st = env.allStates[index].getState();
         env.allStates[index].open_id = -1;
+     
         expanded += 1;
         if (env.isSuccess(st)) {
-            //path = getPath();
+            path = getPath();
             return true;
         }
+
+        succes.clear();
+        bestH = 0; // stores parent h-cost from pathmax
+        // generate successors
         env.getActions(st, &actions);
+        // cache lookups for later use
         for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
             action = actions[i];
-            int next = env.applyActionCopy(action, st);
+            next = env.applyActionCopy(action, st);
             next_state = env.allStates[next].getState();
+            succes.push_back(next_state);
             bestH = fmax(heu.HCost(next_state)-env.cost(st, next_state), bestH);
         }
-        env.allStates[index].hcost = fmax(heu.HCost(st), bestH);
+        // store heuristics for current node with bestH.
+        if (env.allStates[index].hcost < bestH)
+        {
+            env.allStates[index].hcost = bestH;
+        }
 
-        for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
-            action = actions[i];
-            int next = env.applyActionCopy(action, st);
-            next_state = env.allStates[next].getState();
-            int open_id = env.allStates[next].open_id;
-            double edgecost = env.cost(st, next_state);
+        for (unsigned int i = 0; i < succes.size(); i++) {
+            next_state = succes[i];
+            next = env.getHashIndex(env.getStateHash(next_state));
+            open_id = env.allStates[next].open_id;
+            // generate edge cost
+            edgecost = env.cost(st, next_state);
+
             if (open_id == -1) { // closed list
-                if (heu.HCost(next_state) < bestH - edgecost){ // Bidirectional PathMax
+                if (env.allStates[next].hcost < bestH - edgecost){ // Bidirectional PathMax
                     env.allStates[next].hcost = bestH - edgecost;
                 }
-                if (env.allStates[index].gcost + edgecost < env.allStates[next].gcost) { // found a shorter path and re-open
+                // found a shorter path and re-open
+                if (env.allStates[index].gcost + edgecost < env.allStates[next].gcost) { 
                     env.allStates[next].parent = index;
                     env.allStates[next].gcost = env.allStates[index].gcost + edgecost;
                     openlist.heap_push(next, env.allStates[next].hcost);
                 }
             }
             else if (open_id > -1) { // open list
-                int newcost = env.allStates[index].gcost + edgecost;
+                newcost = env.allStates[index].gcost + edgecost;
                 if (newcost < env.allStates[next].gcost) {
                     updated += 1;
                     env.allStates[next].gcost = newcost;
                     env.allStates[next].parent = index;
-                    openlist.sift_up(env.allStates[next].open_id);
+                    openlist.sift_up(env.allStates[next].open_id); // resort openlist
                 }
-                if (bestH - edgecost > heu.HCost(next_state)) {
+                if (bestH - edgecost > env.allStates[next].hcost) {
                     env.allStates[next].hcost = bestH - edgecost;
                     openlist.sift_down(env.allStates[next].open_id);
                 }
@@ -281,12 +304,13 @@ bool Astar::searchBPMX() {
 }
 
 
-std::queue<State> *Astar::getPath() {
-    path->push(env.getGoal());
+std::vector<State> Astar::getPath() {
+    path.clear();
+    path.push_back(env.getGoal());
     unsigned long long v = env.getStateHash(env.getGoal());
     StateInfo state = env.allStates[env.getHashIndex(v)];
     while (state.parent != -1) {
-        path->push(env.allStates[state.parent].getState());
+        path.push_back(env.allStates[state.parent].getState());
         state = env.allStates[state.parent];
     }
     return path;
@@ -340,17 +364,27 @@ int main(int argc, char const *argv[])
 {
     //std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     //State goal = State(g);
+    std::vector<int> v;
+    for (int i = 0; i < 10000; ++i){
+        std::vector<int> s, g;
+        load3dfile(i, &s, &g);
+        Astar search = Astar(s, g);
+        clock_t begin = clock();
+        bool result = search.search();
+        //bool result = search.searchBPMX();
+        clock_t end = clock();
+        //std::queue<State> *path = search.getPath();
+        if (result == true){
+            std::cout << "num: " << i <<" expanded: " << search.expanded << " updated: " << 
+                search.updated << " path_len: " << search.path.size() << " max_open: " << search.max_open << " time_elpased: "
+                << double(end - begin) / CLOCKS_PER_SEC << std::endl;
+        }
+        //break;
+    }
 
-    int index = 41;
-    std::vector<int> s, g;
-    load3dfile(index, &s, &g);
     //State benchmark = loadstpFile(index, &si);
     //std::vector<int> s = {1,2,3,7,0,4,5,6,8,9,10,11,12,13,14,15};
     //State benchmark = State(s);
 
-    Astar search = Astar(s, g);
-    search.search();
-    //std::queue<State> *path = search.getPath();
-    std::cout << "expanded: " << search.expanded << " updated: " << search.updated << " max open: " << search.max_open << std::endl;
-    return 0;
+return 0;
 }
