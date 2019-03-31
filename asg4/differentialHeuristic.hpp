@@ -84,8 +84,8 @@ Voxel_env DifferentialHeuristic::getEnv() {
 }
 
 void DifferentialHeuristic::buildHeuristic() {
-    //randomPlacement();
-    furthestPlacement();
+    randomPlacement();
+    //furthestPlacement();
     //optimizedPlacement();
 }
 
@@ -140,7 +140,7 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
 }
 
 void DifferentialHeuristic::writeToFile() {
-    std::string name = "/Users/margaret/Documents/cmput652/searchAlg/data/heuristic_furthest.txt";
+    std::string name = "./heuristic_furthest.txt";
     ofstream f(name);
     if (f.is_open()) {
         for (unsigned int i = 0; i < totalnum; ++i) {
@@ -153,7 +153,7 @@ void DifferentialHeuristic::writeToFile() {
 }
 
 void DifferentialHeuristic::randomPlacement() {
-    std::string name = "/Users/margaret/Documents/cmput652/searchAlg/data/heuristic_random.txt";
+    std::string name = "./heuristic_random.txt";
     struct stat buffer;
     if (stat(name.c_str(), &buffer) == 0) {
         std::string line;
@@ -205,7 +205,7 @@ void DifferentialHeuristic::randomPlacement() {
 
 
 void DifferentialHeuristic::furthestPlacement() {
-    std::string name = "/Users/margaret/Documents/cmput652/searchAlg/data/heuristic_furthest.txt";
+    std::string name = "./heuristic_furthest.txt";
     struct stat buffer;
     if (stat(name.c_str(), &buffer) == 0) {
         std::string line;

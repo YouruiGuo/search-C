@@ -281,7 +281,7 @@ void Voxel_env::loadMap() {
     std::vector<int> s;
     State st;
     unsigned long long h;
-    std::string df = "/Users/margaret/Documents/cmput652/searchAlg/data/Simple.3dmap";
+    std::string df = "./Simple.3dmap";
     std::ifstream infile(df);
     std::string line;
     std::getline(infile, line);
