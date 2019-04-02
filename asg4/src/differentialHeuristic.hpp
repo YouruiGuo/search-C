@@ -56,7 +56,8 @@ public:
     float multipleLookup(State st);
     unsigned long long lexicographicalRanking(State st);
     float HCost(State st);
-    void writeToFile();
+    float voxelHeuristic(State st);
+    void writeToFile(std::vector<int> v);
 };
 
 DifferentialHeuristic::DifferentialHeuristic(State s, State g) {
@@ -73,7 +74,8 @@ DifferentialHeuristic::DifferentialHeuristic(State s, State g) {
     for (unsigned int i = 0; i < totalnum; i++) {
         allHash[i].resize(30, env.inf);
     }
-    buildHeuristic();
+    buildHeuristic();        
+
 }
 
 DifferentialHeuristic::DifferentialHeuristic(){}
@@ -84,9 +86,9 @@ Voxel_env DifferentialHeuristic::getEnv() {
 }
 
 void DifferentialHeuristic::buildHeuristic() {
-    randomPlacement();
+    //randomPlacement();
     //furthestPlacement();
-    //optimizedPlacement();
+    optimizedPlacement();
 }
 
 void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
@@ -105,15 +107,21 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
         temphash = env.getStateHash((*s)[i]);
         Q.push(std::make_pair(0, temphash));
         allHash[temphash][id] = 0;
+        temp = (*s)[i];
+        cout << "in dijkstraSearch" << temp.getState()[0] << ' ' << temp.getState()[1] << ' ' << temp.getState()[2] << endl;
     }
-
     while (!Q.empty()) {
         numExpandNode++;
         temphash = Q.top().second;
         temp = env.unranking(temphash);
+        if (temp.getState()[0] > env.getMapsize()[0] || 
+            temp.getState()[1] > env.getMapsize()[1] || temp.getState()[2] > env.getMapsize()[2]){
+            cout << temp.getState()[0] << ' ' << temp.getState()[1] << ' ' << temp.getState()[2] << endl;
+        }
         Q.pop();
         if (Q.empty()) {
             lastState = temp;
+            //cout << temp.getState()[0] << ' ' << temp.getState()[1] << ' ' << temp.getState()[2] << endl;
         }
 
         env.getActions(temp, &actions);
@@ -132,6 +140,7 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
 
             if (allHash[next_hash][id] > allHash[temphash][id] + cost) {
                 allHash[next_hash][id] = allHash[temphash][id] + cost;
+                
                 Q.push(std::make_pair(allHash[next_hash][id], next_hash));
             }
             env.undoAction(action, &temp);
@@ -139,13 +148,17 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
     }
 }
 
-void DifferentialHeuristic::writeToFile() {
-    std::string name = "./heuristic_furthest.txt";
+void DifferentialHeuristic::writeToFile(std::vector<int> v) {
+    std::string name = "./heuristic_optimized.txt";
     ofstream f(name);
+    int k = 0;
     if (f.is_open()) {
         for (unsigned int i = 0; i < totalnum; ++i) {
-            for (int j = 0; j < 10; ++j) {
-                f << allHash[i][j] << ' ';
+            for (int j = 0; j < 30; ++j) {
+                if (j == v[k]) {
+                    f << allHash[i][j] << ' ';
+                    k++;
+                }
             }
             f << endl;
         }
@@ -153,6 +166,7 @@ void DifferentialHeuristic::writeToFile() {
 }
 
 void DifferentialHeuristic::randomPlacement() {
+    cout << "random Placement" << endl;
     std::string name = "./heuristic_random.txt";
     struct stat buffer;
     if (stat(name.c_str(), &buffer) == 0) {
@@ -199,12 +213,13 @@ void DifferentialHeuristic::randomPlacement() {
             cout << "pivot generated" << endl;
             dijkstraSearch(&t, i);
         }
-        writeToFile();
+        writeToFile({0,1,2,3,4,5,6,7,8,9});
     }
 }
 
 
 void DifferentialHeuristic::furthestPlacement() {
+    //cout << "furthest Placement" << endl;
     std::string name = "./heuristic_furthest.txt";
     struct stat buffer;
     if (stat(name.c_str(), &buffer) == 0) {
@@ -224,7 +239,7 @@ void DifferentialHeuristic::furthestPlacement() {
     }
     else {
         std::vector<int> tempstate;
-        std::vector<State> t;
+        std::vector<State> t, h;
         t.clear();
         unsigned long long hashtemp;
         bool isfilled = false;
@@ -246,70 +261,155 @@ void DifferentialHeuristic::furthestPlacement() {
             }
         } while (isfilled);
         t.push_back(State(tempstate));
-        dijkstraSearch(&t, 0);
+        dijkstraSearch(&t, 29);
+        for (unsigned int j = 0; j < allHash.size(); ++j) {
+            allHash[j][29] = env.inf;
+        }
         t.clear();
         cout << "random done" << endl;
         //tempstate = lastState.getState();
         for (int i = 0; i < 10; i++) {
             t.push_back(lastState);
             dijkstraSearch(&t, i);
-            cout << "heuristic" << i << "built";
+            cout << i << endl;
+            for (unsigned int j = 0; j < allHash.size(); ++j) {
+                allHash[j][i] = env.inf;
+            }
         }
-        writeToFile();
+        for (int i = 0; i < 10; ++i) {
+            h.clear();
+            h.push_back(t[i]);
+            cout << t[i].getState()[0] << ' ' << t[i].getState()[1] << ' ' << t[i].getState()[2] << endl;
+            dijkstraSearch(&h, i);
+            cout << "heuristic" << i << "built" << endl;
+        }
+        writeToFile({0,1,2,3,4,5,6,7,8,9});
     }
 }
 
+bool sortdesc(const pair<float,int> &a, 
+              const pair<float,int> &b) { 
+    return (a.first > b.first); 
+} 
+
 void DifferentialHeuristic::optimizedPlacement() {
+    std::string name = "./heuristic_furthest.txt";
+    struct stat buffer;
     std::vector<int> tempstate;
     std::vector<State> t, samples;
-    unsigned long long hashtemp;
-    //unsigned long long t1, t2;
-    bool isfilled = false;
-    std::vector<float> heugains;
-    srand( static_cast<unsigned int>(time(NULL)));
-    do {
-        tempstate.push_back(rand()%mapSize[0]);
-        tempstate.push_back(rand()%mapSize[1]);
-        tempstate.push_back(rand()%mapSize[2]);
-        hashtemp = env.getStateHash(State(tempstate));
-        if (env.allStates[hashtemp].gcost == env.inf) {
-            isfilled = true;
+    unsigned long long t1, t2;
+    if (stat(name.c_str(), &buffer) == 0) {
+        std::string line;
+        int count = 0;
+        ifstream f(name);
+        while (std::getline(f, line)) {
+            std::istringstream iss(line);
+            std::vector<std::string> tokens{std::istream_iterator<std::string>(iss),
+                    std::istream_iterator<std::string>()};
+            for (int i = 0; i < 10; ++i) {
+                allHash[count][i] = std::stof(tokens[i]);
+            }
+            count++;
         }
-    } while (!isfilled);
-    t.push_back(State(tempstate));
-    dijkstraSearch(&t, 0);
-    tempstate = lastState.getState();
-    // generate 30 pivots and corresponding heuristics
-    for (int i = 0; i < 30; i++) {
-        dijkstraSearch(&t, i);
-        t.push_back(lastState);
+        //cout << "built" << endl;
     }
-
-    // generate samples
-    for (int i = 0; i < 100; i++) {
-        tempstate.clear();
+    else {
+        std::vector<int> tempstate;
+        std::vector<State> t, h;
+        std::vector<std::pair<float, int>> compare;
+        for (int i = 0; i < 30; ++i) {
+            compare.push_back(std::make_pair(0,i));
+        }
+        float first;
+        t.clear();
+        unsigned long long hashtemp;
+        bool isfilled = false;
+        srand( static_cast<unsigned int>(time(NULL)));
         do {
+            tempstate.clear();
+            isfilled = false;
             tempstate.push_back(rand()%mapSize[0]);
             tempstate.push_back(rand()%mapSize[1]);
             tempstate.push_back(rand()%mapSize[2]);
             hashtemp = env.getStateHash(State(tempstate));
-            if (env.allStates[hashtemp].gcost == env.inf) {
-                isfilled = true;
+            // make sure the random selected point is not an obstacle
+            std::map<unsigned long long, int>::iterator f =
+                               env.hashtable.find(hashtemp);
+            if (f != env.hashtable.end()) {
+                if (env.allStates[hashtemp].gcost == env.inf) {
+                    isfilled = true;
+                }
             }
-        } while (!isfilled);
-        samples.push_back(State(tempstate));
-    }
+        } while (isfilled);
+        t.push_back(State(tempstate));
+        dijkstraSearch(&t, 29);
+        for (unsigned int j = 0; j < allHash.size(); ++j) {
+            allHash[j][29] = env.inf;
+        }
+        t.clear();
+        cout << "random done" << endl;
+        //tempstate = lastState.getState();
+        for (int i = 0; i < 30; i++) {
+            t.push_back(lastState);
+            dijkstraSearch(&t, i);
+            cout << i << endl;
+            for (unsigned int j = 0; j < allHash.size(); ++j) {
+                allHash[j][i] = env.inf;
+            }
+        }
+        for (int i = 0; i < 30; ++i) {
+            h.clear();
+            h.push_back(t[i]);
+            cout << t[i].getState()[0] << ' ' << t[i].getState()[1] << ' ' << t[i].getState()[2] << endl;
+            dijkstraSearch(&h, i);
+            cout << "heuristic" << i << "built" << endl;
+        }
 
-    // measure the best 10 heuristics by comparing heuristic gains.
-    for (int i = 0; i < 50; i++) {
-        //t1 = env.getStateHash(samples[i*2]);
-        //t2 = env.getStateHash(samples[i*2+1]);
-        // TODO
-    }
+        // generate samples
+        for (int i = 0; i < 100; i++) {
+            tempstate.clear();
+            do {
+                tempstate.push_back(rand()%mapSize[0]);
+                tempstate.push_back(rand()%mapSize[1]);
+                tempstate.push_back(rand()%mapSize[2]);
+                hashtemp = env.getStateHash(State(tempstate));
+                if (env.allStates[hashtemp].gcost == env.inf) {
+                    isfilled = true;
+                }
+                for (unsigned int j = 0; j < samples.size(); ++j) { // ensure no same point is generated
+                    if (tempstate[0]==samples[j].getState()[0] && tempstate[1]==samples[j].getState()[1] 
+                                    && tempstate[2]==samples[j].getState()[2]){
+                        isfilled = true;
+                        break;
+                    }
+                }
+            } while (!isfilled);
+            samples.push_back(State(tempstate));
+        }
 
+        // calculate gains comparing to the first heuristic.
+        for (int i = 0; i < 50; i++) {
+            t1 = env.getStateHash(samples[i*2]);
+            t2 = env.getStateHash(samples[i*2+1]);
+            first = fabs(allHash[t1][0] - allHash[t2][0]);
+            for (int j = 0; j < 30; ++j) {
+                compare[j].first += (fabs(allHash[t1][j] - allHash[t2][j]) - first);
+            }
+        }
+
+        // measure the best 10 heuristics by comparing heuristic gains.
+        std::vector<int> ind;
+        std::sort(compare.begin(), compare.end(), sortdesc);
+        for (int i = 0; i < 10; ++i) {
+            ind.push_back(compare[i].second);
+        }
+        std::sort(ind.begin(), ind.end());
+        writeToFile(ind);
+    }
 }
 
 float DifferentialHeuristic::singleConsistentLookup(State st) {
+
     float value1 = 0, value2 = 0;
     int id = 0;
     unsigned long long h1 = env.getStateHash(st);
@@ -320,6 +420,7 @@ float DifferentialHeuristic::singleConsistentLookup(State st) {
 }
 
 float DifferentialHeuristic::singleInconsistentLookup(State st) {
+
     float value1 = 0, value2 = 0;
     srand( static_cast<unsigned int>(time(NULL)));
     int id = rand()%numPivots;
@@ -343,11 +444,7 @@ float DifferentialHeuristic::multipleLookup(State st) {
     return maxv;
 }
 
-float DifferentialHeuristic::HCost(State st) {
-    //return 0;
-    return singleInconsistentLookup(st);
-    //return singleConsistentLookup(st);
-    //return multipleLookup(st);
+float DifferentialHeuristic::voxelHeuristic(State st) {
     float x,y,z,dmin,dmax,dmid;
     tempstate1 = st.getState();
     tempstate2 = env.getGoal().getState();
@@ -361,6 +458,13 @@ float DifferentialHeuristic::HCost(State st) {
 
     dmid = x+y+z-dmin-dmax;
     return ((sqrt(3)-sqrt(2))*dmin + (sqrt(2)-1)*dmid + dmax);
+}
+
+float DifferentialHeuristic::HCost(State st) {
+    //return 0;
+    //return singleInconsistentLookup(st);
+    //return singleConsistentLookup(st);
+    return multipleLookup(st);
 }
 
 

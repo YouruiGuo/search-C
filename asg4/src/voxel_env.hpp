@@ -50,12 +50,12 @@ class Voxel_env {
     State goal_state;
     std::vector<int> mapsize;
     std::vector<Action> allActions, singleAction;
-
+    
     std::vector<int> isuccess_t, isuccess_g, inmap, hashtemp, costp, costc;
     std::vector<int> isrepeat_p, isrepeat_c, lx, ly, lz, act;
-
-
-
+    
+    
+    
 public:
     double inf;
     std::map<unsigned long long, int> hashtable;
@@ -89,17 +89,17 @@ Voxel_env::Voxel_env(State s, State g) {
     start_state = s;
     goal_state = g;
     inf = std::numeric_limits<double>::infinity();
-
+    
     loadMap();
-
+    
     allStates.push_back(s);
     unsigned long long svalue = getStateHash(s);
     hashtable[svalue] = (int)allStates.size()-1;
-
+    
     allStates.push_back(g);
     unsigned long long gvalue = getStateHash(g);
     hashtable[gvalue] = (int)allStates.size()-1;
-
+    
     std::vector<int> v = {-1, 0, 1};
     for (int i=0; i<3; i++) {
         for (int j=0; j<3; j++) {
@@ -111,7 +111,7 @@ Voxel_env::Voxel_env(State s, State g) {
             }
         }
     }
-
+    
 }
 
 void Voxel_env::setStart(State s) {
@@ -162,13 +162,13 @@ bool Voxel_env::isRepeat(Action prev, Action curr) {
 
 bool Voxel_env::isInMap(State st) {
     inmap = st.getState();
-    if ((inmap[0] < 0) || (inmap[0] > mapsize[0])) {
+    if ((inmap[0] < 0) || (inmap[0] >= mapsize[0])) {
         return false;
     }
-    if ((inmap[1] < 0) || (inmap[1] > mapsize[1])) {
+    if ((inmap[1] < 0) || (inmap[1] >= mapsize[1])) {
         return false;
     }
-    if ((inmap[2] < 0) || (inmap[2] > mapsize[2])) {
+    if ((inmap[2] < 0) || (inmap[2] >= mapsize[2])) {
         return false;
     }
     return true;
@@ -186,6 +186,9 @@ State Voxel_env::unranking(unsigned long long h) {
     h = h / mapsize[2];
     hashtemp[1] = h % mapsize[1];
     hashtemp[0] = int(h / mapsize[1]);
+    if (hashtemp[0] > mapsize[0]) {
+        
+    }
     return State(hashtemp);
 }
 
@@ -224,7 +227,7 @@ void Voxel_env::getActions(State st, std::vector<Action> *actions) {
                     hv = getStateHash(st);
                     gcost = -1;
                     std::map<unsigned long long, int>::iterator f =
-                                                hashtable.find(hv);
+                    hashtable.find(hv);
                     if (f != hashtable.end()) {
                         gcost = allStates[hashtable[hv]].gcost;
                     }
@@ -291,6 +294,9 @@ void Voxel_env::loadMap() {
     mapsize.push_back(std::stoi(tokens[1]));
     mapsize.push_back(std::stoi(tokens[2]));
     mapsize.push_back(std::stoi(tokens[3]));
+    mapsize[0]++;
+    mapsize[1]++;
+    mapsize[2]++;
     while (std::getline(infile, line)) {
         s.clear();
         std::istringstream iss(line);

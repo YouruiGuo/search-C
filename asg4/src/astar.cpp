@@ -256,8 +256,7 @@ bool Astar::searchBPMX() {
             bestH = fmax(heu.HCost(next_state)-env.cost(st, next_state), bestH);
         }
         // store heuristics for current node with bestH.
-        if (env.allStates[index].hcost < bestH)
-        {
+        if (env.allStates[index].hcost < bestH) {
             env.allStates[index].hcost = bestH;
         }
 
@@ -310,12 +309,13 @@ std::vector<State> Astar::getPath() {
     path.push_back(env.getGoal());
     unsigned long long v = env.getStateHash(env.getGoal());
     StateInfo state = env.allStates[env.getHashIndex(v)];
-    while (state.parent != -1) {
+    do {
+        //cout << state.getState().getState()[0] << ' ' << state.getState().getState()[1] << ' ' << state.getState().getState()[2] << endl;
         pathcost += env.cost(state.getState(), env.allStates[state.parent].getState());
         path.push_back(env.allStates[state.parent].getState());
         state = env.allStates[state.parent];
-    }
-    cout << pathcost << endl;
+    }while (state.parent != -1);
+    //cout << pathcost << endl;
     return path;
 }
 
@@ -368,13 +368,15 @@ int main(int argc, char const *argv[])
     //std::vector<int> g = {0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15};
     //State goal = State(g);
     std::vector<int> v;
-    for (int i = 0; i < 10000; ++i){
+
+
+    for (int i = 0; i < 1000; ++i){
         std::vector<int> s, g;
         load3dfile(i, &s, &g);
         Astar search = Astar(s, g);
         clock_t begin = clock();
-        //bool result = search.search();
-        bool result = search.searchBPMX();
+        bool result = search.search();
+        //bool result = search.searchBPMX();
         clock_t end = clock();
         //std::queue<State> *path = search.getPath();
         if (result == true){
