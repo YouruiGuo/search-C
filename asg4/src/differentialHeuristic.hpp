@@ -40,7 +40,7 @@ private:
     State lastState;
     int numPivots;
     std::vector<int> mapSize,tempstate1, tempstate2;
-
+    
 public:
     DifferentialHeuristic();
     DifferentialHeuristic(State s, State g);
@@ -70,12 +70,12 @@ DifferentialHeuristic::DifferentialHeuristic(State s, State g) {
         totalnum *= (mapSize[i]+1);
     }
     allHash.resize(totalnum);
-
+    
     for (unsigned int i = 0; i < totalnum; i++) {
         allHash[i].resize(30, env.inf);
     }
-    buildHeuristic();        
-
+    buildHeuristic();
+    
 }
 
 DifferentialHeuristic::DifferentialHeuristic(){}
@@ -93,15 +93,15 @@ void DifferentialHeuristic::buildHeuristic() {
 
 void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
     std::priority_queue<weight_vertex_pair,
-                        std::vector<weight_vertex_pair>,
-                        greater<weight_vertex_pair>> Q;
+    std::vector<weight_vertex_pair>,
+    greater<weight_vertex_pair>> Q;
     
     std::vector<Action> actions;
     Action action = Action({-1});
     unsigned long long temphash, next_hash;
     float cost = 0;
     State temp;
-
+    
     // push the start state to the priority queue
     for (unsigned int i = 0; i < s->size(); i++) {
         temphash = env.getStateHash((*s)[i]);
@@ -114,7 +114,7 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
         numExpandNode++;
         temphash = Q.top().second;
         temp = env.unranking(temphash);
-        if (temp.getState()[0] > env.getMapsize()[0] || 
+        if (temp.getState()[0] > env.getMapsize()[0] ||
             temp.getState()[1] > env.getMapsize()[1] || temp.getState()[2] > env.getMapsize()[2]){
             cout << temp.getState()[0] << ' ' << temp.getState()[1] << ' ' << temp.getState()[2] << endl;
         }
@@ -123,9 +123,9 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
             lastState = temp;
             //cout << temp.getState()[0] << ' ' << temp.getState()[1] << ' ' << temp.getState()[2] << endl;
         }
-
+        
         env.getActions(temp, &actions);
-
+        
         for (std::vector<Action>::size_type i = 0; i < actions.size(); ++i) {
             action = actions[i];
             // get the cost of the action
@@ -134,10 +134,10 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
                 cost += abs(n);
             }
             cost = sqrt(cost);
-
+            
             env.applyAction(action, &temp);
             next_hash = env.getStateHash(temp);
-
+            
             if (allHash[next_hash][id] > allHash[temphash][id] + cost) {
                 allHash[next_hash][id] = allHash[temphash][id] + cost;
                 
@@ -149,11 +149,12 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
 }
 
 void DifferentialHeuristic::writeToFile(std::vector<int> v) {
-    std::string name = "./heuristic_optimized.txt";
+    std::string name = "../heuristic_optimized.txt";
     ofstream f(name);
     int k = 0;
     if (f.is_open()) {
         for (unsigned int i = 0; i < totalnum; ++i) {
+            k = 0;
             for (int j = 0; j < 30; ++j) {
                 if (j == v[k]) {
                     f << allHash[i][j] << ' ';
@@ -176,7 +177,7 @@ void DifferentialHeuristic::randomPlacement() {
         while (std::getline(f, line)) {
             std::istringstream iss(line);
             std::vector<std::string> tokens{std::istream_iterator<std::string>(iss),
-                    std::istream_iterator<std::string>()};
+                std::istream_iterator<std::string>()};
             for (int i = 0; i < 10; ++i) {
                 allHash[count][i] = std::stof(tokens[i]);
             }
@@ -202,7 +203,7 @@ void DifferentialHeuristic::randomPlacement() {
                 hashtemp = env.getStateHash(State(tempstate));
                 // make sure the random selected point is not an obstacle
                 std::map<unsigned long long, int>::iterator f =
-                                   env.hashtable.find(hashtemp);
+                env.hashtable.find(hashtemp);
                 if (f != env.hashtable.end()) {
                     if (env.allStates[hashtemp].gcost == env.inf) {
                         isfilled = true;
@@ -229,7 +230,7 @@ void DifferentialHeuristic::furthestPlacement() {
         while (std::getline(f, line)) {
             std::istringstream iss(line);
             std::vector<std::string> tokens{std::istream_iterator<std::string>(iss),
-                    std::istream_iterator<std::string>()};
+                std::istream_iterator<std::string>()};
             for (int i = 0; i < 10; ++i) {
                 allHash[count][i] = std::stof(tokens[i]);
             }
@@ -253,7 +254,7 @@ void DifferentialHeuristic::furthestPlacement() {
             hashtemp = env.getStateHash(State(tempstate));
             // make sure the random selected point is not an obstacle
             std::map<unsigned long long, int>::iterator f =
-                               env.hashtable.find(hashtemp);
+            env.hashtable.find(hashtemp);
             if (f != env.hashtable.end()) {
                 if (env.allStates[hashtemp].gcost == env.inf) {
                     isfilled = true;
@@ -287,17 +288,27 @@ void DifferentialHeuristic::furthestPlacement() {
     }
 }
 
-bool sortdesc(const pair<float,int> &a, 
-              const pair<float,int> &b) { 
-    return (a.first > b.first); 
-} 
+bool sortdesc(const pair<float,int> &a,
+              const pair<float,int> &b) {
+    return (a.first > b.first);
+}
 
 void DifferentialHeuristic::optimizedPlacement() {
-    std::string name = "./heuristic_furthest.txt";
+    std::string name = "../heuristic_optimized.txt";
     struct stat buffer;
     std::vector<int> tempstate;
     std::vector<State> t, samples;
     unsigned long long t1, t2;
+    std::vector<State> h;
+    std::vector<std::pair<float, int>> compare;
+    for (int i = 0; i < 30; ++i) {
+        compare.push_back(std::make_pair(0,i));
+    }
+    float first;
+    t.clear();
+    unsigned long long hashtemp;
+    bool isfilled = false;
+    
     if (stat(name.c_str(), &buffer) == 0) {
         std::string line;
         int count = 0;
@@ -305,7 +316,7 @@ void DifferentialHeuristic::optimizedPlacement() {
         while (std::getline(f, line)) {
             std::istringstream iss(line);
             std::vector<std::string> tokens{std::istream_iterator<std::string>(iss),
-                    std::istream_iterator<std::string>()};
+                std::istream_iterator<std::string>()};
             for (int i = 0; i < 10; ++i) {
                 allHash[count][i] = std::stof(tokens[i]);
             }
@@ -314,16 +325,6 @@ void DifferentialHeuristic::optimizedPlacement() {
         //cout << "built" << endl;
     }
     else {
-        std::vector<int> tempstate;
-        std::vector<State> t, h;
-        std::vector<std::pair<float, int>> compare;
-        for (int i = 0; i < 30; ++i) {
-            compare.push_back(std::make_pair(0,i));
-        }
-        float first;
-        t.clear();
-        unsigned long long hashtemp;
-        bool isfilled = false;
         srand( static_cast<unsigned int>(time(NULL)));
         do {
             tempstate.clear();
@@ -334,7 +335,7 @@ void DifferentialHeuristic::optimizedPlacement() {
             hashtemp = env.getStateHash(State(tempstate));
             // make sure the random selected point is not an obstacle
             std::map<unsigned long long, int>::iterator f =
-                               env.hashtable.find(hashtemp);
+            env.hashtable.find(hashtemp);
             if (f != env.hashtable.end()) {
                 if (env.allStates[hashtemp].gcost == env.inf) {
                     isfilled = true;
@@ -364,29 +365,36 @@ void DifferentialHeuristic::optimizedPlacement() {
             dijkstraSearch(&h, i);
             cout << "heuristic" << i << "built" << endl;
         }
-
+        
         // generate samples
         for (int i = 0; i < 100; i++) {
             tempstate.clear();
             do {
+                srand( static_cast<unsigned int>(time(NULL)));
+                tempstate.clear();
+                isfilled = false;
                 tempstate.push_back(rand()%mapSize[0]);
                 tempstate.push_back(rand()%mapSize[1]);
                 tempstate.push_back(rand()%mapSize[2]);
                 hashtemp = env.getStateHash(State(tempstate));
-                if (env.allStates[hashtemp].gcost == env.inf) {
-                    isfilled = true;
+                std::map<unsigned long long, int>::iterator f =
+                env.hashtable.find(hashtemp);
+                if (f != env.hashtable.end()) {
+                    if (env.allStates[hashtemp].gcost == env.inf) {
+                        isfilled = true;
+                    }
                 }
-                for (unsigned int j = 0; j < samples.size(); ++j) { // ensure no same point is generated
-                    if (tempstate[0]==samples[j].getState()[0] && tempstate[1]==samples[j].getState()[1] 
-                                    && tempstate[2]==samples[j].getState()[2]){
+                for (int j = 0; j < (int)samples.size(); ++j) { // ensure no same point is generated
+                    if (tempstate[0]==samples[j].getState()[0] && tempstate[1]==samples[j].getState()[1]
+                        && tempstate[2]==samples[j].getState()[2]){
                         isfilled = true;
                         break;
                     }
                 }
-            } while (!isfilled);
+            } while (isfilled);
             samples.push_back(State(tempstate));
         }
-
+        
         // calculate gains comparing to the first heuristic.
         for (int i = 0; i < 50; i++) {
             t1 = env.getStateHash(samples[i*2]);
@@ -396,7 +404,7 @@ void DifferentialHeuristic::optimizedPlacement() {
                 compare[j].first += (fabs(allHash[t1][j] - allHash[t2][j]) - first);
             }
         }
-
+        
         // measure the best 10 heuristics by comparing heuristic gains.
         std::vector<int> ind;
         std::sort(compare.begin(), compare.end(), sortdesc);
@@ -409,7 +417,7 @@ void DifferentialHeuristic::optimizedPlacement() {
 }
 
 float DifferentialHeuristic::singleConsistentLookup(State st) {
-
+    
     float value1 = 0, value2 = 0;
     int id = 0;
     unsigned long long h1 = env.getStateHash(st);
@@ -420,7 +428,7 @@ float DifferentialHeuristic::singleConsistentLookup(State st) {
 }
 
 float DifferentialHeuristic::singleInconsistentLookup(State st) {
-
+    
     float value1 = 0, value2 = 0;
     srand( static_cast<unsigned int>(time(NULL)));
     int id = rand()%numPivots;
@@ -455,7 +463,7 @@ float DifferentialHeuristic::voxelHeuristic(State st) {
     dmin = fmin(dmin, z);
     dmax = fmax(x,y);
     dmax = fmax(dmax, z);
-
+    
     dmid = x+y+z-dmin-dmax;
     return ((sqrt(3)-sqrt(2))*dmin + (sqrt(2)-1)*dmid + dmax);
 }
