@@ -1,2000 +1,1001 @@
-random Placement
-num: 0 expanded: 172 updated: 353 path_len: 11 max_open: 535 time_elpased: 0.022325
-random Placement
-num: 1 expanded: 82 updated: 97 path_len: 21 max_open: 482 time_elpased: 0.010844
-random Placement
-num: 2 expanded: 600 updated: 861 path_len: 35 max_open: 1448 time_elpased: 0.078937
-random Placement
-num: 3 expanded: 409 updated: 613 path_len: 31 max_open: 1732 time_elpased: 0.057797
-random Placement
-num: 4 expanded: 720 updated: 1307 path_len: 23 max_open: 1750 time_elpased: 0.095603
-random Placement
-num: 5 expanded: 113 updated: 64 path_len: 15 max_open: 517 time_elpased: 0.01436
-random Placement
-num: 6 expanded: 32 updated: 46 path_len: 11 max_open: 232 time_elpased: 0.004212
-random Placement
-num: 7 expanded: 265 updated: 542 path_len: 17 max_open: 717 time_elpased: 0.034237
-random Placement
-num: 8 expanded: 1597 updated: 3320 path_len: 20 max_open: 3106 time_elpased: 0.209553
-random Placement
-num: 9 expanded: 113 updated: 158 path_len: 11 max_open: 385 time_elpased: 0.014514
-random Placement
-num: 10 expanded: 26 updated: 23 path_len: 11 max_open: 168 time_elpased: 0.003317
-random Placement
-num: 11 expanded: 5813 updated: 7006 path_len: 31 max_open: 8708 time_elpased: 0.774283
-random Placement
-num: 12 expanded: 2571 updated: 2918 path_len: 32 max_open: 4301 time_elpased: 0.335256
-random Placement
-num: 13 expanded: 50 updated: 66 path_len: 10 max_open: 260 time_elpased: 0.006357
-random Placement
-num: 14 expanded: 92 updated: 103 path_len: 18 max_open: 426 time_elpased: 0.01202
-random Placement
-num: 15 expanded: 653 updated: 1175 path_len: 16 max_open: 1455 time_elpased: 0.085152
-random Placement
-num: 16 expanded: 83 updated: 132 path_len: 7 max_open: 289 time_elpased: 0.010743
-random Placement
-num: 17 expanded: 23 updated: 10 path_len: 9 max_open: 141 time_elpased: 0.002934
-random Placement
-num: 18 expanded: 25 updated: 18 path_len: 11 max_open: 139 time_elpased: 0.003148
-random Placement
-num: 19 expanded: 341 updated: 468 path_len: 21 max_open: 911 time_elpased: 0.043829
-random Placement
-num: 20 expanded: 124 updated: 260 path_len: 11 max_open: 420 time_elpased: 0.016069
-random Placement
-num: 21 expanded: 798 updated: 1449 path_len: 24 max_open: 1626 time_elpased: 0.105152
-random Placement
-num: 22 expanded: 601 updated: 553 path_len: 12 max_open: 1298 time_elpased: 0.078535
-random Placement
-num: 23 expanded: 62 updated: 117 path_len: 12 max_open: 260 time_elpased: 0.008023
-random Placement
-num: 24 expanded: 55 updated: 26 path_len: 17 max_open: 281 time_elpased: 0.007079
-random Placement
-num: 25 expanded: 290 updated: 413 path_len: 34 max_open: 808 time_elpased: 0.036934
-random Placement
-num: 26 expanded: 514 updated: 672 path_len: 18 max_open: 1213 time_elpased: 0.066127
-random Placement
-num: 27 expanded: 153 updated: 232 path_len: 11 max_open: 505 time_elpased: 0.019551
-random Placement
-num: 28 expanded: 206 updated: 259 path_len: 14 max_open: 651 time_elpased: 0.026429
-random Placement
-num: 29 expanded: 972 updated: 1764 path_len: 27 max_open: 1796 time_elpased: 0.126834
-random Placement
-num: 30 expanded: 49 updated: 19 path_len: 17 max_open: 321 time_elpased: 0.006429
-random Placement
-num: 31 expanded: 18835 updated: 14452 path_len: 33 max_open: 25131 time_elpased: 2.56452
-random Placement
-num: 32 expanded: 512 updated: 491 path_len: 30 max_open: 1019 time_elpased: 0.065596
-random Placement
-num: 33 expanded: 979 updated: 1431 path_len: 22 max_open: 1906 time_elpased: 0.127601
-random Placement
-num: 34 expanded: 1541 updated: 2082 path_len: 19 max_open: 2813 time_elpased: 0.202382
-random Placement
-num: 35 expanded: 2687 updated: 3445 path_len: 36 max_open: 4541 time_elpased: 0.354302
-random Placement
-num: 36 expanded: 1869 updated: 2821 path_len: 22 max_open: 3348 time_elpased: 0.245699
-random Placement
-num: 37 expanded: 790 updated: 1469 path_len: 21 max_open: 1666 time_elpased: 0.103226
-random Placement
-num: 38 expanded: 37 updated: 6 path_len: 25 max_open: 253 time_elpased: 0.004769
-random Placement
-num: 39 expanded: 328 updated: 683 path_len: 15 max_open: 957 time_elpased: 0.043052
-random Placement
-num: 40 expanded: 177 updated: 191 path_len: 26 max_open: 685 time_elpased: 0.023059
-random Placement
-num: 41 expanded: 269 updated: 488 path_len: 19 max_open: 789 time_elpased: 0.034709
-random Placement
-num: 42 expanded: 3786 updated: 5081 path_len: 29 max_open: 6060 time_elpased: 0.49965
-random Placement
-num: 43 expanded: 40 updated: 54 path_len: 10 max_open: 207 time_elpased: 0.005101
-random Placement
-num: 44 expanded: 74 updated: 68 path_len: 17 max_open: 426 time_elpased: 0.009806
-random Placement
-num: 45 expanded: 22 updated: 6 path_len: 12 max_open: 118 time_elpased: 0.002689
-random Placement
-num: 46 expanded: 53 updated: 65 path_len: 12 max_open: 233 time_elpased: 0.006807
-random Placement
-num: 47 expanded: 43 updated: 51 path_len: 7 max_open: 186 time_elpased: 0.005482
-random Placement
-num: 48 expanded: 48 updated: 96 path_len: 15 max_open: 350 time_elpased: 0.006378
-random Placement
-num: 49 expanded: 647 updated: 1230 path_len: 14 max_open: 1487 time_elpased: 0.084851
-random Placement
-num: 50 expanded: 34 updated: 13 path_len: 19 max_open: 287 time_elpased: 0.004513
-random Placement
-num: 51 expanded: 254 updated: 501 path_len: 13 max_open: 642 time_elpased: 0.032836
-random Placement
-num: 52 expanded: 1351 updated: 1779 path_len: 27 max_open: 2537 time_elpased: 0.175449
-random Placement
-num: 53 expanded: 2913 updated: 4158 path_len: 39 max_open: 5489 time_elpased: 0.379357
-random Placement
-num: 54 expanded: 209 updated: 291 path_len: 13 max_open: 598 time_elpased: 0.026949
-random Placement
-num: 55 expanded: 227 updated: 104 path_len: 27 max_open: 324 time_elpased: 0.026772
-random Placement
-num: 56 expanded: 1387 updated: 1943 path_len: 19 max_open: 2546 time_elpased: 0.181826
-random Placement
-num: 57 expanded: 256 updated: 390 path_len: 16 max_open: 714 time_elpased: 0.033114
-random Placement
-num: 58 expanded: 440 updated: 884 path_len: 15 max_open: 1066 time_elpased: 0.057303
-random Placement
-num: 59 expanded: 727 updated: 1208 path_len: 22 max_open: 1528 time_elpased: 0.094272
-random Placement
-num: 60 expanded: 3820 updated: 5947 path_len: 37 max_open: 6221 time_elpased: 0.502693
-random Placement
-num: 61 expanded: 107 updated: 69 path_len: 13 max_open: 410 time_elpased: 0.014938
-random Placement
-num: 62 expanded: 274 updated: 523 path_len: 13 max_open: 712 time_elpased: 0.03539
-random Placement
-num: 63 expanded: 40 updated: 50 path_len: 11 max_open: 190 time_elpased: 0.005106
-random Placement
-num: 64 expanded: 814 updated: 1301 path_len: 33 max_open: 1826 time_elpased: 0.105227
-random Placement
-num: 65 expanded: 66 updated: 96 path_len: 8 max_open: 211 time_elpased: 0.008336
-random Placement
-num: 66 expanded: 664 updated: 979 path_len: 17 max_open: 1387 time_elpased: 0.087186
-random Placement
-num: 67 expanded: 64 updated: 27 path_len: 23 max_open: 333 time_elpased: 0.008125
-random Placement
-num: 68 expanded: 63 updated: 67 path_len: 15 max_open: 350 time_elpased: 0.008231
-random Placement
-num: 69 expanded: 127 updated: 158 path_len: 15 max_open: 489 time_elpased: 0.016423
-random Placement
-num: 70 expanded: 197 updated: 443 path_len: 13 max_open: 593 time_elpased: 0.025479
-random Placement
-num: 71 expanded: 181 updated: 172 path_len: 25 max_open: 490 time_elpased: 0.022328
-random Placement
-num: 72 expanded: 44 updated: 78 path_len: 13 max_open: 257 time_elpased: 0.005682
-random Placement
-num: 73 expanded: 179 updated: 271 path_len: 13 max_open: 587 time_elpased: 0.023421
-random Placement
-num: 74 expanded: 720 updated: 1173 path_len: 17 max_open: 1610 time_elpased: 0.093903
-random Placement
-num: 75 expanded: 1144 updated: 1497 path_len: 36 max_open: 2464 time_elpased: 0.148759
-random Placement
-num: 76 expanded: 134 updated: 164 path_len: 21 max_open: 440 time_elpased: 0.016851
-random Placement
-num: 77 expanded: 694 updated: 1045 path_len: 22 max_open: 1630 time_elpased: 0.089515
-random Placement
-num: 78 expanded: 393 updated: 464 path_len: 29 max_open: 950 time_elpased: 0.049963
-random Placement
-num: 79 expanded: 46 updated: 66 path_len: 10 max_open: 182 time_elpased: 0.005788
-random Placement
-num: 80 expanded: 853 updated: 916 path_len: 24 max_open: 1785 time_elpased: 0.11133
-random Placement
-num: 81 expanded: 191 updated: 171 path_len: 12 max_open: 606 time_elpased: 0.024708
-random Placement
-num: 82 expanded: 886 updated: 1252 path_len: 36 max_open: 2172 time_elpased: 0.115752
-random Placement
-num: 83 expanded: 782 updated: 1302 path_len: 24 max_open: 1785 time_elpased: 0.101554
-random Placement
-num: 84 expanded: 600 updated: 697 path_len: 25 max_open: 1369 time_elpased: 0.076355
-random Placement
-num: 85 expanded: 56 updated: 39 path_len: 13 max_open: 255 time_elpased: 0.007205
-random Placement
-num: 86 expanded: 61 updated: 30 path_len: 30 max_open: 264 time_elpased: 0.007487
-random Placement
-num: 87 expanded: 1006 updated: 1893 path_len: 19 max_open: 2092 time_elpased: 0.13261
-random Placement
-num: 88 expanded: 508 updated: 728 path_len: 22 max_open: 1146 time_elpased: 0.065669
-random Placement
-num: 89 expanded: 688 updated: 1273 path_len: 30 max_open: 2178 time_elpased: 0.091908
-random Placement
-num: 90 expanded: 95 updated: 70 path_len: 15 max_open: 384 time_elpased: 0.011963
-random Placement
-num: 91 expanded: 2650 updated: 3521 path_len: 28 max_open: 4469 time_elpased: 0.347721
-random Placement
-num: 92 expanded: 831 updated: 1420 path_len: 27 max_open: 1754 time_elpased: 0.108036
-random Placement
-num: 93 expanded: 64 updated: 91 path_len: 13 max_open: 328 time_elpased: 0.008381
-random Placement
-num: 94 expanded: 41 updated: 36 path_len: 11 max_open: 237 time_elpased: 0.005237
-random Placement
-num: 95 expanded: 4083 updated: 6408 path_len: 29 max_open: 6672 time_elpased: 0.541038
-random Placement
-num: 96 expanded: 115 updated: 217 path_len: 14 max_open: 389 time_elpased: 0.014854
-random Placement
-num: 97 expanded: 550 updated: 841 path_len: 21 max_open: 1306 time_elpased: 0.071127
-random Placement
-num: 98 expanded: 2107 updated: 2930 path_len: 20 max_open: 3715 time_elpased: 0.279139
-random Placement
-num: 99 expanded: 541 updated: 376 path_len: 31 max_open: 1111 time_elpased: 0.068494
-random Placement
-num: 100 expanded: 181 updated: 148 path_len: 19 max_open: 640 time_elpased: 0.023356
-random Placement
-num: 101 expanded: 113 updated: 335 path_len: 24 max_open: 629 time_elpased: 0.015154
-random Placement
-num: 102 expanded: 124 updated: 196 path_len: 12 max_open: 431 time_elpased: 0.016173
-random Placement
-num: 103 expanded: 111 updated: 140 path_len: 11 max_open: 368 time_elpased: 0.014208
-random Placement
-num: 104 expanded: 262 updated: 327 path_len: 21 max_open: 783 time_elpased: 0.034122
-random Placement
-num: 105 expanded: 976 updated: 1837 path_len: 19 max_open: 2165 time_elpased: 0.127743
-random Placement
-num: 106 expanded: 344 updated: 429 path_len: 16 max_open: 937 time_elpased: 0.044527
-random Placement
-num: 107 expanded: 38 updated: 27 path_len: 12 max_open: 223 time_elpased: 0.004922
-random Placement
-num: 108 expanded: 46 updated: 14 path_len: 17 max_open: 286 time_elpased: 0.005855
-random Placement
-num: 109 expanded: 33 updated: 3 path_len: 26 max_open: 201 time_elpased: 0.00409
-random Placement
-num: 110 expanded: 2802 updated: 4184 path_len: 26 max_open: 4828 time_elpased: 0.368666
-random Placement
-num: 111 expanded: 210 updated: 386 path_len: 13 max_open: 679 time_elpased: 0.027046
-random Placement
-num: 112 expanded: 313 updated: 458 path_len: 15 max_open: 825 time_elpased: 0.040491
-random Placement
-num: 113 expanded: 229 updated: 326 path_len: 13 max_open: 627 time_elpased: 0.02939
-random Placement
-num: 114 expanded: 2111 updated: 3433 path_len: 23 max_open: 3605 time_elpased: 0.278751
-random Placement
-num: 115 expanded: 14 updated: 18 path_len: 9 max_open: 152 time_elpased: 0.00183
-random Placement
-num: 116 expanded: 14 updated: 4 path_len: 10 max_open: 89 time_elpased: 0.001713
-random Placement
-num: 117 expanded: 235 updated: 261 path_len: 25 max_open: 758 time_elpased: 0.030406
-random Placement
-num: 118 expanded: 90 updated: 140 path_len: 13 max_open: 316 time_elpased: 0.011538
-random Placement
-num: 119 expanded: 38 updated: 18 path_len: 13 max_open: 241 time_elpased: 0.004816
-random Placement
-num: 120 expanded: 998 updated: 1651 path_len: 25 max_open: 2006 time_elpased: 0.129611
-random Placement
-num: 121 expanded: 52 updated: 24 path_len: 16 max_open: 244 time_elpased: 0.006713
-random Placement
-num: 122 expanded: 5353 updated: 7838 path_len: 30 max_open: 8441 time_elpased: 0.715297
-random Placement
-num: 123 expanded: 10 updated: 0 path_len: 6 max_open: 74 time_elpased: 0.001217
-random Placement
-num: 124 expanded: 38 updated: 48 path_len: 7 max_open: 164 time_elpased: 0.00479
-random Placement
-num: 125 expanded: 1629 updated: 2157 path_len: 28 max_open: 3126 time_elpased: 0.213189
-random Placement
-num: 126 expanded: 15 updated: 8 path_len: 8 max_open: 83 time_elpased: 0.001817
-random Placement
-num: 127 expanded: 174 updated: 162 path_len: 20 max_open: 522 time_elpased: 0.021986
-random Placement
-num: 128 expanded: 119 updated: 181 path_len: 16 max_open: 444 time_elpased: 0.015602
-random Placement
-num: 129 expanded: 114 updated: 121 path_len: 14 max_open: 387 time_elpased: 0.014493
-random Placement
-num: 130 expanded: 188 updated: 254 path_len: 24 max_open: 956 time_elpased: 0.025075
-random Placement
-num: 131 expanded: 493 updated: 913 path_len: 14 max_open: 1168 time_elpased: 0.064106
-random Placement
-num: 132 expanded: 449 updated: 345 path_len: 40 max_open: 914 time_elpased: 0.055088
-random Placement
-num: 133 expanded: 510 updated: 834 path_len: 33 max_open: 1391 time_elpased: 0.067361
-random Placement
-num: 134 expanded: 557 updated: 869 path_len: 20 max_open: 1378 time_elpased: 0.071787
-random Placement
-num: 135 expanded: 386 updated: 675 path_len: 15 max_open: 1060 time_elpased: 0.049817
-random Placement
-num: 136 expanded: 111 updated: 188 path_len: 15 max_open: 431 time_elpased: 0.01442
-random Placement
-num: 137 expanded: 170 updated: 270 path_len: 17 max_open: 514 time_elpased: 0.021718
-random Placement
-num: 138 expanded: 337 updated: 868 path_len: 17 max_open: 904 time_elpased: 0.043975
-random Placement
-num: 139 expanded: 378 updated: 599 path_len: 26 max_open: 993 time_elpased: 0.048413
-random Placement
-num: 140 expanded: 1208 updated: 1874 path_len: 27 max_open: 2458 time_elpased: 0.156102
-random Placement
-num: 141 expanded: 136 updated: 167 path_len: 11 max_open: 464 time_elpased: 0.017533
-random Placement
-num: 142 expanded: 15 updated: 5 path_len: 6 max_open: 97 time_elpased: 0.00187
-random Placement
-num: 143 expanded: 8840 updated: 9588 path_len: 30 max_open: 12515 time_elpased: 1.19108
-random Placement
-num: 144 expanded: 378 updated: 644 path_len: 17 max_open: 959 time_elpased: 0.04895
-random Placement
-num: 145 expanded: 136 updated: 98 path_len: 23 max_open: 789 time_elpased: 0.018248
-random Placement
-num: 146 expanded: 693 updated: 999 path_len: 23 max_open: 1403 time_elpased: 0.089455
-random Placement
-num: 147 expanded: 414 updated: 278 path_len: 31 max_open: 772 time_elpased: 0.050909
-random Placement
-num: 148 expanded: 951 updated: 916 path_len: 22 max_open: 1913 time_elpased: 0.123405
-random Placement
-num: 149 expanded: 124 updated: 54 path_len: 34 max_open: 306 time_elpased: 0.014842
-random Placement
-num: 150 expanded: 724 updated: 1267 path_len: 21 max_open: 1588 time_elpased: 0.094468
-random Placement
-num: 151 expanded: 3350 updated: 5388 path_len: 27 max_open: 5668 time_elpased: 0.442445
-random Placement
-num: 152 expanded: 1306 updated: 2085 path_len: 25 max_open: 2574 time_elpased: 0.17037
-random Placement
-num: 153 expanded: 920 updated: 1488 path_len: 25 max_open: 2040 time_elpased: 0.122386
-random Placement
-num: 154 expanded: 100 updated: 48 path_len: 22 max_open: 579 time_elpased: 0.013174
-random Placement
-num: 155 expanded: 327 updated: 396 path_len: 20 max_open: 891 time_elpased: 0.041863
-random Placement
-num: 156 expanded: 350 updated: 153 path_len: 34 max_open: 689 time_elpased: 0.042216
-random Placement
-num: 157 expanded: 83 updated: 116 path_len: 17 max_open: 418 time_elpased: 0.010844
-random Placement
-num: 158 expanded: 319 updated: 375 path_len: 14 max_open: 843 time_elpased: 0.041509
-random Placement
-num: 159 expanded: 364 updated: 609 path_len: 13 max_open: 858 time_elpased: 0.04702
-random Placement
-num: 160 expanded: 77 updated: 79 path_len: 17 max_open: 324 time_elpased: 0.009771
-random Placement
-num: 161 expanded: 819 updated: 1335 path_len: 16 max_open: 1714 time_elpased: 0.107213
-random Placement
-num: 162 expanded: 18 updated: 18 path_len: 8 max_open: 165 time_elpased: 0.002356
-random Placement
-num: 163 expanded: 7 updated: 0 path_len: 5 max_open: 67 time_elpased: 0.000866
-random Placement
-num: 164 expanded: 99 updated: 96 path_len: 19 max_open: 461 time_elpased: 0.01273
-random Placement
-num: 165 expanded: 283 updated: 114 path_len: 33 max_open: 353 time_elpased: 0.033379
-random Placement
-num: 166 expanded: 64 updated: 6 path_len: 35 max_open: 314 time_elpased: 0.007959
-random Placement
-num: 167 expanded: 45 updated: 48 path_len: 13 max_open: 285 time_elpased: 0.005896
-random Placement
-num: 168 expanded: 1146 updated: 1653 path_len: 29 max_open: 2275 time_elpased: 0.149878
-random Placement
-num: 169 expanded: 303 updated: 446 path_len: 14 max_open: 766 time_elpased: 0.038874
-random Placement
-num: 170 expanded: 2276 updated: 2096 path_len: 36 max_open: 4142 time_elpased: 0.298751
-random Placement
-num: 171 expanded: 1547 updated: 1796 path_len: 26 max_open: 3006 time_elpased: 0.203571
-random Placement
-num: 172 expanded: 94 updated: 76 path_len: 22 max_open: 501 time_elpased: 0.012193
-random Placement
-num: 173 expanded: 289 updated: 451 path_len: 13 max_open: 786 time_elpased: 0.037162
-random Placement
-num: 174 expanded: 598 updated: 1229 path_len: 15 max_open: 1385 time_elpased: 0.078252
-random Placement
-num: 175 expanded: 82 updated: 119 path_len: 12 max_open: 336 time_elpased: 0.010623
-random Placement
-num: 176 expanded: 2646 updated: 3498 path_len: 35 max_open: 4356 time_elpased: 0.346376
-random Placement
-num: 177 expanded: 254 updated: 285 path_len: 20 max_open: 719 time_elpased: 0.032234
-random Placement
-num: 178 expanded: 563 updated: 787 path_len: 27 max_open: 1479 time_elpased: 0.07244
-random Placement
-num: 179 expanded: 122 updated: 157 path_len: 36 max_open: 523 time_elpased: 0.015479
-random Placement
-num: 180 expanded: 5257 updated: 7495 path_len: 31 max_open: 8173 time_elpased: 0.698162
-random Placement
-num: 181 expanded: 693 updated: 1055 path_len: 16 max_open: 1477 time_elpased: 0.091097
-random Placement
-num: 182 expanded: 154 updated: 326 path_len: 13 max_open: 495 time_elpased: 0.019873
-random Placement
-num: 183 expanded: 13432 updated: 13479 path_len: 33 max_open: 18393 time_elpased: 1.82641
-random Placement
-num: 184 expanded: 836 updated: 1110 path_len: 18 max_open: 1691 time_elpased: 0.108537
-random Placement
-num: 185 expanded: 158 updated: 229 path_len: 13 max_open: 521 time_elpased: 0.019967
-random Placement
-num: 186 expanded: 52 updated: 70 path_len: 13 max_open: 314 time_elpased: 0.006844
-random Placement
-num: 187 expanded: 1035 updated: 1597 path_len: 29 max_open: 2048 time_elpased: 0.134467
-random Placement
-num: 188 expanded: 427 updated: 571 path_len: 29 max_open: 1308 time_elpased: 0.055674
-random Placement
-num: 189 expanded: 582 updated: 672 path_len: 20 max_open: 1326 time_elpased: 0.07425
-random Placement
-num: 190 expanded: 193 updated: 166 path_len: 14 max_open: 573 time_elpased: 0.02468
-random Placement
-num: 191 expanded: 544 updated: 1137 path_len: 14 max_open: 1205 time_elpased: 0.071725
-random Placement
-num: 192 expanded: 22 updated: 1 path_len: 10 max_open: 183 time_elpased: 0.002868
-random Placement
-num: 193 expanded: 1221 updated: 1747 path_len: 29 max_open: 2484 time_elpased: 0.157882
-random Placement
-num: 194 expanded: 109 updated: 185 path_len: 10 max_open: 355 time_elpased: 0.01397
-random Placement
-num: 195 expanded: 846 updated: 1760 path_len: 18 max_open: 1853 time_elpased: 0.111124
-random Placement
-num: 196 expanded: 116 updated: 192 path_len: 12 max_open: 402 time_elpased: 0.014836
-random Placement
-num: 197 expanded: 227 updated: 68 path_len: 29 max_open: 389 time_elpased: 0.026924
-random Placement
-num: 198 expanded: 68 updated: 79 path_len: 15 max_open: 305 time_elpased: 0.008723
-random Placement
-num: 199 expanded: 2184 updated: 3606 path_len: 39 max_open: 3855 time_elpased: 0.286316
-random Placement
-num: 200 expanded: 120 updated: 59 path_len: 36 max_open: 671 time_elpased: 0.015825
-random Placement
-num: 201 expanded: 56 updated: 71 path_len: 20 max_open: 382 time_elpased: 0.007344
-random Placement
-num: 202 expanded: 2215 updated: 3485 path_len: 33 max_open: 3850 time_elpased: 0.291009
-random Placement
-num: 203 expanded: 279 updated: 389 path_len: 13 max_open: 682 time_elpased: 0.035775
-random Placement
-num: 204 expanded: 17 updated: 8 path_len: 7 max_open: 108 time_elpased: 0.002144
-random Placement
-num: 205 expanded: 2648 updated: 3975 path_len: 28 max_open: 4567 time_elpased: 0.347361
-random Placement
-num: 206 expanded: 282 updated: 516 path_len: 14 max_open: 778 time_elpased: 0.036367
-random Placement
-num: 207 expanded: 571 updated: 827 path_len: 19 max_open: 1259 time_elpased: 0.074071
-random Placement
-num: 208 expanded: 305 updated: 411 path_len: 13 max_open: 806 time_elpased: 0.038956
-random Placement
-num: 209 expanded: 698 updated: 1139 path_len: 26 max_open: 1575 time_elpased: 0.09125
-random Placement
-num: 210 expanded: 424 updated: 638 path_len: 21 max_open: 991 time_elpased: 0.054764
-random Placement
-num: 211 expanded: 130 updated: 121 path_len: 27 max_open: 269 time_elpased: 0.01562
-random Placement
-num: 212 expanded: 241 updated: 64 path_len: 30 max_open: 307 time_elpased: 0.028312
-random Placement
-num: 213 expanded: 126 updated: 185 path_len: 18 max_open: 541 time_elpased: 0.016381
-random Placement
-num: 214 expanded: 4295 updated: 5434 path_len: 37 max_open: 6692 time_elpased: 0.567964
-random Placement
-num: 215 expanded: 1167 updated: 1411 path_len: 36 max_open: 2261 time_elpased: 0.151721
-random Placement
-num: 216 expanded: 239 updated: 313 path_len: 20 max_open: 671 time_elpased: 0.030317
-random Placement
-num: 217 expanded: 761 updated: 1574 path_len: 17 max_open: 1610 time_elpased: 0.100962
-random Placement
-num: 218 expanded: 120 updated: 136 path_len: 14 max_open: 437 time_elpased: 0.01533
-random Placement
-num: 219 expanded: 3329 updated: 4852 path_len: 38 max_open: 5382 time_elpased: 0.436061
-random Placement
-num: 220 expanded: 45 updated: 79 path_len: 16 max_open: 357 time_elpased: 0.005981
-random Placement
-num: 221 expanded: 265 updated: 382 path_len: 24 max_open: 1017 time_elpased: 0.034626
-random Placement
-num: 222 expanded: 203 updated: 262 path_len: 23 max_open: 963 time_elpased: 0.026893
-random Placement
-num: 223 expanded: 40 updated: 20 path_len: 14 max_open: 244 time_elpased: 0.005146
-random Placement
-num: 224 expanded: 215 updated: 268 path_len: 14 max_open: 575 time_elpased: 0.027602
-random Placement
-num: 225 expanded: 424 updated: 517 path_len: 31 max_open: 1058 time_elpased: 0.054597
-random Placement
-num: 226 expanded: 496 updated: 714 path_len: 24 max_open: 1191 time_elpased: 0.063285
-random Placement
-num: 227 expanded: 53 updated: 36 path_len: 21 max_open: 356 time_elpased: 0.006937
-random Placement
-num: 228 expanded: 1177 updated: 1506 path_len: 30 max_open: 2333 time_elpased: 0.153034
-random Placement
-num: 229 expanded: 1654 updated: 2551 path_len: 40 max_open: 3087 time_elpased: 0.21668
-random Placement
-num: 230 expanded: 321 updated: 737 path_len: 15 max_open: 836 time_elpased: 0.04186
-random Placement
-num: 231 expanded: 4458 updated: 5259 path_len: 33 max_open: 7165 time_elpased: 0.588224
-random Placement
-num: 232 expanded: 195 updated: 174 path_len: 12 max_open: 554 time_elpased: 0.025018
-random Placement
-num: 233 expanded: 351 updated: 586 path_len: 14 max_open: 881 time_elpased: 0.045388
-random Placement
-num: 234 expanded: 1308 updated: 1899 path_len: 24 max_open: 2469 time_elpased: 0.170535
-random Placement
-num: 235 expanded: 896 updated: 1458 path_len: 28 max_open: 2323 time_elpased: 0.117277
-random Placement
-num: 236 expanded: 6906 updated: 6281 path_len: 26 max_open: 10225 time_elpased: 0.921419
-random Placement
-num: 237 expanded: 80 updated: 117 path_len: 13 max_open: 310 time_elpased: 0.01038
-random Placement
-num: 238 expanded: 15372 updated: 13502 path_len: 35 max_open: 20878 time_elpased: 2.09987
-random Placement
-num: 239 expanded: 148 updated: 147 path_len: 20 max_open: 480 time_elpased: 0.018636
-random Placement
-num: 240 expanded: 824 updated: 1416 path_len: 15 max_open: 1714 time_elpased: 0.108177
-random Placement
-num: 241 expanded: 381 updated: 308 path_len: 17 max_open: 876 time_elpased: 0.048234
-random Placement
-num: 242 expanded: 634 updated: 1133 path_len: 20 max_open: 1359 time_elpased: 0.08269
-random Placement
-num: 243 expanded: 128 updated: 164 path_len: 18 max_open: 546 time_elpased: 0.016575
-random Placement
-num: 244 expanded: 452 updated: 754 path_len: 18 max_open: 1127 time_elpased: 0.058565
-random Placement
-num: 245 expanded: 15799 updated: 10455 path_len: 34 max_open: 21285 time_elpased: 2.1458
-random Placement
-num: 246 expanded: 1064 updated: 1468 path_len: 33 max_open: 2110 time_elpased: 0.137999
-random Placement
-num: 247 expanded: 1093 updated: 1820 path_len: 18 max_open: 2170 time_elpased: 0.143437
-random Placement
-num: 248 expanded: 21 updated: 0 path_len: 20 max_open: 177 time_elpased: 0.002718
-random Placement
-num: 249 expanded: 15 updated: 3 path_len: 8 max_open: 138 time_elpased: 0.00194
-random Placement
-num: 250 expanded: 65 updated: 26 path_len: 22 max_open: 301 time_elpased: 0.008132
-random Placement
-num: 251 expanded: 9 updated: 0 path_len: 9 max_open: 135 time_elpased: 0.001173
-random Placement
-num: 252 expanded: 147 updated: 264 path_len: 16 max_open: 528 time_elpased: 0.019054
-random Placement
-num: 253 expanded: 143 updated: 317 path_len: 12 max_open: 453 time_elpased: 0.018512
-random Placement
-num: 254 expanded: 353 updated: 513 path_len: 13 max_open: 865 time_elpased: 0.045527
-random Placement
-num: 255 expanded: 55 updated: 51 path_len: 13 max_open: 261 time_elpased: 0.006959
-random Placement
-num: 256 expanded: 462 updated: 669 path_len: 27 max_open: 1239 time_elpased: 0.059945
-random Placement
-num: 257 expanded: 62 updated: 98 path_len: 14 max_open: 265 time_elpased: 0.007903
-random Placement
-num: 258 expanded: 66 updated: 72 path_len: 13 max_open: 328 time_elpased: 0.008431
-random Placement
-num: 259 expanded: 75 updated: 115 path_len: 12 max_open: 380 time_elpased: 0.009902
-random Placement
-num: 260 expanded: 238 updated: 387 path_len: 21 max_open: 782 time_elpased: 0.030884
-random Placement
-num: 261 expanded: 340 updated: 522 path_len: 21 max_open: 811 time_elpased: 0.043752
-random Placement
-num: 262 expanded: 142 updated: 228 path_len: 14 max_open: 488 time_elpased: 0.01818
-random Placement
-num: 263 expanded: 2503 updated: 4506 path_len: 40 max_open: 4405 time_elpased: 0.328675
-random Placement
-num: 264 expanded: 83 updated: 55 path_len: 27 max_open: 602 time_elpased: 0.01135
-random Placement
-num: 265 expanded: 138 updated: 279 path_len: 18 max_open: 466 time_elpased: 0.017626
-random Placement
-num: 266 expanded: 15 updated: 2 path_len: 13 max_open: 204 time_elpased: 0.002003
-random Placement
-num: 267 expanded: 18 updated: 0 path_len: 18 max_open: 153 time_elpased: 0.002299
-random Placement
-num: 268 expanded: 583 updated: 1084 path_len: 16 max_open: 1310 time_elpased: 0.075809
-random Placement
-num: 269 expanded: 154 updated: 230 path_len: 18 max_open: 498 time_elpased: 0.019496
-random Placement
-num: 270 expanded: 119 updated: 209 path_len: 11 max_open: 408 time_elpased: 0.015392
-random Placement
-num: 271 expanded: 34 updated: 37 path_len: 9 max_open: 155 time_elpased: 0.004273
-random Placement
-num: 272 expanded: 2516 updated: 5141 path_len: 38 max_open: 5034 time_elpased: 0.335843
-random Placement
-num: 273 expanded: 603 updated: 801 path_len: 15 max_open: 1370 time_elpased: 0.079022
-random Placement
-num: 274 expanded: 655 updated: 1180 path_len: 15 max_open: 1430 time_elpased: 0.085254
-random Placement
-num: 275 expanded: 365 updated: 697 path_len: 16 max_open: 936 time_elpased: 0.047386
-random Placement
-num: 276 expanded: 413 updated: 827 path_len: 14 max_open: 1052 time_elpased: 0.0538
-random Placement
-num: 277 expanded: 1455 updated: 2045 path_len: 19 max_open: 2758 time_elpased: 0.191639
-random Placement
-num: 278 expanded: 84 updated: 48 path_len: 24 max_open: 363 time_elpased: 0.010605
-random Placement
-num: 279 expanded: 46 updated: 46 path_len: 13 max_open: 228 time_elpased: 0.005939
-random Placement
-num: 280 expanded: 185 updated: 313 path_len: 13 max_open: 505 time_elpased: 0.023825
-random Placement
-num: 281 expanded: 3962 updated: 5449 path_len: 39 max_open: 6497 time_elpased: 0.524031
-random Placement
-num: 282 expanded: 446 updated: 492 path_len: 34 max_open: 1021 time_elpased: 0.056774
-random Placement
-num: 283 expanded: 49 updated: 68 path_len: 8 max_open: 192 time_elpased: 0.006162
-random Placement
-num: 284 expanded: 860 updated: 1689 path_len: 25 max_open: 1766 time_elpased: 0.112302
-random Placement
-num: 285 expanded: 337 updated: 300 path_len: 37 max_open: 1454 time_elpased: 0.044491
-random Placement
-num: 286 expanded: 1339 updated: 1949 path_len: 23 max_open: 2584 time_elpased: 0.173799
-random Placement
-num: 287 expanded: 133 updated: 274 path_len: 11 max_open: 442 time_elpased: 0.017177
-random Placement
-num: 288 expanded: 804 updated: 1392 path_len: 17 max_open: 1607 time_elpased: 0.104744
-random Placement
-num: 289 expanded: 564 updated: 1067 path_len: 14 max_open: 1292 time_elpased: 0.073598
-random Placement
-num: 290 expanded: 690 updated: 1036 path_len: 26 max_open: 1695 time_elpased: 0.089889
-random Placement
-num: 291 expanded: 257 updated: 367 path_len: 11 max_open: 625 time_elpased: 0.033224
-random Placement
-num: 292 expanded: 101 updated: 52 path_len: 15 max_open: 240 time_elpased: 0.012215
-random Placement
-num: 293 expanded: 94 updated: 45 path_len: 20 max_open: 493 time_elpased: 0.012169
-random Placement
-num: 294 expanded: 109 updated: 233 path_len: 13 max_open: 387 time_elpased: 0.013923
-random Placement
-num: 295 expanded: 101 updated: 155 path_len: 12 max_open: 408 time_elpased: 0.013188
-random Placement
-num: 296 expanded: 1536 updated: 2348 path_len: 29 max_open: 2792 time_elpased: 0.19945
-random Placement
-num: 297 expanded: 118 updated: 145 path_len: 16 max_open: 448 time_elpased: 0.015216
-random Placement
-num: 298 expanded: 429 updated: 535 path_len: 19 max_open: 890 time_elpased: 0.054116
-random Placement
-num: 299 expanded: 1032 updated: 1451 path_len: 35 max_open: 2113 time_elpased: 0.134027
-random Placement
-num: 300 expanded: 60 updated: 85 path_len: 10 max_open: 280 time_elpased: 0.007622
-random Placement
-num: 301 expanded: 193 updated: 430 path_len: 13 max_open: 598 time_elpased: 0.025364
-random Placement
-num: 302 expanded: 560 updated: 840 path_len: 33 max_open: 1745 time_elpased: 0.073554
-random Placement
-num: 303 expanded: 178 updated: 225 path_len: 12 max_open: 505 time_elpased: 0.023015
-random Placement
-num: 304 expanded: 66 updated: 68 path_len: 17 max_open: 418 time_elpased: 0.008714
-random Placement
-num: 305 expanded: 405 updated: 614 path_len: 15 max_open: 953 time_elpased: 0.052289
-random Placement
-num: 306 expanded: 448 updated: 721 path_len: 23 max_open: 1146 time_elpased: 0.057593
-random Placement
-num: 307 expanded: 542 updated: 889 path_len: 33 max_open: 1392 time_elpased: 0.069768
-random Placement
-num: 308 expanded: 705 updated: 1287 path_len: 17 max_open: 1534 time_elpased: 0.091913
-random Placement
-num: 309 expanded: 812 updated: 642 path_len: 35 max_open: 1676 time_elpased: 0.101738
-random Placement
-num: 310 expanded: 30 updated: 30 path_len: 11 max_open: 202 time_elpased: 0.003823
-random Placement
-num: 311 expanded: 2469 updated: 3791 path_len: 22 max_open: 4148 time_elpased: 0.328545
-random Placement
-num: 312 expanded: 473 updated: 876 path_len: 15 max_open: 1058 time_elpased: 0.061413
-random Placement
-num: 313 expanded: 26 updated: 12 path_len: 11 max_open: 216 time_elpased: 0.003435
-random Placement
-num: 314 expanded: 1012 updated: 1811 path_len: 17 max_open: 1989 time_elpased: 0.132453
-random Placement
-num: 315 expanded: 24 updated: 22 path_len: 11 max_open: 125 time_elpased: 0.003014
-random Placement
-num: 316 expanded: 567 updated: 373 path_len: 34 max_open: 1185 time_elpased: 0.070948
-random Placement
-num: 317 expanded: 2476 updated: 3764 path_len: 29 max_open: 4342 time_elpased: 0.325369
-random Placement
-num: 318 expanded: 225 updated: 392 path_len: 11 max_open: 624 time_elpased: 0.029281
-random Placement
-num: 319 expanded: 35 updated: 43 path_len: 11 max_open: 190 time_elpased: 0.004526
-random Placement
-num: 320 expanded: 4109 updated: 4273 path_len: 36 max_open: 6668 time_elpased: 0.544246
-random Placement
-num: 321 expanded: 25 updated: 29 path_len: 6 max_open: 114 time_elpased: 0.003123
-random Placement
-num: 322 expanded: 96 updated: 69 path_len: 19 max_open: 513 time_elpased: 0.012608
-random Placement
-num: 323 expanded: 105 updated: 80 path_len: 21 max_open: 423 time_elpased: 0.013438
-random Placement
-num: 324 expanded: 305 updated: 431 path_len: 13 max_open: 736 time_elpased: 0.039284
-random Placement
-num: 325 expanded: 324 updated: 563 path_len: 16 max_open: 912 time_elpased: 0.042265
-random Placement
-num: 326 expanded: 306 updated: 372 path_len: 13 max_open: 745 time_elpased: 0.039495
-random Placement
-num: 327 expanded: 4410 updated: 5820 path_len: 27 max_open: 6799 time_elpased: 0.58615
-random Placement
-num: 328 expanded: 30 updated: 35 path_len: 11 max_open: 195 time_elpased: 0.003888
-random Placement
-num: 329 expanded: 684 updated: 1482 path_len: 17 max_open: 1491 time_elpased: 0.089756
-random Placement
-num: 330 expanded: 1809 updated: 2329 path_len: 18 max_open: 3111 time_elpased: 0.238065
-random Placement
-num: 331 expanded: 324 updated: 561 path_len: 13 max_open: 812 time_elpased: 0.042136
-random Placement
-num: 332 expanded: 701 updated: 923 path_len: 21 max_open: 1478 time_elpased: 0.090977
-random Placement
-num: 333 expanded: 41 updated: 38 path_len: 12 max_open: 214 time_elpased: 0.005281
-random Placement
-num: 334 expanded: 1123 updated: 1639 path_len: 27 max_open: 2218 time_elpased: 0.145795
-random Placement
-num: 335 expanded: 4095 updated: 6198 path_len: 36 max_open: 6681 time_elpased: 0.539157
-random Placement
-num: 336 expanded: 285 updated: 639 path_len: 15 max_open: 833 time_elpased: 0.03748
-random Placement
-num: 337 expanded: 34 updated: 32 path_len: 11 max_open: 188 time_elpased: 0.00433
-random Placement
-num: 338 expanded: 457 updated: 670 path_len: 17 max_open: 1169 time_elpased: 0.059339
-random Placement
-num: 339 expanded: 5632 updated: 8842 path_len: 42 max_open: 8961 time_elpased: 0.745462
-random Placement
-num: 340 expanded: 169 updated: 239 path_len: 13 max_open: 565 time_elpased: 0.02174
-random Placement
-num: 341 expanded: 352 updated: 417 path_len: 14 max_open: 918 time_elpased: 0.045494
-random Placement
-num: 342 expanded: 480 updated: 774 path_len: 30 max_open: 1446 time_elpased: 0.062925
-random Placement
-num: 343 expanded: 1248 updated: 2007 path_len: 23 max_open: 2455 time_elpased: 0.164281
-random Placement
-num: 344 expanded: 247 updated: 228 path_len: 31 max_open: 920 time_elpased: 0.031381
-random Placement
-num: 345 expanded: 45 updated: 70 path_len: 12 max_open: 246 time_elpased: 0.005847
-random Placement
-num: 346 expanded: 72 updated: 112 path_len: 14 max_open: 338 time_elpased: 0.009279
-random Placement
-num: 347 expanded: 261 updated: 238 path_len: 32 max_open: 1297 time_elpased: 0.034635
-random Placement
-num: 348 expanded: 41 updated: 52 path_len: 12 max_open: 234 time_elpased: 0.005163
-random Placement
-num: 349 expanded: 103 updated: 33 path_len: 18 max_open: 261 time_elpased: 0.012415
-random Placement
-num: 350 expanded: 384 updated: 751 path_len: 13 max_open: 894 time_elpased: 0.049742
-random Placement
-num: 351 expanded: 197 updated: 55 path_len: 25 max_open: 439 time_elpased: 0.023537
-random Placement
-num: 352 expanded: 87 updated: 109 path_len: 21 max_open: 427 time_elpased: 0.011389
-random Placement
-num: 353 expanded: 45 updated: 60 path_len: 13 max_open: 271 time_elpased: 0.005886
-random Placement
-num: 354 expanded: 106 updated: 179 path_len: 13 max_open: 401 time_elpased: 0.013583
-random Placement
-num: 355 expanded: 758 updated: 1107 path_len: 19 max_open: 1585 time_elpased: 0.099661
-random Placement
-num: 356 expanded: 52 updated: 67 path_len: 14 max_open: 265 time_elpased: 0.007264
-random Placement
-num: 357 expanded: 680 updated: 1070 path_len: 24 max_open: 1493 time_elpased: 0.089405
-random Placement
-num: 358 expanded: 176 updated: 237 path_len: 13 max_open: 534 time_elpased: 0.022856
-random Placement
-num: 359 expanded: 280 updated: 487 path_len: 14 max_open: 741 time_elpased: 0.036085
-random Placement
-num: 360 expanded: 24 updated: 14 path_len: 10 max_open: 157 time_elpased: 0.002993
-random Placement
-num: 361 expanded: 48 updated: 26 path_len: 34 max_open: 294 time_elpased: 0.006064
-random Placement
-num: 362 expanded: 527 updated: 1022 path_len: 14 max_open: 1336 time_elpased: 0.068825
-random Placement
-num: 363 expanded: 579 updated: 857 path_len: 32 max_open: 1293 time_elpased: 0.075067
-random Placement
-num: 364 expanded: 1882 updated: 2746 path_len: 26 max_open: 3319 time_elpased: 0.246396
-random Placement
-num: 365 expanded: 97 updated: 180 path_len: 12 max_open: 373 time_elpased: 0.01245
-random Placement
-num: 366 expanded: 188 updated: 365 path_len: 14 max_open: 578 time_elpased: 0.024377
-random Placement
-num: 367 expanded: 917 updated: 1568 path_len: 19 max_open: 1957 time_elpased: 0.119134
-random Placement
-num: 368 expanded: 43 updated: 1 path_len: 36 max_open: 234 time_elpased: 0.005232
-random Placement
-num: 369 expanded: 90 updated: 69 path_len: 14 max_open: 167 time_elpased: 0.010684
-random Placement
-num: 370 expanded: 174 updated: 355 path_len: 12 max_open: 536 time_elpased: 0.022559
-random Placement
-num: 371 expanded: 152 updated: 293 path_len: 16 max_open: 494 time_elpased: 0.019661
-random Placement
-num: 372 expanded: 635 updated: 921 path_len: 32 max_open: 1482 time_elpased: 0.081868
-random Placement
-num: 373 expanded: 350 updated: 456 path_len: 22 max_open: 1012 time_elpased: 0.044925
-random Placement
-num: 374 expanded: 255 updated: 208 path_len: 15 max_open: 781 time_elpased: 0.032297
-random Placement
-num: 375 expanded: 308 updated: 485 path_len: 17 max_open: 773 time_elpased: 0.066081
-random Placement
-num: 376 expanded: 42 updated: 52 path_len: 14 max_open: 189 time_elpased: 0.005241
-random Placement
-num: 377 expanded: 693 updated: 1083 path_len: 16 max_open: 1429 time_elpased: 0.090257
-random Placement
-num: 378 expanded: 946 updated: 1645 path_len: 27 max_open: 2034 time_elpased: 0.123917
-random Placement
-num: 379 expanded: 82 updated: 109 path_len: 14 max_open: 377 time_elpased: 0.010654
-random Placement
-num: 380 expanded: 1845 updated: 3005 path_len: 28 max_open: 3768 time_elpased: 0.241861
-random Placement
-num: 381 expanded: 399 updated: 264 path_len: 30 max_open: 842 time_elpased: 0.048934
-random Placement
-num: 382 expanded: 52 updated: 59 path_len: 21 max_open: 234 time_elpased: 0.006407
-random Placement
-num: 383 expanded: 983 updated: 1480 path_len: 27 max_open: 1890 time_elpased: 0.128806
-random Placement
-num: 384 expanded: 3176 updated: 4078 path_len: 29 max_open: 5259 time_elpased: 0.419136
-random Placement
-num: 385 expanded: 1024 updated: 1743 path_len: 27 max_open: 2063 time_elpased: 0.134106
-random Placement
-num: 386 expanded: 61 updated: 31 path_len: 21 max_open: 354 time_elpased: 0.008053
-random Placement
-num: 387 expanded: 351 updated: 488 path_len: 24 max_open: 896 time_elpased: 0.045224
-random Placement
-num: 388 expanded: 59 updated: 37 path_len: 8 max_open: 241 time_elpased: 0.007562
-random Placement
-num: 389 expanded: 82 updated: 183 path_len: 12 max_open: 318 time_elpased: 0.010533
-random Placement
-num: 390 expanded: 896 updated: 1424 path_len: 23 max_open: 2029 time_elpased: 0.116348
-random Placement
-num: 391 expanded: 220 updated: 252 path_len: 14 max_open: 703 time_elpased: 0.028358
-random Placement
-num: 392 expanded: 150 updated: 198 path_len: 15 max_open: 534 time_elpased: 0.019492
-random Placement
-num: 393 expanded: 34 updated: 21 path_len: 17 max_open: 234 time_elpased: 0.004427
-random Placement
-num: 394 expanded: 2703 updated: 4414 path_len: 34 max_open: 4916 time_elpased: 0.356425
-random Placement
-num: 395 expanded: 18 updated: 0 path_len: 16 max_open: 142 time_elpased: 0.002308
-random Placement
-num: 396 expanded: 423 updated: 751 path_len: 14 max_open: 1007 time_elpased: 0.05515
-random Placement
-num: 397 expanded: 925 updated: 1327 path_len: 16 max_open: 1878 time_elpased: 0.120989
-random Placement
-num: 398 expanded: 92 updated: 162 path_len: 10 max_open: 348 time_elpased: 0.011804
-random Placement
-num: 399 expanded: 409 updated: 308 path_len: 36 max_open: 877 time_elpased: 0.049726
-random Placement
-num: 400 expanded: 114 updated: 82 path_len: 21 max_open: 558 time_elpased: 0.014909
-random Placement
-num: 401 expanded: 102 updated: 152 path_len: 13 max_open: 362 time_elpased: 0.013212
-random Placement
-num: 402 expanded: 293 updated: 316 path_len: 17 max_open: 836 time_elpased: 0.037498
-random Placement
-num: 403 expanded: 234 updated: 265 path_len: 12 max_open: 610 time_elpased: 0.030383
-random Placement
-num: 404 expanded: 673 updated: 1108 path_len: 35 max_open: 1646 time_elpased: 0.087089
-random Placement
-num: 405 expanded: 72 updated: 48 path_len: 18 max_open: 336 time_elpased: 0.00906
-random Placement
-num: 406 expanded: 530 updated: 932 path_len: 28 max_open: 1337 time_elpased: 0.068836
-random Placement
-num: 407 expanded: 98 updated: 180 path_len: 14 max_open: 389 time_elpased: 0.012659
-random Placement
-num: 408 expanded: 401 updated: 480 path_len: 31 max_open: 1267 time_elpased: 0.051024
-random Placement
-num: 409 expanded: 857 updated: 1446 path_len: 25 max_open: 1714 time_elpased: 0.111526
-random Placement
-num: 410 expanded: 505 updated: 648 path_len: 21 max_open: 1191 time_elpased: 0.064941
-random Placement
-num: 411 expanded: 165 updated: 211 path_len: 20 max_open: 595 time_elpased: 0.021236
-random Placement
-num: 412 expanded: 158 updated: 154 path_len: 13 max_open: 554 time_elpased: 0.020453
-random Placement
-num: 413 expanded: 82 updated: 107 path_len: 11 max_open: 361 time_elpased: 0.01067
-random Placement
-num: 414 expanded: 435 updated: 619 path_len: 22 max_open: 1132 time_elpased: 0.056409
-random Placement
-num: 415 expanded: 300 updated: 455 path_len: 14 max_open: 771 time_elpased: 0.038631
-random Placement
-num: 416 expanded: 312 updated: 491 path_len: 22 max_open: 768 time_elpased: 0.040405
-random Placement
-num: 417 expanded: 64 updated: 25 path_len: 23 max_open: 406 time_elpased: 0.008249
-random Placement
-num: 418 expanded: 300 updated: 416 path_len: 22 max_open: 967 time_elpased: 0.038987
-random Placement
-num: 419 expanded: 182 updated: 418 path_len: 12 max_open: 506 time_elpased: 0.0234
-random Placement
-num: 420 expanded: 123 updated: 163 path_len: 13 max_open: 404 time_elpased: 0.015708
-random Placement
-num: 421 expanded: 1531 updated: 2405 path_len: 24 max_open: 3075 time_elpased: 0.200343
-random Placement
-num: 422 expanded: 1414 updated: 2409 path_len: 35 max_open: 2628 time_elpased: 0.185493
-random Placement
-num: 423 expanded: 505 updated: 837 path_len: 14 max_open: 1128 time_elpased: 0.06531
-random Placement
-num: 424 expanded: 219 updated: 380 path_len: 12 max_open: 590 time_elpased: 0.028222
-random Placement
-num: 425 expanded: 14 updated: 5 path_len: 13 max_open: 163 time_elpased: 0.001812
-random Placement
-num: 426 expanded: 194 updated: 314 path_len: 11 max_open: 522 time_elpased: 0.02496
-random Placement
-num: 427 expanded: 31 updated: 29 path_len: 11 max_open: 216 time_elpased: 0.003955
-random Placement
-num: 428 expanded: 161 updated: 331 path_len: 13 max_open: 539 time_elpased: 0.0211
-random Placement
-num: 429 expanded: 42 updated: 88 path_len: 10 max_open: 216 time_elpased: 0.005354
-random Placement
-num: 430 expanded: 149 updated: 103 path_len: 22 max_open: 621 time_elpased: 0.019116
-random Placement
-num: 431 expanded: 1310 updated: 1987 path_len: 21 max_open: 2393 time_elpased: 0.170884
-random Placement
-num: 432 expanded: 29 updated: 9 path_len: 11 max_open: 171 time_elpased: 0.003606
-random Placement
-num: 433 expanded: 916 updated: 1544 path_len: 26 max_open: 1850 time_elpased: 0.120794
-random Placement
-num: 434 expanded: 298 updated: 168 path_len: 35 max_open: 538 time_elpased: 0.035702
-random Placement
-num: 435 expanded: 8 updated: 0 path_len: 8 max_open: 94 time_elpased: 0.00103
-random Placement
-num: 436 expanded: 125 updated: 155 path_len: 15 max_open: 462 time_elpased: 0.015982
-random Placement
-num: 437 expanded: 397 updated: 749 path_len: 14 max_open: 1001 time_elpased: 0.051538
-random Placement
-num: 438 expanded: 261 updated: 406 path_len: 23 max_open: 909 time_elpased: 0.034078
-random Placement
-num: 439 expanded: 1118 updated: 1661 path_len: 28 max_open: 2459 time_elpased: 0.145963
-random Placement
-num: 440 expanded: 70 updated: 111 path_len: 11 max_open: 266 time_elpased: 0.008854
-random Placement
-num: 441 expanded: 64 updated: 83 path_len: 13 max_open: 276 time_elpased: 0.008219
-random Placement
-num: 442 expanded: 372 updated: 787 path_len: 14 max_open: 913 time_elpased: 0.048192
-random Placement
-num: 443 expanded: 37 updated: 39 path_len: 14 max_open: 254 time_elpased: 0.004777
-random Placement
-num: 444 expanded: 502 updated: 481 path_len: 29 max_open: 975 time_elpased: 0.06256
-random Placement
-num: 445 expanded: 511 updated: 358 path_len: 33 max_open: 1072 time_elpased: 0.063543
-random Placement
-num: 446 expanded: 482 updated: 723 path_len: 18 max_open: 1284 time_elpased: 0.062653
-random Placement
-num: 447 expanded: 1279 updated: 2136 path_len: 34 max_open: 2410 time_elpased: 0.166437
-random Placement
-num: 448 expanded: 258 updated: 343 path_len: 13 max_open: 765 time_elpased: 0.033292
-random Placement
-num: 449 expanded: 701 updated: 794 path_len: 35 max_open: 1420 time_elpased: 0.089333
-random Placement
-num: 450 expanded: 313 updated: 643 path_len: 17 max_open: 956 time_elpased: 0.041251
-random Placement
-num: 451 expanded: 145 updated: 143 path_len: 20 max_open: 492 time_elpased: 0.018533
-random Placement
-num: 452 expanded: 599 updated: 1312 path_len: 15 max_open: 1313 time_elpased: 0.077854
-random Placement
-num: 453 expanded: 351 updated: 157 path_len: 34 max_open: 563 time_elpased: 0.042213
-random Placement
-num: 454 expanded: 474 updated: 699 path_len: 19 max_open: 1060 time_elpased: 0.061547
-random Placement
-num: 455 expanded: 37 updated: 14 path_len: 13 max_open: 234 time_elpased: 0.004664
-random Placement
-num: 456 expanded: 1523 updated: 2299 path_len: 33 max_open: 2741 time_elpased: 0.198764
-random Placement
-num: 457 expanded: 884 updated: 746 path_len: 30 max_open: 1755 time_elpased: 0.113007
-random Placement
-num: 458 expanded: 339 updated: 442 path_len: 22 max_open: 856 time_elpased: 0.043805
-random Placement
-num: 459 expanded: 389 updated: 765 path_len: 13 max_open: 982 time_elpased: 0.051715
-random Placement
-num: 460 expanded: 15 updated: 39 path_len: 7 max_open: 119 time_elpased: 0.001908
-random Placement
-num: 461 expanded: 143 updated: 54 path_len: 27 max_open: 315 time_elpased: 0.017078
-random Placement
-num: 462 expanded: 252 updated: 204 path_len: 35 max_open: 1043 time_elpased: 0.03225
-random Placement
-num: 463 expanded: 861 updated: 2024 path_len: 36 max_open: 2382 time_elpased: 0.114255
-random Placement
-num: 464 expanded: 44 updated: 18 path_len: 11 max_open: 155 time_elpased: 0.005414
-random Placement
-num: 465 expanded: 30 updated: 51 path_len: 7 max_open: 149 time_elpased: 0.00388
-random Placement
-num: 466 expanded: 81 updated: 137 path_len: 16 max_open: 354 time_elpased: 0.010498
-random Placement
-num: 467 expanded: 90 updated: 86 path_len: 24 max_open: 441 time_elpased: 0.011436
-random Placement
-num: 468 expanded: 303 updated: 492 path_len: 13 max_open: 694 time_elpased: 0.039107
-random Placement
-num: 469 expanded: 212 updated: 247 path_len: 25 max_open: 506 time_elpased: 0.026122
-random Placement
-num: 470 expanded: 123 updated: 99 path_len: 27 max_open: 383 time_elpased: 0.015153
-random Placement
-num: 471 expanded: 1146 updated: 1918 path_len: 22 max_open: 2344 time_elpased: 0.150125
-random Placement
-num: 472 expanded: 418 updated: 732 path_len: 19 max_open: 1086 time_elpased: 0.054219
-random Placement
-num: 473 expanded: 652 updated: 859 path_len: 16 max_open: 1409 time_elpased: 0.085806
-random Placement
-num: 474 expanded: 44 updated: 97 path_len: 10 max_open: 260 time_elpased: 0.005825
-random Placement
-num: 475 expanded: 3103 updated: 4863 path_len: 35 max_open: 5289 time_elpased: 0.407193
-random Placement
-num: 476 expanded: 676 updated: 1071 path_len: 16 max_open: 1497 time_elpased: 0.088458
-random Placement
-num: 477 expanded: 1021 updated: 1114 path_len: 17 max_open: 1977 time_elpased: 0.133069
-random Placement
-num: 478 expanded: 257 updated: 309 path_len: 13 max_open: 657 time_elpased: 0.033222
-random Placement
-num: 479 expanded: 967 updated: 1390 path_len: 27 max_open: 2165 time_elpased: 0.125693
-random Placement
-num: 480 expanded: 103 updated: 136 path_len: 16 max_open: 464 time_elpased: 0.01348
-random Placement
-num: 481 expanded: 644 updated: 992 path_len: 24 max_open: 1593 time_elpased: 0.083439
-random Placement
-num: 482 expanded: 143 updated: 116 path_len: 22 max_open: 458 time_elpased: 0.017926
-random Placement
-num: 483 expanded: 99 updated: 20 path_len: 22 max_open: 249 time_elpased: 0.011828
-random Placement
-num: 484 expanded: 267 updated: 577 path_len: 12 max_open: 724 time_elpased: 0.034814
-random Placement
-num: 485 expanded: 96 updated: 137 path_len: 12 max_open: 344 time_elpased: 0.012302
-random Placement
-num: 486 expanded: 194 updated: 316 path_len: 18 max_open: 662 time_elpased: 0.02565
-random Placement
-num: 487 expanded: 413 updated: 587 path_len: 15 max_open: 949 time_elpased: 0.05399
-random Placement
-num: 488 expanded: 80 updated: 136 path_len: 14 max_open: 332 time_elpased: 0.010405
-random Placement
-num: 489 expanded: 340 updated: 600 path_len: 15 max_open: 794 time_elpased: 0.044043
-random Placement
-num: 490 expanded: 215 updated: 147 path_len: 25 max_open: 404 time_elpased: 0.025778
-random Placement
-num: 491 expanded: 9685 updated: 10831 path_len: 29 max_open: 13839 time_elpased: 1.30711
-random Placement
-num: 492 expanded: 326 updated: 481 path_len: 17 max_open: 824 time_elpased: 0.042177
-random Placement
-num: 493 expanded: 130 updated: 174 path_len: 19 max_open: 570 time_elpased: 0.017026
-random Placement
-num: 494 expanded: 389 updated: 185 path_len: 36 max_open: 919 time_elpased: 0.047686
-random Placement
-num: 495 expanded: 5154 updated: 5304 path_len: 34 max_open: 7819 time_elpased: 0.686264
-random Placement
-num: 496 expanded: 217 updated: 68 path_len: 29 max_open: 322 time_elpased: 0.025669
-random Placement
-num: 497 expanded: 738 updated: 1312 path_len: 17 max_open: 1524 time_elpased: 0.095876
-random Placement
-num: 498 expanded: 369 updated: 406 path_len: 26 max_open: 1009 time_elpased: 0.047153
-random Placement
-num: 499 expanded: 1799 updated: 2794 path_len: 28 max_open: 3251 time_elpased: 0.235025
-random Placement
-num: 500 expanded: 572 updated: 648 path_len: 36 max_open: 1214 time_elpased: 0.074084
-random Placement
-num: 501 expanded: 29 updated: 21 path_len: 11 max_open: 203 time_elpased: 0.00373
-random Placement
-num: 502 expanded: 315 updated: 246 path_len: 27 max_open: 572 time_elpased: 0.03833
-random Placement
-num: 503 expanded: 245 updated: 403 path_len: 11 max_open: 613 time_elpased: 0.032083
-random Placement
-num: 504 expanded: 144 updated: 179 path_len: 13 max_open: 472 time_elpased: 0.018731
-random Placement
-num: 505 expanded: 14 updated: 6 path_len: 6 max_open: 89 time_elpased: 0.001753
-random Placement
-num: 506 expanded: 167 updated: 173 path_len: 18 max_open: 687 time_elpased: 0.021398
-random Placement
-num: 507 expanded: 462 updated: 682 path_len: 16 max_open: 1069 time_elpased: 0.059725
-random Placement
-num: 508 expanded: 36 updated: 4 path_len: 28 max_open: 190 time_elpased: 0.004437
-random Placement
-num: 509 expanded: 1657 updated: 2211 path_len: 30 max_open: 3193 time_elpased: 0.216005
-random Placement
-num: 510 expanded: 24 updated: 18 path_len: 9 max_open: 141 time_elpased: 0.002976
-random Placement
-num: 511 expanded: 158 updated: 210 path_len: 19 max_open: 439 time_elpased: 0.019997
-random Placement
-num: 512 expanded: 4851 updated: 7498 path_len: 31 max_open: 7728 time_elpased: 0.643619
-random Placement
-num: 513 expanded: 93 updated: 211 path_len: 12 max_open: 394 time_elpased: 0.012139
-random Placement
-num: 514 expanded: 850 updated: 1413 path_len: 18 max_open: 1772 time_elpased: 0.1109
-random Placement
-num: 515 expanded: 102 updated: 64 path_len: 34 max_open: 502 time_elpased: 0.013131
-random Placement
-num: 516 expanded: 306 updated: 243 path_len: 28 max_open: 1028 time_elpased: 0.03824
-random Placement
-num: 517 expanded: 833 updated: 1132 path_len: 18 max_open: 1631 time_elpased: 0.108867
-random Placement
-num: 518 expanded: 618 updated: 990 path_len: 16 max_open: 1441 time_elpased: 0.08056
-random Placement
-num: 519 expanded: 366 updated: 488 path_len: 29 max_open: 1296 time_elpased: 0.048387
-random Placement
-num: 520 expanded: 379 updated: 552 path_len: 13 max_open: 898 time_elpased: 0.048855
-random Placement
-num: 521 expanded: 202 updated: 381 path_len: 13 max_open: 633 time_elpased: 0.026141
-random Placement
-num: 522 expanded: 259 updated: 393 path_len: 14 max_open: 657 time_elpased: 0.033603
-random Placement
-num: 523 expanded: 622 updated: 916 path_len: 28 max_open: 2040 time_elpased: 0.08238
-random Placement
-num: 524 expanded: 287 updated: 407 path_len: 13 max_open: 729 time_elpased: 0.037006
-random Placement
-num: 525 expanded: 40 updated: 108 path_len: 11 max_open: 234 time_elpased: 0.005189
-random Placement
-num: 526 expanded: 33 updated: 49 path_len: 11 max_open: 168 time_elpased: 0.004203
-random Placement
-num: 527 expanded: 4103 updated: 5501 path_len: 35 max_open: 6434 time_elpased: 0.542807
-random Placement
-num: 528 expanded: 42 updated: 70 path_len: 11 max_open: 206 time_elpased: 0.005393
-random Placement
-num: 529 expanded: 303 updated: 180 path_len: 25 max_open: 618 time_elpased: 0.036964
-random Placement
-num: 530 expanded: 201 updated: 269 path_len: 13 max_open: 579 time_elpased: 0.025842
-random Placement
-num: 531 expanded: 122 updated: 97 path_len: 16 max_open: 389 time_elpased: 0.015448
-random Placement
-num: 532 expanded: 35 updated: 21 path_len: 13 max_open: 294 time_elpased: 0.004654
-random Placement
-num: 533 expanded: 371 updated: 546 path_len: 20 max_open: 914 time_elpased: 0.04985
-random Placement
-num: 534 expanded: 1850 updated: 2220 path_len: 17 max_open: 3167 time_elpased: 0.243726
-random Placement
-num: 535 expanded: 264 updated: 73 path_len: 33 max_open: 361 time_elpased: 0.031096
-random Placement
-num: 536 expanded: 209 updated: 343 path_len: 11 max_open: 590 time_elpased: 0.027018
-random Placement
-num: 537 expanded: 104 updated: 59 path_len: 22 max_open: 383 time_elpased: 0.012889
-random Placement
-num: 538 expanded: 1493 updated: 2444 path_len: 22 max_open: 2951 time_elpased: 0.195392
-random Placement
-num: 539 expanded: 53 updated: 63 path_len: 14 max_open: 284 time_elpased: 0.006766
-random Placement
-num: 540 expanded: 974 updated: 1441 path_len: 20 max_open: 2037 time_elpased: 0.126485
-random Placement
-num: 541 expanded: 786 updated: 1378 path_len: 17 max_open: 1582 time_elpased: 0.10227
-random Placement
-num: 542 expanded: 22 updated: 6 path_len: 12 max_open: 158 time_elpased: 0.002854
-random Placement
-num: 543 expanded: 78 updated: 175 path_len: 15 max_open: 383 time_elpased: 0.010198
-random Placement
-num: 544 expanded: 3447 updated: 5791 path_len: 40 max_open: 5668 time_elpased: 0.453034
-random Placement
-num: 545 expanded: 4436 updated: 5258 path_len: 38 max_open: 7371 time_elpased: 0.58283
-random Placement
-num: 546 expanded: 5377 updated: 5044 path_len: 24 max_open: 8065 time_elpased: 0.721345
-random Placement
-num: 547 expanded: 46 updated: 36 path_len: 15 max_open: 297 time_elpased: 0.005956
-random Placement
-num: 548 expanded: 3694 updated: 5285 path_len: 31 max_open: 5961 time_elpased: 0.489326
-random Placement
-num: 549 expanded: 32 updated: 22 path_len: 12 max_open: 186 time_elpased: 0.004178
-random Placement
-num: 550 expanded: 4530 updated: 7704 path_len: 27 max_open: 7042 time_elpased: 0.60326
-random Placement
-num: 551 expanded: 176 updated: 297 path_len: 16 max_open: 523 time_elpased: 0.022792
-random Placement
-num: 552 expanded: 354 updated: 473 path_len: 30 max_open: 1018 time_elpased: 0.045532
-random Placement
-num: 553 expanded: 13098 updated: 9451 path_len: 34 max_open: 18052 time_elpased: 1.77451
-random Placement
-num: 554 expanded: 24 updated: 11 path_len: 12 max_open: 171 time_elpased: 0.00304
-random Placement
-num: 555 expanded: 510 updated: 808 path_len: 27 max_open: 1427 time_elpased: 0.066187
-random Placement
-num: 556 expanded: 237 updated: 197 path_len: 11 max_open: 657 time_elpased: 0.030717
-random Placement
-num: 557 expanded: 102 updated: 125 path_len: 16 max_open: 475 time_elpased: 0.013392
-random Placement
-num: 558 expanded: 239 updated: 283 path_len: 13 max_open: 646 time_elpased: 0.030986
-random Placement
-num: 559 expanded: 14 updated: 7 path_len: 11 max_open: 179 time_elpased: 0.001847
-random Placement
-num: 560 expanded: 3274 updated: 3336 path_len: 33 max_open: 5585 time_elpased: 0.430986
-random Placement
-num: 561 expanded: 1215 updated: 1547 path_len: 32 max_open: 2393 time_elpased: 0.158633
-random Placement
-num: 562 expanded: 223 updated: 327 path_len: 31 max_open: 856 time_elpased: 0.029205
-random Placement
-num: 563 expanded: 1238 updated: 1785 path_len: 18 max_open: 2402 time_elpased: 0.161739
-random Placement
-num: 564 expanded: 485 updated: 781 path_len: 22 max_open: 1111 time_elpased: 0.062757
-random Placement
-num: 565 expanded: 369 updated: 623 path_len: 14 max_open: 1016 time_elpased: 0.048005
-random Placement
-num: 566 expanded: 457 updated: 677 path_len: 13 max_open: 986 time_elpased: 0.059126
-random Placement
-num: 567 expanded: 185 updated: 302 path_len: 22 max_open: 628 time_elpased: 0.023922
-random Placement
-num: 568 expanded: 296 updated: 412 path_len: 30 max_open: 1269 time_elpased: 0.038889
-random Placement
-num: 569 expanded: 126 updated: 187 path_len: 14 max_open: 455 time_elpased: 0.016022
-random Placement
-num: 570 expanded: 1340 updated: 1644 path_len: 26 max_open: 2481 time_elpased: 0.176351
-random Placement
-num: 571 expanded: 645 updated: 687 path_len: 29 max_open: 1703 time_elpased: 0.08118
-random Placement
-num: 572 expanded: 1444 updated: 2414 path_len: 21 max_open: 2912 time_elpased: 0.188612
-random Placement
-num: 573 expanded: 12 updated: 1 path_len: 8 max_open: 91 time_elpased: 0.001499
-random Placement
-num: 574 expanded: 88 updated: 93 path_len: 15 max_open: 356 time_elpased: 0.011029
-random Placement
-num: 575 expanded: 109 updated: 92 path_len: 10 max_open: 356 time_elpased: 0.014137
-random Placement
-num: 576 expanded: 28 updated: 27 path_len: 9 max_open: 136 time_elpased: 0.003532
-random Placement
-num: 577 expanded: 278 updated: 396 path_len: 13 max_open: 700 time_elpased: 0.035747
-random Placement
-num: 578 expanded: 3276 updated: 5669 path_len: 26 max_open: 5553 time_elpased: 0.433869
-random Placement
-num: 579 expanded: 530 updated: 700 path_len: 15 max_open: 1258 time_elpased: 0.06873
-random Placement
-num: 580 expanded: 63 updated: 94 path_len: 13 max_open: 320 time_elpased: 0.008221
-random Placement
-num: 581 expanded: 186 updated: 111 path_len: 18 max_open: 367 time_elpased: 0.022395
-random Placement
-num: 582 expanded: 8604 updated: 10017 path_len: 34 max_open: 12395 time_elpased: 1.15097
-random Placement
-num: 583 expanded: 713 updated: 525 path_len: 36 max_open: 1531 time_elpased: 0.08908
-random Placement
-num: 584 expanded: 49 updated: 88 path_len: 12 max_open: 258 time_elpased: 0.006316
-random Placement
-num: 585 expanded: 158 updated: 298 path_len: 16 max_open: 580 time_elpased: 0.020637
-random Placement
-num: 586 expanded: 132 updated: 226 path_len: 14 max_open: 422 time_elpased: 0.01713
-random Placement
-num: 587 expanded: 152 updated: 197 path_len: 23 max_open: 534 time_elpased: 0.019443
-random Placement
-num: 588 expanded: 343 updated: 556 path_len: 13 max_open: 844 time_elpased: 0.04421
-random Placement
-num: 589 expanded: 109 updated: 162 path_len: 19 max_open: 443 time_elpased: 0.0141
-random Placement
-num: 590 expanded: 54 updated: 51 path_len: 17 max_open: 398 time_elpased: 0.007235
-random Placement
-num: 591 expanded: 276 updated: 341 path_len: 14 max_open: 691 time_elpased: 0.035948
-random Placement
-num: 592 expanded: 106 updated: 56 path_len: 13 max_open: 183 time_elpased: 0.012556
-random Placement
-num: 593 expanded: 10889 updated: 14576 path_len: 33 max_open: 15551 time_elpased: 1.46841
-random Placement
-num: 594 expanded: 78 updated: 106 path_len: 14 max_open: 343 time_elpased: 0.009925
-random Placement
-num: 595 expanded: 177 updated: 322 path_len: 10 max_open: 491 time_elpased: 0.022786
-random Placement
-num: 596 expanded: 2190 updated: 3933 path_len: 23 max_open: 3896 time_elpased: 0.289004
-random Placement
-num: 597 expanded: 4213 updated: 4635 path_len: 39 max_open: 6888 time_elpased: 0.555498
-random Placement
-num: 598 expanded: 26 updated: 0 path_len: 22 max_open: 207 time_elpased: 0.003392
-random Placement
-num: 599 expanded: 26 updated: 23 path_len: 12 max_open: 211 time_elpased: 0.003388
-random Placement
-num: 600 expanded: 199 updated: 320 path_len: 14 max_open: 584 time_elpased: 0.025765
-random Placement
-num: 601 expanded: 1581 updated: 2450 path_len: 22 max_open: 2877 time_elpased: 0.206706
-random Placement
-num: 602 expanded: 75 updated: 52 path_len: 25 max_open: 425 time_elpased: 0.009616
-random Placement
-num: 603 expanded: 36 updated: 31 path_len: 13 max_open: 210 time_elpased: 0.00469
-random Placement
-num: 604 expanded: 518 updated: 914 path_len: 18 max_open: 1210 time_elpased: 0.067277
-random Placement
-num: 605 expanded: 377 updated: 496 path_len: 31 max_open: 990 time_elpased: 0.048603
-random Placement
-num: 606 expanded: 371 updated: 566 path_len: 16 max_open: 928 time_elpased: 0.047776
-random Placement
-num: 607 expanded: 225 updated: 262 path_len: 23 max_open: 916 time_elpased: 0.029806
-random Placement
-num: 608 expanded: 359 updated: 649 path_len: 18 max_open: 905 time_elpased: 0.046516
-random Placement
-num: 609 expanded: 255 updated: 359 path_len: 20 max_open: 775 time_elpased: 0.03317
-random Placement
-num: 610 expanded: 133 updated: 194 path_len: 15 max_open: 462 time_elpased: 0.01698
-random Placement
-num: 611 expanded: 20 updated: 7 path_len: 12 max_open: 128 time_elpased: 0.002512
-random Placement
-num: 612 expanded: 6024 updated: 8479 path_len: 40 max_open: 9281 time_elpased: 0.796894
-random Placement
-num: 613 expanded: 24 updated: 9 path_len: 9 max_open: 158 time_elpased: 0.003049
-random Placement
-num: 614 expanded: 172 updated: 81 path_len: 21 max_open: 229 time_elpased: 0.020189
-random Placement
-num: 615 expanded: 421 updated: 803 path_len: 15 max_open: 1043 time_elpased: 0.054655
-random Placement
-num: 616 expanded: 115 updated: 156 path_len: 10 max_open: 369 time_elpased: 0.014792
-random Placement
-num: 617 expanded: 250 updated: 390 path_len: 16 max_open: 729 time_elpased: 0.032054
-random Placement
-num: 618 expanded: 1078 updated: 1923 path_len: 20 max_open: 2085 time_elpased: 0.141288
-random Placement
-num: 619 expanded: 89 updated: 54 path_len: 14 max_open: 170 time_elpased: 0.010579
-random Placement
-num: 620 expanded: 280 updated: 510 path_len: 13 max_open: 746 time_elpased: 0.036239
-random Placement
-num: 621 expanded: 405 updated: 868 path_len: 18 max_open: 991 time_elpased: 0.053395
-random Placement
-num: 622 expanded: 87 updated: 138 path_len: 13 max_open: 335 time_elpased: 0.011176
-random Placement
-num: 623 expanded: 116 updated: 50 path_len: 26 max_open: 267 time_elpased: 0.013845
-random Placement
-num: 624 expanded: 435 updated: 713 path_len: 14 max_open: 1076 time_elpased: 0.056294
-random Placement
-num: 625 expanded: 1207 updated: 1582 path_len: 25 max_open: 2392 time_elpased: 0.157898
-random Placement
-num: 626 expanded: 552 updated: 1194 path_len: 16 max_open: 1342 time_elpased: 0.07228
-random Placement
-num: 627 expanded: 99 updated: 113 path_len: 21 max_open: 546 time_elpased: 0.013243
-random Placement
-num: 628 expanded: 526 updated: 838 path_len: 31 max_open: 1375 time_elpased: 0.068871
-random Placement
-num: 629 expanded: 592 updated: 955 path_len: 26 max_open: 1314 time_elpased: 0.076711
-random Placement
-num: 630 expanded: 43 updated: 30 path_len: 11 max_open: 216 time_elpased: 0.005419
-random Placement
-num: 631 expanded: 1345 updated: 1618 path_len: 23 max_open: 2616 time_elpased: 0.174954
-random Placement
-num: 632 expanded: 16 updated: 5 path_len: 11 max_open: 126 time_elpased: 0.002044
-random Placement
-num: 633 expanded: 258 updated: 308 path_len: 22 max_open: 813 time_elpased: 0.033181
-random Placement
-num: 634 expanded: 190 updated: 311 path_len: 36 max_open: 699 time_elpased: 0.024405
-random Placement
-num: 635 expanded: 5424 updated: 6554 path_len: 28 max_open: 8408 time_elpased: 0.723262
-random Placement
-num: 636 expanded: 349 updated: 441 path_len: 17 max_open: 1044 time_elpased: 0.045948
-random Placement
-num: 637 expanded: 203 updated: 189 path_len: 19 max_open: 811 time_elpased: 0.026058
-random Placement
-num: 638 expanded: 218 updated: 358 path_len: 14 max_open: 694 time_elpased: 0.028036
-random Placement
-num: 639 expanded: 43 updated: 63 path_len: 12 max_open: 259 time_elpased: 0.005611
-random Placement
-num: 640 expanded: 1064 updated: 1409 path_len: 32 max_open: 2684 time_elpased: 0.13713
-random Placement
-num: 641 expanded: 140 updated: 140 path_len: 19 max_open: 604 time_elpased: 0.017902
-random Placement
-num: 642 expanded: 3025 updated: 3781 path_len: 29 max_open: 4941 time_elpased: 0.400154
-random Placement
-num: 643 expanded: 874 updated: 1553 path_len: 23 max_open: 1826 time_elpased: 0.113455
-random Placement
-num: 644 expanded: 7734 updated: 10799 path_len: 35 max_open: 11545 time_elpased: 1.03678
-random Placement
-num: 645 expanded: 207 updated: 417 path_len: 13 max_open: 585 time_elpased: 0.026781
-random Placement
-num: 646 expanded: 118 updated: 206 path_len: 15 max_open: 407 time_elpased: 0.015248
-random Placement
-num: 647 expanded: 326 updated: 389 path_len: 25 max_open: 1045 time_elpased: 0.042719
-random Placement
-num: 648 expanded: 354 updated: 450 path_len: 26 max_open: 1309 time_elpased: 0.047555
-random Placement
-num: 649 expanded: 92 updated: 109 path_len: 15 max_open: 344 time_elpased: 0.011653
-random Placement
-num: 650 expanded: 300 updated: 545 path_len: 34 max_open: 1241 time_elpased: 0.03973
-random Placement
-num: 651 expanded: 721 updated: 1089 path_len: 29 max_open: 1742 time_elpased: 0.093684
-random Placement
-num: 652 expanded: 847 updated: 1414 path_len: 22 max_open: 1904 time_elpased: 0.11065
-random Placement
-num: 653 expanded: 96 updated: 71 path_len: 20 max_open: 459 time_elpased: 0.012423
-random Placement
-num: 654 expanded: 629 updated: 1155 path_len: 25 max_open: 1558 time_elpased: 0.081663
-random Placement
-num: 655 expanded: 589 updated: 773 path_len: 22 max_open: 1412 time_elpased: 0.076175
-random Placement
-num: 656 expanded: 195 updated: 254 path_len: 17 max_open: 677 time_elpased: 0.025343
-random Placement
-num: 657 expanded: 326 updated: 755 path_len: 16 max_open: 835 time_elpased: 0.042421
-random Placement
-num: 658 expanded: 71 updated: 109 path_len: 10 max_open: 285 time_elpased: 0.00915
-random Placement
-num: 659 expanded: 298 updated: 409 path_len: 17 max_open: 719 time_elpased: 0.038327
-random Placement
-num: 660 expanded: 78 updated: 103 path_len: 15 max_open: 365 time_elpased: 0.010118
-random Placement
-num: 661 expanded: 733 updated: 1083 path_len: 16 max_open: 1508 time_elpased: 0.095702
-random Placement
-num: 662 expanded: 159 updated: 376 path_len: 14 max_open: 545 time_elpased: 0.020802
-random Placement
-num: 663 expanded: 649 updated: 785 path_len: 15 max_open: 1306 time_elpased: 0.08428
-random Placement
-num: 664 expanded: 213 updated: 274 path_len: 32 max_open: 815 time_elpased: 0.027248
-random Placement
-num: 665 expanded: 385 updated: 554 path_len: 14 max_open: 951 time_elpased: 0.04976
-random Placement
-num: 666 expanded: 41 updated: 29 path_len: 11 max_open: 226 time_elpased: 0.005241
-random Placement
-num: 667 expanded: 185 updated: 202 path_len: 16 max_open: 607 time_elpased: 0.023638
-random Placement
-num: 668 expanded: 10178 updated: 9958 path_len: 31 max_open: 14185 time_elpased: 1.42071
-random Placement
-num: 669 expanded: 1350 updated: 2318 path_len: 21 max_open: 2584 time_elpased: 0.179035
-random Placement
-num: 670 expanded: 1572 updated: 1881 path_len: 26 max_open: 2994 time_elpased: 0.204312
-random Placement
-num: 671 expanded: 615 updated: 829 path_len: 33 max_open: 1432 time_elpased: 0.078941
-random Placement
-num: 672 expanded: 31 updated: 21 path_len: 7 max_open: 145 time_elpased: 0.003882
-random Placement
-num: 673 expanded: 267 updated: 488 path_len: 16 max_open: 867 time_elpased: 0.03567
-random Placement
-num: 674 expanded: 359 updated: 381 path_len: 14 max_open: 859 time_elpased: 0.046203
-random Placement
-num: 675 expanded: 71 updated: 86 path_len: 14 max_open: 341 time_elpased: 0.009408
-random Placement
-num: 676 expanded: 44 updated: 34 path_len: 12 max_open: 223 time_elpased: 0.005592
-random Placement
-num: 677 expanded: 234 updated: 132 path_len: 34 max_open: 352 time_elpased: 0.027851
-random Placement
-num: 678 expanded: 549 updated: 843 path_len: 35 max_open: 1509 time_elpased: 0.072157
-random Placement
-num: 679 expanded: 267 updated: 355 path_len: 19 max_open: 800 time_elpased: 0.034658
-random Placement
-num: 680 expanded: 361 updated: 437 path_len: 28 max_open: 1131 time_elpased: 0.047062
-random Placement
-num: 681 expanded: 335 updated: 523 path_len: 15 max_open: 918 time_elpased: 0.04385
-random Placement
-num: 682 expanded: 197 updated: 355 path_len: 14 max_open: 592 time_elpased: 0.025287
-random Placement
-num: 683 expanded: 1018 updated: 1196 path_len: 29 max_open: 2031 time_elpased: 0.132082
-random Placement
-num: 684 expanded: 708 updated: 881 path_len: 31 max_open: 1722 time_elpased: 0.09089
-random Placement
-num: 685 expanded: 2443 updated: 2983 path_len: 36 max_open: 4215 time_elpased: 0.320435
-random Placement
-num: 686 expanded: 927 updated: 1396 path_len: 18 max_open: 1847 time_elpased: 0.122034
-random Placement
-num: 687 expanded: 214 updated: 325 path_len: 21 max_open: 780 time_elpased: 0.027787
-random Placement
-num: 688 expanded: 92 updated: 186 path_len: 12 max_open: 359 time_elpased: 0.011861
-random Placement
-num: 689 expanded: 100 updated: 169 path_len: 14 max_open: 385 time_elpased: 0.012952
-random Placement
-num: 690 expanded: 2998 updated: 3214 path_len: 23 max_open: 5076 time_elpased: 0.395209
-random Placement
-num: 691 expanded: 124 updated: 74 path_len: 18 max_open: 183 time_elpased: 0.01464
-random Placement
-num: 692 expanded: 96 updated: 124 path_len: 15 max_open: 473 time_elpased: 0.012452
-random Placement
-num: 693 expanded: 173 updated: 236 path_len: 12 max_open: 482 time_elpased: 0.022049
-random Placement
-num: 694 expanded: 40 updated: 51 path_len: 10 max_open: 219 time_elpased: 0.005218
-random Placement
-num: 695 expanded: 170 updated: 239 path_len: 12 max_open: 563 time_elpased: 0.021983
-random Placement
-num: 696 expanded: 206 updated: 225 path_len: 12 max_open: 575 time_elpased: 0.026599
-random Placement
-num: 697 expanded: 2216 updated: 2571 path_len: 20 max_open: 3758 time_elpased: 0.29484
-random Placement
-num: 698 expanded: 368 updated: 443 path_len: 15 max_open: 857 time_elpased: 0.047087
-random Placement
-num: 699 expanded: 207 updated: 141 path_len: 26 max_open: 527 time_elpased: 0.025738
-random Placement
-num: 700 expanded: 73 updated: 92 path_len: 14 max_open: 333 time_elpased: 0.009462
-random Placement
-num: 701 expanded: 456 updated: 446 path_len: 23 max_open: 1023 time_elpased: 0.057216
-random Placement
-num: 702 expanded: 326 updated: 422 path_len: 20 max_open: 882 time_elpased: 0.041597
-random Placement
-num: 703 expanded: 595 updated: 1005 path_len: 16 max_open: 1316 time_elpased: 0.077266
-random Placement
-num: 704 expanded: 1525 updated: 2409 path_len: 28 max_open: 2871 time_elpased: 0.199591
-random Placement
-num: 705 expanded: 684 updated: 897 path_len: 16 max_open: 1440 time_elpased: 0.088705
-random Placement
-num: 706 expanded: 301 updated: 423 path_len: 34 max_open: 1004 time_elpased: 0.038883
-random Placement
-num: 707 expanded: 17 updated: 1 path_len: 15 max_open: 107 time_elpased: 0.002085
-random Placement
-num: 708 expanded: 229 updated: 461 path_len: 14 max_open: 760 time_elpased: 0.029441
-random Placement
-num: 709 expanded: 269 updated: 374 path_len: 17 max_open: 854 time_elpased: 0.03496
-random Placement
-num: 710 expanded: 263 updated: 418 path_len: 20 max_open: 765 time_elpased: 0.034969
-random Placement
-num: 711 expanded: 33 updated: 0 path_len: 27 max_open: 171 time_elpased: 0.004009
-random Placement
-num: 712 expanded: 356 updated: 348 path_len: 17 max_open: 931 time_elpased: 0.045999
-random Placement
-num: 713 expanded: 19 updated: 16 path_len: 5 max_open: 74 time_elpased: 0.002293
-random Placement
-num: 714 expanded: 22 updated: 8 path_len: 15 max_open: 171 time_elpased: 0.002875
-random Placement
-num: 715 expanded: 2313 updated: 3704 path_len: 26 max_open: 4000 time_elpased: 0.308082
-random Placement
-num: 716 expanded: 87 updated: 136 path_len: 22 max_open: 559 time_elpased: 0.011636
-random Placement
-num: 717 expanded: 461 updated: 333 path_len: 35 max_open: 977 time_elpased: 0.056262
-random Placement
-num: 718 expanded: 38 updated: 13 path_len: 18 max_open: 217 time_elpased: 0.004881
-random Placement
-num: 719 expanded: 123 updated: 175 path_len: 15 max_open: 467 time_elpased: 0.015918
-random Placement
-num: 720 expanded: 1204 updated: 1462 path_len: 21 max_open: 2430 time_elpased: 0.157186
-random Placement
-num: 721 expanded: 169 updated: 235 path_len: 19 max_open: 581 time_elpased: 0.021559
-random Placement
-num: 722 expanded: 7 updated: 0 path_len: 6 max_open: 74 time_elpased: 0.000846
-random Placement
-num: 723 expanded: 309 updated: 420 path_len: 20 max_open: 870 time_elpased: 0.039571
-random Placement
-num: 724 expanded: 44 updated: 25 path_len: 12 max_open: 268 time_elpased: 0.005749
-random Placement
-num: 725 expanded: 1272 updated: 1793 path_len: 38 max_open: 2705 time_elpased: 0.16352
-random Placement
-num: 726 expanded: 133 updated: 41 path_len: 16 max_open: 254 time_elpased: 0.015821
-random Placement
-num: 727 expanded: 1472 updated: 2292 path_len: 19 max_open: 2660 time_elpased: 0.193232
-random Placement
-num: 728 expanded: 471 updated: 758 path_len: 18 max_open: 1289 time_elpased: 0.060916
-random Placement
-num: 729 expanded: 23 updated: 26 path_len: 10 max_open: 141 time_elpased: 0.00285
-random Placement
-num: 730 expanded: 24 updated: 12 path_len: 10 max_open: 170 time_elpased: 0.00313
-random Placement
-num: 731 expanded: 39 updated: 40 path_len: 11 max_open: 175 time_elpased: 0.00485
-random Placement
-num: 732 expanded: 3707 updated: 6984 path_len: 36 max_open: 6017 time_elpased: 0.493246
-random Placement
-num: 733 expanded: 85 updated: 95 path_len: 21 max_open: 449 time_elpased: 0.011048
-random Placement
-num: 734 expanded: 58 updated: 62 path_len: 13 max_open: 268 time_elpased: 0.007362
-random Placement
-num: 735 expanded: 8019 updated: 9533 path_len: 34 max_open: 11880 time_elpased: 1.07433
-random Placement
-num: 736 expanded: 2729 updated: 3677 path_len: 29 max_open: 4574 time_elpased: 0.358964
-random Placement
-num: 737 expanded: 196 updated: 283 path_len: 14 max_open: 561 time_elpased: 0.025456
-random Placement
-num: 738 expanded: 556 updated: 620 path_len: 16 max_open: 1327 time_elpased: 0.071925
-random Placement
-num: 739 expanded: 195 updated: 282 path_len: 19 max_open: 580 time_elpased: 0.025647
-random Placement
-num: 740 expanded: 327 updated: 459 path_len: 25 max_open: 970 time_elpased: 0.042122
-random Placement
-num: 741 expanded: 186 updated: 207 path_len: 12 max_open: 564 time_elpased: 0.023905
-random Placement
-num: 742 expanded: 161 updated: 255 path_len: 12 max_open: 464 time_elpased: 0.020699
-random Placement
-num: 743 expanded: 557 updated: 1162 path_len: 14 max_open: 1239 time_elpased: 0.072421
-random Placement
-num: 744 expanded: 3169 updated: 4515 path_len: 24 max_open: 5146 time_elpased: 0.420819
-random Placement
-num: 745 expanded: 1702 updated: 2572 path_len: 22 max_open: 3213 time_elpased: 0.222347
-random Placement
-num: 746 expanded: 20 updated: 14 path_len: 11 max_open: 210 time_elpased: 0.002663
-random Placement
-num: 747 expanded: 1584 updated: 2188 path_len: 25 max_open: 2984 time_elpased: 0.206475
-random Placement
-num: 748 expanded: 66 updated: 60 path_len: 20 max_open: 306 time_elpased: 0.008508
-random Placement
-num: 749 expanded: 240 updated: 290 path_len: 19 max_open: 709 time_elpased: 0.03075
-random Placement
-num: 750 expanded: 676 updated: 1271 path_len: 19 max_open: 1516 time_elpased: 0.087646
-random Placement
-num: 751 expanded: 38 updated: 60 path_len: 12 max_open: 205 time_elpased: 0.004932
-random Placement
-num: 752 expanded: 371 updated: 746 path_len: 14 max_open: 962 time_elpased: 0.048052
-random Placement
-num: 753 expanded: 41 updated: 64 path_len: 12 max_open: 212 time_elpased: 0.005166
-random Placement
-num: 754 expanded: 1416 updated: 2721 path_len: 38 max_open: 3721 time_elpased: 0.188137
-random Placement
-num: 755 expanded: 948 updated: 1426 path_len: 33 max_open: 2529 time_elpased: 0.126891
-random Placement
-num: 756 expanded: 520 updated: 730 path_len: 27 max_open: 1323 time_elpased: 0.067493
-random Placement
-num: 757 expanded: 269 updated: 510 path_len: 11 max_open: 648 time_elpased: 0.034824
-random Placement
-num: 758 expanded: 145 updated: 212 path_len: 15 max_open: 481 time_elpased: 0.01855
-random Placement
-num: 759 expanded: 201 updated: 220 path_len: 12 max_open: 574 time_elpased: 0.025808
-random Placement
-num: 760 expanded: 1090 updated: 1957 path_len: 17 max_open: 2214 time_elpased: 0.143144
-random Placement
-num: 761 expanded: 105 updated: 142 path_len: 14 max_open: 353 time_elpased: 0.013591
-random Placement
-num: 762 expanded: 1125 updated: 1873 path_len: 18 max_open: 2126 time_elpased: 0.146571
-random Placement
-num: 763 expanded: 112 updated: 95 path_len: 15 max_open: 252 time_elpased: 0.013582
-random Placement
-num: 764 expanded: 118 updated: 184 path_len: 19 max_open: 535 time_elpased: 0.015533
-random Placement
-num: 765 expanded: 142 updated: 225 path_len: 14 max_open: 408 time_elpased: 0.01828
-random Placement
-num: 766 expanded: 1195 updated: 1250 path_len: 38 max_open: 2349 time_elpased: 0.152749
-random Placement
-num: 767 expanded: 2734 updated: 4762 path_len: 42 max_open: 4941 time_elpased: 0.358931
-random Placement
-num: 768 expanded: 1207 updated: 1695 path_len: 23 max_open: 2272 time_elpased: 0.157108
-random Placement
-num: 769 expanded: 35 updated: 39 path_len: 10 max_open: 178 time_elpased: 0.004448
-random Placement
-num: 770 expanded: 25 updated: 30 path_len: 12 max_open: 183 time_elpased: 0.003216
-random Placement
-num: 771 expanded: 60 updated: 74 path_len: 17 max_open: 349 time_elpased: 0.007755
-random Placement
-num: 772 expanded: 135 updated: 253 path_len: 14 max_open: 394 time_elpased: 0.017282
-random Placement
-num: 773 expanded: 772 updated: 994 path_len: 16 max_open: 1539 time_elpased: 0.100506
-random Placement
-num: 774 expanded: 125 updated: 169 path_len: 14 max_open: 439 time_elpased: 0.01612
-random Placement
-num: 775 expanded: 67 updated: 98 path_len: 13 max_open: 265 time_elpased: 0.008556
-random Placement
-num: 776 expanded: 343 updated: 480 path_len: 25 max_open: 986 time_elpased: 0.043942
-random Placement
-num: 777 expanded: 44 updated: 42 path_len: 15 max_open: 242 time_elpased: 0.005688
-random Placement
-num: 778 expanded: 97 updated: 57 path_len: 14 max_open: 195 time_elpased: 0.01153
-random Placement
-num: 779 expanded: 286 updated: 373 path_len: 19 max_open: 706 time_elpased: 0.036794
-random Placement
-num: 780 expanded: 273 updated: 58 path_len: 33 max_open: 365 time_elpased: 0.03216
-random Placement
-num: 781 expanded: 1769 updated: 2339 path_len: 29 max_open: 3235 time_elpased: 0.229922
-random Placement
-num: 782 expanded: 35 updated: 40 path_len: 13 max_open: 186 time_elpased: 0.004411
-random Placement
-num: 783 expanded: 44 updated: 30 path_len: 16 max_open: 263 time_elpased: 0.005778
-random Placement
-num: 784 expanded: 147 updated: 213 path_len: 25 max_open: 716 time_elpased: 0.019313
-random Placement
-num: 785 expanded: 997 updated: 1705 path_len: 17 max_open: 2034 time_elpased: 0.130211
-random Placement
-num: 786 expanded: 1219 updated: 2309 path_len: 18 max_open: 2551 time_elpased: 0.161339
-random Placement
-num: 787 expanded: 501 updated: 858 path_len: 26 max_open: 1480 time_elpased: 0.065396
-random Placement
-num: 788 expanded: 930 updated: 1236 path_len: 33 max_open: 1839 time_elpased: 0.119085
-random Placement
-num: 789 expanded: 1587 updated: 2371 path_len: 25 max_open: 3092 time_elpased: 0.206494
-random Placement
-num: 790 expanded: 95 updated: 82 path_len: 24 max_open: 429 time_elpased: 0.012323
-random Placement
-num: 791 expanded: 95 updated: 165 path_len: 11 max_open: 366 time_elpased: 0.012359
-random Placement
-num: 792 expanded: 201 updated: 334 path_len: 17 max_open: 631 time_elpased: 0.026097
-random Placement
-num: 793 expanded: 354 updated: 616 path_len: 12 max_open: 883 time_elpased: 0.045932
-random Placement
-num: 794 expanded: 113 updated: 32 path_len: 14 max_open: 198 time_elpased: 0.013331
-random Placement
-num: 795 expanded: 57 updated: 74 path_len: 12 max_open: 268 time_elpased: 0.00725
-random Placement
-num: 796 expanded: 979 updated: 1499 path_len: 39 max_open: 1994 time_elpased: 0.128111
-random Placement
-num: 797 expanded: 110 updated: 202 path_len: 10 max_open: 380 time_elpased: 0.014183
-random Placement
-num: 798 expanded: 3372 updated: 4513 path_len: 23 max_open: 5354 time_elpased: 0.447814
-random Placement
-num: 799 expanded: 669 updated: 886 path_len: 16 max_open: 1354 time_elpased: 0.08682
-random Placement
-num: 800 expanded: 199 updated: 310 path_len: 15 max_open: 594 time_elpased: 0.025776
-random Placement
-num: 801 expanded: 130 updated: 239 path_len: 17 max_open: 525 time_elpased: 0.017073
-random Placement
-num: 802 expanded: 253 updated: 323 path_len: 33 max_open: 713 time_elpased: 0.032213
-random Placement
-num: 803 expanded: 328 updated: 403 path_len: 21 max_open: 845 time_elpased: 0.042118
-random Placement
-num: 804 expanded: 939 updated: 1467 path_len: 24 max_open: 1871 time_elpased: 0.122291
-random Placement
-num: 805 expanded: 612 updated: 1311 path_len: 17 max_open: 1479 time_elpased: 0.07978
-random Placement
-num: 806 expanded: 703 updated: 921 path_len: 30 max_open: 1554 time_elpased: 0.089963
-random Placement
-num: 807 expanded: 99 updated: 170 path_len: 11 max_open: 378 time_elpased: 0.012851
-random Placement
-num: 808 expanded: 269 updated: 341 path_len: 31 max_open: 1073 time_elpased: 0.034952
-random Placement
-num: 809 expanded: 535 updated: 1163 path_len: 15 max_open: 1254 time_elpased: 0.069678
-random Placement
-num: 810 expanded: 315 updated: 428 path_len: 17 max_open: 807 time_elpased: 0.040268
-random Placement
-num: 811 expanded: 593 updated: 846 path_len: 17 max_open: 1292 time_elpased: 0.077316
-random Placement
-num: 812 expanded: 173 updated: 182 path_len: 15 max_open: 551 time_elpased: 0.022071
-random Placement
-num: 813 expanded: 779 updated: 1262 path_len: 17 max_open: 1641 time_elpased: 0.102071
-random Placement
-num: 814 expanded: 9191 updated: 14806 path_len: 33 max_open: 13230 time_elpased: 1.23449
-random Placement
-num: 815 expanded: 2145 updated: 3506 path_len: 23 max_open: 3797 time_elpased: 0.283098
-random Placement
-num: 816 expanded: 52 updated: 48 path_len: 17 max_open: 210 time_elpased: 0.00639
-random Placement
-num: 817 expanded: 295 updated: 329 path_len: 13 max_open: 812 time_elpased: 0.038554
-random Placement
-num: 818 expanded: 1652 updated: 2691 path_len: 34 max_open: 3364 time_elpased: 0.21397
-random Placement
-num: 819 expanded: 2074 updated: 2708 path_len: 34 max_open: 3703 time_elpased: 0.270351
-random Placement
-num: 820 expanded: 13317 updated: 15473 path_len: 35 max_open: 18390 time_elpased: 1.80732
-random Placement
-num: 821 expanded: 259 updated: 406 path_len: 18 max_open: 887 time_elpased: 0.033751
-random Placement
-num: 822 expanded: 518 updated: 722 path_len: 31 max_open: 1437 time_elpased: 0.067553
-random Placement
-num: 823 expanded: 245 updated: 411 path_len: 14 max_open: 629 time_elpased: 0.031859
-random Placement
-num: 824 expanded: 3278 updated: 4374 path_len: 30 max_open: 5400 time_elpased: 0.431161
-random Placement
-num: 825 expanded: 243 updated: 301 path_len: 28 max_open: 1066 time_elpased: 0.032366
-random Placement
-num: 826 expanded: 135 updated: 85 path_len: 31 max_open: 790 time_elpased: 0.017781
-random Placement
-num: 827 expanded: 135 updated: 242 path_len: 18 max_open: 534 time_elpased: 0.017634
-random Placement
-num: 828 expanded: 597 updated: 698 path_len: 28 max_open: 1444 time_elpased: 0.076883
-random Placement
-num: 829 expanded: 260 updated: 353 path_len: 23 max_open: 838 time_elpased: 0.033199
-random Placement
-num: 830 expanded: 5274 updated: 5646 path_len: 26 max_open: 7895 time_elpased: 0.707149
-random Placement
-num: 831 expanded: 26 updated: 5 path_len: 13 max_open: 107 time_elpased: 0.003107
-random Placement
-num: 832 expanded: 121 updated: 122 path_len: 15 max_open: 423 time_elpased: 0.015485
-random Placement
-num: 833 expanded: 15 updated: 1 path_len: 9 max_open: 109 time_elpased: 0.001839
-random Placement
-num: 834 expanded: 244 updated: 376 path_len: 21 max_open: 725 time_elpased: 0.031452
-random Placement
-num: 835 expanded: 229 updated: 57 path_len: 28 max_open: 350 time_elpased: 0.026959
-random Placement
-num: 836 expanded: 488 updated: 931 path_len: 16 max_open: 1120 time_elpased: 0.0637
-random Placement
-num: 837 expanded: 37 updated: 77 path_len: 8 max_open: 197 time_elpased: 0.004772
-random Placement
-num: 838 expanded: 412 updated: 634 path_len: 29 max_open: 1206 time_elpased: 0.053374
-random Placement
-num: 839 expanded: 101 updated: 139 path_len: 12 max_open: 325 time_elpased: 0.012828
-random Placement
-num: 840 expanded: 733 updated: 1294 path_len: 20 max_open: 1611 time_elpased: 0.095938
-random Placement
-num: 841 expanded: 161 updated: 191 path_len: 21 max_open: 631 time_elpased: 0.020616
-random Placement
-num: 842 expanded: 1238 updated: 1579 path_len: 27 max_open: 2501 time_elpased: 0.160137
-random Placement
-num: 843 expanded: 19 updated: 17 path_len: 11 max_open: 171 time_elpased: 0.002458
-random Placement
-num: 844 expanded: 5440 updated: 5640 path_len: 35 max_open: 8535 time_elpased: 0.722987
-random Placement
-num: 845 expanded: 144 updated: 193 path_len: 12 max_open: 431 time_elpased: 0.018407
-random Placement
-num: 846 expanded: 14746 updated: 8880 path_len: 33 max_open: 20044 time_elpased: 2.00668
-random Placement
-num: 847 expanded: 600 updated: 768 path_len: 37 max_open: 1611 time_elpased: 0.074979
-random Placement
-num: 848 expanded: 164 updated: 247 path_len: 21 max_open: 750 time_elpased: 0.021641
-random Placement
-num: 849 expanded: 49 updated: 7 path_len: 26 max_open: 287 time_elpased: 0.00619
-random Placement
-num: 850 expanded: 35 updated: 24 path_len: 13 max_open: 264 time_elpased: 0.004664
-random Placement
-num: 851 expanded: 173 updated: 340 path_len: 18 max_open: 594 time_elpased: 0.022553
-random Placement
-num: 852 expanded: 311 updated: 654 path_len: 13 max_open: 773 time_elpased: 0.040327
-random Placement
-num: 853 expanded: 1002 updated: 1578 path_len: 21 max_open: 2045 time_elpased: 0.131089
-random Placement
-num: 854 expanded: 2635 updated: 4505 path_len: 40 max_open: 4680 time_elpased: 0.345725
-random Placement
-num: 855 expanded: 15 updated: 7 path_len: 8 max_open: 114 time_elpased: 0.001891
-random Placement
-num: 856 expanded: 63 updated: 16 path_len: 15 max_open: 387 time_elpased: 0.008251
-random Placement
-num: 857 expanded: 16 updated: 8 path_len: 8 max_open: 100 time_elpased: 0.001953
-random Placement
-num: 858 expanded: 142 updated: 51 path_len: 20 max_open: 252 time_elpased: 0.016903
-random Placement
-num: 859 expanded: 7529 updated: 10294 path_len: 38 max_open: 11249 time_elpased: 1.00172
-random Placement
-num: 860 expanded: 1048 updated: 1437 path_len: 23 max_open: 2161 time_elpased: 0.136276
-random Placement
-num: 861 expanded: 30 updated: 20 path_len: 10 max_open: 200 time_elpased: 0.003808
-random Placement
-num: 862 expanded: 45 updated: 48 path_len: 11 max_open: 220 time_elpased: 0.005741
-random Placement
-num: 863 expanded: 63 updated: 119 path_len: 16 max_open: 351 time_elpased: 0.008212
-random Placement
-num: 864 expanded: 112 updated: 39 path_len: 23 max_open: 396 time_elpased: 0.013808
-random Placement
-num: 865 expanded: 197 updated: 224 path_len: 15 max_open: 621 time_elpased: 0.025301
-random Placement
-num: 866 expanded: 235 updated: 200 path_len: 13 max_open: 639 time_elpased: 0.030169
-random Placement
-num: 867 expanded: 183 updated: 257 path_len: 13 max_open: 551 time_elpased: 0.023727
-random Placement
-num: 868 expanded: 16 updated: 0 path_len: 14 max_open: 115 time_elpased: 0.002005
-random Placement
-num: 869 expanded: 28 updated: 68 path_len: 11 max_open: 237 time_elpased: 0.003726
-random Placement
-num: 870 expanded: 438 updated: 514 path_len: 26 max_open: 983 time_elpased: 0.056905
-random Placement
-num: 871 expanded: 110 updated: 142 path_len: 14 max_open: 459 time_elpased: 0.014054
-random Placement
-num: 872 expanded: 3620 updated: 5433 path_len: 31 max_open: 6023 time_elpased: 0.476818
-random Placement
-num: 873 expanded: 253 updated: 374 path_len: 13 max_open: 673 time_elpased: 0.032734
-random Placement
-num: 874 expanded: 449 updated: 817 path_len: 20 max_open: 1186 time_elpased: 0.058359
-random Placement
-num: 875 expanded: 1099 updated: 1530 path_len: 17 max_open: 2117 time_elpased: 0.143278
-random Placement
-num: 876 expanded: 1404 updated: 2089 path_len: 39 max_open: 3255 time_elpased: 0.181967
-random Placement
-num: 877 expanded: 3431 updated: 2672 path_len: 20 max_open: 5384 time_elpased: 0.454742
-random Placement
-num: 878 expanded: 104 updated: 160 path_len: 19 max_open: 492 time_elpased: 0.013559
-random Placement
-num: 879 expanded: 365 updated: 623 path_len: 21 max_open: 900 time_elpased: 0.046901
-random Placement
-num: 880 expanded: 142 updated: 87 path_len: 22 max_open: 310 time_elpased: 0.01743
-random Placement
-num: 881 expanded: 175 updated: 263 path_len: 27 max_open: 585 time_elpased: 0.022262
-random Placement
-num: 882 expanded: 404 updated: 549 path_len: 21 max_open: 1019 time_elpased: 0.052082
-random Placement
-num: 883 expanded: 709 updated: 602 path_len: 14 max_open: 1489 time_elpased: 0.092988
-random Placement
-num: 884 expanded: 208 updated: 299 path_len: 13 max_open: 590 time_elpased: 0.02665
-random Placement
-num: 885 expanded: 388 updated: 673 path_len: 16 max_open: 986 time_elpased: 0.0499
-random Placement
-num: 886 expanded: 30 updated: 0 path_len: 30 max_open: 204 time_elpased: 0.003696
-random Placement
-num: 887 expanded: 39 updated: 53 path_len: 8 max_open: 170 time_elpased: 0.00496
-random Placement
-num: 888 expanded: 68 updated: 29 path_len: 15 max_open: 375 time_elpased: 0.008756
-random Placement
-num: 889 expanded: 1925 updated: 3069 path_len: 34 max_open: 3437 time_elpased: 0.253984
-random Placement
-num: 890 expanded: 408 updated: 688 path_len: 22 max_open: 1014 time_elpased: 0.052467
-random Placement
-num: 891 expanded: 208 updated: 208 path_len: 12 max_open: 588 time_elpased: 0.026773
-random Placement
-num: 892 expanded: 187 updated: 230 path_len: 13 max_open: 531 time_elpased: 0.024021
-random Placement
-num: 893 expanded: 73 updated: 116 path_len: 14 max_open: 278 time_elpased: 0.009305
-random Placement
-num: 894 expanded: 191 updated: 405 path_len: 17 max_open: 633 time_elpased: 0.025828
-random Placement
-num: 895 expanded: 77 updated: 78 path_len: 11 max_open: 319 time_elpased: 0.009805
-random Placement
-num: 896 expanded: 1387 updated: 2256 path_len: 22 max_open: 2569 time_elpased: 0.181418
-random Placement
-num: 897 expanded: 41 updated: 0 path_len: 20 max_open: 293 time_elpased: 0.00529
-random Placement
-num: 898 expanded: 140 updated: 155 path_len: 12 max_open: 509 time_elpased: 0.017942
-random Placement
-num: 899 expanded: 59 updated: 32 path_len: 18 max_open: 349 time_elpased: 0.007569
-random Placement
-num: 900 expanded: 162 updated: 257 path_len: 17 max_open: 531 time_elpased: 0.021185
-random Placement
-num: 901 expanded: 522 updated: 791 path_len: 20 max_open: 1262 time_elpased: 0.067566
-random Placement
-num: 902 expanded: 182 updated: 123 path_len: 27 max_open: 712 time_elpased: 0.023371
-random Placement
-num: 903 expanded: 145 updated: 214 path_len: 16 max_open: 457 time_elpased: 0.018333
-random Placement
-num: 904 expanded: 426 updated: 788 path_len: 17 max_open: 1070 time_elpased: 0.057326
-random Placement
-num: 905 expanded: 134 updated: 107 path_len: 22 max_open: 516 time_elpased: 0.016935
-random Placement
-num: 906 expanded: 20121 updated: 11831 path_len: 34 max_open: 26587 time_elpased: 2.74918
-random Placement
-num: 907 expanded: 96 updated: 142 path_len: 15 max_open: 402 time_elpased: 0.012356
-random Placement
-num: 908 expanded: 127 updated: 158 path_len: 15 max_open: 436 time_elpased: 0.016045
-random Placement
-num: 909 expanded: 1057 updated: 743 path_len: 15 max_open: 2058 time_elpased: 0.13807
-random Placement
-num: 910 expanded: 338 updated: 518 path_len: 17 max_open: 928 time_elpased: 0.043704
-random Placement
-num: 911 expanded: 102 updated: 31 path_len: 24 max_open: 644 time_elpased: 0.013508
-random Placement
-num: 912 expanded: 205 updated: 279 path_len: 17 max_open: 671 time_elpased: 0.026617
-random Placement
-num: 913 expanded: 197 updated: 231 path_len: 17 max_open: 626 time_elpased: 0.02533
-random Placement
-num: 914 expanded: 100 updated: 135 path_len: 14 max_open: 399 time_elpased: 0.013037
-random Placement
-num: 915 expanded: 13 updated: 22 path_len: 8 max_open: 117 time_elpased: 0.001654
-random Placement
-num: 916 expanded: 280 updated: 580 path_len: 17 max_open: 903 time_elpased: 0.036468
-random Placement
-num: 917 expanded: 85 updated: 128 path_len: 17 max_open: 362 time_elpased: 0.011017
-random Placement
-num: 918 expanded: 35 updated: 30 path_len: 12 max_open: 236 time_elpased: 0.004594
-random Placement
-num: 919 expanded: 268 updated: 380 path_len: 18 max_open: 742 time_elpased: 0.035085
-random Placement
-num: 920 expanded: 333 updated: 552 path_len: 12 max_open: 867 time_elpased: 0.043274
-random Placement
-num: 921 expanded: 198 updated: 181 path_len: 27 max_open: 697 time_elpased: 0.025348
-random Placement
-num: 922 expanded: 370 updated: 504 path_len: 28 max_open: 1038 time_elpased: 0.047691
-random Placement
-num: 923 expanded: 3744 updated: 5233 path_len: 33 max_open: 6186 time_elpased: 0.493611
-random Placement
-num: 924 expanded: 286 updated: 330 path_len: 16 max_open: 714 time_elpased: 0.036537
-random Placement
-num: 925 expanded: 9 updated: 0 path_len: 6 max_open: 69 time_elpased: 0.001092
-random Placement
-num: 926 expanded: 1828 updated: 2629 path_len: 26 max_open: 3144 time_elpased: 0.239167
-random Placement
-num: 927 expanded: 115 updated: 221 path_len: 15 max_open: 495 time_elpased: 0.014991
-random Placement
-num: 928 expanded: 111 updated: 170 path_len: 14 max_open: 377 time_elpased: 0.014136
-random Placement
-num: 929 expanded: 52 updated: 107 path_len: 8 max_open: 226 time_elpased: 0.006685
-random Placement
-num: 930 expanded: 59 updated: 51 path_len: 15 max_open: 241 time_elpased: 0.007326
-random Placement
-num: 931 expanded: 966 updated: 1573 path_len: 20 max_open: 2092 time_elpased: 0.12573
-random Placement
-num: 932 expanded: 102 updated: 86 path_len: 16 max_open: 490 time_elpased: 0.013477
-random Placement
-num: 933 expanded: 787 updated: 949 path_len: 32 max_open: 1578 time_elpased: 0.10229
-random Placement
-num: 934 expanded: 3027 updated: 5269 path_len: 25 max_open: 5205 time_elpased: 0.398626
-random Placement
-num: 935 expanded: 284 updated: 379 path_len: 23 max_open: 915 time_elpased: 0.036521
-random Placement
-num: 936 expanded: 126 updated: 215 path_len: 11 max_open: 478 time_elpased: 0.016259
-random Placement
-num: 937 expanded: 158 updated: 236 path_len: 15 max_open: 486 time_elpased: 0.020125
-random Placement
-num: 938 expanded: 13 updated: 2 path_len: 12 max_open: 181 time_elpased: 0.001755
-random Placement
-num: 939 expanded: 401 updated: 500 path_len: 14 max_open: 917 time_elpased: 0.051885
-random Placement
-num: 940 expanded: 67 updated: 102 path_len: 17 max_open: 424 time_elpased: 0.008837
-random Placement
-num: 941 expanded: 3388 updated: 5135 path_len: 38 max_open: 5333 time_elpased: 0.446838
-random Placement
-num: 942 expanded: 621 updated: 987 path_len: 27 max_open: 1394 time_elpased: 0.079964
-random Placement
-num: 943 expanded: 349 updated: 623 path_len: 16 max_open: 942 time_elpased: 0.045291
-random Placement
-num: 944 expanded: 619 updated: 950 path_len: 28 max_open: 1440 time_elpased: 0.082274
-random Placement
-num: 945 expanded: 405 updated: 927 path_len: 13 max_open: 987 time_elpased: 0.052893
-random Placement
-num: 946 expanded: 217 updated: 287 path_len: 30 max_open: 927 time_elpased: 0.028399
-random Placement
-num: 947 expanded: 290 updated: 431 path_len: 20 max_open: 828 time_elpased: 0.037391
-random Placement
-num: 948 expanded: 459 updated: 635 path_len: 35 max_open: 1099 time_elpased: 0.058707
-random Placement
-num: 949 expanded: 1258 updated: 2388 path_len: 18 max_open: 2434 time_elpased: 0.164446
-random Placement
-num: 950 expanded: 77 updated: 46 path_len: 21 max_open: 393 time_elpased: 0.009721
-random Placement
-num: 951 expanded: 83 updated: 173 path_len: 11 max_open: 326 time_elpased: 0.010791
-random Placement
-num: 952 expanded: 430 updated: 559 path_len: 14 max_open: 956 time_elpased: 0.055527
-random Placement
-num: 953 expanded: 295 updated: 263 path_len: 28 max_open: 522 time_elpased: 0.035603
-random Placement
-num: 954 expanded: 654 updated: 1119 path_len: 28 max_open: 1548 time_elpased: 0.084787
-random Placement
-num: 955 expanded: 49 updated: 96 path_len: 13 max_open: 268 time_elpased: 0.006314
-random Placement
-num: 956 expanded: 247 updated: 321 path_len: 15 max_open: 673 time_elpased: 0.031994
-random Placement
-num: 957 expanded: 189 updated: 337 path_len: 15 max_open: 550 time_elpased: 0.024331
-random Placement
-num: 958 expanded: 7233 updated: 7669 path_len: 30 max_open: 10703 time_elpased: 0.970142
-random Placement
-num: 959 expanded: 101 updated: 149 path_len: 13 max_open: 393 time_elpased: 0.012778
-random Placement
-num: 960 expanded: 1634 updated: 2326 path_len: 22 max_open: 3126 time_elpased: 0.213429
-random Placement
-num: 961 expanded: 38 updated: 77 path_len: 10 max_open: 213 time_elpased: 0.004957
-random Placement
-num: 962 expanded: 32 updated: 28 path_len: 13 max_open: 162 time_elpased: 0.003987
-random Placement
-num: 963 expanded: 205 updated: 200 path_len: 21 max_open: 703 time_elpased: 0.026306
-random Placement
-num: 964 expanded: 873 updated: 1425 path_len: 22 max_open: 1761 time_elpased: 0.11291
-random Placement
-num: 965 expanded: 205 updated: 300 path_len: 18 max_open: 627 time_elpased: 0.026698
-random Placement
-num: 966 expanded: 127 updated: 289 path_len: 17 max_open: 541 time_elpased: 0.016766
-random Placement
-num: 967 expanded: 47 updated: 10 path_len: 26 max_open: 291 time_elpased: 0.00598
-random Placement
-num: 968 expanded: 1188 updated: 1259 path_len: 34 max_open: 2195 time_elpased: 0.152882
-random Placement
-num: 969 expanded: 127 updated: 186 path_len: 18 max_open: 542 time_elpased: 0.01647
-random Placement
-num: 970 expanded: 24 updated: 30 path_len: 9 max_open: 129 time_elpased: 0.002997
-random Placement
-num: 971 expanded: 16 updated: 9 path_len: 9 max_open: 134 time_elpased: 0.002056
-random Placement
-num: 972 expanded: 137 updated: 199 path_len: 17 max_open: 532 time_elpased: 0.017827
-random Placement
-num: 973 expanded: 1094 updated: 1645 path_len: 35 max_open: 2229 time_elpased: 0.143386
-random Placement
-num: 974 expanded: 531 updated: 817 path_len: 16 max_open: 1090 time_elpased: 0.068739
-random Placement
-num: 975 expanded: 349 updated: 609 path_len: 15 max_open: 792 time_elpased: 0.045426
-random Placement
-num: 976 expanded: 49 updated: 81 path_len: 10 max_open: 211 time_elpased: 0.006234
-random Placement
-num: 977 expanded: 191 updated: 376 path_len: 13 max_open: 634 time_elpased: 0.02493
-random Placement
-num: 978 expanded: 3020 updated: 4531 path_len: 29 max_open: 5063 time_elpased: 0.396812
-random Placement
-num: 979 expanded: 205 updated: 98 path_len: 23 max_open: 367 time_elpased: 0.024729
-random Placement
-num: 980 expanded: 127 updated: 217 path_len: 11 max_open: 398 time_elpased: 0.016247
-random Placement
-num: 981 expanded: 398 updated: 695 path_len: 19 max_open: 986 time_elpased: 0.051839
-random Placement
-num: 982 expanded: 407 updated: 499 path_len: 21 max_open: 1017 time_elpased: 0.052485
-random Placement
-num: 983 expanded: 226 updated: 319 path_len: 24 max_open: 904 time_elpased: 0.029651
-random Placement
-num: 984 expanded: 192 updated: 207 path_len: 31 max_open: 670 time_elpased: 0.024586
-random Placement
-num: 985 expanded: 102 updated: 58 path_len: 37 max_open: 397 time_elpased: 0.012738
-random Placement
-num: 986 expanded: 175 updated: 292 path_len: 19 max_open: 560 time_elpased: 0.022673
-random Placement
-num: 987 expanded: 786 updated: 1563 path_len: 16 max_open: 1660 time_elpased: 0.10305
-random Placement
-num: 988 expanded: 431 updated: 643 path_len: 28 max_open: 1097 time_elpased: 0.055212
-random Placement
-num: 989 expanded: 26 updated: 20 path_len: 10 max_open: 163 time_elpased: 0.003317
-random Placement
-num: 990 expanded: 2386 updated: 3633 path_len: 31 max_open: 4103 time_elpased: 0.314764
-random Placement
-num: 991 expanded: 7364 updated: 8101 path_len: 29 max_open: 10746 time_elpased: 0.990056
-random Placement
-num: 992 expanded: 529 updated: 991 path_len: 26 max_open: 1340 time_elpased: 0.068583
-random Placement
-num: 993 expanded: 119 updated: 93 path_len: 20 max_open: 482 time_elpased: 0.015098
-random Placement
-num: 994 expanded: 594 updated: 837 path_len: 15 max_open: 1326 time_elpased: 0.077009
-random Placement
-num: 995 expanded: 139 updated: 198 path_len: 12 max_open: 429 time_elpased: 0.017969
-random Placement
-num: 996 expanded: 754 updated: 874 path_len: 16 max_open: 1565 time_elpased: 0.098118
-random Placement
-num: 997 expanded: 749 updated: 932 path_len: 31 max_open: 1938 time_elpased: 0.096676
-random Placement
-num: 998 expanded: 1137 updated: 1419 path_len: 27 max_open: 2253 time_elpased: 0.147113
-random Placement
-num: 999 expanded: 6590 updated: 7698 path_len: 31 max_open: 9842 time_elpased: 0.879416
+num: 0 expanded: 178 updated: 359 path_len: 11 max_open: 551 time_elpased: 0.02748
+num: 1 expanded: 118 updated: 219 path_len: 21 max_open: 535 time_elpased: 0.018289
+num: 2 expanded: 616 updated: 921 path_len: 35 max_open: 1471 time_elpased: 0.094225
+num: 3 expanded: 1146 updated: 2231 path_len: 31 max_open: 2460 time_elpased: 0.197568
+num: 4 expanded: 1131 updated: 2434 path_len: 23 max_open: 2149 time_elpased: 0.176268
+num: 5 expanded: 109 updated: 147 path_len: 15 max_open: 517 time_elpased: 0.016066
+num: 6 expanded: 39 updated: 73 path_len: 11 max_open: 256 time_elpased: 0.005974
+num: 7 expanded: 290 updated: 588 path_len: 17 max_open: 775 time_elpased: 0.045981
+num: 8 expanded: 1624 updated: 3457 path_len: 20 max_open: 3124 time_elpased: 0.255631
+num: 9 expanded: 114 updated: 163 path_len: 11 max_open: 385 time_elpased: 0.01712
+num: 10 expanded: 34 updated: 67 path_len: 11 max_open: 189 time_elpased: 0.005123
+num: 11 expanded: 5849 updated: 7346 path_len: 31 max_open: 8708 time_elpased: 0.9311
+num: 12 expanded: 2588 updated: 3234 path_len: 32 max_open: 4301 time_elpased: 0.40189
+num: 13 expanded: 49 updated: 88 path_len: 10 max_open: 258 time_elpased: 0.007184
+num: 14 expanded: 78 updated: 142 path_len: 18 max_open: 435 time_elpased: 0.012123
+num: 15 expanded: 661 updated: 1223 path_len: 16 max_open: 1472 time_elpased: 0.102987
+num: 16 expanded: 83 updated: 129 path_len: 7 max_open: 289 time_elpased: 0.012739
+num: 17 expanded: 38 updated: 62 path_len: 9 max_open: 175 time_elpased: 0.005646
+num: 18 expanded: 26 updated: 26 path_len: 11 max_open: 142 time_elpased: 0.003826
+num: 19 expanded: 350 updated: 521 path_len: 21 max_open: 932 time_elpased: 0.053012
+num: 20 expanded: 139 updated: 322 path_len: 11 max_open: 433 time_elpased: 0.02142
+num: 21 expanded: 1003 updated: 2081 path_len: 24 max_open: 1669 time_elpased: 0.155935
+num: 22 expanded: 612 updated: 575 path_len: 12 max_open: 1312 time_elpased: 0.095632
+num: 23 expanded: 98 updated: 207 path_len: 12 max_open: 328 time_elpased: 0.0149
+num: 24 expanded: 49 updated: 38 path_len: 17 max_open: 286 time_elpased: 0.007938
+num: 25 expanded: 310 updated: 387 path_len: 34 max_open: 820 time_elpased: 0.045911
+num: 26 expanded: 598 updated: 922 path_len: 18 max_open: 1389 time_elpased: 0.090601
+num: 27 expanded: 164 updated: 287 path_len: 11 max_open: 506 time_elpased: 0.025649
+num: 28 expanded: 216 updated: 327 path_len: 14 max_open: 666 time_elpased: 0.032626
+num: 29 expanded: 1048 updated: 2116 path_len: 27 max_open: 1845 time_elpased: 0.162105
+num: 30 expanded: 146 updated: 273 path_len: 17 max_open: 527 time_elpased: 0.022307
+num: 31 expanded: 18857 updated: 14494 path_len: 33 max_open: 25134 time_elpased: 3.0874
+num: 32 expanded: 536 updated: 645 path_len: 30 max_open: 1052 time_elpased: 0.079021
+num: 33 expanded: 1021 updated: 1762 path_len: 22 max_open: 1907 time_elpased: 0.157708
+num: 34 expanded: 1547 updated: 2136 path_len: 19 max_open: 2822 time_elpased: 0.243386
+num: 35 expanded: 2717 updated: 3772 path_len: 36 max_open: 4541 time_elpased: 0.425603
+num: 36 expanded: 1890 updated: 3004 path_len: 22 max_open: 3364 time_elpased: 0.295976
+num: 37 expanded: 812 updated: 1724 path_len: 21 max_open: 1648 time_elpased: 0.125138
+num: 38 expanded: 88 updated: 119 path_len: 25 max_open: 331 time_elpased: 0.012663
+num: 39 expanded: 310 updated: 700 path_len: 15 max_open: 864 time_elpased: 0.04845
+num: 40 expanded: 42 updated: 31 path_len: 26 max_open: 391 time_elpased: 0.006626
+num: 41 expanded: 381 updated: 847 path_len: 19 max_open: 845 time_elpased: 0.057766
+num: 42 expanded: 3886 updated: 5566 path_len: 29 max_open: 6066 time_elpased: 0.618185
+num: 43 expanded: 38 updated: 54 path_len: 10 max_open: 205 time_elpased: 0.005636
+num: 44 expanded: 159 updated: 349 path_len: 17 max_open: 559 time_elpased: 0.024377
+num: 45 expanded: 22 updated: 32 path_len: 12 max_open: 115 time_elpased: 0.003061
+num: 46 expanded: 76 updated: 168 path_len: 12 max_open: 238 time_elpased: 0.011424
+num: 47 expanded: 44 updated: 61 path_len: 7 max_open: 187 time_elpased: 0.006553
+num: 48 expanded: 51 updated: 131 path_len: 15 max_open: 363 time_elpased: 0.007922
+num: 49 expanded: 665 updated: 1357 path_len: 14 max_open: 1476 time_elpased: 0.103977
+num: 50 expanded: 40 updated: 38 path_len: 19 max_open: 330 time_elpased: 0.006233
+num: 51 expanded: 259 updated: 517 path_len: 13 max_open: 651 time_elpased: 0.03964
+num: 52 expanded: 1368 updated: 2067 path_len: 27 max_open: 2517 time_elpased: 0.210922
+num: 53 expanded: 3822 updated: 5796 path_len: 39 max_open: 5714 time_elpased: 0.59051
+num: 54 expanded: 207 updated: 303 path_len: 13 max_open: 595 time_elpased: 0.031723
+num: 55 expanded: 238 updated: 104 path_len: 27 max_open: 312 time_elpased: 0.031925
+num: 56 expanded: 1402 updated: 2144 path_len: 19 max_open: 2539 time_elpased: 0.220861
+num: 57 expanded: 265 updated: 447 path_len: 16 max_open: 706 time_elpased: 0.040748
+num: 58 expanded: 473 updated: 1049 path_len: 15 max_open: 1103 time_elpased: 0.073285
+num: 59 expanded: 809 updated: 1673 path_len: 22 max_open: 1527 time_elpased: 0.133651
+num: 60 expanded: 4322 updated: 7630 path_len: 37 max_open: 6407 time_elpased: 0.695809
+num: 61 expanded: 106 updated: 68 path_len: 13 max_open: 409 time_elpased: 0.015686
+num: 62 expanded: 298 updated: 595 path_len: 13 max_open: 742 time_elpased: 0.048792
+num: 63 expanded: 36 updated: 43 path_len: 11 max_open: 190 time_elpased: 0.005421
+num: 64 expanded: 829 updated: 1273 path_len: 33 max_open: 1712 time_elpased: 0.126376
+num: 65 expanded: 67 updated: 104 path_len: 8 max_open: 212 time_elpased: 0.009939
+num: 66 expanded: 687 updated: 1116 path_len: 17 max_open: 1403 time_elpased: 0.1064
+num: 67 expanded: 48 updated: 36 path_len: 23 max_open: 271 time_elpased: 0.006895
+num: 68 expanded: 79 updated: 144 path_len: 15 max_open: 353 time_elpased: 0.015888
+num: 69 expanded: 116 updated: 128 path_len: 15 max_open: 455 time_elpased: 0.017464
+num: 70 expanded: 202 updated: 473 path_len: 13 max_open: 581 time_elpased: 0.030771
+num: 71 expanded: 178 updated: 194 path_len: 25 max_open: 484 time_elpased: 0.025314
+num: 72 expanded: 52 updated: 124 path_len: 13 max_open: 263 time_elpased: 0.007857
+num: 73 expanded: 173 updated: 255 path_len: 13 max_open: 584 time_elpased: 0.026807
+num: 74 expanded: 732 updated: 1209 path_len: 17 max_open: 1610 time_elpased: 0.113279
+num: 75 expanded: 1169 updated: 1677 path_len: 36 max_open: 2465 time_elpased: 0.180619
+num: 76 expanded: 104 updated: 147 path_len: 21 max_open: 366 time_elpased: 0.015351
+num: 77 expanded: 844 updated: 1456 path_len: 22 max_open: 1779 time_elpased: 0.128188
+num: 78 expanded: 434 updated: 851 path_len: 29 max_open: 977 time_elpased: 0.065966
+num: 79 expanded: 47 updated: 74 path_len: 10 max_open: 183 time_elpased: 0.006846
+num: 80 expanded: 860 updated: 940 path_len: 24 max_open: 1805 time_elpased: 0.131931
+num: 81 expanded: 190 updated: 173 path_len: 12 max_open: 606 time_elpased: 0.029045
+num: 82 expanded: 795 updated: 1625 path_len: 36 max_open: 2149 time_elpased: 0.125602
+num: 83 expanded: 910 updated: 1946 path_len: 24 max_open: 1792 time_elpased: 0.141924
+num: 84 expanded: 619 updated: 799 path_len: 25 max_open: 1394 time_elpased: 0.092429
+num: 85 expanded: 83 updated: 162 path_len: 13 max_open: 308 time_elpased: 0.012663
+num: 86 expanded: 66 updated: 44 path_len: 30 max_open: 264 time_elpased: 0.009174
+num: 87 expanded: 1011 updated: 1917 path_len: 19 max_open: 2098 time_elpased: 0.15788
+num: 88 expanded: 533 updated: 793 path_len: 22 max_open: 1153 time_elpased: 0.081663
+num: 89 expanded: 1705 updated: 2845 path_len: 30 max_open: 2502 time_elpased: 0.266143
+num: 90 expanded: 105 updated: 123 path_len: 15 max_open: 402 time_elpased: 0.015346
+num: 91 expanded: 2730 updated: 3982 path_len: 28 max_open: 4526 time_elpased: 0.427057
+num: 92 expanded: 1077 updated: 1908 path_len: 27 max_open: 1762 time_elpased: 0.166321
+num: 93 expanded: 58 updated: 77 path_len: 13 max_open: 296 time_elpased: 0.008875
+num: 94 expanded: 78 updated: 212 path_len: 11 max_open: 265 time_elpased: 0.011618
+num: 95 expanded: 4270 updated: 7004 path_len: 29 max_open: 6797 time_elpased: 0.676397
+num: 96 expanded: 125 updated: 245 path_len: 14 max_open: 383 time_elpased: 0.019092
+num: 97 expanded: 567 updated: 947 path_len: 21 max_open: 1324 time_elpased: 0.087349
+num: 98 expanded: 2197 updated: 3302 path_len: 20 max_open: 3719 time_elpased: 0.344939
+num: 99 expanded: 543 updated: 399 path_len: 31 max_open: 1126 time_elpased: 0.080634
+num: 100 expanded: 190 updated: 382 path_len: 19 max_open: 587 time_elpased: 0.028522
+num: 101 expanded: 164 updated: 431 path_len: 24 max_open: 684 time_elpased: 0.025513
+num: 102 expanded: 129 updated: 229 path_len: 12 max_open: 431 time_elpased: 0.019658
+num: 103 expanded: 111 updated: 134 path_len: 11 max_open: 368 time_elpased: 0.016609
+num: 104 expanded: 275 updated: 605 path_len: 21 max_open: 768 time_elpased: 0.0428
+num: 105 expanded: 975 updated: 1909 path_len: 19 max_open: 2159 time_elpased: 0.151223
+num: 106 expanded: 334 updated: 410 path_len: 16 max_open: 912 time_elpased: 0.051019
+num: 107 expanded: 46 updated: 42 path_len: 12 max_open: 232 time_elpased: 0.006864
+num: 108 expanded: 48 updated: 29 path_len: 17 max_open: 268 time_elpased: 0.007001
+num: 109 expanded: 37 updated: 8 path_len: 26 max_open: 199 time_elpased: 0.005125
+num: 110 expanded: 2878 updated: 4483 path_len: 26 max_open: 4915 time_elpased: 0.451827
+num: 111 expanded: 253 updated: 555 path_len: 13 max_open: 730 time_elpased: 0.038057
+num: 112 expanded: 330 updated: 527 path_len: 15 max_open: 825 time_elpased: 0.050364
+num: 113 expanded: 255 updated: 500 path_len: 13 max_open: 640 time_elpased: 0.038636
+num: 114 expanded: 2238 updated: 3941 path_len: 23 max_open: 3605 time_elpased: 0.35247
+num: 115 expanded: 14 updated: 18 path_len: 9 max_open: 152 time_elpased: 0.002164
+num: 116 expanded: 14 updated: 4 path_len: 10 max_open: 89 time_elpased: 0.001944
+num: 117 expanded: 219 updated: 437 path_len: 25 max_open: 815 time_elpased: 0.033737
+num: 118 expanded: 94 updated: 186 path_len: 13 max_open: 310 time_elpased: 0.014086
+num: 119 expanded: 36 updated: 32 path_len: 13 max_open: 235 time_elpased: 0.005324
+num: 120 expanded: 1116 updated: 2239 path_len: 25 max_open: 2053 time_elpased: 0.171042
+num: 121 expanded: 53 updated: 51 path_len: 16 max_open: 256 time_elpased: 0.008012
+num: 122 expanded: 5376 updated: 8024 path_len: 30 max_open: 8448 time_elpased: 0.859251
+num: 123 expanded: 10 updated: 2 path_len: 6 max_open: 74 time_elpased: 0.001394
+num: 124 expanded: 39 updated: 58 path_len: 7 max_open: 164 time_elpased: 0.005683
+num: 125 expanded: 1709 updated: 2549 path_len: 28 max_open: 3139 time_elpased: 0.26471
+num: 126 expanded: 15 updated: 15 path_len: 8 max_open: 83 time_elpased: 0.002074
+num: 127 expanded: 183 updated: 275 path_len: 20 max_open: 566 time_elpased: 0.027015
+num: 128 expanded: 123 updated: 222 path_len: 16 max_open: 455 time_elpased: 0.018806
+num: 129 expanded: 118 updated: 145 path_len: 14 max_open: 389 time_elpased: 0.017645
+num: 130 expanded: 201 updated: 444 path_len: 24 max_open: 828 time_elpased: 0.031323
+num: 131 expanded: 513 updated: 973 path_len: 14 max_open: 1196 time_elpased: 0.079452
+num: 132 expanded: 497 updated: 500 path_len: 40 max_open: 963 time_elpased: 0.070061
+num: 133 expanded: 758 updated: 1347 path_len: 33 max_open: 1763 time_elpased: 0.115962
+num: 134 expanded: 599 updated: 1156 path_len: 20 max_open: 1356 time_elpased: 0.091167
+num: 135 expanded: 395 updated: 696 path_len: 15 max_open: 1060 time_elpased: 0.061218
+num: 136 expanded: 114 updated: 218 path_len: 15 max_open: 412 time_elpased: 0.017534
+num: 137 expanded: 172 updated: 276 path_len: 17 max_open: 505 time_elpased: 0.025579
+num: 138 expanded: 354 updated: 902 path_len: 17 max_open: 928 time_elpased: 0.054735
+num: 139 expanded: 437 updated: 910 path_len: 26 max_open: 995 time_elpased: 0.066273
+num: 140 expanded: 1306 updated: 2305 path_len: 27 max_open: 2498 time_elpased: 0.200408
+num: 141 expanded: 141 updated: 180 path_len: 11 max_open: 475 time_elpased: 0.021389
+num: 142 expanded: 15 updated: 18 path_len: 6 max_open: 97 time_elpased: 0.00214
+num: 143 expanded: 8904 updated: 10112 path_len: 30 max_open: 12533 time_elpased: 1.43153
+num: 144 expanded: 467 updated: 863 path_len: 17 max_open: 1147 time_elpased: 0.071678
+num: 145 expanded: 239 updated: 531 path_len: 23 max_open: 827 time_elpased: 0.03679
+num: 146 expanded: 719 updated: 1145 path_len: 23 max_open: 1403 time_elpased: 0.110435
+num: 147 expanded: 423 updated: 289 path_len: 31 max_open: 771 time_elpased: 0.059984
+num: 148 expanded: 952 updated: 953 path_len: 22 max_open: 1913 time_elpased: 0.148115
+num: 149 expanded: 148 updated: 67 path_len: 34 max_open: 318 time_elpased: 0.021518
+num: 150 expanded: 745 updated: 1431 path_len: 21 max_open: 1585 time_elpased: 0.115272
+num: 151 expanded: 3361 updated: 5554 path_len: 27 max_open: 5670 time_elpased: 0.533219
+num: 152 expanded: 1337 updated: 2262 path_len: 25 max_open: 2578 time_elpased: 0.207579
+num: 153 expanded: 1178 updated: 2502 path_len: 25 max_open: 2342 time_elpased: 0.193195
+num: 154 expanded: 570 updated: 1276 path_len: 22 max_open: 1070 time_elpased: 0.087249
+num: 155 expanded: 352 updated: 546 path_len: 20 max_open: 914 time_elpased: 0.053364
+num: 156 expanded: 361 updated: 203 path_len: 34 max_open: 705 time_elpased: 0.050072
+num: 157 expanded: 165 updated: 329 path_len: 17 max_open: 462 time_elpased: 0.024708
+num: 158 expanded: 366 updated: 488 path_len: 14 max_open: 961 time_elpased: 0.055163
+num: 159 expanded: 362 updated: 610 path_len: 13 max_open: 860 time_elpased: 0.056644
+num: 160 expanded: 113 updated: 147 path_len: 17 max_open: 367 time_elpased: 0.016486
+num: 161 expanded: 831 updated: 1421 path_len: 16 max_open: 1714 time_elpased: 0.13007
+num: 162 expanded: 17 updated: 9 path_len: 8 max_open: 159 time_elpased: 0.002598
+num: 163 expanded: 6 updated: 0 path_len: 5 max_open: 62 time_elpased: 0.00084
+num: 164 expanded: 57 updated: 24 path_len: 19 max_open: 363 time_elpased: 0.008602
+num: 165 expanded: 292 updated: 151 path_len: 33 max_open: 353 time_elpased: 0.03933
+num: 166 expanded: 64 updated: 16 path_len: 35 max_open: 310 time_elpased: 0.009028
+num: 167 expanded: 42 updated: 57 path_len: 13 max_open: 270 time_elpased: 0.006437
+num: 168 expanded: 1211 updated: 1991 path_len: 29 max_open: 2281 time_elpased: 0.18807
+num: 169 expanded: 314 updated: 521 path_len: 14 max_open: 765 time_elpased: 0.04769
+num: 170 expanded: 2290 updated: 2287 path_len: 36 max_open: 4155 time_elpased: 0.364951
+num: 171 expanded: 1551 updated: 1975 path_len: 26 max_open: 3006 time_elpased: 0.23953
+num: 172 expanded: 233 updated: 487 path_len: 22 max_open: 647 time_elpased: 0.035928
+num: 173 expanded: 297 updated: 496 path_len: 13 max_open: 797 time_elpased: 0.045206
+num: 174 expanded: 600 updated: 1245 path_len: 15 max_open: 1394 time_elpased: 0.093542
+num: 175 expanded: 86 updated: 113 path_len: 12 max_open: 346 time_elpased: 0.013135
+num: 176 expanded: 2695 updated: 4007 path_len: 35 max_open: 4362 time_elpased: 0.421955
+num: 177 expanded: 284 updated: 457 path_len: 20 max_open: 753 time_elpased: 0.042124
+num: 178 expanded: 549 updated: 1037 path_len: 27 max_open: 1375 time_elpased: 0.084153
+num: 179 expanded: 135 updated: 138 path_len: 36 max_open: 555 time_elpased: 0.019595
+num: 180 expanded: 5303 updated: 7783 path_len: 31 max_open: 8193 time_elpased: 0.843449
+num: 181 expanded: 718 updated: 1181 path_len: 16 max_open: 1491 time_elpased: 0.109728
+num: 182 expanded: 161 updated: 386 path_len: 13 max_open: 495 time_elpased: 0.024588
+num: 183 expanded: 13484 updated: 13788 path_len: 33 max_open: 18401 time_elpased: 2.20198
+num: 184 expanded: 871 updated: 1258 path_len: 18 max_open: 1718 time_elpased: 0.134119
+num: 185 expanded: 164 updated: 265 path_len: 13 max_open: 537 time_elpased: 0.0241
+num: 186 expanded: 44 updated: 75 path_len: 13 max_open: 308 time_elpased: 0.006855
+num: 187 expanded: 1175 updated: 1823 path_len: 29 max_open: 2046 time_elpased: 0.181601
+num: 188 expanded: 292 updated: 398 path_len: 29 max_open: 1098 time_elpased: 0.044057
+num: 189 expanded: 599 updated: 730 path_len: 20 max_open: 1367 time_elpased: 0.089382
+num: 190 expanded: 194 updated: 168 path_len: 14 max_open: 573 time_elpased: 0.02912
+num: 191 expanded: 549 updated: 1144 path_len: 14 max_open: 1213 time_elpased: 0.085432
+num: 192 expanded: 38 updated: 114 path_len: 10 max_open: 215 time_elpased: 0.005752
+num: 193 expanded: 1355 updated: 2139 path_len: 29 max_open: 2634 time_elpased: 0.207866
+num: 194 expanded: 108 updated: 185 path_len: 10 max_open: 353 time_elpased: 0.016263
+num: 195 expanded: 868 updated: 1875 path_len: 18 max_open: 1877 time_elpased: 0.134584
+num: 196 expanded: 117 updated: 198 path_len: 12 max_open: 402 time_elpased: 0.018193
+num: 197 expanded: 233 updated: 66 path_len: 29 max_open: 387 time_elpased: 0.031422
+num: 198 expanded: 83 updated: 88 path_len: 15 max_open: 323 time_elpased: 0.012281
+num: 199 expanded: 2298 updated: 3949 path_len: 39 max_open: 3855 time_elpased: 0.357137
+num: 200 expanded: 311 updated: 603 path_len: 36 max_open: 814 time_elpased: 0.047422
+num: 201 expanded: 267 updated: 449 path_len: 20 max_open: 625 time_elpased: 0.040022
+num: 202 expanded: 2333 updated: 4069 path_len: 33 max_open: 3906 time_elpased: 0.366519
+num: 203 expanded: 285 updated: 400 path_len: 13 max_open: 682 time_elpased: 0.043202
+num: 204 expanded: 21 updated: 30 path_len: 7 max_open: 114 time_elpased: 0.003065
+num: 205 expanded: 2720 updated: 4319 path_len: 28 max_open: 4614 time_elpased: 0.426466
+num: 206 expanded: 311 updated: 700 path_len: 14 max_open: 778 time_elpased: 0.047475
+num: 207 expanded: 616 updated: 985 path_len: 19 max_open: 1275 time_elpased: 0.094054
+num: 208 expanded: 322 updated: 506 path_len: 13 max_open: 836 time_elpased: 0.04989
+num: 209 expanded: 1020 updated: 2069 path_len: 26 max_open: 1660 time_elpased: 0.16
+num: 210 expanded: 559 updated: 1047 path_len: 21 max_open: 1032 time_elpased: 0.085454
+num: 211 expanded: 132 updated: 93 path_len: 27 max_open: 267 time_elpased: 0.018051
+num: 212 expanded: 241 updated: 18 path_len: 30 max_open: 307 time_elpased: 0.032463
+num: 213 expanded: 153 updated: 238 path_len: 18 max_open: 546 time_elpased: 0.023056
+num: 214 expanded: 4358 updated: 6076 path_len: 37 max_open: 6695 time_elpased: 0.689249
+num: 215 expanded: 1174 updated: 1584 path_len: 36 max_open: 2261 time_elpased: 0.18091
+num: 216 expanded: 267 updated: 427 path_len: 20 max_open: 686 time_elpased: 0.03933
+num: 217 expanded: 762 updated: 1594 path_len: 17 max_open: 1605 time_elpased: 0.119365
+num: 218 expanded: 127 updated: 179 path_len: 14 max_open: 454 time_elpased: 0.019145
+num: 219 expanded: 3548 updated: 5854 path_len: 38 max_open: 5359 time_elpased: 0.556005
+num: 220 expanded: 43 updated: 84 path_len: 16 max_open: 341 time_elpased: 0.00666
+num: 221 expanded: 628 updated: 1303 path_len: 24 max_open: 1429 time_elpased: 0.096712
+num: 222 expanded: 219 updated: 404 path_len: 23 max_open: 843 time_elpased: 0.033488
+num: 223 expanded: 93 updated: 181 path_len: 14 max_open: 276 time_elpased: 0.013835
+num: 224 expanded: 249 updated: 424 path_len: 14 max_open: 574 time_elpased: 0.037606
+num: 225 expanded: 423 updated: 517 path_len: 31 max_open: 1058 time_elpased: 0.064414
+num: 226 expanded: 571 updated: 822 path_len: 24 max_open: 1242 time_elpased: 0.086976
+num: 227 expanded: 146 updated: 201 path_len: 21 max_open: 462 time_elpased: 0.021444
+num: 228 expanded: 1188 updated: 1748 path_len: 30 max_open: 2353 time_elpased: 0.184129
+num: 229 expanded: 1755 updated: 2978 path_len: 40 max_open: 3220 time_elpased: 0.273141
+num: 230 expanded: 333 updated: 715 path_len: 15 max_open: 822 time_elpased: 0.051411
+num: 231 expanded: 4537 updated: 5801 path_len: 33 max_open: 7182 time_elpased: 0.715209
+num: 232 expanded: 195 updated: 176 path_len: 12 max_open: 554 time_elpased: 0.029512
+num: 233 expanded: 365 updated: 623 path_len: 14 max_open: 896 time_elpased: 0.055726
+num: 234 expanded: 1376 updated: 2227 path_len: 24 max_open: 2483 time_elpased: 0.214026
+num: 235 expanded: 1128 updated: 2219 path_len: 28 max_open: 2456 time_elpased: 0.174918
+num: 236 expanded: 6981 updated: 6511 path_len: 26 max_open: 10238 time_elpased: 1.11403
+num: 237 expanded: 86 updated: 133 path_len: 13 max_open: 314 time_elpased: 0.013175
+num: 238 expanded: 15383 updated: 13552 path_len: 35 max_open: 20878 time_elpased: 2.50912
+num: 239 expanded: 124 updated: 123 path_len: 20 max_open: 431 time_elpased: 0.018239
+num: 240 expanded: 833 updated: 1477 path_len: 15 max_open: 1715 time_elpased: 0.129837
+num: 241 expanded: 383 updated: 307 path_len: 17 max_open: 886 time_elpased: 0.056842
+num: 242 expanded: 832 updated: 1744 path_len: 20 max_open: 1391 time_elpased: 0.127845
+num: 243 expanded: 168 updated: 330 path_len: 18 max_open: 674 time_elpased: 0.025664
+num: 244 expanded: 476 updated: 814 path_len: 18 max_open: 1127 time_elpased: 0.073401
+num: 245 expanded: 15818 updated: 10541 path_len: 34 max_open: 21289 time_elpased: 2.57971
+num: 246 expanded: 1378 updated: 2360 path_len: 33 max_open: 2242 time_elpased: 0.212407
+num: 247 expanded: 1102 updated: 1896 path_len: 18 max_open: 2165 time_elpased: 0.171226
+num: 248 expanded: 67 updated: 61 path_len: 20 max_open: 268 time_elpased: 0.009893
+num: 249 expanded: 21 updated: 15 path_len: 8 max_open: 167 time_elpased: 0.003204
+num: 250 expanded: 96 updated: 108 path_len: 22 max_open: 363 time_elpased: 0.013865
+num: 251 expanded: 9 updated: 0 path_len: 9 max_open: 135 time_elpased: 0.001358
+num: 252 expanded: 147 updated: 311 path_len: 16 max_open: 520 time_elpased: 0.022421
+num: 253 expanded: 142 updated: 313 path_len: 12 max_open: 448 time_elpased: 0.021674
+num: 254 expanded: 352 updated: 525 path_len: 13 max_open: 860 time_elpased: 0.053845
+num: 255 expanded: 38 updated: 16 path_len: 13 max_open: 217 time_elpased: 0.005494
+num: 256 expanded: 500 updated: 777 path_len: 27 max_open: 1015 time_elpased: 0.076089
+num: 257 expanded: 69 updated: 150 path_len: 14 max_open: 259 time_elpased: 0.01028
+num: 258 expanded: 102 updated: 172 path_len: 13 max_open: 380 time_elpased: 0.015308
+num: 259 expanded: 99 updated: 157 path_len: 12 max_open: 383 time_elpased: 0.015364
+num: 260 expanded: 131 updated: 192 path_len: 21 max_open: 526 time_elpased: 0.019682
+num: 261 expanded: 387 updated: 767 path_len: 21 max_open: 818 time_elpased: 0.058554
+num: 262 expanded: 147 updated: 243 path_len: 14 max_open: 499 time_elpased: 0.022056
+num: 263 expanded: 3010 updated: 5658 path_len: 40 max_open: 4405 time_elpased: 0.468261
+num: 264 expanded: 277 updated: 565 path_len: 27 max_open: 759 time_elpased: 0.041711
+num: 265 expanded: 168 updated: 283 path_len: 18 max_open: 460 time_elpased: 0.025054
+num: 266 expanded: 18 updated: 16 path_len: 13 max_open: 206 time_elpased: 0.002729
+num: 267 expanded: 31 updated: 2 path_len: 18 max_open: 207 time_elpased: 0.004601
+num: 268 expanded: 603 updated: 1209 path_len: 16 max_open: 1304 time_elpased: 0.093055
+num: 269 expanded: 167 updated: 395 path_len: 18 max_open: 507 time_elpased: 0.024591
+num: 270 expanded: 124 updated: 239 path_len: 11 max_open: 425 time_elpased: 0.019014
+num: 271 expanded: 34 updated: 38 path_len: 9 max_open: 155 time_elpased: 0.004968
+num: 272 expanded: 2759 updated: 6043 path_len: 38 max_open: 4741 time_elpased: 0.440611
+num: 273 expanded: 621 updated: 864 path_len: 15 max_open: 1392 time_elpased: 0.096579
+num: 274 expanded: 658 updated: 1192 path_len: 15 max_open: 1430 time_elpased: 0.101351
+num: 275 expanded: 388 updated: 805 path_len: 16 max_open: 961 time_elpased: 0.059767
+num: 276 expanded: 420 updated: 862 path_len: 14 max_open: 1055 time_elpased: 0.065287
+num: 277 expanded: 1488 updated: 2156 path_len: 19 max_open: 2767 time_elpased: 0.26849
+num: 278 expanded: 99 updated: 120 path_len: 24 max_open: 349 time_elpased: 0.0144
+num: 279 expanded: 54 updated: 79 path_len: 13 max_open: 242 time_elpased: 0.008085
+num: 280 expanded: 185 updated: 300 path_len: 13 max_open: 492 time_elpased: 0.028246
+num: 281 expanded: 4108 updated: 5936 path_len: 39 max_open: 6532 time_elpased: 0.645293
+num: 282 expanded: 484 updated: 536 path_len: 34 max_open: 1050 time_elpased: 0.071848
+num: 283 expanded: 48 updated: 68 path_len: 8 max_open: 191 time_elpased: 0.007016
+num: 284 expanded: 1103 updated: 2269 path_len: 25 max_open: 1926 time_elpased: 0.178794
+num: 285 expanded: 410 updated: 738 path_len: 37 max_open: 1718 time_elpased: 0.063818
+num: 286 expanded: 1406 updated: 2349 path_len: 23 max_open: 2621 time_elpased: 0.217198
+num: 287 expanded: 139 updated: 293 path_len: 11 max_open: 441 time_elpased: 0.021124
+num: 288 expanded: 839 updated: 1539 path_len: 17 max_open: 1620 time_elpased: 0.130555
+num: 289 expanded: 583 updated: 1098 path_len: 14 max_open: 1296 time_elpased: 0.090225
+num: 290 expanded: 1055 updated: 2172 path_len: 26 max_open: 1711 time_elpased: 0.161853
+num: 291 expanded: 260 updated: 368 path_len: 11 max_open: 625 time_elpased: 0.039908
+num: 292 expanded: 103 updated: 53 path_len: 15 max_open: 247 time_elpased: 0.014279
+num: 293 expanded: 106 updated: 127 path_len: 20 max_open: 431 time_elpased: 0.015513
+num: 294 expanded: 113 updated: 232 path_len: 13 max_open: 384 time_elpased: 0.016834
+num: 295 expanded: 112 updated: 266 path_len: 12 max_open: 408 time_elpased: 0.017158
+num: 296 expanded: 1677 updated: 2921 path_len: 29 max_open: 2785 time_elpased: 0.259184
+num: 297 expanded: 76 updated: 83 path_len: 16 max_open: 408 time_elpased: 0.011391
+num: 298 expanded: 448 updated: 582 path_len: 19 max_open: 920 time_elpased: 0.066397
+num: 299 expanded: 1045 updated: 1610 path_len: 35 max_open: 2113 time_elpased: 0.161138
+num: 300 expanded: 68 updated: 123 path_len: 10 max_open: 303 time_elpased: 0.010099
+num: 301 expanded: 196 updated: 442 path_len: 13 max_open: 597 time_elpased: 0.030485
+num: 302 expanded: 1044 updated: 1940 path_len: 33 max_open: 1908 time_elpased: 0.16029
+num: 303 expanded: 181 updated: 238 path_len: 12 max_open: 508 time_elpased: 0.027617
+num: 304 expanded: 54 updated: 80 path_len: 17 max_open: 376 time_elpased: 0.008464
+num: 305 expanded: 422 updated: 654 path_len: 15 max_open: 959 time_elpased: 0.065229
+num: 306 expanded: 739 updated: 1422 path_len: 23 max_open: 1250 time_elpased: 0.111391
+num: 307 expanded: 745 updated: 1344 path_len: 33 max_open: 1428 time_elpased: 0.112532
+num: 308 expanded: 790 updated: 1640 path_len: 17 max_open: 1546 time_elpased: 0.123093
+num: 309 expanded: 816 updated: 753 path_len: 35 max_open: 1683 time_elpased: 0.119402
+num: 310 expanded: 34 updated: 27 path_len: 11 max_open: 210 time_elpased: 0.004955
+num: 311 expanded: 2481 updated: 3852 path_len: 22 max_open: 4148 time_elpased: 0.392906
+num: 312 expanded: 481 updated: 888 path_len: 15 max_open: 1068 time_elpased: 0.074442
+num: 313 expanded: 28 updated: 13 path_len: 11 max_open: 214 time_elpased: 0.004314
+num: 314 expanded: 1029 updated: 1963 path_len: 17 max_open: 1963 time_elpased: 0.160035
+num: 315 expanded: 33 updated: 43 path_len: 11 max_open: 148 time_elpased: 0.004809
+num: 316 expanded: 570 updated: 405 path_len: 34 max_open: 1190 time_elpased: 0.081326
+num: 317 expanded: 2550 updated: 4117 path_len: 29 max_open: 4369 time_elpased: 0.396774
+num: 318 expanded: 227 updated: 389 path_len: 11 max_open: 620 time_elpased: 0.034822
+num: 319 expanded: 48 updated: 86 path_len: 11 max_open: 208 time_elpased: 0.008324
+num: 320 expanded: 4148 updated: 4579 path_len: 36 max_open: 6702 time_elpased: 0.653416
+num: 321 expanded: 26 updated: 32 path_len: 6 max_open: 114 time_elpased: 0.00377
+num: 322 expanded: 146 updated: 307 path_len: 19 max_open: 508 time_elpased: 0.022422
+num: 323 expanded: 59 updated: 62 path_len: 21 max_open: 327 time_elpased: 0.008886
+num: 324 expanded: 324 updated: 566 path_len: 13 max_open: 736 time_elpased: 0.04964
+num: 325 expanded: 294 updated: 541 path_len: 16 max_open: 830 time_elpased: 0.045136
+num: 326 expanded: 308 updated: 379 path_len: 13 max_open: 745 time_elpased: 0.046797
+num: 327 expanded: 4501 updated: 6362 path_len: 27 max_open: 6799 time_elpased: 0.713374
+num: 328 expanded: 47 updated: 85 path_len: 11 max_open: 221 time_elpased: 0.007117
+num: 329 expanded: 698 updated: 1501 path_len: 17 max_open: 1503 time_elpased: 0.108934
+num: 330 expanded: 1835 updated: 2510 path_len: 18 max_open: 3111 time_elpased: 0.288454
+num: 331 expanded: 330 updated: 584 path_len: 13 max_open: 814 time_elpased: 0.051096
+num: 332 expanded: 721 updated: 1004 path_len: 21 max_open: 1478 time_elpased: 0.112021
+num: 333 expanded: 43 updated: 53 path_len: 12 max_open: 216 time_elpased: 0.006482
+num: 334 expanded: 1294 updated: 2432 path_len: 27 max_open: 2253 time_elpased: 0.200825
+num: 335 expanded: 4337 updated: 7093 path_len: 36 max_open: 6704 time_elpased: 0.680948
+num: 336 expanded: 277 updated: 616 path_len: 15 max_open: 844 time_elpased: 0.042892
+num: 337 expanded: 32 updated: 35 path_len: 11 max_open: 177 time_elpased: 0.004662
+num: 338 expanded: 494 updated: 821 path_len: 17 max_open: 1203 time_elpased: 0.075515
+num: 339 expanded: 7662 updated: 13282 path_len: 42 max_open: 10191 time_elpased: 1.21124
+num: 340 expanded: 175 updated: 268 path_len: 13 max_open: 579 time_elpased: 0.026267
+num: 341 expanded: 363 updated: 445 path_len: 14 max_open: 940 time_elpased: 0.05561
+num: 342 expanded: 808 updated: 1587 path_len: 30 max_open: 1663 time_elpased: 0.124089
+num: 343 expanded: 1440 updated: 2472 path_len: 23 max_open: 2494 time_elpased: 0.223762
+num: 344 expanded: 602 updated: 1123 path_len: 31 max_open: 1248 time_elpased: 0.095464
+num: 345 expanded: 47 updated: 82 path_len: 12 max_open: 246 time_elpased: 0.006975
+num: 346 expanded: 132 updated: 411 path_len: 14 max_open: 444 time_elpased: 0.020199
+num: 347 expanded: 990 updated: 1811 path_len: 32 max_open: 1766 time_elpased: 0.151404
+num: 348 expanded: 41 updated: 52 path_len: 12 max_open: 234 time_elpased: 0.005922
+num: 349 expanded: 115 updated: 89 path_len: 18 max_open: 267 time_elpased: 0.015875
+num: 350 expanded: 394 updated: 775 path_len: 13 max_open: 905 time_elpased: 0.060509
+num: 351 expanded: 192 updated: 57 path_len: 25 max_open: 423 time_elpased: 0.030292
+num: 352 expanded: 198 updated: 381 path_len: 21 max_open: 754 time_elpased: 0.030468
+num: 353 expanded: 47 updated: 97 path_len: 13 max_open: 267 time_elpased: 0.0072
+num: 354 expanded: 102 updated: 184 path_len: 13 max_open: 376 time_elpased: 0.015169
+num: 355 expanded: 775 updated: 1188 path_len: 19 max_open: 1597 time_elpased: 0.119692
+num: 356 expanded: 59 updated: 108 path_len: 14 max_open: 276 time_elpased: 0.00905
+num: 357 expanded: 753 updated: 1242 path_len: 24 max_open: 1523 time_elpased: 0.116433
+num: 358 expanded: 189 updated: 262 path_len: 13 max_open: 538 time_elpased: 0.028962
+num: 359 expanded: 326 updated: 667 path_len: 14 max_open: 768 time_elpased: 0.049525
+num: 360 expanded: 31 updated: 41 path_len: 10 max_open: 173 time_elpased: 0.004397
+num: 361 expanded: 47 updated: 18 path_len: 34 max_open: 294 time_elpased: 0.006723
+num: 362 expanded: 533 updated: 1043 path_len: 14 max_open: 1335 time_elpased: 0.082943
+num: 363 expanded: 710 updated: 1188 path_len: 32 max_open: 1293 time_elpased: 0.105807
+num: 364 expanded: 2069 updated: 3802 path_len: 26 max_open: 3316 time_elpased: 0.326619
+num: 365 expanded: 95 updated: 173 path_len: 12 max_open: 367 time_elpased: 0.014311
+num: 366 expanded: 199 updated: 436 path_len: 14 max_open: 589 time_elpased: 0.030427
+num: 367 expanded: 966 updated: 1689 path_len: 19 max_open: 2018 time_elpased: 0.148798
+num: 368 expanded: 47 updated: 16 path_len: 36 max_open: 250 time_elpased: 0.006478
+num: 369 expanded: 89 updated: 54 path_len: 14 max_open: 159 time_elpased: 0.011993
+num: 370 expanded: 172 updated: 358 path_len: 12 max_open: 519 time_elpased: 0.026308
+num: 371 expanded: 187 updated: 412 path_len: 16 max_open: 508 time_elpased: 0.028473
+num: 372 expanded: 996 updated: 1795 path_len: 32 max_open: 2006 time_elpased: 0.15253
+num: 373 expanded: 368 updated: 687 path_len: 22 max_open: 885 time_elpased: 0.055327
+num: 374 expanded: 269 updated: 269 path_len: 15 max_open: 801 time_elpased: 0.039365
+num: 375 expanded: 324 updated: 538 path_len: 17 max_open: 820 time_elpased: 0.04901
+num: 376 expanded: 53 updated: 70 path_len: 14 max_open: 207 time_elpased: 0.007484
+num: 377 expanded: 695 updated: 1094 path_len: 16 max_open: 1432 time_elpased: 0.107542
+num: 378 expanded: 1150 updated: 2096 path_len: 27 max_open: 2146 time_elpased: 0.178554
+num: 379 expanded: 59 updated: 69 path_len: 14 max_open: 307 time_elpased: 0.008897
+num: 380 expanded: 2168 updated: 3757 path_len: 28 max_open: 3902 time_elpased: 0.337517
+num: 381 expanded: 405 updated: 271 path_len: 30 max_open: 846 time_elpased: 0.057536
+num: 382 expanded: 55 updated: 38 path_len: 21 max_open: 231 time_elpased: 0.007657
+num: 383 expanded: 1069 updated: 1924 path_len: 27 max_open: 1932 time_elpased: 0.16573
+num: 384 expanded: 3215 updated: 4371 path_len: 29 max_open: 5315 time_elpased: 0.505983
+num: 385 expanded: 1095 updated: 2023 path_len: 27 max_open: 2059 time_elpased: 0.16902
+num: 386 expanded: 175 updated: 245 path_len: 21 max_open: 480 time_elpased: 0.026017
+num: 387 expanded: 377 updated: 516 path_len: 24 max_open: 908 time_elpased: 0.056223
+num: 388 expanded: 61 updated: 52 path_len: 8 max_open: 241 time_elpased: 0.009219
+num: 389 expanded: 80 updated: 180 path_len: 12 max_open: 316 time_elpased: 0.012053
+num: 390 expanded: 1149 updated: 2125 path_len: 23 max_open: 2309 time_elpased: 0.176488
+num: 391 expanded: 221 updated: 263 path_len: 14 max_open: 703 time_elpased: 0.033453
+num: 392 expanded: 200 updated: 459 path_len: 15 max_open: 574 time_elpased: 0.030229
+num: 393 expanded: 37 updated: 20 path_len: 17 max_open: 242 time_elpased: 0.005491
+num: 394 expanded: 3300 updated: 5657 path_len: 34 max_open: 4999 time_elpased: 0.517077
+num: 395 expanded: 19 updated: 0 path_len: 16 max_open: 136 time_elpased: 0.002697
+num: 396 expanded: 466 updated: 837 path_len: 14 max_open: 1067 time_elpased: 0.071455
+num: 397 expanded: 930 updated: 1343 path_len: 16 max_open: 1888 time_elpased: 0.144435
+num: 398 expanded: 93 updated: 163 path_len: 10 max_open: 348 time_elpased: 0.013973
+num: 399 expanded: 463 updated: 405 path_len: 36 max_open: 915 time_elpased: 0.064711
+num: 400 expanded: 252 updated: 554 path_len: 21 max_open: 747 time_elpased: 0.038501
+num: 401 expanded: 108 updated: 240 path_len: 13 max_open: 370 time_elpased: 0.016455
+num: 402 expanded: 312 updated: 418 path_len: 17 max_open: 845 time_elpased: 0.046879
+num: 403 expanded: 236 updated: 271 path_len: 12 max_open: 617 time_elpased: 0.036053
+num: 404 expanded: 817 updated: 1399 path_len: 35 max_open: 1589 time_elpased: 0.123978
+num: 405 expanded: 236 updated: 464 path_len: 18 max_open: 566 time_elpased: 0.035395
+num: 406 expanded: 849 updated: 1794 path_len: 28 max_open: 1690 time_elpased: 0.131332
+num: 407 expanded: 123 updated: 330 path_len: 14 max_open: 432 time_elpased: 0.019336
+num: 408 expanded: 781 updated: 1188 path_len: 31 max_open: 1549 time_elpased: 0.115938
+num: 409 expanded: 995 updated: 2042 path_len: 25 max_open: 1747 time_elpased: 0.153808
+num: 410 expanded: 501 updated: 697 path_len: 21 max_open: 1187 time_elpased: 0.075752
+num: 411 expanded: 209 updated: 354 path_len: 20 max_open: 618 time_elpased: 0.031486
+num: 412 expanded: 168 updated: 216 path_len: 13 max_open: 562 time_elpased: 0.025498
+num: 413 expanded: 90 updated: 184 path_len: 11 max_open: 361 time_elpased: 0.013689
+num: 414 expanded: 625 updated: 1110 path_len: 22 max_open: 1270 time_elpased: 0.094988
+num: 415 expanded: 313 updated: 499 path_len: 14 max_open: 784 time_elpased: 0.047902
+num: 416 expanded: 378 updated: 702 path_len: 22 max_open: 791 time_elpased: 0.057804
+num: 417 expanded: 509 updated: 1205 path_len: 23 max_open: 891 time_elpased: 0.07716
+num: 418 expanded: 274 updated: 555 path_len: 22 max_open: 862 time_elpased: 0.041747
+num: 419 expanded: 199 updated: 463 path_len: 12 max_open: 528 time_elpased: 0.030353
+num: 420 expanded: 127 updated: 193 path_len: 13 max_open: 404 time_elpased: 0.019011
+num: 421 expanded: 1557 updated: 2559 path_len: 24 max_open: 3104 time_elpased: 0.242062
+num: 422 expanded: 1741 updated: 3101 path_len: 35 max_open: 2625 time_elpased: 0.268594
+num: 423 expanded: 505 updated: 848 path_len: 14 max_open: 1128 time_elpased: 0.106142
+num: 424 expanded: 223 updated: 411 path_len: 12 max_open: 590 time_elpased: 0.034095
+num: 425 expanded: 15 updated: 7 path_len: 13 max_open: 168 time_elpased: 0.002226
+num: 426 expanded: 203 updated: 412 path_len: 11 max_open: 508 time_elpased: 0.030899
+num: 427 expanded: 32 updated: 30 path_len: 11 max_open: 218 time_elpased: 0.004712
+num: 428 expanded: 173 updated: 358 path_len: 13 max_open: 544 time_elpased: 0.026915
+num: 429 expanded: 32 updated: 72 path_len: 10 max_open: 196 time_elpased: 0.004752
+num: 430 expanded: 110 updated: 149 path_len: 22 max_open: 556 time_elpased: 0.01655
+num: 431 expanded: 1438 updated: 2484 path_len: 21 max_open: 2404 time_elpased: 0.223386
+num: 432 expanded: 29 updated: 9 path_len: 11 max_open: 171 time_elpased: 0.004127
+num: 433 expanded: 931 updated: 1764 path_len: 26 max_open: 1843 time_elpased: 0.144538
+num: 434 expanded: 306 updated: 98 path_len: 35 max_open: 540 time_elpased: 0.041695
+num: 435 expanded: 13 updated: 16 path_len: 8 max_open: 118 time_elpased: 0.001964
+num: 436 expanded: 120 updated: 156 path_len: 15 max_open: 451 time_elpased: 0.018023
+num: 437 expanded: 409 updated: 788 path_len: 14 max_open: 1022 time_elpased: 0.062882
+num: 438 expanded: 621 updated: 1202 path_len: 23 max_open: 1099 time_elpased: 0.096184
+num: 439 expanded: 1588 updated: 2689 path_len: 28 max_open: 2503 time_elpased: 0.243848
+num: 440 expanded: 73 updated: 115 path_len: 11 max_open: 270 time_elpased: 0.010748
+num: 441 expanded: 67 updated: 94 path_len: 13 max_open: 282 time_elpased: 0.009967
+num: 442 expanded: 371 updated: 790 path_len: 14 max_open: 911 time_elpased: 0.056905
+num: 443 expanded: 37 updated: 37 path_len: 14 max_open: 254 time_elpased: 0.005511
+num: 444 expanded: 516 updated: 523 path_len: 29 max_open: 983 time_elpased: 0.075382
+num: 445 expanded: 533 updated: 445 path_len: 33 max_open: 1090 time_elpased: 0.077204
+num: 446 expanded: 524 updated: 1000 path_len: 18 max_open: 1273 time_elpased: 0.080027
+num: 447 expanded: 1440 updated: 2634 path_len: 34 max_open: 2416 time_elpased: 0.222801
+num: 448 expanded: 265 updated: 384 path_len: 13 max_open: 764 time_elpased: 0.040291
+num: 449 expanded: 727 updated: 857 path_len: 35 max_open: 1441 time_elpased: 0.106321
+num: 450 expanded: 375 updated: 816 path_len: 17 max_open: 1056 time_elpased: 0.058313
+num: 451 expanded: 171 updated: 187 path_len: 20 max_open: 536 time_elpased: 0.025391
+num: 452 expanded: 612 updated: 1427 path_len: 15 max_open: 1313 time_elpased: 0.094664
+num: 453 expanded: 360 updated: 151 path_len: 34 max_open: 563 time_elpased: 0.049664
+num: 454 expanded: 498 updated: 1079 path_len: 19 max_open: 1066 time_elpased: 0.07673
+num: 455 expanded: 40 updated: 47 path_len: 13 max_open: 228 time_elpased: 0.005792
+num: 456 expanded: 1685 updated: 2803 path_len: 33 max_open: 2738 time_elpased: 0.263023
+num: 457 expanded: 898 updated: 788 path_len: 30 max_open: 1762 time_elpased: 0.133201
+num: 458 expanded: 406 updated: 611 path_len: 22 max_open: 911 time_elpased: 0.062073
+num: 459 expanded: 399 updated: 815 path_len: 13 max_open: 964 time_elpased: 0.06174
+num: 460 expanded: 16 updated: 44 path_len: 7 max_open: 120 time_elpased: 0.002363
+num: 461 expanded: 153 updated: 86 path_len: 27 max_open: 328 time_elpased: 0.020864
+num: 462 expanded: 180 updated: 129 path_len: 35 max_open: 983 time_elpased: 0.027084
+num: 463 expanded: 1536 updated: 3607 path_len: 36 max_open: 3096 time_elpased: 0.241411
+num: 464 expanded: 44 updated: 21 path_len: 11 max_open: 155 time_elpased: 0.006253
+num: 465 expanded: 33 updated: 77 path_len: 7 max_open: 149 time_elpased: 0.005005
+num: 466 expanded: 86 updated: 163 path_len: 16 max_open: 354 time_elpased: 0.013109
+num: 467 expanded: 166 updated: 308 path_len: 24 max_open: 638 time_elpased: 0.024552
+num: 468 expanded: 324 updated: 604 path_len: 13 max_open: 701 time_elpased: 0.049598
+num: 469 expanded: 234 updated: 346 path_len: 25 max_open: 546 time_elpased: 0.033953
+num: 470 expanded: 123 updated: 107 path_len: 27 max_open: 383 time_elpased: 0.017309
+num: 471 expanded: 1193 updated: 2143 path_len: 22 max_open: 2354 time_elpased: 0.185625
+num: 472 expanded: 465 updated: 963 path_len: 19 max_open: 1110 time_elpased: 0.071674
+num: 473 expanded: 664 updated: 942 path_len: 16 max_open: 1398 time_elpased: 0.102085
+num: 474 expanded: 57 updated: 139 path_len: 10 max_open: 290 time_elpased: 0.00874
+num: 475 expanded: 3461 updated: 6273 path_len: 35 max_open: 5459 time_elpased: 0.540622
+num: 476 expanded: 688 updated: 1147 path_len: 16 max_open: 1503 time_elpased: 0.106543
+num: 477 expanded: 1036 updated: 1129 path_len: 17 max_open: 1983 time_elpased: 0.160554
+num: 478 expanded: 271 updated: 344 path_len: 13 max_open: 679 time_elpased: 0.041539
+num: 479 expanded: 1059 updated: 1679 path_len: 27 max_open: 2201 time_elpased: 0.161398
+num: 480 expanded: 129 updated: 227 path_len: 16 max_open: 501 time_elpased: 0.020016
+num: 481 expanded: 676 updated: 1301 path_len: 24 max_open: 1775 time_elpased: 0.103656
+num: 482 expanded: 156 updated: 182 path_len: 22 max_open: 482 time_elpased: 0.022435
+num: 483 expanded: 119 updated: 60 path_len: 22 max_open: 268 time_elpased: 0.016338
+num: 484 expanded: 268 updated: 589 path_len: 12 max_open: 724 time_elpased: 0.041545
+num: 485 expanded: 127 updated: 292 path_len: 12 max_open: 377 time_elpased: 0.019122
+num: 486 expanded: 251 updated: 460 path_len: 18 max_open: 664 time_elpased: 0.039086
+num: 487 expanded: 425 updated: 621 path_len: 15 max_open: 949 time_elpased: 0.064947
+num: 488 expanded: 147 updated: 333 path_len: 14 max_open: 454 time_elpased: 0.022346
+num: 489 expanded: 342 updated: 609 path_len: 15 max_open: 794 time_elpased: 0.052411
+num: 490 expanded: 225 updated: 140 path_len: 25 max_open: 410 time_elpased: 0.031188
+num: 491 expanded: 9692 updated: 10995 path_len: 29 max_open: 13817 time_elpased: 1.55986
+num: 492 expanded: 311 updated: 586 path_len: 17 max_open: 778 time_elpased: 0.047996
+num: 493 expanded: 212 updated: 519 path_len: 19 max_open: 667 time_elpased: 0.032688
+num: 494 expanded: 504 updated: 423 path_len: 36 max_open: 1236 time_elpased: 0.073022
+num: 495 expanded: 5169 updated: 5638 path_len: 34 max_open: 7819 time_elpased: 0.821801
+num: 496 expanded: 228 updated: 73 path_len: 29 max_open: 322 time_elpased: 0.030656
+num: 497 expanded: 747 updated: 1371 path_len: 17 max_open: 1542 time_elpased: 0.121258
+num: 498 expanded: 403 updated: 601 path_len: 26 max_open: 999 time_elpased: 0.060183
+num: 499 expanded: 1992 updated: 3432 path_len: 28 max_open: 3276 time_elpased: 0.308637
+num: 500 expanded: 589 updated: 744 path_len: 36 max_open: 1205 time_elpased: 0.086269
+num: 501 expanded: 21 updated: 10 path_len: 11 max_open: 178 time_elpased: 0.003146
+num: 502 expanded: 287 updated: 246 path_len: 27 max_open: 551 time_elpased: 0.040029
+num: 503 expanded: 250 updated: 409 path_len: 11 max_open: 622 time_elpased: 0.038259
+num: 504 expanded: 148 updated: 196 path_len: 13 max_open: 472 time_elpased: 0.022896
+num: 505 expanded: 13 updated: 10 path_len: 6 max_open: 87 time_elpased: 0.001887
+num: 506 expanded: 232 updated: 348 path_len: 18 max_open: 820 time_elpased: 0.034519
+num: 507 expanded: 493 updated: 823 path_len: 16 max_open: 1089 time_elpased: 0.075425
+num: 508 expanded: 36 updated: 9 path_len: 28 max_open: 190 time_elpased: 0.004979
+num: 509 expanded: 1946 updated: 2975 path_len: 30 max_open: 3339 time_elpased: 0.29931
+num: 510 expanded: 32 updated: 42 path_len: 9 max_open: 165 time_elpased: 0.004599
+num: 511 expanded: 163 updated: 212 path_len: 19 max_open: 440 time_elpased: 0.023856
+num: 512 expanded: 4898 updated: 7900 path_len: 31 max_open: 7726 time_elpased: 0.777024
+num: 513 expanded: 90 updated: 218 path_len: 12 max_open: 366 time_elpased: 0.013921
+num: 514 expanded: 858 updated: 1489 path_len: 18 max_open: 1765 time_elpased: 0.132538
+num: 515 expanded: 295 updated: 433 path_len: 34 max_open: 741 time_elpased: 0.044639
+num: 516 expanded: 323 updated: 370 path_len: 28 max_open: 990 time_elpased: 0.046038
+num: 517 expanded: 846 updated: 1233 path_len: 18 max_open: 1628 time_elpased: 0.130497
+num: 518 expanded: 650 updated: 1110 path_len: 16 max_open: 1468 time_elpased: 0.10073
+num: 519 expanded: 298 updated: 596 path_len: 29 max_open: 1325 time_elpased: 0.046614
+num: 520 expanded: 379 updated: 551 path_len: 13 max_open: 898 time_elpased: 0.058014
+num: 521 expanded: 203 updated: 415 path_len: 13 max_open: 633 time_elpased: 0.030983
+num: 522 expanded: 269 updated: 418 path_len: 14 max_open: 677 time_elpased: 0.041333
+num: 523 expanded: 817 updated: 1473 path_len: 28 max_open: 2092 time_elpased: 0.126821
+num: 524 expanded: 294 updated: 442 path_len: 13 max_open: 726 time_elpased: 0.044921
+num: 525 expanded: 43 updated: 117 path_len: 11 max_open: 244 time_elpased: 0.006521
+num: 526 expanded: 35 updated: 65 path_len: 11 max_open: 171 time_elpased: 0.005184
+num: 527 expanded: 4181 updated: 6093 path_len: 35 max_open: 6444 time_elpased: 0.664246
+num: 528 expanded: 42 updated: 67 path_len: 11 max_open: 209 time_elpased: 0.006323
+num: 529 expanded: 317 updated: 189 path_len: 25 max_open: 639 time_elpased: 0.044814
+num: 530 expanded: 203 updated: 287 path_len: 13 max_open: 579 time_elpased: 0.030725
+num: 531 expanded: 120 updated: 151 path_len: 16 max_open: 365 time_elpased: 0.01792
+num: 532 expanded: 99 updated: 221 path_len: 13 max_open: 401 time_elpased: 0.015199
+num: 533 expanded: 405 updated: 674 path_len: 20 max_open: 902 time_elpased: 0.060802
+num: 534 expanded: 1853 updated: 2234 path_len: 17 max_open: 3168 time_elpased: 0.293129
+num: 535 expanded: 272 updated: 64 path_len: 33 max_open: 361 time_elpased: 0.036417
+num: 536 expanded: 211 updated: 372 path_len: 11 max_open: 590 time_elpased: 0.032376
+num: 537 expanded: 105 updated: 87 path_len: 22 max_open: 386 time_elpased: 0.014769
+num: 538 expanded: 1512 updated: 2526 path_len: 22 max_open: 2955 time_elpased: 0.234888
+num: 539 expanded: 110 updated: 285 path_len: 14 max_open: 376 time_elpased: 0.016583
+num: 540 expanded: 989 updated: 1512 path_len: 20 max_open: 2049 time_elpased: 0.152479
+num: 541 expanded: 839 updated: 1640 path_len: 17 max_open: 1579 time_elpased: 0.129554
+num: 542 expanded: 22 updated: 6 path_len: 12 max_open: 158 time_elpased: 0.003309
+num: 543 expanded: 91 updated: 234 path_len: 15 max_open: 398 time_elpased: 0.013833
+num: 544 expanded: 4322 updated: 7772 path_len: 40 max_open: 5813 time_elpased: 0.674322
+num: 545 expanded: 4592 updated: 5912 path_len: 38 max_open: 7470 time_elpased: 0.718706
+num: 546 expanded: 5384 updated: 5064 path_len: 24 max_open: 8069 time_elpased: 0.862611
+num: 547 expanded: 70 updated: 90 path_len: 15 max_open: 379 time_elpased: 0.010633
+num: 548 expanded: 4017 updated: 6601 path_len: 31 max_open: 5982 time_elpased: 0.637996
+num: 549 expanded: 24 updated: 15 path_len: 12 max_open: 164 time_elpased: 0.003618
+num: 550 expanded: 4741 updated: 8390 path_len: 27 max_open: 7042 time_elpased: 0.75308
+num: 551 expanded: 180 updated: 329 path_len: 16 max_open: 523 time_elpased: 0.027544
+num: 552 expanded: 207 updated: 258 path_len: 30 max_open: 755 time_elpased: 0.031172
+num: 553 expanded: 13144 updated: 9794 path_len: 34 max_open: 18064 time_elpased: 2.1739
+num: 554 expanded: 45 updated: 107 path_len: 12 max_open: 209 time_elpased: 0.006521
+num: 555 expanded: 583 updated: 1099 path_len: 27 max_open: 1460 time_elpased: 0.088668
+num: 556 expanded: 241 updated: 218 path_len: 11 max_open: 670 time_elpased: 0.037112
+num: 557 expanded: 72 updated: 102 path_len: 16 max_open: 404 time_elpased: 0.011117
+num: 558 expanded: 245 updated: 302 path_len: 13 max_open: 646 time_elpased: 0.037392
+num: 559 expanded: 17 updated: 29 path_len: 11 max_open: 174 time_elpased: 0.002565
+num: 560 expanded: 3294 updated: 3548 path_len: 33 max_open: 5611 time_elpased: 0.517402
+num: 561 expanded: 1249 updated: 1602 path_len: 32 max_open: 2402 time_elpased: 0.1941
+num: 562 expanded: 234 updated: 461 path_len: 31 max_open: 876 time_elpased: 0.036008
+num: 563 expanded: 1300 updated: 2079 path_len: 18 max_open: 2422 time_elpased: 0.201828
+num: 564 expanded: 560 updated: 1198 path_len: 22 max_open: 1150 time_elpased: 0.085932
+num: 565 expanded: 391 updated: 649 path_len: 14 max_open: 993 time_elpased: 0.059267
+num: 566 expanded: 466 updated: 759 path_len: 13 max_open: 986 time_elpased: 0.071819
+num: 567 expanded: 227 updated: 354 path_len: 22 max_open: 692 time_elpased: 0.034215
+num: 568 expanded: 310 updated: 551 path_len: 30 max_open: 1187 time_elpased: 0.047239
+num: 569 expanded: 179 updated: 303 path_len: 14 max_open: 521 time_elpased: 0.026483
+num: 570 expanded: 1364 updated: 1808 path_len: 26 max_open: 2483 time_elpased: 0.211944
+num: 571 expanded: 986 updated: 1465 path_len: 29 max_open: 1942 time_elpased: 0.145711
+num: 572 expanded: 1454 updated: 2588 path_len: 21 max_open: 2903 time_elpased: 0.228305
+num: 573 expanded: 11 updated: 1 path_len: 8 max_open: 89 time_elpased: 0.001515
+num: 574 expanded: 82 updated: 111 path_len: 15 max_open: 344 time_elpased: 0.01179
+num: 575 expanded: 107 updated: 93 path_len: 10 max_open: 356 time_elpased: 0.016512
+num: 576 expanded: 36 updated: 55 path_len: 9 max_open: 147 time_elpased: 0.005209
+num: 577 expanded: 283 updated: 456 path_len: 13 max_open: 694 time_elpased: 0.043297
+num: 578 expanded: 3291 updated: 5818 path_len: 26 max_open: 5560 time_elpased: 0.518645
+num: 579 expanded: 550 updated: 821 path_len: 15 max_open: 1258 time_elpased: 0.08433
+num: 580 expanded: 32 updated: 43 path_len: 13 max_open: 239 time_elpased: 0.004898
+num: 581 expanded: 205 updated: 167 path_len: 18 max_open: 398 time_elpased: 0.028371
+num: 582 expanded: 8745 updated: 10626 path_len: 34 max_open: 12415 time_elpased: 1.39397
+num: 583 expanded: 760 updated: 678 path_len: 36 max_open: 1584 time_elpased: 0.111075
+num: 584 expanded: 70 updated: 172 path_len: 12 max_open: 316 time_elpased: 0.010578
+num: 585 expanded: 170 updated: 407 path_len: 16 max_open: 571 time_elpased: 0.026157
+num: 586 expanded: 139 updated: 269 path_len: 14 max_open: 435 time_elpased: 0.021246
+num: 587 expanded: 248 updated: 388 path_len: 23 max_open: 566 time_elpased: 0.036963
+num: 588 expanded: 354 updated: 608 path_len: 13 max_open: 836 time_elpased: 0.053933
+num: 589 expanded: 117 updated: 183 path_len: 19 max_open: 442 time_elpased: 0.017295
+num: 590 expanded: 57 updated: 167 path_len: 17 max_open: 374 time_elpased: 0.008862
+num: 591 expanded: 289 updated: 428 path_len: 14 max_open: 703 time_elpased: 0.044575
+num: 592 expanded: 113 updated: 56 path_len: 13 max_open: 183 time_elpased: 0.015183
+num: 593 expanded: 10917 updated: 14960 path_len: 33 max_open: 15558 time_elpased: 1.77381
+num: 594 expanded: 90 updated: 130 path_len: 14 max_open: 415 time_elpased: 0.013293
+num: 595 expanded: 180 updated: 318 path_len: 10 max_open: 500 time_elpased: 0.027523
+num: 596 expanded: 2206 updated: 4121 path_len: 23 max_open: 3912 time_elpased: 0.349076
+num: 597 expanded: 4239 updated: 4877 path_len: 39 max_open: 6938 time_elpased: 0.660871
+num: 598 expanded: 37 updated: 18 path_len: 22 max_open: 236 time_elpased: 0.005471
+num: 599 expanded: 28 updated: 40 path_len: 12 max_open: 198 time_elpased: 0.004167
+num: 600 expanded: 206 updated: 348 path_len: 14 max_open: 593 time_elpased: 0.031604
+num: 601 expanded: 1642 updated: 2729 path_len: 22 max_open: 2885 time_elpased: 0.258196
+num: 602 expanded: 76 updated: 106 path_len: 25 max_open: 428 time_elpased: 0.011389
+num: 603 expanded: 81 updated: 91 path_len: 13 max_open: 276 time_elpased: 0.012243
+num: 604 expanded: 534 updated: 1028 path_len: 18 max_open: 1215 time_elpased: 0.082475
+num: 605 expanded: 401 updated: 594 path_len: 31 max_open: 994 time_elpased: 0.060708
+num: 606 expanded: 384 updated: 640 path_len: 16 max_open: 961 time_elpased: 0.058758
+num: 607 expanded: 122 updated: 177 path_len: 23 max_open: 627 time_elpased: 0.018936
+num: 608 expanded: 369 updated: 718 path_len: 18 max_open: 929 time_elpased: 0.056831
+num: 609 expanded: 352 updated: 763 path_len: 20 max_open: 806 time_elpased: 0.053798
+num: 610 expanded: 125 updated: 181 path_len: 15 max_open: 445 time_elpased: 0.018591
+num: 611 expanded: 19 updated: 5 path_len: 12 max_open: 136 time_elpased: 0.002709
+num: 612 expanded: 6204 updated: 9506 path_len: 40 max_open: 9286 time_elpased: 0.982832
+num: 613 expanded: 24 updated: 9 path_len: 9 max_open: 155 time_elpased: 0.003488
+num: 614 expanded: 173 updated: 64 path_len: 21 max_open: 229 time_elpased: 0.023204
+num: 615 expanded: 467 updated: 985 path_len: 15 max_open: 1094 time_elpased: 0.071748
+num: 616 expanded: 116 updated: 162 path_len: 10 max_open: 369 time_elpased: 0.017708
+num: 617 expanded: 266 updated: 519 path_len: 16 max_open: 712 time_elpased: 0.040421
+num: 618 expanded: 1092 updated: 1948 path_len: 20 max_open: 2095 time_elpased: 0.169808
+num: 619 expanded: 91 updated: 55 path_len: 14 max_open: 167 time_elpased: 0.012292
+num: 620 expanded: 292 updated: 562 path_len: 13 max_open: 764 time_elpased: 0.044619
+num: 621 expanded: 454 updated: 1082 path_len: 18 max_open: 1006 time_elpased: 0.070229
+num: 622 expanded: 89 updated: 141 path_len: 13 max_open: 338 time_elpased: 0.013348
+num: 623 expanded: 116 updated: 50 path_len: 26 max_open: 267 time_elpased: 0.015737
+num: 624 expanded: 462 updated: 796 path_len: 14 max_open: 1091 time_elpased: 0.070431
+num: 625 expanded: 1249 updated: 1786 path_len: 25 max_open: 2398 time_elpased: 0.194369
+num: 626 expanded: 551 updated: 1189 path_len: 16 max_open: 1326 time_elpased: 0.085748
+num: 627 expanded: 109 updated: 222 path_len: 21 max_open: 504 time_elpased: 0.016877
+num: 628 expanded: 643 updated: 1118 path_len: 31 max_open: 1430 time_elpased: 0.105808
+num: 629 expanded: 806 updated: 1512 path_len: 26 max_open: 1377 time_elpased: 0.124258
+num: 630 expanded: 47 updated: 54 path_len: 11 max_open: 224 time_elpased: 0.007808
+num: 631 expanded: 1361 updated: 1682 path_len: 23 max_open: 2616 time_elpased: 0.21001
+num: 632 expanded: 17 updated: 20 path_len: 11 max_open: 126 time_elpased: 0.002518
+num: 633 expanded: 355 updated: 761 path_len: 22 max_open: 881 time_elpased: 0.055067
+num: 634 expanded: 276 updated: 411 path_len: 36 max_open: 699 time_elpased: 0.040077
+num: 635 expanded: 5446 updated: 6866 path_len: 28 max_open: 8416 time_elpased: 0.866384
+num: 636 expanded: 358 updated: 541 path_len: 17 max_open: 1040 time_elpased: 0.053717
+num: 637 expanded: 197 updated: 284 path_len: 19 max_open: 750 time_elpased: 0.029506
+num: 638 expanded: 237 updated: 433 path_len: 14 max_open: 710 time_elpased: 0.035817
+num: 639 expanded: 60 updated: 154 path_len: 12 max_open: 284 time_elpased: 0.009114
+num: 640 expanded: 2042 updated: 3235 path_len: 32 max_open: 3314 time_elpased: 0.309203
+num: 641 expanded: 264 updated: 481 path_len: 19 max_open: 770 time_elpased: 0.039505
+num: 642 expanded: 3046 updated: 4082 path_len: 29 max_open: 4942 time_elpased: 0.482768
+num: 643 expanded: 916 updated: 1792 path_len: 23 max_open: 1844 time_elpased: 0.143
+num: 644 expanded: 7914 updated: 11930 path_len: 35 max_open: 11536 time_elpased: 1.26159
+num: 645 expanded: 205 updated: 431 path_len: 13 max_open: 578 time_elpased: 0.031219
+num: 646 expanded: 113 updated: 235 path_len: 15 max_open: 397 time_elpased: 0.017271
+num: 647 expanded: 589 updated: 1251 path_len: 25 max_open: 1164 time_elpased: 0.09026
+num: 648 expanded: 769 updated: 1551 path_len: 26 max_open: 1378 time_elpased: 0.119652
+num: 649 expanded: 108 updated: 184 path_len: 15 max_open: 362 time_elpased: 0.015859
+num: 650 expanded: 743 updated: 1611 path_len: 34 max_open: 1837 time_elpased: 0.117014
+num: 651 expanded: 1317 updated: 2662 path_len: 29 max_open: 2163 time_elpased: 0.200974
+num: 652 expanded: 880 updated: 1571 path_len: 22 max_open: 1944 time_elpased: 0.135098
+num: 653 expanded: 283 updated: 616 path_len: 20 max_open: 734 time_elpased: 0.043375
+num: 654 expanded: 1030 updated: 2027 path_len: 25 max_open: 1820 time_elpased: 0.156661
+num: 655 expanded: 606 updated: 879 path_len: 22 max_open: 1412 time_elpased: 0.09297
+num: 656 expanded: 210 updated: 292 path_len: 17 max_open: 635 time_elpased: 0.031913
+num: 657 expanded: 350 updated: 883 path_len: 16 max_open: 843 time_elpased: 0.05647
+num: 658 expanded: 71 updated: 118 path_len: 10 max_open: 282 time_elpased: 0.010907
+num: 659 expanded: 326 updated: 513 path_len: 17 max_open: 717 time_elpased: 0.049488
+num: 660 expanded: 72 updated: 148 path_len: 15 max_open: 341 time_elpased: 0.01094
+num: 661 expanded: 742 updated: 1182 path_len: 16 max_open: 1508 time_elpased: 0.115059
+num: 662 expanded: 158 updated: 375 path_len: 14 max_open: 542 time_elpased: 0.024527
+num: 663 expanded: 649 updated: 800 path_len: 15 max_open: 1306 time_elpased: 0.100406
+num: 664 expanded: 215 updated: 274 path_len: 32 max_open: 815 time_elpased: 0.031861
+num: 665 expanded: 384 updated: 565 path_len: 14 max_open: 939 time_elpased: 0.058752
+num: 666 expanded: 40 updated: 40 path_len: 11 max_open: 224 time_elpased: 0.005958
+num: 667 expanded: 185 updated: 216 path_len: 16 max_open: 607 time_elpased: 0.02754
+num: 668 expanded: 10229 updated: 10185 path_len: 31 max_open: 14185 time_elpased: 1.64891
+num: 669 expanded: 1369 updated: 2401 path_len: 21 max_open: 2594 time_elpased: 0.213308
+num: 670 expanded: 1592 updated: 2074 path_len: 26 max_open: 2995 time_elpased: 0.246802
+num: 671 expanded: 678 updated: 1014 path_len: 33 max_open: 1430 time_elpased: 0.10226
+num: 672 expanded: 29 updated: 18 path_len: 7 max_open: 140 time_elpased: 0.004207
+num: 673 expanded: 437 updated: 925 path_len: 16 max_open: 1019 time_elpased: 0.066596
+num: 674 expanded: 359 updated: 384 path_len: 14 max_open: 859 time_elpased: 0.054739
+num: 675 expanded: 95 updated: 126 path_len: 14 max_open: 390 time_elpased: 0.015273
+num: 676 expanded: 44 updated: 47 path_len: 12 max_open: 220 time_elpased: 0.00644
+num: 677 expanded: 243 updated: 125 path_len: 34 max_open: 354 time_elpased: 0.032871
+num: 678 expanded: 559 updated: 1060 path_len: 35 max_open: 1508 time_elpased: 0.083818
+num: 679 expanded: 433 updated: 869 path_len: 19 max_open: 956 time_elpased: 0.066216
+num: 680 expanded: 441 updated: 729 path_len: 28 max_open: 1381 time_elpased: 0.067814
+num: 681 expanded: 350 updated: 574 path_len: 15 max_open: 956 time_elpased: 0.054229
+num: 682 expanded: 200 updated: 374 path_len: 14 max_open: 590 time_elpased: 0.030119
+num: 683 expanded: 1039 updated: 1575 path_len: 29 max_open: 2027 time_elpased: 0.159194
+num: 684 expanded: 863 updated: 1330 path_len: 31 max_open: 1859 time_elpased: 0.12956
+num: 685 expanded: 2475 updated: 3327 path_len: 36 max_open: 4219 time_elpased: 0.390191
+num: 686 expanded: 971 updated: 1592 path_len: 18 max_open: 1846 time_elpased: 0.150833
+num: 687 expanded: 247 updated: 426 path_len: 21 max_open: 824 time_elpased: 0.037302
+num: 688 expanded: 102 updated: 212 path_len: 12 max_open: 363 time_elpased: 0.015495
+num: 689 expanded: 100 updated: 176 path_len: 14 max_open: 385 time_elpased: 0.015372
+num: 690 expanded: 3063 updated: 3542 path_len: 23 max_open: 5089 time_elpased: 0.486489
+num: 691 expanded: 139 updated: 74 path_len: 18 max_open: 191 time_elpased: 0.018643
+num: 692 expanded: 182 updated: 427 path_len: 15 max_open: 577 time_elpased: 0.027416
+num: 693 expanded: 174 updated: 243 path_len: 12 max_open: 482 time_elpased: 0.026137
+num: 694 expanded: 46 updated: 99 path_len: 10 max_open: 224 time_elpased: 0.007016
+num: 695 expanded: 200 updated: 331 path_len: 12 max_open: 614 time_elpased: 0.030472
+num: 696 expanded: 208 updated: 236 path_len: 12 max_open: 581 time_elpased: 0.031985
+num: 697 expanded: 2240 updated: 2605 path_len: 20 max_open: 3780 time_elpased: 0.353246
+num: 698 expanded: 372 updated: 462 path_len: 15 max_open: 857 time_elpased: 0.056191
+num: 699 expanded: 224 updated: 194 path_len: 26 max_open: 540 time_elpased: 0.032331
+num: 700 expanded: 57 updated: 77 path_len: 14 max_open: 263 time_elpased: 0.008548
+num: 701 expanded: 477 updated: 463 path_len: 23 max_open: 1056 time_elpased: 0.071032
+num: 702 expanded: 348 updated: 479 path_len: 20 max_open: 886 time_elpased: 0.051395
+num: 703 expanded: 627 updated: 1111 path_len: 16 max_open: 1335 time_elpased: 0.096802
+num: 704 expanded: 1547 updated: 2569 path_len: 28 max_open: 2895 time_elpased: 0.241879
+num: 705 expanded: 687 updated: 913 path_len: 16 max_open: 1442 time_elpased: 0.105729
+num: 706 expanded: 404 updated: 571 path_len: 34 max_open: 1147 time_elpased: 0.060045
+num: 707 expanded: 21 updated: 6 path_len: 15 max_open: 123 time_elpased: 0.002945
+num: 708 expanded: 237 updated: 506 path_len: 14 max_open: 748 time_elpased: 0.035792
+num: 709 expanded: 340 updated: 616 path_len: 17 max_open: 879 time_elpased: 0.051876
+num: 710 expanded: 268 updated: 440 path_len: 20 max_open: 765 time_elpased: 0.040025
+num: 711 expanded: 31 updated: 3 path_len: 27 max_open: 168 time_elpased: 0.004197
+num: 712 expanded: 359 updated: 354 path_len: 17 max_open: 938 time_elpased: 0.054684
+num: 713 expanded: 21 updated: 14 path_len: 5 max_open: 86 time_elpased: 0.003028
+num: 714 expanded: 71 updated: 94 path_len: 15 max_open: 303 time_elpased: 0.010831
+num: 715 expanded: 2386 updated: 3975 path_len: 26 max_open: 4004 time_elpased: 0.375044
+num: 716 expanded: 340 updated: 684 path_len: 22 max_open: 845 time_elpased: 0.051804
+num: 717 expanded: 477 updated: 378 path_len: 35 max_open: 1004 time_elpased: 0.06745
+num: 718 expanded: 62 updated: 84 path_len: 18 max_open: 278 time_elpased: 0.009227
+num: 719 expanded: 165 updated: 306 path_len: 15 max_open: 527 time_elpased: 0.02497
+num: 720 expanded: 1223 updated: 1515 path_len: 21 max_open: 2448 time_elpased: 0.189165
+num: 721 expanded: 220 updated: 418 path_len: 19 max_open: 617 time_elpased: 0.032757
+num: 722 expanded: 11 updated: 13 path_len: 6 max_open: 87 time_elpased: 0.001571
+num: 723 expanded: 323 updated: 432 path_len: 20 max_open: 890 time_elpased: 0.048492
+num: 724 expanded: 77 updated: 169 path_len: 12 max_open: 327 time_elpased: 0.011808
+num: 725 expanded: 1409 updated: 2197 path_len: 38 max_open: 2576 time_elpased: 0.211936
+num: 726 expanded: 129 updated: 25 path_len: 16 max_open: 224 time_elpased: 0.017407
+num: 727 expanded: 1480 updated: 2321 path_len: 19 max_open: 2660 time_elpased: 0.23216
+num: 728 expanded: 479 updated: 820 path_len: 18 max_open: 1288 time_elpased: 0.07283
+num: 729 expanded: 20 updated: 22 path_len: 10 max_open: 139 time_elpased: 0.002852
+num: 730 expanded: 18 updated: 9 path_len: 10 max_open: 143 time_elpased: 0.002721
+num: 731 expanded: 35 updated: 42 path_len: 11 max_open: 162 time_elpased: 0.005101
+num: 732 expanded: 4247 updated: 8701 path_len: 36 max_open: 6018 time_elpased: 0.675719
+num: 733 expanded: 86 updated: 109 path_len: 21 max_open: 412 time_elpased: 0.013
+num: 734 expanded: 54 updated: 82 path_len: 13 max_open: 255 time_elpased: 0.007981
+num: 735 expanded: 8037 updated: 9806 path_len: 34 max_open: 11887 time_elpased: 1.28881
+num: 736 expanded: 2782 updated: 3945 path_len: 29 max_open: 4631 time_elpased: 0.438908
+num: 737 expanded: 245 updated: 450 path_len: 14 max_open: 584 time_elpased: 0.037354
+num: 738 expanded: 561 updated: 635 path_len: 16 max_open: 1329 time_elpased: 0.08552
+num: 739 expanded: 190 updated: 268 path_len: 19 max_open: 574 time_elpased: 0.028454
+num: 740 expanded: 435 updated: 789 path_len: 25 max_open: 1007 time_elpased: 0.065199
+num: 741 expanded: 188 updated: 226 path_len: 12 max_open: 570 time_elpased: 0.028422
+num: 742 expanded: 166 updated: 280 path_len: 12 max_open: 464 time_elpased: 0.025229
+num: 743 expanded: 561 updated: 1203 path_len: 14 max_open: 1248 time_elpased: 0.086778
+num: 744 expanded: 3230 updated: 4692 path_len: 24 max_open: 5147 time_elpased: 0.510736
+num: 745 expanded: 1715 updated: 2750 path_len: 22 max_open: 3211 time_elpased: 0.267246
+num: 746 expanded: 21 updated: 8 path_len: 11 max_open: 215 time_elpased: 0.003251
+num: 747 expanded: 1754 updated: 2795 path_len: 25 max_open: 3184 time_elpased: 0.27384
+num: 748 expanded: 75 updated: 55 path_len: 20 max_open: 343 time_elpased: 0.011259
+num: 749 expanded: 256 updated: 305 path_len: 19 max_open: 711 time_elpased: 0.038408
+num: 750 expanded: 693 updated: 1364 path_len: 19 max_open: 1535 time_elpased: 0.106504
+num: 751 expanded: 38 updated: 60 path_len: 12 max_open: 205 time_elpased: 0.005802
+num: 752 expanded: 383 updated: 807 path_len: 14 max_open: 962 time_elpased: 0.058698
+num: 753 expanded: 37 updated: 44 path_len: 12 max_open: 196 time_elpased: 0.005325
+num: 754 expanded: 2385 updated: 4871 path_len: 38 max_open: 3924 time_elpased: 0.375163
+num: 755 expanded: 1606 updated: 2889 path_len: 33 max_open: 3122 time_elpased: 0.247187
+num: 756 expanded: 696 updated: 1253 path_len: 27 max_open: 1320 time_elpased: 0.107024
+num: 757 expanded: 273 updated: 545 path_len: 11 max_open: 648 time_elpased: 0.042041
+num: 758 expanded: 131 updated: 180 path_len: 15 max_open: 467 time_elpased: 0.019635
+num: 759 expanded: 205 updated: 233 path_len: 12 max_open: 592 time_elpased: 0.031124
+num: 760 expanded: 1150 updated: 2135 path_len: 17 max_open: 2211 time_elpased: 0.180672
+num: 761 expanded: 116 updated: 195 path_len: 14 max_open: 355 time_elpased: 0.0176
+num: 762 expanded: 1223 updated: 2079 path_len: 18 max_open: 2218 time_elpased: 0.189915
+num: 763 expanded: 111 updated: 93 path_len: 15 max_open: 246 time_elpased: 0.015423
+num: 764 expanded: 193 updated: 480 path_len: 19 max_open: 667 time_elpased: 0.029703
+num: 765 expanded: 156 updated: 293 path_len: 14 max_open: 408 time_elpased: 0.02407
+num: 766 expanded: 1200 updated: 1344 path_len: 38 max_open: 2346 time_elpased: 0.180628
+num: 767 expanded: 2740 updated: 5269 path_len: 42 max_open: 4823 time_elpased: 0.430472
+num: 768 expanded: 1234 updated: 1865 path_len: 23 max_open: 2315 time_elpased: 0.19135
+num: 769 expanded: 36 updated: 46 path_len: 10 max_open: 178 time_elpased: 0.005329
+num: 770 expanded: 32 updated: 58 path_len: 12 max_open: 206 time_elpased: 0.004874
+num: 771 expanded: 156 updated: 275 path_len: 17 max_open: 479 time_elpased: 0.022836
+num: 772 expanded: 136 updated: 216 path_len: 14 max_open: 394 time_elpased: 0.020491
+num: 773 expanded: 781 updated: 1077 path_len: 16 max_open: 1539 time_elpased: 0.121428
+num: 774 expanded: 145 updated: 283 path_len: 14 max_open: 454 time_elpased: 0.022165
+num: 775 expanded: 70 updated: 129 path_len: 13 max_open: 268 time_elpased: 0.010417
+num: 776 expanded: 383 updated: 665 path_len: 25 max_open: 999 time_elpased: 0.057473
+num: 777 expanded: 50 updated: 61 path_len: 15 max_open: 242 time_elpased: 0.007407
+num: 778 expanded: 101 updated: 66 path_len: 14 max_open: 207 time_elpased: 0.013826
+num: 779 expanded: 303 updated: 612 path_len: 19 max_open: 703 time_elpased: 0.046359
+num: 780 expanded: 282 updated: 62 path_len: 33 max_open: 365 time_elpased: 0.037991
+num: 781 expanded: 1750 updated: 2572 path_len: 29 max_open: 3137 time_elpased: 0.273103
+num: 782 expanded: 35 updated: 37 path_len: 13 max_open: 186 time_elpased: 0.005067
+num: 783 expanded: 39 updated: 24 path_len: 16 max_open: 270 time_elpased: 0.005772
+num: 784 expanded: 483 updated: 992 path_len: 25 max_open: 980 time_elpased: 0.073206
+num: 785 expanded: 1073 updated: 2071 path_len: 17 max_open: 2039 time_elpased: 0.16682
+num: 786 expanded: 1223 updated: 2374 path_len: 18 max_open: 2543 time_elpased: 0.189954
+num: 787 expanded: 884 updated: 1538 path_len: 26 max_open: 1756 time_elpased: 0.136201
+num: 788 expanded: 1021 updated: 1805 path_len: 33 max_open: 1868 time_elpased: 0.154274
+num: 789 expanded: 1624 updated: 2618 path_len: 25 max_open: 3074 time_elpased: 0.252562
+num: 790 expanded: 168 updated: 249 path_len: 24 max_open: 562 time_elpased: 0.030367
+num: 791 expanded: 96 updated: 169 path_len: 11 max_open: 372 time_elpased: 0.014821
+num: 792 expanded: 247 updated: 437 path_len: 17 max_open: 711 time_elpased: 0.037847
+num: 793 expanded: 367 updated: 699 path_len: 12 max_open: 886 time_elpased: 0.05647
+num: 794 expanded: 113 updated: 32 path_len: 14 max_open: 198 time_elpased: 0.015256
+num: 795 expanded: 57 updated: 80 path_len: 12 max_open: 269 time_elpased: 0.008435
+num: 796 expanded: 1228 updated: 2065 path_len: 39 max_open: 2042 time_elpased: 0.192289
+num: 797 expanded: 112 updated: 214 path_len: 10 max_open: 380 time_elpased: 0.016944
+num: 798 expanded: 3415 updated: 4824 path_len: 23 max_open: 5354 time_elpased: 0.544977
+num: 799 expanded: 675 updated: 913 path_len: 16 max_open: 1357 time_elpased: 0.104269
+num: 800 expanded: 207 updated: 344 path_len: 15 max_open: 596 time_elpased: 0.032081
+num: 801 expanded: 155 updated: 264 path_len: 17 max_open: 562 time_elpased: 0.023926
+num: 802 expanded: 246 updated: 332 path_len: 33 max_open: 713 time_elpased: 0.036818
+num: 803 expanded: 419 updated: 523 path_len: 21 max_open: 849 time_elpased: 0.076937
+num: 804 expanded: 1074 updated: 1829 path_len: 24 max_open: 1871 time_elpased: 0.16625
+num: 805 expanded: 622 updated: 1463 path_len: 17 max_open: 1466 time_elpased: 0.09648
+num: 806 expanded: 978 updated: 1433 path_len: 30 max_open: 1545 time_elpased: 0.147081
+num: 807 expanded: 113 updated: 193 path_len: 11 max_open: 379 time_elpased: 0.017181
+num: 808 expanded: 269 updated: 454 path_len: 31 max_open: 1056 time_elpased: 0.040898
+num: 809 expanded: 557 updated: 1224 path_len: 15 max_open: 1263 time_elpased: 0.086132
+num: 810 expanded: 332 updated: 494 path_len: 17 max_open: 823 time_elpased: 0.050145
+num: 811 expanded: 605 updated: 887 path_len: 17 max_open: 1315 time_elpased: 0.093531
+num: 812 expanded: 168 updated: 243 path_len: 15 max_open: 539 time_elpased: 0.025137
+num: 813 expanded: 782 updated: 1287 path_len: 17 max_open: 1641 time_elpased: 0.122355
+num: 814 expanded: 9266 updated: 15125 path_len: 33 max_open: 13231 time_elpased: 1.49298
+num: 815 expanded: 2241 updated: 3884 path_len: 23 max_open: 3812 time_elpased: 0.351366
+num: 816 expanded: 63 updated: 51 path_len: 17 max_open: 212 time_elpased: 0.008871
+num: 817 expanded: 304 updated: 348 path_len: 13 max_open: 814 time_elpased: 0.047383
+num: 818 expanded: 2242 updated: 4024 path_len: 34 max_open: 3397 time_elpased: 0.346656
+num: 819 expanded: 2167 updated: 3145 path_len: 34 max_open: 3706 time_elpased: 0.341725
+num: 820 expanded: 13329 updated: 15604 path_len: 35 max_open: 18393 time_elpased: 2.174
+num: 821 expanded: 332 updated: 728 path_len: 18 max_open: 973 time_elpased: 0.050949
+num: 822 expanded: 619 updated: 1148 path_len: 31 max_open: 1446 time_elpased: 0.094984
+num: 823 expanded: 262 updated: 557 path_len: 14 max_open: 635 time_elpased: 0.040386
+num: 824 expanded: 3389 updated: 4936 path_len: 30 max_open: 5398 time_elpased: 0.533092
+num: 825 expanded: 190 updated: 230 path_len: 28 max_open: 948 time_elpased: 0.029547
+num: 826 expanded: 1270 updated: 2392 path_len: 31 max_open: 2188 time_elpased: 0.196318
+num: 827 expanded: 106 updated: 222 path_len: 18 max_open: 456 time_elpased: 0.016208
+num: 828 expanded: 744 updated: 1141 path_len: 28 max_open: 1404 time_elpased: 0.113316
+num: 829 expanded: 330 updated: 681 path_len: 23 max_open: 895 time_elpased: 0.049779
+num: 830 expanded: 5280 updated: 5676 path_len: 26 max_open: 7895 time_elpased: 0.853258
+num: 831 expanded: 42 updated: 24 path_len: 13 max_open: 144 time_elpased: 0.005818
+num: 832 expanded: 147 updated: 196 path_len: 15 max_open: 448 time_elpased: 0.021957
+num: 833 expanded: 15 updated: 1 path_len: 9 max_open: 109 time_elpased: 0.002105
+num: 834 expanded: 192 updated: 349 path_len: 21 max_open: 617 time_elpased: 0.029105
+num: 835 expanded: 228 updated: 57 path_len: 28 max_open: 350 time_elpased: 0.030628
+num: 836 expanded: 499 updated: 989 path_len: 16 max_open: 1142 time_elpased: 0.077453
+num: 837 expanded: 38 updated: 72 path_len: 8 max_open: 197 time_elpased: 0.005763
+num: 838 expanded: 448 updated: 1021 path_len: 29 max_open: 1165 time_elpased: 0.068306
+num: 839 expanded: 111 updated: 140 path_len: 12 max_open: 343 time_elpased: 0.016454
+num: 840 expanded: 806 updated: 1676 path_len: 20 max_open: 1619 time_elpased: 0.124494
+num: 841 expanded: 132 updated: 119 path_len: 21 max_open: 545 time_elpased: 0.019951
+num: 842 expanded: 1276 updated: 1904 path_len: 27 max_open: 2525 time_elpased: 0.195886
+num: 843 expanded: 24 updated: 33 path_len: 11 max_open: 177 time_elpased: 0.003573
+num: 844 expanded: 5459 updated: 6156 path_len: 35 max_open: 8545 time_elpased: 0.865378
+num: 845 expanded: 153 updated: 222 path_len: 12 max_open: 438 time_elpased: 0.02295
+num: 846 expanded: 14746 updated: 8880 path_len: 33 max_open: 20044 time_elpased: 2.43014
+num: 847 expanded: 660 updated: 826 path_len: 37 max_open: 1613 time_elpased: 0.094402
+num: 848 expanded: 440 updated: 808 path_len: 21 max_open: 930 time_elpased: 0.067201
+num: 849 expanded: 55 updated: 42 path_len: 26 max_open: 359 time_elpased: 0.00818
+num: 850 expanded: 39 updated: 21 path_len: 13 max_open: 262 time_elpased: 0.005939
+num: 851 expanded: 225 updated: 601 path_len: 18 max_open: 618 time_elpased: 0.034465
+num: 852 expanded: 310 updated: 657 path_len: 13 max_open: 774 time_elpased: 0.047803
+num: 853 expanded: 1003 updated: 1602 path_len: 21 max_open: 2045 time_elpased: 0.156782
+num: 854 expanded: 2746 updated: 4968 path_len: 40 max_open: 4680 time_elpased: 0.552274
+num: 855 expanded: 13 updated: 1 path_len: 8 max_open: 116 time_elpased: 0.001902
+num: 856 expanded: 132 updated: 227 path_len: 15 max_open: 388 time_elpased: 0.019989
+num: 857 expanded: 16 updated: 10 path_len: 8 max_open: 100 time_elpased: 0.002226
+num: 858 expanded: 140 updated: 24 path_len: 20 max_open: 246 time_elpased: 0.018982
+num: 859 expanded: 7765 updated: 11678 path_len: 38 max_open: 11261 time_elpased: 1.24606
+num: 860 expanded: 1077 updated: 1561 path_len: 23 max_open: 2218 time_elpased: 0.166557
+num: 861 expanded: 22 updated: 11 path_len: 10 max_open: 170 time_elpased: 0.003236
+num: 862 expanded: 50 updated: 93 path_len: 11 max_open: 214 time_elpased: 0.007358
+num: 863 expanded: 64 updated: 128 path_len: 16 max_open: 349 time_elpased: 0.009836
+num: 864 expanded: 174 updated: 188 path_len: 23 max_open: 482 time_elpased: 0.027319
+num: 865 expanded: 197 updated: 243 path_len: 15 max_open: 621 time_elpased: 0.029647
+num: 866 expanded: 259 updated: 238 path_len: 13 max_open: 711 time_elpased: 0.038931
+num: 867 expanded: 189 updated: 276 path_len: 13 max_open: 560 time_elpased: 0.029808
+num: 868 expanded: 16 updated: 0 path_len: 14 max_open: 115 time_elpased: 0.002282
+num: 869 expanded: 34 updated: 96 path_len: 11 max_open: 248 time_elpased: 0.005272
+num: 870 expanded: 460 updated: 558 path_len: 26 max_open: 1012 time_elpased: 0.067316
+num: 871 expanded: 119 updated: 212 path_len: 14 max_open: 458 time_elpased: 0.017623
+num: 872 expanded: 3949 updated: 6380 path_len: 31 max_open: 6269 time_elpased: 0.621692
+num: 873 expanded: 254 updated: 380 path_len: 13 max_open: 673 time_elpased: 0.038889
+num: 874 expanded: 487 updated: 926 path_len: 20 max_open: 1163 time_elpased: 0.07456
+num: 875 expanded: 1161 updated: 1778 path_len: 17 max_open: 2118 time_elpased: 0.182059
+num: 876 expanded: 1779 updated: 3377 path_len: 39 max_open: 3281 time_elpased: 0.272922
+num: 877 expanded: 3432 updated: 2675 path_len: 20 max_open: 5385 time_elpased: 0.544439
+num: 878 expanded: 69 updated: 113 path_len: 19 max_open: 432 time_elpased: 0.013042
+num: 879 expanded: 518 updated: 927 path_len: 21 max_open: 1047 time_elpased: 0.078569
+num: 880 expanded: 138 updated: 134 path_len: 22 max_open: 308 time_elpased: 0.019537
+num: 881 expanded: 207 updated: 390 path_len: 27 max_open: 663 time_elpased: 0.030895
+num: 882 expanded: 461 updated: 762 path_len: 21 max_open: 1163 time_elpased: 0.070158
+num: 883 expanded: 709 updated: 602 path_len: 14 max_open: 1489 time_elpased: 0.11069
+num: 884 expanded: 215 updated: 332 path_len: 13 max_open: 607 time_elpased: 0.032464
+num: 885 expanded: 405 updated: 760 path_len: 16 max_open: 995 time_elpased: 0.06153
+num: 886 expanded: 30 updated: 0 path_len: 30 max_open: 204 time_elpased: 0.004186
+num: 887 expanded: 42 updated: 68 path_len: 8 max_open: 174 time_elpased: 0.006236
+num: 888 expanded: 60 updated: 52 path_len: 15 max_open: 349 time_elpased: 0.00902
+num: 889 expanded: 2608 updated: 4711 path_len: 34 max_open: 3492 time_elpased: 0.40711
+num: 890 expanded: 465 updated: 900 path_len: 22 max_open: 1001 time_elpased: 0.073078
+num: 891 expanded: 215 updated: 229 path_len: 12 max_open: 593 time_elpased: 0.032524
+num: 892 expanded: 194 updated: 267 path_len: 13 max_open: 552 time_elpased: 0.029392
+num: 893 expanded: 75 updated: 122 path_len: 14 max_open: 278 time_elpased: 0.011651
+num: 894 expanded: 229 updated: 537 path_len: 17 max_open: 691 time_elpased: 0.035179
+num: 895 expanded: 79 updated: 84 path_len: 11 max_open: 322 time_elpased: 0.011804
+num: 896 expanded: 1477 updated: 2552 path_len: 22 max_open: 2629 time_elpased: 0.231084
+num: 897 expanded: 218 updated: 434 path_len: 20 max_open: 634 time_elpased: 0.032895
+num: 898 expanded: 149 updated: 175 path_len: 12 max_open: 519 time_elpased: 0.02233
+num: 899 expanded: 55 updated: 23 path_len: 18 max_open: 357 time_elpased: 0.008241
+num: 900 expanded: 173 updated: 311 path_len: 17 max_open: 556 time_elpased: 0.026725
+num: 901 expanded: 537 updated: 942 path_len: 20 max_open: 1257 time_elpased: 0.082326
+num: 902 expanded: 666 updated: 1342 path_len: 27 max_open: 1415 time_elpased: 0.105843
+num: 903 expanded: 165 updated: 258 path_len: 16 max_open: 468 time_elpased: 0.024234
+num: 904 expanded: 431 updated: 809 path_len: 17 max_open: 1079 time_elpased: 0.066064
+num: 905 expanded: 125 updated: 165 path_len: 22 max_open: 506 time_elpased: 0.018231
+num: 906 expanded: 20124 updated: 11877 path_len: 34 max_open: 26587 time_elpased: 3.32364
+num: 907 expanded: 87 updated: 123 path_len: 15 max_open: 337 time_elpased: 0.012961
+num: 908 expanded: 138 updated: 228 path_len: 15 max_open: 443 time_elpased: 0.02033
+num: 909 expanded: 1057 updated: 743 path_len: 15 max_open: 2058 time_elpased: 0.16544
+num: 910 expanded: 371 updated: 691 path_len: 17 max_open: 941 time_elpased: 0.056734
+num: 911 expanded: 756 updated: 1348 path_len: 24 max_open: 1486 time_elpased: 0.117164
+num: 912 expanded: 198 updated: 333 path_len: 17 max_open: 679 time_elpased: 0.030537
+num: 913 expanded: 199 updated: 369 path_len: 17 max_open: 624 time_elpased: 0.029979
+num: 914 expanded: 132 updated: 225 path_len: 14 max_open: 408 time_elpased: 0.020102
+num: 915 expanded: 13 updated: 16 path_len: 8 max_open: 117 time_elpased: 0.001908
+num: 916 expanded: 308 updated: 691 path_len: 17 max_open: 958 time_elpased: 0.047285
+num: 917 expanded: 93 updated: 132 path_len: 17 max_open: 369 time_elpased: 0.014244
+num: 918 expanded: 57 updated: 93 path_len: 12 max_open: 264 time_elpased: 0.008665
+num: 919 expanded: 284 updated: 468 path_len: 18 max_open: 752 time_elpased: 0.044986
+num: 920 expanded: 345 updated: 606 path_len: 12 max_open: 890 time_elpased: 0.053838
+num: 921 expanded: 295 updated: 491 path_len: 27 max_open: 871 time_elpased: 0.044188
+num: 922 expanded: 364 updated: 554 path_len: 28 max_open: 1037 time_elpased: 0.055391
+num: 923 expanded: 3785 updated: 5693 path_len: 33 max_open: 6186 time_elpased: 0.600504
+num: 924 expanded: 299 updated: 346 path_len: 16 max_open: 728 time_elpased: 0.044818
+num: 925 expanded: 9 updated: 0 path_len: 6 max_open: 69 time_elpased: 0.001234
+num: 926 expanded: 1878 updated: 2991 path_len: 26 max_open: 3175 time_elpased: 0.292899
+num: 927 expanded: 133 updated: 320 path_len: 15 max_open: 513 time_elpased: 0.021364
+num: 928 expanded: 161 updated: 262 path_len: 14 max_open: 470 time_elpased: 0.024122
+num: 929 expanded: 53 updated: 113 path_len: 8 max_open: 220 time_elpased: 0.008026
+num: 930 expanded: 36 updated: 27 path_len: 15 max_open: 187 time_elpased: 0.005108
+num: 931 expanded: 980 updated: 1690 path_len: 20 max_open: 2106 time_elpased: 0.151065
+num: 932 expanded: 41 updated: 75 path_len: 16 max_open: 247 time_elpased: 0.006094
+num: 933 expanded: 986 updated: 1613 path_len: 32 max_open: 1583 time_elpased: 0.151493
+num: 934 expanded: 3047 updated: 5511 path_len: 25 max_open: 5195 time_elpased: 0.479216
+num: 935 expanded: 346 updated: 518 path_len: 23 max_open: 961 time_elpased: 0.052778
+num: 936 expanded: 130 updated: 255 path_len: 11 max_open: 474 time_elpased: 0.019628
+num: 937 expanded: 167 updated: 280 path_len: 15 max_open: 490 time_elpased: 0.024961
+num: 938 expanded: 72 updated: 236 path_len: 12 max_open: 306 time_elpased: 0.011088
+num: 939 expanded: 401 updated: 496 path_len: 14 max_open: 917 time_elpased: 0.061532
+num: 940 expanded: 129 updated: 250 path_len: 17 max_open: 507 time_elpased: 0.019636
+num: 941 expanded: 3526 updated: 6077 path_len: 38 max_open: 5332 time_elpased: 0.556671
+num: 942 expanded: 759 updated: 1494 path_len: 27 max_open: 1481 time_elpased: 0.116951
+num: 943 expanded: 505 updated: 1150 path_len: 16 max_open: 980 time_elpased: 0.077701
+num: 944 expanded: 696 updated: 1453 path_len: 28 max_open: 1521 time_elpased: 0.10812
+num: 945 expanded: 412 updated: 956 path_len: 13 max_open: 998 time_elpased: 0.064146
+num: 946 expanded: 174 updated: 253 path_len: 30 max_open: 770 time_elpased: 0.026582
+num: 947 expanded: 380 updated: 751 path_len: 20 max_open: 965 time_elpased: 0.057895
+num: 948 expanded: 507 updated: 777 path_len: 35 max_open: 1101 time_elpased: 0.077952
+num: 949 expanded: 1263 updated: 2450 path_len: 18 max_open: 2415 time_elpased: 0.196817
+num: 950 expanded: 98 updated: 193 path_len: 21 max_open: 409 time_elpased: 0.014562
+num: 951 expanded: 93 updated: 206 path_len: 11 max_open: 331 time_elpased: 0.014196
+num: 952 expanded: 431 updated: 584 path_len: 14 max_open: 953 time_elpased: 0.066065
+num: 953 expanded: 302 updated: 289 path_len: 28 max_open: 538 time_elpased: 0.042128
+num: 954 expanded: 743 updated: 1365 path_len: 28 max_open: 1503 time_elpased: 0.116356
+num: 955 expanded: 51 updated: 111 path_len: 13 max_open: 264 time_elpased: 0.007591
+num: 956 expanded: 252 updated: 355 path_len: 15 max_open: 678 time_elpased: 0.038562
+num: 957 expanded: 192 updated: 325 path_len: 15 max_open: 551 time_elpased: 0.030276
+num: 958 expanded: 7227 updated: 7753 path_len: 30 max_open: 10703 time_elpased: 1.16259
+num: 959 expanded: 97 updated: 112 path_len: 13 max_open: 385 time_elpased: 0.01421
+num: 960 expanded: 1665 updated: 2470 path_len: 22 max_open: 3123 time_elpased: 0.258137
+num: 961 expanded: 42 updated: 91 path_len: 10 max_open: 219 time_elpased: 0.006453
+num: 962 expanded: 34 updated: 30 path_len: 13 max_open: 164 time_elpased: 0.004835
+num: 963 expanded: 130 updated: 185 path_len: 21 max_open: 438 time_elpased: 0.019691
+num: 964 expanded: 943 updated: 1598 path_len: 22 max_open: 1802 time_elpased: 0.144186
+num: 965 expanded: 232 updated: 398 path_len: 18 max_open: 630 time_elpased: 0.035191
+num: 966 expanded: 183 updated: 375 path_len: 17 max_open: 664 time_elpased: 0.028351
+num: 967 expanded: 34 updated: 3 path_len: 26 max_open: 278 time_elpased: 0.005082
+num: 968 expanded: 1213 updated: 1357 path_len: 34 max_open: 2219 time_elpased: 0.183177
+num: 969 expanded: 150 updated: 286 path_len: 18 max_open: 588 time_elpased: 0.022859
+num: 970 expanded: 25 updated: 32 path_len: 9 max_open: 129 time_elpased: 0.003614
+num: 971 expanded: 15 updated: 3 path_len: 9 max_open: 132 time_elpased: 0.002214
+num: 972 expanded: 164 updated: 370 path_len: 17 max_open: 519 time_elpased: 0.025754
+num: 973 expanded: 1389 updated: 2352 path_len: 35 max_open: 2601 time_elpased: 0.213554
+num: 974 expanded: 651 updated: 1247 path_len: 16 max_open: 1081 time_elpased: 0.099668
+num: 975 expanded: 392 updated: 757 path_len: 15 max_open: 789 time_elpased: 0.060453
+num: 976 expanded: 57 updated: 86 path_len: 10 max_open: 211 time_elpased: 0.008439
+num: 977 expanded: 196 updated: 419 path_len: 13 max_open: 634 time_elpased: 0.030071
+num: 978 expanded: 3115 updated: 5018 path_len: 29 max_open: 5069 time_elpased: 0.489837
+num: 979 expanded: 211 updated: 118 path_len: 23 max_open: 364 time_elpased: 0.029246
+num: 980 expanded: 123 updated: 217 path_len: 11 max_open: 386 time_elpased: 0.018543
+num: 981 expanded: 412 updated: 723 path_len: 19 max_open: 1006 time_elpased: 0.063267
+num: 982 expanded: 516 updated: 994 path_len: 21 max_open: 1031 time_elpased: 0.078156
+num: 983 expanded: 571 updated: 990 path_len: 24 max_open: 1083 time_elpased: 0.087114
+num: 984 expanded: 208 updated: 323 path_len: 31 max_open: 685 time_elpased: 0.031251
+num: 985 expanded: 171 updated: 126 path_len: 37 max_open: 422 time_elpased: 0.02429
+num: 986 expanded: 216 updated: 461 path_len: 19 max_open: 607 time_elpased: 0.0329
+num: 987 expanded: 787 updated: 1610 path_len: 16 max_open: 1664 time_elpased: 0.122288
+num: 988 expanded: 503 updated: 709 path_len: 28 max_open: 984 time_elpased: 0.075768
+num: 989 expanded: 31 updated: 15 path_len: 10 max_open: 167 time_elpased: 0.004523
+num: 990 expanded: 3381 updated: 5357 path_len: 31 max_open: 4219 time_elpased: 0.53394
+num: 991 expanded: 7444 updated: 8486 path_len: 29 max_open: 10770 time_elpased: 1.19697
+num: 992 expanded: 611 updated: 1192 path_len: 26 max_open: 1400 time_elpased: 0.093848
+num: 993 expanded: 91 updated: 88 path_len: 20 max_open: 446 time_elpased: 0.01351
+num: 994 expanded: 595 updated: 846 path_len: 15 max_open: 1326 time_elpased: 0.091442
+num: 995 expanded: 139 updated: 220 path_len: 12 max_open: 429 time_elpased: 0.021301
+num: 996 expanded: 756 updated: 872 path_len: 16 max_open: 1567 time_elpased: 0.116987
+num: 997 expanded: 1026 updated: 1797 path_len: 31 max_open: 2068 time_elpased: 0.156087
+num: 998 expanded: 1182 updated: 1534 path_len: 27 max_open: 2314 time_elpased: 0.180736
+num: 999 expanded: 6617 updated: 8288 path_len: 31 max_open: 9842 time_elpased: 1.05768
+
