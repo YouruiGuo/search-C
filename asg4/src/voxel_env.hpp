@@ -186,9 +186,6 @@ State Voxel_env::unranking(unsigned long long h) {
     h = h / mapsize[2];
     hashtemp[1] = h % mapsize[1];
     hashtemp[0] = int(h / mapsize[1]);
-    if (hashtemp[0] > mapsize[0]) {
-        
-    }
     return State(hashtemp);
 }
 
@@ -284,7 +281,7 @@ void Voxel_env::loadMap() {
     std::vector<int> s;
     State st;
     unsigned long long h;
-    std::string df = "./Simple.3dmap";
+    std::string df = "../data/Simple.3dmap";
     std::ifstream infile(df);
     std::string line;
     std::getline(infile, line);

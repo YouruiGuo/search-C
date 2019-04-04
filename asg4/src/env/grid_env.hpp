@@ -49,7 +49,7 @@ void Action::setAction(std::vector<int> a) {
 class Grid_env {
     State start_state;
     State goal_state;
-    std::vector<int> mapsize;
+    std::vector<int> mapsize; // mapsize[0]:height mapsize[1]: width
     std::vector<Action> allActions, singleAction;
     
     std::vector<int> isuccess_t, isuccess_g, inmap, hashtemp, costp, costc;
@@ -74,6 +74,8 @@ public:
     void undoAction(Action a, State *s);
     double cost(State prev, State curr);
     void loadMap();
+    std::vector<int> getMapsize();
+    int getHashIndex(unsigned long long i);
 };
 
 Grid_env::Grid_env(State s, State g, std::vector<int> si) {
@@ -93,10 +95,10 @@ Grid_env::Grid_env(State s, State g, std::vector<int> si) {
     std::vector<int> v = {-1, 0, 1};
     for (int i=0; i<3; i++) {
         for (int j=0; j<3; j++) {
-            if (i==0 && j==0) {
+            if (v[i]==0 && v[j]==0) {
                 continue;
             }
-            allActions.push_back(Action({i,j}));
+            allActions.push_back(Action({v[i],v[j]}));
         }
     }
     
@@ -129,7 +131,7 @@ bool Grid_env::isSuccess(State st) {
     return true;
 }
 
-bool Voxel_env::isRepeat(Action prev, Action curr) {
+bool Grid_env::isRepeat(Action prev, Action curr) {
     int count = 0;
     isrepeat_p = prev.getAction();
     isrepeat_c = curr.getAction();
@@ -145,24 +147,28 @@ bool Voxel_env::isRepeat(Action prev, Action curr) {
     return false;
 }
 
-bool Voxel_env::isInMap(State st) {
+bool Grid_env::isInMap(State st) {
     inmap = st.getState();
-    if ((inmap[0] < 0) || (inmap[0] > mapsize[0])) {
+    if ((inmap[0] < 0) || (inmap[0] >= mapsize[0])) {
         return false;
     }
-    if ((inmap[1] < 0) || (inmap[1] > mapsize[1])) {
+    if ((inmap[1] < 0) || (inmap[1] >= mapsize[1])) {
         return false;
     }
     return true;
 }
 
-unsigned long long Voxel_env::getStateHash(State st) {
+unsigned long long Grid_env::getStateHash(State st) {
     hashtemp = st.getState();
     unsigned long long value = 0;
-    value += hashtemp[0];
-    value << 12;
-    value += hashtemp[1];
+    value = hashtemp[0]*mapsize[1]+hashtemp[1];
     return value;
+}
+
+State Grid_env::unranking(unsigned long long h) {
+    hashtemp[1] = h % mapsize[1];
+    hashtemp[0] = int(h / mapsize[1]);
+    return State(hashtemp);
 }
 
 void Grid_env::getActions(State st, int *actions) {
@@ -190,17 +196,19 @@ void Grid_env::getActions(State st, int *actions) {
                 }
                 applyAction(Action({x,y}), st);
                 hv = getStateHash(st);
-                try {
-                    if (allStates[hashtable[hv]].gcost == inf) {
-                        filled = false;
-                    }
-                } catch (...) {
-                    continue;
+                gcost = -1;
+                std::map<unsigned long long, int>::iterator f =
+                hashtable.find(hv);
+                if (f != hashtable.end()) {
+                    gcost = allStates[hashtable[hv]].gcost;
+                }
+                if (gcost == inf) {
+                    filled = true;
                 }
                 if (!isInMap(st)) {
                     filled = true;
                 }
-                undoAction(Action({x,y}), st);
+                undoAction(Action({x,y,z}), &st);
             }
         }
         if (!filled) {
@@ -218,8 +226,7 @@ int Grid_env::applyActionCopy(Action a, State s) {
     std::map<unsigned long long, int>::iterator f =
     hashtable.find(hv);
     if (f != hashtable.end()) {
-        int id = hashtable[hv];
-        return id;
+        return hashtable[hv];
     }
     allStates.push_back(StateInfo(newst));
     hashtable[hv] = (int)allStates.size()-1;
@@ -241,7 +248,39 @@ void Grid_env::undoAction(Action a, State *s) {
 }
 
 void Grid_env::loadMap() {
-    
+    std::vector<int> s[2];
+    State st;
+    unsigned long long h;
+    filename = "../data/brc101d.map";
+    ifstream src (filename);
+    if (!src)
+        throw runtime_error ("Board::Load  - Unable to load file");
+
+    int line = 0;
+    std::string input;
+    while (line < 4 && std::getline(src, input)) {
+        if (line == 1 || line == 2){
+            std::stringstream ss(input);
+            std::string token;
+            while (std::getline(ss, token, ' ')) {
+                mapsize[line-1] = token[1];
+            }
+        }
+        line++;
+    }
+    line = 0;
+    while (src && line < mapsize[0]) {
+        std::getline (src, input);
+        for (size_t i = 0; i < mapsize[1]; i++) {
+            s[0] = line;
+            s[1] = i;
+            st = State(s);
+            allStates.push_back(StateInfo(st));
+            hashtable[h] = (int)allStates.size() - 1;
+            allStates[hashtable[h]].gcost = inf;
+        }
+        line++;
+    }
 }
 
 double Grid_env::cost(State prev, State curr) {
@@ -252,5 +291,15 @@ double Grid_env::cost(State prev, State curr) {
     value += abs(costc[1] - costp[1]);
     return sqrt(value);
 }
+
+int Grid_env::getHashIndex(unsigned long long i) {
+    return hashtable[i];
+}
+
+
+std::vector<int> Grid_env::getMapsize() {
+    return mapsize;
+}
+
 
 #endif /* grid_env_h */

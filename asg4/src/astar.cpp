@@ -343,7 +343,7 @@ void load3dfile(int index, std::vector<int> *s, std::vector<int> *g){
     s->clear();
     g->clear();
     std::vector<State> instances;
-    std::string df = "./Simple.3dmap.3dscen";
+    std::string df = "../data/Simple.3dmap.3dscen";
     std::ifstream infile(df);
     std::string line;
     int count = -2;

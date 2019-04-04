@@ -167,8 +167,8 @@ void DifferentialHeuristic::writeToFile(std::vector<int> v) {
 }
 
 void DifferentialHeuristic::randomPlacement() {
-    cout << "random Placement" << endl;
-    std::string name = "./heuristic_random.txt";
+    //cout << "random Placement" << endl;
+    std::string name = "../heuristic_random.txt";
     struct stat buffer;
     if (stat(name.c_str(), &buffer) == 0) {
         std::string line;
@@ -221,7 +221,7 @@ void DifferentialHeuristic::randomPlacement() {
 
 void DifferentialHeuristic::furthestPlacement() {
     //cout << "furthest Placement" << endl;
-    std::string name = "./heuristic_furthest.txt";
+    std::string name = "../heuristic_furthest.txt";
     struct stat buffer;
     if (stat(name.c_str(), &buffer) == 0) {
         std::string line;
@@ -401,7 +401,7 @@ void DifferentialHeuristic::optimizedPlacement() {
             t2 = env.getStateHash(samples[i*2+1]);
             first = fabs(allHash[t1][0] - allHash[t2][0]);
             for (int j = 0; j < 30; ++j) {
-                compare[j].first += (fabs(allHash[t1][j] - allHash[t2][j]) - first);
+                compare[j].first += fmax(0, (fabs(allHash[t1][j] - allHash[t2][j]) - first));
             }
         }
         
@@ -452,6 +452,17 @@ float DifferentialHeuristic::multipleLookup(State st) {
     return maxv;
 }
 
+float DifferentialHeuristic::octileHeuristic(State st) {
+    float x,y,dmin,dmax;
+    tempstate1 = st.getState();
+    tempstate2 = env.getGoal().getState();
+    x = abs(tempstate1[0] - tempstate2[0]);
+    y = abs(tempstate1[1] - tempstate2[1]);
+    dmin = fmin(x, y);
+    dmax = fmax(x, y);
+    return (sqrt(2)-1)*dmin + dmax;
+}
+
 float DifferentialHeuristic::voxelHeuristic(State st) {
     float x,y,z,dmin,dmax,dmid;
     tempstate1 = st.getState();
@@ -470,9 +481,12 @@ float DifferentialHeuristic::voxelHeuristic(State st) {
 
 float DifferentialHeuristic::HCost(State st) {
     //return 0;
-    //return singleInconsistentLookup(st);
-    //return singleConsistentLookup(st);
-    return multipleLookup(st);
+    float val = voxelHeuristic(st);
+    //float val1 = singleInconsistentLookup(st);
+    //float val1 = singleConsistentLookup(st);
+    float val1 = multipleLookup(st);
+    if (val > val1) return val; 
+    else return val1;
 }
 
 
