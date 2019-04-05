@@ -58,6 +58,7 @@ public:
     float HCost(State st);
     float voxelHeuristic(State st);
     float voxelHeuristic(State st1, State st2);
+    float octileHeuristic(State st);
     void writeToFile(std::vector<int> v);
 };
 
@@ -150,7 +151,7 @@ void DifferentialHeuristic::dijkstraSearch(std::vector<State> *s, int id) {
 }
 
 void DifferentialHeuristic::writeToFile(std::vector<int> v) {
-    std::string name = "../heuristic_optimized.txt";
+    std::string name = "../heuristic_optimized1.txt";
     ofstream f(name);
     int k = 0;
     if (f.is_open()) {
@@ -295,7 +296,7 @@ bool sortdesc(const pair<float,int> &a,
 }
 
 void DifferentialHeuristic::optimizedPlacement() {
-    std::string name = "../heuristic_optimized.txt";
+    std::string name = "../heuristic_optimized1.txt";
     struct stat buffer;
     std::vector<int> tempstate;
     std::vector<State> t, samples;
@@ -400,7 +401,7 @@ void DifferentialHeuristic::optimizedPlacement() {
         for (int i = 0; i < 50; i++) {
             t1 = env.getStateHash(samples[i*2]);
             t2 = env.getStateHash(samples[i*2+1]);
-            first = octileHeuristic(allHash[t1][0], allHash[t2][0]);
+            first = voxelHeuristic(samples[i*2], samples[i*2+1]);
             for (int j = 0; j < 30; ++j) {
                 compare[j].first += fmax(0, (fabs(allHash[t1][j] - allHash[t2][j]) - first));
             }
