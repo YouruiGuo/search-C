@@ -57,6 +57,7 @@ public:
     unsigned long long lexicographicalRanking(State st);
     float HCost(State st);
     float voxelHeuristic(State st);
+    float voxelHeuristic(State st1, State st2);
     void writeToFile(std::vector<int> v);
 };
 
@@ -205,7 +206,7 @@ void DifferentialHeuristic::randomPlacement() {
                 std::map<unsigned long long, int>::iterator f =
                 env.hashtable.find(hashtemp);
                 if (f != env.hashtable.end()) {
-                    if (env.allStates[hashtemp].gcost == env.inf) {
+                    if (env.allStates[f->second].gcost == env.inf) {
                         isfilled = true;
                     }
                 }
@@ -256,7 +257,7 @@ void DifferentialHeuristic::furthestPlacement() {
             std::map<unsigned long long, int>::iterator f =
             env.hashtable.find(hashtemp);
             if (f != env.hashtable.end()) {
-                if (env.allStates[hashtemp].gcost == env.inf) {
+                if (env.allStates[f->second].gcost == env.inf) {
                     isfilled = true;
                 }
             }
@@ -337,7 +338,7 @@ void DifferentialHeuristic::optimizedPlacement() {
             std::map<unsigned long long, int>::iterator f =
             env.hashtable.find(hashtemp);
             if (f != env.hashtable.end()) {
-                if (env.allStates[hashtemp].gcost == env.inf) {
+                if (env.allStates[f->second].gcost == env.inf) {
                     isfilled = true;
                 }
             }
@@ -399,7 +400,7 @@ void DifferentialHeuristic::optimizedPlacement() {
         for (int i = 0; i < 50; i++) {
             t1 = env.getStateHash(samples[i*2]);
             t2 = env.getStateHash(samples[i*2+1]);
-            first = fabs(allHash[t1][0] - allHash[t2][0]);
+            first = octileHeuristic(allHash[t1][0], allHash[t2][0]);
             for (int j = 0; j < 30; ++j) {
                 compare[j].first += fmax(0, (fabs(allHash[t1][j] - allHash[t2][j]) - first));
             }
@@ -461,6 +462,23 @@ float DifferentialHeuristic::octileHeuristic(State st) {
     dmin = fmin(x, y);
     dmax = fmax(x, y);
     return (sqrt(2)-1)*dmin + dmax;
+}
+
+
+float DifferentialHeuristic::voxelHeuristic(State st1, State st2) {
+    float x,y,z,dmin,dmax,dmid;
+    tempstate1 = st1.getState();
+    tempstate2 = st2.getState();
+    x = abs(tempstate1[0] - tempstate2[0]);
+    y = abs(tempstate1[1] - tempstate2[1]);
+    z = abs(tempstate1[2] - tempstate2[2]);
+    dmin = fmin(x,y);
+    dmin = fmin(dmin, z);
+    dmax = fmax(x,y);
+    dmax = fmax(dmax, z);
+    
+    dmid = x+y+z-dmin-dmax;
+    return ((sqrt(3)-sqrt(2))*dmin + (sqrt(2)-1)*dmid + dmax);
 }
 
 float DifferentialHeuristic::voxelHeuristic(State st) {
