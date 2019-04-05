@@ -205,7 +205,7 @@ void DifferentialHeuristic::randomPlacement() {
                 std::map<unsigned long long, int>::iterator f =
                 env.hashtable.find(hashtemp);
                 if (f != env.hashtable.end()) {
-                    if (env.allStates[hashtemp].gcost == env.inf) {
+                    if (env.allStates[f->second].gcost == env.inf) {
                         isfilled = true;
                     }
                 }
@@ -256,7 +256,7 @@ void DifferentialHeuristic::furthestPlacement() {
             std::map<unsigned long long, int>::iterator f =
             env.hashtable.find(hashtemp);
             if (f != env.hashtable.end()) {
-                if (env.allStates[hashtemp].gcost == env.inf) {
+                if (env.allStates[f->second].gcost == env.inf) {
                     isfilled = true;
                 }
             }
@@ -337,7 +337,7 @@ void DifferentialHeuristic::optimizedPlacement() {
             std::map<unsigned long long, int>::iterator f =
             env.hashtable.find(hashtemp);
             if (f != env.hashtable.end()) {
-                if (env.allStates[hashtemp].gcost == env.inf) {
+                if (env.allStates[f->second].gcost == env.inf) {
                     isfilled = true;
                 }
             }
@@ -380,7 +380,7 @@ void DifferentialHeuristic::optimizedPlacement() {
                 std::map<unsigned long long, int>::iterator f =
                 env.hashtable.find(hashtemp);
                 if (f != env.hashtable.end()) {
-                    if (env.allStates[hashtemp].gcost == env.inf) {
+                    if (env.allStates[f->second].gcost == env.inf) {
                         isfilled = true;
                     }
                 }
