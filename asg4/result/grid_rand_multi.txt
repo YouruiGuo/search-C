@@ -1,0 +1,3145 @@
+			5756.215574		2741.766879				6439.667516		0.599086597
+
+3.82843
+num: 0 expanded: 5 updated: 0 path_len: 4 max_open: 19 time_elpased: 0.076266
+3.82843
+num: 1 expanded: 4 updated: 0 path_len: 4 max_open: 18 time_elpased: 0.063486
+2
+num: 2 expanded: 3 updated: 0 path_len: 3 max_open: 11 time_elpased: 0.058652
+1.41421
+num: 3 expanded: 2 updated: 0 path_len: 2 max_open: 8 time_elpased: 0.063917
+1.41421
+num: 4 expanded: 2 updated: 0 path_len: 2 max_open: 8 time_elpased: 0.064855
+2.41421
+num: 5 expanded: 3 updated: 0 path_len: 3 max_open: 13 time_elpased: 0.058048
+2.41421
+num: 6 expanded: 3 updated: 0 path_len: 3 max_open: 13 time_elpased: 0.057495
+2.41421
+num: 7 expanded: 3 updated: 0 path_len: 3 max_open: 13 time_elpased: 0.057562
+3
+num: 8 expanded: 4 updated: 0 path_len: 4 max_open: 14 time_elpased: 0.05684
+2.41421
+num: 9 expanded: 3 updated: 0 path_len: 3 max_open: 13 time_elpased: 0.057272
+6.82843
+num: 10 expanded: 13 updated: 1 path_len: 7 max_open: 33 time_elpased: 0.060949
+7.65685
+num: 11 expanded: 13 updated: 1 path_len: 7 max_open: 38 time_elpased: 0.057787
+6.41421
+num: 12 expanded: 7 updated: 0 path_len: 7 max_open: 25 time_elpased: 0.058418
+4.41421
+num: 13 expanded: 5 updated: 0 path_len: 5 max_open: 19 time_elpased: 0.05932
+4
+num: 14 expanded: 5 updated: 0 path_len: 5 max_open: 17 time_elpased: 0.058707
+7.07107
+num: 15 expanded: 6 updated: 0 path_len: 6 max_open: 25 time_elpased: 0.058079
+4.41421
+num: 16 expanded: 7 updated: 0 path_len: 5 max_open: 21 time_elpased: 0.058738
+6.82843
+num: 17 expanded: 13 updated: 1 path_len: 7 max_open: 33 time_elpased: 0.059712
+4.82843
+num: 18 expanded: 7 updated: 0 path_len: 5 max_open: 24 time_elpased: 0.057909
+7.41421
+num: 19 expanded: 14 updated: 0 path_len: 8 max_open: 34 time_elpased: 0.058997
+9.24264
+num: 20 expanded: 15 updated: 1 path_len: 9 max_open: 43 time_elpased: 0.058114
+9.65685
+num: 21 expanded: 21 updated: 2 path_len: 9 max_open: 52 time_elpased: 0.058635
+11.0711
+num: 22 expanded: 23 updated: 2 path_len: 10 max_open: 58 time_elpased: 0.06109
+10.4853
+num: 23 expanded: 19 updated: 1 path_len: 9 max_open: 52 time_elpased: 0.059279
+8.48528
+num: 24 expanded: 7 updated: 0 path_len: 7 max_open: 32 time_elpased: 0.057658
+10.0711
+num: 25 expanded: 18 updated: 2 path_len: 9 max_open: 49 time_elpased: 0.058612
+9.24264
+num: 26 expanded: 15 updated: 1 path_len: 9 max_open: 46 time_elpased: 0.058537
+9.41421
+num: 27 expanded: 18 updated: 2 path_len: 10 max_open: 42 time_elpased: 0.058292
+8.24264
+num: 28 expanded: 16 updated: 0 path_len: 8 max_open: 44 time_elpased: 0.058086
+10.6569
+num: 29 expanded: 25 updated: 6 path_len: 10 max_open: 59 time_elpased: 0.061614
+14.2426
+num: 30 expanded: 27 updated: 4 path_len: 14 max_open: 65 time_elpased: 0.062684
+12.0711
+num: 31 expanded: 27 updated: 4 path_len: 11 max_open: 63 time_elpased: 0.060768
+10.8284
+num: 32 expanded: 13 updated: 1 path_len: 11 max_open: 41 time_elpased: 0.058209
+15.1421
+num: 33 expanded: 15 updated: 0 path_len: 12 max_open: 61 time_elpased: 0.058382
+15.3137
+num: 34 expanded: 19 updated: 2 path_len: 13 max_open: 65 time_elpased: 0.064092
+15.7279
+num: 35 expanded: 25 updated: 4 path_len: 13 max_open: 71 time_elpased: 0.059756
+13
+num: 36 expanded: 14 updated: 0 path_len: 14 max_open: 44 time_elpased: 0.059223
+13.3137
+num: 37 expanded: 25 updated: 12 path_len: 11 max_open: 66 time_elpased: 0.0593
+14.6569
+num: 38 expanded: 33 updated: 8 path_len: 14 max_open: 71 time_elpased: 0.062337
+13.3137
+num: 39 expanded: 21 updated: 6 path_len: 11 max_open: 61 time_elpased: 0.058939
+19.6569
+num: 40 expanded: 24 updated: 0 path_len: 19 max_open: 68 time_elpased: 0.059763
+17.3137
+num: 41 expanded: 51 updated: 23 path_len: 15 max_open: 97 time_elpased: 0.062961
+17.9706
+num: 42 expanded: 25 updated: 1 path_len: 14 max_open: 78 time_elpased: 0.059623
+16.8995
+num: 43 expanded: 53 updated: 30 path_len: 15 max_open: 101 time_elpased: 0.06273
+16.8995
+num: 44 expanded: 45 updated: 11 path_len: 15 max_open: 103 time_elpased: 0.06259
+17.4142
+num: 45 expanded: 34 updated: 3 path_len: 18 max_open: 74 time_elpased: 0.059518
+19.8995
+num: 46 expanded: 56 updated: 9 path_len: 18 max_open: 134 time_elpased: 0.062661
+17.7279
+num: 47 expanded: 23 updated: 1 path_len: 15 max_open: 72 time_elpased: 0.058817
+17.6569
+num: 48 expanded: 46 updated: 24 path_len: 17 max_open: 94 time_elpased: 0.061765
+18.3137
+num: 49 expanded: 30 updated: 8 path_len: 16 max_open: 78 time_elpased: 0.063338
+22.1421
+num: 50 expanded: 56 updated: 13 path_len: 19 max_open: 123 time_elpased: 0.061496
+21.2426
+num: 51 expanded: 53 updated: 3 path_len: 21 max_open: 121 time_elpased: 0.062133
+22
+num: 52 expanded: 23 updated: 0 path_len: 23 max_open: 71 time_elpased: 0.05895
+21.8995
+num: 53 expanded: 81 updated: 24 path_len: 20 max_open: 137 time_elpased: 0.065268
+23.7279
+num: 54 expanded: 67 updated: 22 path_len: 21 max_open: 130 time_elpased: 0.063303
+23.799
+num: 55 expanded: 67 updated: 23 path_len: 19 max_open: 136 time_elpased: 0.063538
+22.7279
+num: 56 expanded: 20 updated: 0 path_len: 20 max_open: 80 time_elpased: 0.059339
+22.6569
+num: 57 expanded: 32 updated: 2 path_len: 22 max_open: 85 time_elpased: 0.060648
+23.799
+num: 58 expanded: 41 updated: 6 path_len: 19 max_open: 109 time_elpased: 0.060312
+22.4142
+num: 59 expanded: 23 updated: 0 path_len: 23 max_open: 73 time_elpased: 0.058475
+25.3137
+num: 60 expanded: 94 updated: 30 path_len: 23 max_open: 158 time_elpased: 0.080035
+24.4142
+num: 61 expanded: 35 updated: 0 path_len: 25 max_open: 89 time_elpased: 0.062497
+24.8284
+num: 62 expanded: 25 updated: 0 path_len: 25 max_open: 81 time_elpased: 0.059128
+26.1421
+num: 63 expanded: 72 updated: 14 path_len: 23 max_open: 148 time_elpased: 0.064319
+24.2426
+num: 64 expanded: 44 updated: 0 path_len: 24 max_open: 121 time_elpased: 0.060545
+24.3848
+num: 65 expanded: 76 updated: 10 path_len: 20 max_open: 152 time_elpased: 0.072255
+26.8995
+num: 66 expanded: 70 updated: 13 path_len: 25 max_open: 137 time_elpased: 0.062293
+26.1421
+num: 67 expanded: 91 updated: 38 path_len: 23 max_open: 167 time_elpased: 0.065253
+26.3137
+num: 68 expanded: 81 updated: 35 path_len: 24 max_open: 133 time_elpased: 0.064153
+25.6274
+num: 69 expanded: 41 updated: 0 path_len: 20 max_open: 117 time_elpased: 0.060469
+31.6985
+num: 70 expanded: 62 updated: 8 path_len: 24 max_open: 155 time_elpased: 0.065663
+30.4558
+num: 71 expanded: 75 updated: 16 path_len: 24 max_open: 165 time_elpased: 0.063897
+29.4853
+num: 72 expanded: 108 updated: 31 path_len: 28 max_open: 204 time_elpased: 0.067918
+29.2132
+num: 73 expanded: 122 updated: 49 path_len: 24 max_open: 203 time_elpased: 0.06915
+31.2426
+num: 74 expanded: 59 updated: 3 path_len: 31 max_open: 131 time_elpased: 0.062408
+31.0416
+num: 75 expanded: 130 updated: 46 path_len: 25 max_open: 228 time_elpased: 0.068474
+29.2843
+num: 76 expanded: 39 updated: 4 path_len: 22 max_open: 123 time_elpased: 0.060272
+30.5563
+num: 77 expanded: 147 updated: 73 path_len: 27 max_open: 227 time_elpased: 0.072021
+28.1421
+num: 78 expanded: 74 updated: 16 path_len: 25 max_open: 154 time_elpased: 0.063546
+29.6274
+num: 79 expanded: 54 updated: 6 path_len: 24 max_open: 138 time_elpased: 0.063601
+34.1421
+num: 80 expanded: 135 updated: 63 path_len: 31 max_open: 229 time_elpased: 0.068994
+33.2843
+num: 81 expanded: 107 updated: 33 path_len: 26 max_open: 211 time_elpased: 0.068326
+35.3137
+num: 82 expanded: 179 updated: 105 path_len: 33 max_open: 264 time_elpased: 0.073801
+35.0711
+num: 83 expanded: 126 updated: 36 path_len: 34 max_open: 224 time_elpased: 0.069339
+35.4142
+num: 84 expanded: 36 updated: 0 path_len: 36 max_open: 112 time_elpased: 0.061391
+33.2843
+num: 85 expanded: 107 updated: 20 path_len: 26 max_open: 211 time_elpased: 0.066488
+32.0711
+num: 86 expanded: 156 updated: 61 path_len: 31 max_open: 226 time_elpased: 0.07529
+33.4558
+num: 87 expanded: 144 updated: 31 path_len: 27 max_open: 254 time_elpased: 0.076669
+34.3137
+num: 88 expanded: 72 updated: 6 path_len: 32 max_open: 156 time_elpased: 0.063562
+35
+num: 89 expanded: 36 updated: 0 path_len: 36 max_open: 110 time_elpased: 0.060583
+38.0416
+num: 90 expanded: 183 updated: 66 path_len: 32 max_open: 304 time_elpased: 0.075994
+36.3553
+num: 91 expanded: 49 updated: 4 path_len: 27 max_open: 155 time_elpased: 0.061178
+37.1127
+num: 92 expanded: 46 updated: 2 path_len: 29 max_open: 140 time_elpased: 0.063013
+36.0711
+num: 93 expanded: 142 updated: 25 path_len: 35 max_open: 209 time_elpased: 0.069299
+38.2132
+num: 94 expanded: 90 updated: 12 path_len: 33 max_open: 203 time_elpased: 0.068988
+38.8995
+num: 95 expanded: 73 updated: 8 path_len: 37 max_open: 167 time_elpased: 0.063163
+38.2843
+num: 96 expanded: 110 updated: 20 path_len: 31 max_open: 231 time_elpased: 0.066896
+36.3848
+num: 97 expanded: 204 updated: 92 path_len: 32 max_open: 317 time_elpased: 0.075225
+39.8284
+num: 98 expanded: 78 updated: 11 path_len: 40 max_open: 170 time_elpased: 0.065202
+37.4558
+num: 99 expanded: 192 updated: 89 path_len: 31 max_open: 287 time_elpased: 0.075443
+42.8701
+num: 100 expanded: 181 updated: 34 path_len: 36 max_open: 337 time_elpased: 0.078597
+41.4853
+num: 101 expanded: 106 updated: 19 path_len: 40 max_open: 218 time_elpased: 0.067254
+40.9706
+num: 102 expanded: 116 updated: 20 path_len: 37 max_open: 227 time_elpased: 0.069322
+41.4853
+num: 103 expanded: 167 updated: 53 path_len: 40 max_open: 271 time_elpased: 0.076455
+41.7279
+num: 104 expanded: 123 updated: 35 path_len: 39 max_open: 217 time_elpased: 0.068057
+43.799
+num: 105 expanded: 301 updated: 102 path_len: 39 max_open: 442 time_elpased: 0.093782
+42.6274
+num: 106 expanded: 308 updated: 197 path_len: 37 max_open: 444 time_elpased: 0.101133
+43.3137
+num: 107 expanded: 199 updated: 72 path_len: 41 max_open: 340 time_elpased: 0.075666
+40.8995
+num: 108 expanded: 177 updated: 41 path_len: 39 max_open: 334 time_elpased: 0.073752
+41.1838
+num: 109 expanded: 106 updated: 35 path_len: 31 max_open: 228 time_elpased: 0.068339
+41.4853
+num: 110 expanded: 198 updated: 71 path_len: 40 max_open: 293 time_elpased: 0.07738
+44.2843
+num: 111 expanded: 271 updated: 108 path_len: 37 max_open: 405 time_elpased: 0.084816
+43.4264
+num: 112 expanded: 33 updated: 1 path_len: 32 max_open: 159 time_elpased: 0.060508
+46.2843
+num: 113 expanded: 187 updated: 40 path_len: 39 max_open: 324 time_elpased: 0.076758
+44.4264
+num: 114 expanded: 85 updated: 19 path_len: 33 max_open: 217 time_elpased: 0.071263
+28.5563
+num: 115 expanded: 97 updated: 39 path_len: 25 max_open: 177 time_elpased: 0.069459
+45.4853
+num: 116 expanded: 229 updated: 62 path_len: 44 max_open: 367 time_elpased: 0.080647
+44.0122
+num: 117 expanded: 111 updated: 23 path_len: 33 max_open: 243 time_elpased: 0.068104
+47.9706
+num: 118 expanded: 217 updated: 68 path_len: 44 max_open: 313 time_elpased: 0.081271
+42.1421
+num: 119 expanded: 262 updated: 86 path_len: 39 max_open: 388 time_elpased: 0.086041
+51.4558
+num: 120 expanded: 474 updated: 218 path_len: 45 max_open: 609 time_elpased: 0.104669
+50.4264
+num: 121 expanded: 241 updated: 51 path_len: 39 max_open: 395 time_elpased: 0.080882
+51.1838
+num: 122 expanded: 357 updated: 270 path_len: 41 max_open: 494 time_elpased: 0.091246
+48.1421
+num: 123 expanded: 304 updated: 111 path_len: 45 max_open: 420 time_elpased: 0.085842
+49.7696
+num: 124 expanded: 49 updated: 0 path_len: 40 max_open: 191 time_elpased: 0.062058
+48.0122
+num: 125 expanded: 202 updated: 69 path_len: 37 max_open: 351 time_elpased: 0.078215
+51.2132
+num: 126 expanded: 374 updated: 123 path_len: 46 max_open: 568 time_elpased: 0.093926
+49.1422
+num: 127 expanded: 326 updated: 120 path_len: 46 max_open: 474 time_elpased: 0.088648
+49.6985
+num: 128 expanded: 263 updated: 121 path_len: 42 max_open: 381 time_elpased: 0.081446
+48.8995
+num: 129 expanded: 59 updated: 3 path_len: 47 max_open: 162 time_elpased: 0.06607
+54.5269
+num: 130 expanded: 392 updated: 161 path_len: 46 max_open: 561 time_elpased: 0.096693
+52.9706
+num: 131 expanded: 443 updated: 222 path_len: 49 max_open: 577 time_elpased: 0.096329
+53.3137
+num: 132 expanded: 80 updated: 4 path_len: 51 max_open: 194 time_elpased: 0.065404
+54.3259
+num: 133 expanded: 78 updated: 7 path_len: 40 max_open: 232 time_elpased: 0.066017
+54.8701
+num: 134 expanded: 382 updated: 97 path_len: 48 max_open: 549 time_elpased: 0.095394
+53.4559
+num: 135 expanded: 180 updated: 71 path_len: 47 max_open: 302 time_elpased: 0.075928
+49.6274
+num: 136 expanded: 206 updated: 69 path_len: 44 max_open: 332 time_elpased: 0.078454
+55.1127
+num: 137 expanded: 491 updated: 227 path_len: 47 max_open: 684 time_elpased: 0.103064
+42.5269
+num: 138 expanded: 140 updated: 49 path_len: 34 max_open: 258 time_elpased: 0.071413
+54.9411
+num: 139 expanded: 245 updated: 46 path_len: 46 max_open: 579 time_elpased: 0.081041
+59.1127
+num: 140 expanded: 403 updated: 197 path_len: 51 max_open: 529 time_elpased: 0.096081
+56.799
+num: 141 expanded: 355 updated: 146 path_len: 52 max_open: 490 time_elpased: 0.094158
+58.2132
+num: 142 expanded: 425 updated: 142 path_len: 53 max_open: 555 time_elpased: 0.100183
+57.7401
+num: 143 expanded: 105 updated: 8 path_len: 43 max_open: 262 time_elpased: 0.0691
+56.8701
+num: 144 expanded: 535 updated: 271 path_len: 50 max_open: 657 time_elpased: 0.106275
+54.3259
+num: 145 expanded: 83 updated: 7 path_len: 40 max_open: 239 time_elpased: 0.067109
+59.2549
+num: 146 expanded: 436 updated: 169 path_len: 47 max_open: 619 time_elpased: 0.0997
+53.7279
+num: 147 expanded: 328 updated: 149 path_len: 51 max_open: 463 time_elpased: 0.090724
+49.4142
+num: 148 expanded: 50 updated: 0 path_len: 50 max_open: 154 time_elpased: 0.061244
+59.1838
+num: 149 expanded: 491 updated: 265 path_len: 49 max_open: 662 time_elpased: 0.103545
+58.3137
+num: 150 expanded: 310 updated: 124 path_len: 56 max_open: 518 time_elpased: 0.086566
+63.2132
+num: 151 expanded: 436 updated: 219 path_len: 58 max_open: 582 time_elpased: 0.099265
+62.4264
+num: 152 expanded: 438 updated: 178 path_len: 51 max_open: 616 time_elpased: 0.097089
+63.7279
+num: 153 expanded: 242 updated: 109 path_len: 61 max_open: 425 time_elpased: 0.080463
+63.2426
+num: 154 expanded: 157 updated: 28 path_len: 63 max_open: 298 time_elpased: 0.07331
+62.0833
+num: 155 expanded: 492 updated: 286 path_len: 49 max_open: 662 time_elpased: 0.103881
+58.6569
+num: 156 expanded: 205 updated: 72 path_len: 58 max_open: 371 time_elpased: 0.075313
+61.5686
+num: 157 expanded: 240 updated: 84 path_len: 46 max_open: 405 time_elpased: 0.080228
+61.1838
+num: 158 expanded: 631 updated: 338 path_len: 51 max_open: 803 time_elpased: 0.115356
+62.598
+num: 159 expanded: 413 updated: 149 path_len: 52 max_open: 562 time_elpased: 0.099623
+67.3553
+num: 160 expanded: 221 updated: 96 path_len: 58 max_open: 383 time_elpased: 0.079223
+54.8406
+num: 161 expanded: 326 updated: 186 path_len: 43 max_open: 478 time_elpased: 0.088713
+65.9412
+num: 162 expanded: 793 updated: 378 path_len: 57 max_open: 988 time_elpased: 0.136208
+67.9117
+num: 163 expanded: 393 updated: 134 path_len: 54 max_open: 563 time_elpased: 0.093137
+65.2843
+num: 164 expanded: 354 updated: 97 path_len: 58 max_open: 534 time_elpased: 0.088595
+64.9706
+num: 165 expanded: 416 updated: 156 path_len: 61 max_open: 571 time_elpased: 0.094095
+65.1838
+num: 166 expanded: 622 updated: 339 path_len: 55 max_open: 848 time_elpased: 0.114947
+64.7279
+num: 167 expanded: 299 updated: 115 path_len: 62 max_open: 467 time_elpased: 0.086232
+65.0833
+num: 168 expanded: 335 updated: 120 path_len: 52 max_open: 515 time_elpased: 0.088668
+62.5686
+num: 169 expanded: 259 updated: 97 path_len: 47 max_open: 435 time_elpased: 0.080352
+66.8701
+num: 170 expanded: 658 updated: 290 path_len: 60 max_open: 921 time_elpased: 0.118767
+69.0539
+num: 171 expanded: 194 updated: 68 path_len: 51 max_open: 390 time_elpased: 0.076447
+68.4853
+num: 172 expanded: 116 updated: 0 path_len: 67 max_open: 257 time_elpased: 0.067138
+71.6985
+num: 173 expanded: 547 updated: 229 path_len: 64 max_open: 721 time_elpased: 0.105915
+68.5269
+num: 174 expanded: 242 updated: 61 path_len: 60 max_open: 378 time_elpased: 0.077872
+57.6985
+num: 175 expanded: 506 updated: 295 path_len: 50 max_open: 666 time_elpased: 0.102529
+70.6691
+num: 176 expanded: 441 updated: 221 path_len: 58 max_open: 611 time_elpased: 0.095593
+68.5269
+num: 177 expanded: 517 updated: 198 path_len: 60 max_open: 714 time_elpased: 0.115459
+68.1838
+num: 178 expanded: 669 updated: 302 path_len: 58 max_open: 891 time_elpased: 0.138301
+69.9828
+num: 179 expanded: 369 updated: 98 path_len: 54 max_open: 572 time_elpased: 0.091701
+72.6274
+num: 180 expanded: 474 updated: 208 path_len: 67 max_open: 664 time_elpased: 0.10702
+72.8701
+num: 181 expanded: 693 updated: 251 path_len: 66 max_open: 855 time_elpased: 0.126287
+65.1421
+num: 182 expanded: 528 updated: 209 path_len: 62 max_open: 706 time_elpased: 0.110068
+71.6985
+num: 183 expanded: 485 updated: 177 path_len: 64 max_open: 648 time_elpased: 0.103903
+72.8284
+num: 184 expanded: 130 updated: 31 path_len: 73 max_open: 277 time_elpased: 0.070634
+73.1422
+num: 185 expanded: 407 updated: 82 path_len: 70 max_open: 724 time_elpased: 0.097294
+74.0833
+num: 186 expanded: 617 updated: 204 path_len: 61 max_open: 794 time_elpased: 0.122666
+69.7402
+num: 187 expanded: 616 updated: 256 path_len: 55 max_open: 826 time_elpased: 0.118374
+55.2426
+num: 188 expanded: 89 updated: 20 path_len: 55 max_open: 209 time_elpased: 0.067468
+48.7279
+num: 189 expanded: 259 updated: 93 path_len: 46 max_open: 425 time_elpased: 0.08213
+77.0122
+num: 190 expanded: 330 updated: 62 path_len: 66 max_open: 540 time_elpased: 0.089259
+60.0711
+num: 191 expanded: 267 updated: 87 path_len: 59 max_open: 429 time_elpased: 0.084495
+76.8406
+num: 192 expanded: 296 updated: 116 path_len: 65 max_open: 438 time_elpased: 0.085233
+74.2254
+num: 193 expanded: 153 updated: 78 path_len: 57 max_open: 357 time_elpased: 0.077952
+79.6985
+num: 194 expanded: 485 updated: 211 path_len: 72 max_open: 621 time_elpased: 0.101181
+74.2549
+num: 195 expanded: 934 updated: 441 path_len: 62 max_open: 1175 time_elpased: 0.148666
+76.9828
+num: 196 expanded: 746 updated: 258 path_len: 61 max_open: 980 time_elpased: 0.127753
+79.1421
+num: 197 expanded: 259 updated: 66 path_len: 76 max_open: 401 time_elpased: 0.081701
+71.2132
+num: 198 expanded: 800 updated: 346 path_len: 66 max_open: 964 time_elpased: 0.13055
+76.6985
+num: 199 expanded: 421 updated: 130 path_len: 69 max_open: 805 time_elpased: 0.09983
+73.0539
+num: 200 expanded: 377 updated: 142 path_len: 55 max_open: 584 time_elpased: 0.092511
+82.0833
+num: 201 expanded: 1148 updated: 523 path_len: 69 max_open: 1412 time_elpased: 0.166534
+83.6691
+num: 202 expanded: 647 updated: 447 path_len: 71 max_open: 821 time_elpased: 0.118606
+81.397
+num: 203 expanded: 926 updated: 395 path_len: 65 max_open: 1157 time_elpased: 0.144835
+80.2254
+num: 204 expanded: 534 updated: 254 path_len: 63 max_open: 744 time_elpased: 0.109634
+69.9706
+num: 205 expanded: 643 updated: 315 path_len: 66 max_open: 854 time_elpased: 0.117444
+81.5269
+num: 206 expanded: 613 updated: 335 path_len: 73 max_open: 786 time_elpased: 0.128598
+81.7402
+num: 207 expanded: 237 updated: 62 path_len: 67 max_open: 392 time_elpased: 0.078483
+80.0122
+num: 208 expanded: 677 updated: 392 path_len: 69 max_open: 872 time_elpased: 0.124359
+82.3848
+num: 209 expanded: 361 updated: 205 path_len: 78 max_open: 554 time_elpased: 0.091341
+84.0539
+num: 210 expanded: 882 updated: 366 path_len: 66 max_open: 1162 time_elpased: 0.172922
+80.1422
+num: 211 expanded: 363 updated: 135 path_len: 77 max_open: 634 time_elpased: 0.093915
+86.6569
+num: 212 expanded: 274 updated: 53 path_len: 86 max_open: 509 time_elpased: 0.084435
+75.3137
+num: 213 expanded: 455 updated: 177 path_len: 73 max_open: 657 time_elpased: 0.104166
+79.9117
+num: 214 expanded: 1044 updated: 641 path_len: 66 max_open: 1264 time_elpased: 0.16287
+87.7401
+num: 215 expanded: 659 updated: 364 path_len: 73 max_open: 871 time_elpased: 0.146806
+82.9828
+num: 216 expanded: 587 updated: 161 path_len: 67 max_open: 1023 time_elpased: 0.122954
+86.7696
+num: 217 expanded: 1247 updated: 611 path_len: 77 max_open: 1549 time_elpased: 0.207526
+76.8823
+num: 218 expanded: 446 updated: 273 path_len: 58 max_open: 660 time_elpased: 0.122595
+84.0417
+num: 219 expanded: 389 updated: 133 path_len: 78 max_open: 636 time_elpased: 0.096098
+90.6985
+num: 220 expanded: 717 updated: 238 path_len: 83 max_open: 925 time_elpased: 0.134995
+90.8823
+num: 221 expanded: 537 updated: 170 path_len: 72 max_open: 773 time_elpased: 0.1101
+88.0539
+num: 222 expanded: 729 updated: 416 path_len: 70 max_open: 893 time_elpased: 0.134897
+65.0833
+num: 223 expanded: 184 updated: 56 path_len: 52 max_open: 361 time_elpased: 0.103213
+77.8407
+num: 224 expanded: 1001 updated: 417 path_len: 66 max_open: 1246 time_elpased: 0.15952
+91.1544
+num: 225 expanded: 1012 updated: 350 path_len: 76 max_open: 1212 time_elpased: 0.152764
+71.2254
+num: 226 expanded: 234 updated: 48 path_len: 54 max_open: 440 time_elpased: 0.081203
+77.8284
+num: 227 expanded: 78 updated: 0 path_len: 78 max_open: 240 time_elpased: 0.068108
+91.2965
+num: 228 expanded: 453 updated: 173 path_len: 72 max_open: 638 time_elpased: 0.100007
+76.7279
+num: 229 expanded: 421 updated: 146 path_len: 74 max_open: 675 time_elpased: 0.109907
+74.1127
+num: 230 expanded: 799 updated: 229 path_len: 66 max_open: 1040 time_elpased: 0.136586
+83.1422
+num: 231 expanded: 124 updated: 11 path_len: 80 max_open: 306 time_elpased: 0.069871
+94.3676
+num: 232 expanded: 1007 updated: 375 path_len: 73 max_open: 1282 time_elpased: 0.151159
+93.0539
+num: 233 expanded: 938 updated: 359 path_len: 75 max_open: 1216 time_elpased: 0.14719
+93.4265
+num: 234 expanded: 574 updated: 212 path_len: 82 max_open: 816 time_elpased: 0.110549
+94.0122
+num: 235 expanded: 458 updated: 218 path_len: 83 max_open: 639 time_elpased: 0.106227
+68.3259
+num: 236 expanded: 493 updated: 239 path_len: 54 max_open: 698 time_elpased: 0.10544
+92.7107
+num: 237 expanded: 867 updated: 343 path_len: 73 max_open: 1118 time_elpased: 0.138052
+74.0833
+num: 238 expanded: 692 updated: 296 path_len: 61 max_open: 901 time_elpased: 0.133252
+82.0833
+num: 239 expanded: 1188 updated: 617 path_len: 69 max_open: 1428 time_elpased: 0.168702
+97.7107
+num: 240 expanded: 988 updated: 395 path_len: 78 max_open: 1232 time_elpased: 0.14926
+99.9706
+num: 241 expanded: 511 updated: 265 path_len: 96 max_open: 817 time_elpased: 0.104526
+82.2132
+num: 242 expanded: 260 updated: 96 path_len: 77 max_open: 509 time_elpased: 0.081157
+84.9534
+num: 243 expanded: 557 updated: 364 path_len: 64 max_open: 808 time_elpased: 0.110442
+90.4975
+num: 244 expanded: 1212 updated: 448 path_len: 77 max_open: 1487 time_elpased: 0.170032
+98.4264
+num: 245 expanded: 1342 updated: 630 path_len: 87 max_open: 1608 time_elpased: 0.182799
+98.5392
+num: 246 expanded: 1138 updated: 717 path_len: 78 max_open: 1401 time_elpased: 0.163269
+86.7696
+num: 247 expanded: 960 updated: 342 path_len: 77 max_open: 1204 time_elpased: 0.14438
+96.5686
+num: 248 expanded: 372 updated: 130 path_len: 81 max_open: 602 time_elpased: 0.095852
+97.9828
+num: 249 expanded: 383 updated: 88 path_len: 82 max_open: 587 time_elpased: 0.091749
+95.7524
+num: 250 expanded: 135 updated: 25 path_len: 69 max_open: 409 time_elpased: 0.074532
+93.0711
+num: 251 expanded: 391 updated: 120 path_len: 92 max_open: 599 time_elpased: 0.094943
+102.74
+num: 252 expanded: 1365 updated: 796 path_len: 88 max_open: 1700 time_elpased: 0.183793
+101.468
+num: 253 expanded: 1665 updated: 803 path_len: 83 max_open: 1933 time_elpased: 0.209604
+102.042
+num: 254 expanded: 616 updated: 180 path_len: 96 max_open: 1316 time_elpased: 0.119143
+101.355
+num: 255 expanded: 823 updated: 322 path_len: 92 max_open: 1015 time_elpased: 0.132301
+100.355
+num: 256 expanded: 816 updated: 372 path_len: 91 max_open: 1128 time_elpased: 0.134065
+100.782
+num: 257 expanded: 935 updated: 519 path_len: 79 max_open: 1199 time_elpased: 0.142284
+101.527
+num: 258 expanded: 1289 updated: 544 path_len: 93 max_open: 1657 time_elpased: 0.178413
+103.669
+num: 259 expanded: 633 updated: 235 path_len: 91 max_open: 828 time_elpased: 0.113137
+99.0833
+num: 260 expanded: 1666 updated: 700 path_len: 86 max_open: 2014 time_elpased: 0.212316
+95.6102
+num: 261 expanded: 866 updated: 329 path_len: 73 max_open: 1141 time_elpased: 0.142282
+101.314
+num: 262 expanded: 208 updated: 9 path_len: 99 max_open: 460 time_elpased: 0.076953
+107.184
+num: 263 expanded: 516 updated: 153 path_len: 97 max_open: 693 time_elpased: 0.103996
+105.853
+num: 264 expanded: 1018 updated: 336 path_len: 82 max_open: 1279 time_elpased: 0.14978
+96.1127
+num: 265 expanded: 662 updated: 190 path_len: 88 max_open: 1223 time_elpased: 0.12129
+98.7818
+num: 266 expanded: 1085 updated: 502 path_len: 77 max_open: 1349 time_elpased: 0.157942
+84.0711
+num: 267 expanded: 141 updated: 5 path_len: 83 max_open: 333 time_elpased: 0.070846
+104.953
+num: 268 expanded: 1590 updated: 775 path_len: 84 max_open: 1947 time_elpased: 0.204824
+67.6396
+num: 269 expanded: 218 updated: 51 path_len: 50 max_open: 419 time_elpased: 0.079621
+102.297
+num: 270 expanded: 446 updated: 153 path_len: 83 max_open: 691 time_elpased: 0.099392
+103.87
+num: 271 expanded: 1153 updated: 540 path_len: 97 max_open: 1479 time_elpased: 0.181705
+111.439
+num: 272 expanded: 975 updated: 365 path_len: 88 max_open: 1176 time_elpased: 0.145666
+110.385
+num: 273 expanded: 442 updated: 177 path_len: 106 max_open: 619 time_elpased: 0.104829
+108.912
+num: 274 expanded: 1603 updated: 648 path_len: 95 max_open: 1841 time_elpased: 0.20471
+111.74
+num: 275 expanded: 1556 updated: 689 path_len: 97 max_open: 1899 time_elpased: 0.199685
+110.61
+num: 276 expanded: 863 updated: 271 path_len: 88 max_open: 1049 time_elpased: 0.135239
+87.0711
+num: 277 expanded: 285 updated: 58 path_len: 86 max_open: 554 time_elpased: 0.08375
+108.941
+num: 278 expanded: 717 updated: 343 path_len: 100 max_open: 910 time_elpased: 0.122738
+108.681
+num: 279 expanded: 1329 updated: 531 path_len: 84 max_open: 1625 time_elpased: 0.186635
+112.912
+num: 280 expanded: 934 updated: 381 path_len: 99 max_open: 1229 time_elpased: 0.142248
+65.1838
+num: 281 expanded: 562 updated: 231 path_len: 55 max_open: 786 time_elpased: 0.106849
+107.456
+num: 282 expanded: 1280 updated: 575 path_len: 101 max_open: 1700 time_elpased: 0.175283
+102.953
+num: 283 expanded: 693 updated: 268 path_len: 82 max_open: 920 time_elpased: 0.121085
+112.74
+num: 284 expanded: 415 updated: 155 path_len: 98 max_open: 590 time_elpased: 0.094218
+112.225
+num: 285 expanded: 1057 updated: 489 path_len: 95 max_open: 1257 time_elpased: 0.15318
+111.581
+num: 286 expanded: 291 updated: 76 path_len: 84 max_open: 591 time_elpased: 0.087016
+89.8823
+num: 287 expanded: 841 updated: 345 path_len: 71 max_open: 1100 time_elpased: 0.134865
+114.882
+num: 288 expanded: 2039 updated: 744 path_len: 96 max_open: 2420 time_elpased: 0.248216
+114.154
+num: 289 expanded: 422 updated: 112 path_len: 99 max_open: 654 time_elpased: 0.096014
+119.426
+num: 290 expanded: 757 updated: 248 path_len: 108 max_open: 1016 time_elpased: 0.129734
+79.7818
+num: 291 expanded: 140 updated: 24 path_len: 58 max_open: 370 time_elpased: 0.069647
+116.397
+num: 292 expanded: 1515 updated: 902 path_len: 100 max_open: 1748 time_elpased: 0.201164
+118.024
+num: 293 expanded: 546 updated: 150 path_len: 95 max_open: 850 time_elpased: 0.10602
+119.267
+num: 294 expanded: 302 updated: 62 path_len: 95 max_open: 606 time_elpased: 0.085155
+116.267
+num: 295 expanded: 219 updated: 14 path_len: 92 max_open: 503 time_elpased: 0.0789
+100.054
+num: 296 expanded: 1501 updated: 574 path_len: 82 max_open: 1794 time_elpased: 0.195924
+116.054
+num: 297 expanded: 516 updated: 164 path_len: 98 max_open: 785 time_elpased: 0.104182
+108.042
+num: 298 expanded: 1172 updated: 683 path_len: 102 max_open: 1634 time_elpased: 0.168338
+103.681
+num: 299 expanded: 1012 updated: 408 path_len: 79 max_open: 1296 time_elpased: 0.150606
+121.397
+num: 300 expanded: 557 updated: 204 path_len: 105 max_open: 806 time_elpased: 0.107439
+111.355
+num: 301 expanded: 1373 updated: 523 path_len: 102 max_open: 1779 time_elpased: 0.183638
+115.966
+num: 302 expanded: 83 updated: 0 path_len: 83 max_open: 413 time_elpased: 0.065437
+111.87
+num: 303 expanded: 1482 updated: 721 path_len: 105 max_open: 1868 time_elpased: 0.197356
+76.4142
+num: 304 expanded: 77 updated: 0 path_len: 77 max_open: 235 time_elpased: 0.0647
+96.8529
+num: 305 expanded: 748 updated: 390 path_len: 73 max_open: 1015 time_elpased: 0.126348
+93.6102
+num: 306 expanded: 333 updated: 87 path_len: 71 max_open: 609 time_elpased: 0.092079
+117.782
+num: 307 expanded: 725 updated: 250 path_len: 96 max_open: 995 time_elpased: 0.123458
+111.953
+num: 308 expanded: 1196 updated: 574 path_len: 91 max_open: 1495 time_elpased: 0.168129
+120.711
+num: 309 expanded: 548 updated: 161 path_len: 101 max_open: 854 time_elpased: 0.107565
+126.51
+num: 310 expanded: 931 updated: 319 path_len: 101 max_open: 1170 time_elpased: 0.139775
+115.397
+num: 311 expanded: 2143 updated: 876 path_len: 99 max_open: 2413 time_elpased: 0.252906
+111.456
+num: 312 expanded: 1144 updated: 397 path_len: 105 max_open: 1601 time_elpased: 0.168913
+125.841
+num: 313 expanded: 577 updated: 190 path_len: 114 max_open: 819 time_elpased: 0.109491
+124.569
+num: 314 expanded: 564 updated: 191 path_len: 109 max_open: 806 time_elpased: 0.108278
+101.497
+num: 315 expanded: 804 updated: 254 path_len: 88 max_open: 1090 time_elpased: 0.133194
+124.498
+num: 316 expanded: 720 updated: 307 path_len: 111 max_open: 972 time_elpased: 0.122729
+124.723
+num: 317 expanded: 882 updated: 259 path_len: 93 max_open: 1196 time_elpased: 0.147839
+106.113
+num: 318 expanded: 1308 updated: 579 path_len: 98 max_open: 1646 time_elpased: 0.181689
+119.699
+num: 319 expanded: 1676 updated: 749 path_len: 112 max_open: 2185 time_elpased: 0.216828
+112.681
+num: 320 expanded: 1172 updated: 470 path_len: 88 max_open: 1520 time_elpased: 0.166792
+129.397
+num: 321 expanded: 2709 updated: 718 path_len: 113 max_open: 3282 time_elpased: 0.310293
+114.941
+num: 322 expanded: 1248 updated: 246 path_len: 106 max_open: 1997 time_elpased: 0.173775
+130.468
+num: 323 expanded: 1225 updated: 447 path_len: 112 max_open: 1486 time_elpased: 0.169974
+130.066
+num: 324 expanded: 1509 updated: 1168 path_len: 100 max_open: 1867 time_elpased: 0.200306
+111.895
+num: 325 expanded: 299 updated: 19 path_len: 81 max_open: 626 time_elpased: 0.08539
+86.0122
+num: 326 expanded: 1030 updated: 468 path_len: 75 max_open: 1326 time_elpased: 0.151931
+130.51
+num: 327 expanded: 1285 updated: 538 path_len: 105 max_open: 1556 time_elpased: 0.172045
+128.598
+num: 328 expanded: 1951 updated: 578 path_len: 118 max_open: 2513 time_elpased: 0.242223
+122.569
+num: 329 expanded: 2646 updated: 1183 path_len: 107 max_open: 3002 time_elpased: 0.30361
+135.953
+num: 330 expanded: 955 updated: 327 path_len: 115 max_open: 1269 time_elpased: 0.145926
+135.054
+num: 331 expanded: 3170 updated: 1280 path_len: 117 max_open: 3634 time_elpased: 0.354474
+134.012
+num: 332 expanded: 970 updated: 346 path_len: 123 max_open: 1241 time_elpased: 0.143539
+132.397
+num: 333 expanded: 1809 updated: 776 path_len: 116 max_open: 2215 time_elpased: 0.226948
+127.799
+num: 334 expanded: 618 updated: 181 path_len: 123 max_open: 1114 time_elpased: 0.117224
+133.953
+num: 335 expanded: 1118 updated: 522 path_len: 113 max_open: 1387 time_elpased: 0.15793
+128.556
+num: 336 expanded: 388 updated: 170 path_len: 125 max_open: 706 time_elpased: 0.093773
+131.267
+num: 337 expanded: 1750 updated: 759 path_len: 107 max_open: 2026 time_elpased: 0.215513
+123.267
+num: 338 expanded: 809 updated: 288 path_len: 99 max_open: 1117 time_elpased: 0.130099
+74.1249
+num: 339 expanded: 150 updated: 22 path_len: 54 max_open: 365 time_elpased: 0.072379
+136.652
+num: 340 expanded: 472 updated: 180 path_len: 107 max_open: 771 time_elpased: 0.101165
+136.865
+num: 341 expanded: 692 updated: 232 path_len: 101 max_open: 1094 time_elpased: 0.125598
+138.551
+num: 342 expanded: 1391 updated: 561 path_len: 106 max_open: 1763 time_elpased: 0.188726
+132.48
+num: 343 expanded: 1928 updated: 684 path_len: 102 max_open: 2297 time_elpased: 0.238601
+130.368
+num: 344 expanded: 2044 updated: 830 path_len: 109 max_open: 2462 time_elpased: 0.247998
+139.64
+num: 345 expanded: 827 updated: 495 path_len: 122 max_open: 1156 time_elpased: 0.131966
+111.196
+num: 346 expanded: 1286 updated: 526 path_len: 89 max_open: 1648 time_elpased: 0.173278
+125.243
+num: 347 expanded: 179 updated: 25 path_len: 125 max_open: 437 time_elpased: 0.07351
+126.853
+num: 348 expanded: 815 updated: 387 path_len: 103 max_open: 1111 time_elpased: 0.133407
+139.267
+num: 349 expanded: 626 updated: 240 path_len: 115 max_open: 930 time_elpased: 0.113029
+143.184
+num: 350 expanded: 1408 updated: 626 path_len: 133 max_open: 1666 time_elpased: 0.186239
+128.64
+num: 351 expanded: 2401 updated: 944 path_len: 111 max_open: 2722 time_elpased: 0.281725
+142.397
+num: 352 expanded: 715 updated: 270 path_len: 126 max_open: 925 time_elpased: 0.125433
+126.853
+num: 353 expanded: 2504 updated: 1163 path_len: 103 max_open: 2911 time_elpased: 0.298817
+70.7696
+num: 354 expanded: 790 updated: 246 path_len: 61 max_open: 1016 time_elpased: 0.127824
+130.338
+num: 355 expanded: 2081 updated: 969 path_len: 104 max_open: 2441 time_elpased: 0.250943
+131.811
+num: 356 expanded: 1972 updated: 835 path_len: 115 max_open: 3072 time_elpased: 0.242268
+133.941
+num: 357 expanded: 1578 updated: 626 path_len: 125 max_open: 1979 time_elpased: 0.204386
+140.368
+num: 358 expanded: 384 updated: 130 path_len: 119 max_open: 650 time_elpased: 0.09291
+136.409
+num: 359 expanded: 2539 updated: 1301 path_len: 108 max_open: 2990 time_elpased: 0.298595
+145.652
+num: 360 expanded: 863 updated: 445 path_len: 116 max_open: 1145 time_elpased: 0.137288
+147.125
+num: 361 expanded: 643 updated: 195 path_len: 127 max_open: 998 time_elpased: 0.117158
+147.167
+num: 362 expanded: 1142 updated: 388 path_len: 120 max_open: 1403 time_elpased: 0.159827
+116.87
+num: 363 expanded: 1229 updated: 490 path_len: 110 max_open: 1707 time_elpased: 0.186105
+137.355
+num: 364 expanded: 2270 updated: 549 path_len: 128 max_open: 2794 time_elpased: 0.268197
+145.267
+num: 365 expanded: 1149 updated: 544 path_len: 121 max_open: 1455 time_elpased: 0.160763
+74.9412
+num: 366 expanded: 879 updated: 416 path_len: 66 max_open: 1197 time_elpased: 0.136331
+144.326
+num: 367 expanded: 917 updated: 342 path_len: 130 max_open: 1192 time_elpased: 0.140435
+145.865
+num: 368 expanded: 480 updated: 162 path_len: 110 max_open: 850 time_elpased: 0.100966
+104.154
+num: 369 expanded: 1804 updated: 799 path_len: 89 max_open: 2174 time_elpased: 0.227554
+132.243
+num: 370 expanded: 368 updated: 79 path_len: 132 max_open: 747 time_elpased: 0.091916
+122.485
+num: 371 expanded: 400 updated: 9 path_len: 121 max_open: 768 time_elpased: 0.097743
+140.225
+num: 372 expanded: 2131 updated: 874 path_len: 123 max_open: 2986 time_elpased: 0.257595
+91.6569
+num: 373 expanded: 280 updated: 65 path_len: 91 max_open: 582 time_elpased: 0.082937
+150.196
+num: 374 expanded: 1096 updated: 573 path_len: 128 max_open: 1416 time_elpased: 0.15688
+150.426
+num: 375 expanded: 631 updated: 253 path_len: 139 max_open: 950 time_elpased: 0.114783
+139.137
+num: 376 expanded: 2060 updated: 947 path_len: 107 max_open: 2459 time_elpased: 0.243824
+148.368
+num: 377 expanded: 710 updated: 333 path_len: 127 max_open: 1001 time_elpased: 0.121657
+150.225
+num: 378 expanded: 551 updated: 136 path_len: 133 max_open: 895 time_elpased: 0.106673
+148.51
+num: 379 expanded: 1131 updated: 686 path_len: 123 max_open: 1450 time_elpased: 0.164227
+155.823
+num: 380 expanded: 849 updated: 360 path_len: 127 max_open: 1170 time_elpased: 0.134656
+153.711
+num: 381 expanded: 929 updated: 226 path_len: 134 max_open: 1249 time_elpased: 0.141538
+143.213
+num: 382 expanded: 1074 updated: 381 path_len: 138 max_open: 1635 time_elpased: 0.162008
+155.012
+num: 383 expanded: 1049 updated: 490 path_len: 144 max_open: 1343 time_elpased: 0.152861
+106.297
+num: 384 expanded: 1841 updated: 715 path_len: 87 max_open: 2129 time_elpased: 0.229204
+154.238
+num: 385 expanded: 3460 updated: 1663 path_len: 125 max_open: 3969 time_elpased: 0.386801
+138.669
+num: 386 expanded: 2272 updated: 1105 path_len: 126 max_open: 3187 time_elpased: 0.272229
+110.581
+num: 387 expanded: 348 updated: 60 path_len: 83 max_open: 646 time_elpased: 0.089553
+135.137
+num: 388 expanded: 1750 updated: 718 path_len: 103 max_open: 2119 time_elpased: 0.219434
+150.409
+num: 389 expanded: 3226 updated: 1492 path_len: 122 max_open: 3936 time_elpased: 0.360689
+129.137
+num: 390 expanded: 1205 updated: 572 path_len: 97 max_open: 1601 time_elpased: 0.169999
+126.137
+num: 391 expanded: 1081 updated: 350 path_len: 94 max_open: 1431 time_elpased: 0.158798
+158.895
+num: 392 expanded: 1337 updated: 758 path_len: 128 max_open: 1594 time_elpased: 0.175311
+159.995
+num: 393 expanded: 475 updated: 109 path_len: 132 max_open: 843 time_elpased: 0.099955
+150.51
+num: 394 expanded: 978 updated: 487 path_len: 125 max_open: 1335 time_elpased: 0.146189
+104.225
+num: 395 expanded: 1526 updated: 697 path_len: 87 max_open: 1834 time_elpased: 0.199527
+135.083
+num: 396 expanded: 1906 updated: 623 path_len: 122 max_open: 2353 time_elpased: 0.235337
+129.669
+num: 397 expanded: 2690 updated: 1083 path_len: 117 max_open: 3156 time_elpased: 0.30663
+158.782
+num: 398 expanded: 1249 updated: 562 path_len: 137 max_open: 1489 time_elpased: 0.171097
+151.25
+num: 399 expanded: 184 updated: 15 path_len: 110 max_open: 605 time_elpased: 0.074789
+147.38
+num: 400 expanded: 2544 updated: 947 path_len: 114 max_open: 2950 time_elpased: 0.298502
+160.468
+num: 401 expanded: 922 updated: 331 path_len: 142 max_open: 1258 time_elpased: 0.143454
+160.368
+num: 402 expanded: 840 updated: 289 path_len: 139 max_open: 1156 time_elpased: 0.133361
+114.468
+num: 403 expanded: 2291 updated: 835 path_len: 96 max_open: 2599 time_elpased: 0.264485
+117.042
+num: 404 expanded: 1481 updated: 579 path_len: 111 max_open: 1898 time_elpased: 0.197734
+161.823
+num: 405 expanded: 676 updated: 188 path_len: 133 max_open: 1044 time_elpased: 0.120798
+146.652
+num: 406 expanded: 798 updated: 336 path_len: 117 max_open: 1081 time_elpased: 0.130056
+151.794
+num: 407 expanded: 2472 updated: 831 path_len: 118 max_open: 2916 time_elpased: 0.294918
+160.953
+num: 408 expanded: 844 updated: 277 path_len: 140 max_open: 1249 time_elpased: 0.13941
+114.882
+num: 409 expanded: 2311 updated: 993 path_len: 96 max_open: 2622 time_elpased: 0.270423
+166.823
+num: 410 expanded: 1415 updated: 586 path_len: 138 max_open: 1684 time_elpased: 0.184976
+166.61
+num: 411 expanded: 1281 updated: 521 path_len: 144 max_open: 1598 time_elpased: 0.176831
+149.522
+num: 412 expanded: 1360 updated: 678 path_len: 112 max_open: 1788 time_elpased: 0.183125
+165.409
+num: 413 expanded: 1600 updated: 732 path_len: 137 max_open: 1911 time_elpased: 0.21262
+166.581
+num: 414 expanded: 570 updated: 167 path_len: 139 max_open: 925 time_elpased: 0.107944
+166.196
+num: 415 expanded: 2394 updated: 1161 path_len: 144 max_open: 2751 time_elpased: 0.278888
+165.267
+num: 416 expanded: 2651 updated: 988 path_len: 141 max_open: 3106 time_elpased: 0.303245
+164.426
+num: 417 expanded: 647 updated: 134 path_len: 153 max_open: 1032 time_elpased: 0.115469
+140.409
+num: 418 expanded: 789 updated: 238 path_len: 112 max_open: 1082 time_elpased: 0.127322
+141.694
+num: 419 expanded: 812 updated: 233 path_len: 105 max_open: 1215 time_elpased: 0.131046
+160.782
+num: 420 expanded: 3955 updated: 1331 path_len: 139 max_open: 4308 time_elpased: 0.428434
+143.823
+num: 421 expanded: 2240 updated: 996 path_len: 115 max_open: 2690 time_elpased: 0.266646
+154.071
+num: 422 expanded: 737 updated: 237 path_len: 153 max_open: 1055 time_elpased: 0.123333
+118.841
+num: 423 expanded: 2066 updated: 799 path_len: 107 max_open: 2466 time_elpased: 0.24567
+131.882
+num: 424 expanded: 3059 updated: 1246 path_len: 113 max_open: 3384 time_elpased: 0.342799
+146.397
+num: 425 expanded: 2760 updated: 1249 path_len: 130 max_open: 3293 time_elpased: 0.316056
+109.397
+num: 426 expanded: 2013 updated: 1020 path_len: 93 max_open: 2423 time_elpased: 0.236338
+95.5392
+num: 427 expanded: 1118 updated: 460 path_len: 75 max_open: 1423 time_elpased: 0.160969
+170.823
+num: 428 expanded: 1547 updated: 540 path_len: 142 max_open: 1850 time_elpased: 0.197306
+170.439
+num: 429 expanded: 821 updated: 224 path_len: 147 max_open: 1164 time_elpased: 0.131064
+132.912
+num: 430 expanded: 2488 updated: 1059 path_len: 119 max_open: 3075 time_elpased: 0.290148
+158.527
+num: 431 expanded: 736 updated: 149 path_len: 150 max_open: 1258 time_elpased: 0.1256
+152.38
+num: 432 expanded: 2735 updated: 1447 path_len: 119 max_open: 3115 time_elpased: 0.311062
+137.694
+num: 433 expanded: 880 updated: 267 path_len: 101 max_open: 1268 time_elpased: 0.135856
+134.794
+num: 434 expanded: 1371 updated: 430 path_len: 101 max_open: 1743 time_elpased: 0.179998
+153.669
+num: 435 expanded: 3050 updated: 1273 path_len: 141 max_open: 3726 time_elpased: 0.340015
+116.74
+num: 436 expanded: 1689 updated: 812 path_len: 102 max_open: 2094 time_elpased: 0.218918
+137.522
+num: 437 expanded: 401 updated: 84 path_len: 100 max_open: 800 time_elpased: 0.09448
+158.593
+num: 438 expanded: 1848 updated: 931 path_len: 119 max_open: 2303 time_elpased: 0.230347
+140.179
+num: 439 expanded: 382 updated: 97 path_len: 101 max_open: 786 time_elpased: 0.0922
+160.966
+num: 440 expanded: 1283 updated: 568 path_len: 128 max_open: 1755 time_elpased: 0.175373
+178.409
+num: 441 expanded: 572 updated: 151 path_len: 150 max_open: 923 time_elpased: 0.109707
+174.794
+num: 442 expanded: 4208 updated: 1178 path_len: 141 max_open: 4873 time_elpased: 0.456507
+170.527
+num: 443 expanded: 735 updated: 260 path_len: 162 max_open: 1042 time_elpased: 0.124306
+176.297
+num: 444 expanded: 1549 updated: 626 path_len: 157 max_open: 1833 time_elpased: 0.19893
+173.066
+num: 445 expanded: 4708 updated: 2037 path_len: 143 max_open: 5357 time_elpased: 0.495536
+167.012
+num: 446 expanded: 3102 updated: 1302 path_len: 156 max_open: 3599 time_elpased: 0.339782
+144.397
+num: 447 expanded: 3504 updated: 1742 path_len: 128 max_open: 3955 time_elpased: 0.385537
+169.598
+num: 448 expanded: 879 updated: 335 path_len: 159 max_open: 1229 time_elpased: 0.139373
+167.321
+num: 449 expanded: 1746 updated: 569 path_len: 124 max_open: 2210 time_elpased: 0.220405
+171.581
+num: 450 expanded: 1682 updated: 781 path_len: 144 max_open: 1985 time_elpased: 0.208334
+166.426
+num: 451 expanded: 1772 updated: 707 path_len: 155 max_open: 2356 time_elpased: 0.222685
+175.38
+num: 452 expanded: 3912 updated: 1647 path_len: 142 max_open: 4573 time_elpased: 0.426346
+167.699
+num: 453 expanded: 2414 updated: 1033 path_len: 160 max_open: 2995 time_elpased: 0.278547
+172.468
+num: 454 expanded: 4006 updated: 1687 path_len: 154 max_open: 4696 time_elpased: 0.424092
+113.882
+num: 455 expanded: 1998 updated: 963 path_len: 95 max_open: 2366 time_elpased: 0.246263
+181.681
+num: 456 expanded: 1320 updated: 592 path_len: 157 max_open: 1676 time_elpased: 0.177045
+174.125
+num: 457 expanded: 4777 updated: 2424 path_len: 154 max_open: 5556 time_elpased: 0.521877
+182.711
+num: 458 expanded: 2047 updated: 827 path_len: 163 max_open: 2408 time_elpased: 0.241845
+180.309
+num: 459 expanded: 1063 updated: 342 path_len: 149 max_open: 1516 time_elpased: 0.154615
+179.255
+num: 460 expanded: 766 updated: 286 path_len: 167 max_open: 1141 time_elpased: 0.127438
+171.794
+num: 461 expanded: 3133 updated: 1091 path_len: 138 max_open: 3706 time_elpased: 0.350305
+176.154
+num: 462 expanded: 1091 updated: 400 path_len: 161 max_open: 1640 time_elpased: 0.156886
+165.699
+num: 463 expanded: 2819 updated: 1367 path_len: 158 max_open: 3220 time_elpased: 0.319378
+167.699
+num: 464 expanded: 2537 updated: 1263 path_len: 160 max_open: 3019 time_elpased: 0.299205
+184.581
+num: 465 expanded: 1339 updated: 476 path_len: 157 max_open: 1741 time_elpased: 0.179397
+172.841
+num: 466 expanded: 3516 updated: 1537 path_len: 161 max_open: 4247 time_elpased: 0.383431
+178.154
+num: 467 expanded: 1379 updated: 488 path_len: 163 max_open: 1742 time_elpased: 0.18305
+152.468
+num: 468 expanded: 2566 updated: 1234 path_len: 134 max_open: 3053 time_elpased: 0.296824
+102.995
+num: 469 expanded: 350 updated: 106 path_len: 75 max_open: 645 time_elpased: 0.09156
+79.8995
+num: 470 expanded: 409 updated: 224 path_len: 78 max_open: 648 time_elpased: 0.095196
+143.326
+num: 471 expanded: 2206 updated: 636 path_len: 129 max_open: 2886 time_elpased: 0.267605
+191.752
+num: 472 expanded: 1272 updated: 489 path_len: 165 max_open: 1551 time_elpased: 0.170505
+160.657
+num: 473 expanded: 332 updated: 55 path_len: 160 max_open: 662 time_elpased: 0.090835
+149.51
+num: 474 expanded: 1684 updated: 509 path_len: 124 max_open: 2476 time_elpased: 0.216835
+173.179
+num: 475 expanded: 3145 updated: 1981 path_len: 134 max_open: 3609 time_elpased: 0.34431
+189.338
+num: 476 expanded: 1694 updated: 835 path_len: 163 max_open: 2061 time_elpased: 0.210275
+187.853
+num: 477 expanded: 1372 updated: 530 path_len: 164 max_open: 1803 time_elpased: 0.183872
+175.392
+num: 478 expanded: 1931 updated: 1364 path_len: 130 max_open: 2396 time_elpased: 0.238133
+189.752
+num: 479 expanded: 1587 updated: 762 path_len: 163 max_open: 1953 time_elpased: 0.2034
+185.421
+num: 480 expanded: 3622 updated: 1551 path_len: 145 max_open: 4221 time_elpased: 0.401649
+175.799
+num: 481 expanded: 2185 updated: 956 path_len: 171 max_open: 2698 time_elpased: 0.263532
+109.167
+num: 482 expanded: 891 updated: 467 path_len: 82 max_open: 1221 time_elpased: 0.141338
+135.794
+num: 483 expanded: 1470 updated: 714 path_len: 102 max_open: 1874 time_elpased: 0.19981
+150.024
+num: 484 expanded: 3987 updated: 1650 path_len: 127 max_open: 4385 time_elpased: 0.425395
+192.752
+num: 485 expanded: 1699 updated: 799 path_len: 166 max_open: 1938 time_elpased: 0.207913
+195.836
+num: 486 expanded: 1405 updated: 688 path_len: 155 max_open: 1837 time_elpased: 0.185117
+172.551
+num: 487 expanded: 1190 updated: 520 path_len: 140 max_open: 1530 time_elpased: 0.166798
+184.25
+num: 488 expanded: 3222 updated: 1461 path_len: 143 max_open: 3874 time_elpased: 0.365619
+174.066
+num: 489 expanded: 2972 updated: 1985 path_len: 144 max_open: 3397 time_elpased: 0.332279
+184.421
+num: 490 expanded: 1427 updated: 615 path_len: 144 max_open: 1963 time_elpased: 0.190706
+196.995
+num: 491 expanded: 1325 updated: 543 path_len: 169 max_open: 1762 time_elpased: 0.18145
+161.078
+num: 492 expanded: 1445 updated: 947 path_len: 119 max_open: 1889 time_elpased: 0.191806
+148.368
+num: 493 expanded: 2257 updated: 556 path_len: 127 max_open: 3296 time_elpased: 0.271079
+181.284
+num: 494 expanded: 937 updated: 407 path_len: 174 max_open: 1307 time_elpased: 0.144066
+172.657
+num: 495 expanded: 284 updated: 0 path_len: 172 max_open: 748 time_elpased: 0.08547
+198.865
+num: 496 expanded: 842 updated: 251 path_len: 163 max_open: 1277 time_elpased: 0.134547
+168.426
+num: 497 expanded: 3534 updated: 1639 path_len: 157 max_open: 4144 time_elpased: 0.383792
+199.622
+num: 498 expanded: 994 updated: 470 path_len: 165 max_open: 1425 time_elpased: 0.146299
+191.368
+num: 499 expanded: 2111 updated: 992 path_len: 170 max_open: 2601 time_elpased: 0.251794
+195.024
+num: 500 expanded: 4596 updated: 1763 path_len: 172 max_open: 5820 time_elpased: 0.490541
+98.6569
+num: 501 expanded: 358 updated: 136 path_len: 98 max_open: 637 time_elpased: 0.09456
+169.083
+num: 502 expanded: 3687 updated: 1654 path_len: 156 max_open: 4289 time_elpased: 0.402397
+198.723
+num: 503 expanded: 474 updated: 146 path_len: 167 max_open: 930 time_elpased: 0.103741
+190.782
+num: 504 expanded: 5759 updated: 2679 path_len: 169 max_open: 6394 time_elpased: 0.597923
+174.066
+num: 505 expanded: 5050 updated: 2069 path_len: 144 max_open: 5555 time_elpased: 0.53652
+117.213
+num: 506 expanded: 748 updated: 277 path_len: 112 max_open: 1266 time_elpased: 0.12719
+185.421
+num: 507 expanded: 3064 updated: 1801 path_len: 145 max_open: 3583 time_elpased: 0.343104
+182.936
+num: 508 expanded: 3023 updated: 1142 path_len: 145 max_open: 3591 time_elpased: 0.333595
+192.953
+num: 509 expanded: 5721 updated: 2670 path_len: 172 max_open: 6704 time_elpased: 0.591578
+204.279
+num: 510 expanded: 1213 updated: 510 path_len: 168 max_open: 1646 time_elpased: 0.167372
+172.569
+num: 511 expanded: 4463 updated: 2151 path_len: 157 max_open: 5059 time_elpased: 0.47251
+195.953
+num: 512 expanded: 6189 updated: 2488 path_len: 175 max_open: 6862 time_elpased: 0.628929
+188.363
+num: 513 expanded: 1402 updated: 1003 path_len: 138 max_open: 1923 time_elpased: 0.187745
+201.451
+num: 514 expanded: 2576 updated: 1058 path_len: 166 max_open: 3014 time_elpased: 0.291585
+205.208
+num: 515 expanded: 1595 updated: 611 path_len: 171 max_open: 2061 time_elpased: 0.20518
+188.213
+num: 516 expanded: 2144 updated: 950 path_len: 183 max_open: 2933 time_elpased: 0.256324
+199.225
+num: 517 expanded: 1116 updated: 470 path_len: 182 max_open: 1492 time_elpased: 0.1625
+123.284
+num: 518 expanded: 496 updated: 88 path_len: 116 max_open: 1166 time_elpased: 0.107494
+172.941
+num: 519 expanded: 2276 updated: 743 path_len: 164 max_open: 2829 time_elpased: 0.274954
+202.61
+num: 520 expanded: 5265 updated: 2436 path_len: 180 max_open: 5779 time_elpased: 0.539663
+190.924
+num: 521 expanded: 2640 updated: 1265 path_len: 165 max_open: 3198 time_elpased: 0.303586
+210.765
+num: 522 expanded: 1630 updated: 714 path_len: 172 max_open: 1912 time_elpased: 0.2024
+148.083
+num: 523 expanded: 2745 updated: 1176 path_len: 135 max_open: 3259 time_elpased: 0.330143
+199.51
+num: 524 expanded: 5590 updated: 2636 path_len: 174 max_open: 7258 time_elpased: 0.580478
+201.983
+num: 525 expanded: 4865 updated: 2204 path_len: 186 max_open: 6077 time_elpased: 0.506686
+209.35
+num: 526 expanded: 1021 updated: 358 path_len: 171 max_open: 1502 time_elpased: 0.150809
+161.108
+num: 527 expanded: 2899 updated: 1064 path_len: 124 max_open: 3336 time_elpased: 0.327634
+209.409
+num: 528 expanded: 966 updated: 279 path_len: 181 max_open: 1371 time_elpased: 0.146114
+199.64
+num: 529 expanded: 4808 updated: 1912 path_len: 182 max_open: 6325 time_elpased: 0.517308
+188.497
+num: 530 expanded: 1562 updated: 607 path_len: 175 max_open: 2077 time_elpased: 0.199868
+197.083
+num: 531 expanded: 4541 updated: 2575 path_len: 184 max_open: 5026 time_elpased: 0.479197
+203.149
+num: 532 expanded: 778 updated: 259 path_len: 159 max_open: 1237 time_elpased: 0.128826
+164.498
+num: 533 expanded: 2517 updated: 1138 path_len: 151 max_open: 3092 time_elpased: 0.297901
+214.652
+num: 534 expanded: 2020 updated: 704 path_len: 185 max_open: 2381 time_elpased: 0.24604
+205.522
+num: 535 expanded: 1262 updated: 446 path_len: 168 max_open: 1705 time_elpased: 0.175261
+215.823
+num: 536 expanded: 2729 updated: 1107 path_len: 187 max_open: 3219 time_elpased: 0.311365
+203.765
+num: 537 expanded: 1737 updated: 686 path_len: 165 max_open: 2197 time_elpased: 0.217225
+213.823
+num: 538 expanded: 2560 updated: 1299 path_len: 185 max_open: 2900 time_elpased: 0.289846
+187.728
+num: 539 expanded: 1283 updated: 454 path_len: 185 max_open: 1790 time_elpased: 0.174258
+128.811
+num: 540 expanded: 2418 updated: 988 path_len: 112 max_open: 3174 time_elpased: 0.283839
+150.622
+num: 541 expanded: 2512 updated: 1182 path_len: 116 max_open: 2938 time_elpased: 0.287007
+163.936
+num: 542 expanded: 2948 updated: 1061 path_len: 126 max_open: 3435 time_elpased: 0.333603
+216.493
+num: 543 expanded: 3924 updated: 1735 path_len: 174 max_open: 4453 time_elpased: 0.424662
+174.794
+num: 544 expanded: 4286 updated: 1546 path_len: 141 max_open: 5118 time_elpased: 0.460779
+190.451
+num: 545 expanded: 5835 updated: 2177 path_len: 155 max_open: 6387 time_elpased: 0.601991
+217.48
+num: 546 expanded: 1137 updated: 394 path_len: 187 max_open: 1635 time_elpased: 0.16261
+193.806
+num: 547 expanded: 3500 updated: 1444 path_len: 148 max_open: 4035 time_elpased: 0.382294
+207.22
+num: 548 expanded: 2011 updated: 798 path_len: 161 max_open: 2414 time_elpased: 0.242692
+191.799
+num: 549 expanded: 2199 updated: 1184 path_len: 187 max_open: 2773 time_elpased: 0.26143
+223.794
+num: 550 expanded: 1606 updated: 502 path_len: 190 max_open: 1965 time_elpased: 0.203054
+160.113
+num: 551 expanded: 2087 updated: 984 path_len: 152 max_open: 2444 time_elpased: 0.247593
+211.409
+num: 552 expanded: 6018 updated: 2438 path_len: 183 max_open: 7410 time_elpased: 0.620223
+153.012
+num: 553 expanded: 1580 updated: 334 path_len: 142 max_open: 2714 time_elpased: 0.208001
+121.397
+num: 554 expanded: 2561 updated: 1324 path_len: 105 max_open: 2993 time_elpased: 0.300723
+184.699
+num: 555 expanded: 973 updated: 140 path_len: 177 max_open: 2606 time_elpased: 0.157356
+220.35
+num: 556 expanded: 1822 updated: 755 path_len: 182 max_open: 2219 time_elpased: 0.223193
+223.924
+num: 557 expanded: 1559 updated: 689 path_len: 198 max_open: 1934 time_elpased: 0.199729
+83.8701
+num: 558 expanded: 826 updated: 316 path_len: 77 max_open: 1060 time_elpased: 0.134317
+223.179
+num: 559 expanded: 1311 updated: 230 path_len: 184 max_open: 1822 time_elpased: 0.176392
+218.25
+num: 560 expanded: 2003 updated: 1067 path_len: 177 max_open: 2504 time_elpased: 0.238829
+218.782
+num: 561 expanded: 5693 updated: 1916 path_len: 197 max_open: 7057 time_elpased: 0.593585
+227.936
+num: 562 expanded: 2123 updated: 941 path_len: 190 max_open: 2523 time_elpased: 0.251846
+185.828
+num: 563 expanded: 442 updated: 97 path_len: 186 max_open: 820 time_elpased: 0.107041
+221.694
+num: 564 expanded: 4106 updated: 1838 path_len: 185 max_open: 4700 time_elpased: 0.457662
+226.936
+num: 565 expanded: 1992 updated: 808 path_len: 189 max_open: 2547 time_elpased: 0.254308
+222.694
+num: 566 expanded: 3088 updated: 1520 path_len: 186 max_open: 3615 time_elpased: 0.348138
+227.823
+num: 567 expanded: 2127 updated: 919 path_len: 199 max_open: 2536 time_elpased: 0.256335
+208.255
+num: 568 expanded: 1427 updated: 488 path_len: 196 max_open: 1829 time_elpased: 0.194967
+215.392
+num: 569 expanded: 3155 updated: 1449 path_len: 170 max_open: 3691 time_elpased: 0.355274
+154.941
+num: 570 expanded: 2305 updated: 565 path_len: 146 max_open: 2791 time_elpased: 0.272863
+223.823
+num: 571 expanded: 4554 updated: 1934 path_len: 195 max_open: 5032 time_elpased: 0.481369
+229.794
+num: 572 expanded: 2124 updated: 893 path_len: 196 max_open: 2602 time_elpased: 0.25529
+223.823
+num: 573 expanded: 4437 updated: 2126 path_len: 195 max_open: 4944 time_elpased: 0.471502
+223.652
+num: 574 expanded: 4972 updated: 1719 path_len: 194 max_open: 5529 time_elpased: 0.514388
+229.694
+num: 575 expanded: 1717 updated: 691 path_len: 193 max_open: 2073 time_elpased: 0.220505
+177.794
+num: 576 expanded: 4860 updated: 1942 path_len: 144 max_open: 5398 time_elpased: 0.509818
+209.505
+num: 577 expanded: 2776 updated: 899 path_len: 155 max_open: 3373 time_elpased: 0.318026
+229.794
+num: 578 expanded: 2070 updated: 742 path_len: 196 max_open: 2384 time_elpased: 0.251839
+222.179
+num: 579 expanded: 2423 updated: 1249 path_len: 183 max_open: 2910 time_elpased: 0.28329
+175.363
+num: 580 expanded: 125 updated: 0 path_len: 125 max_open: 623 time_elpased: 0.069148
+213.877
+num: 581 expanded: 2481 updated: 1346 path_len: 166 max_open: 3099 time_elpased: 0.287102
+211.87
+num: 582 expanded: 2377 updated: 1066 path_len: 205 max_open: 3048 time_elpased: 0.276161
+232.279
+num: 583 expanded: 1832 updated: 873 path_len: 196 max_open: 2346 time_elpased: 0.228909
+149.083
+num: 584 expanded: 2821 updated: 1132 path_len: 136 max_open: 3393 time_elpased: 0.323945
+202.02
+num: 585 expanded: 1410 updated: 424 path_len: 150 max_open: 1972 time_elpased: 0.190281
+220.907
+num: 586 expanded: 3484 updated: 1538 path_len: 178 max_open: 3934 time_elpased: 0.375626
+235.321
+num: 587 expanded: 1916 updated: 756 path_len: 192 max_open: 2392 time_elpased: 0.234216
+235.167
+num: 588 expanded: 2491 updated: 1011 path_len: 208 max_open: 2886 time_elpased: 0.287064
+233.936
+num: 589 expanded: 3140 updated: 1453 path_len: 196 max_open: 3572 time_elpased: 0.345596
+238.865
+num: 590 expanded: 2469 updated: 974 path_len: 203 max_open: 2880 time_elpased: 0.278915
+186.806
+num: 591 expanded: 1945 updated: 918 path_len: 141 max_open: 2505 time_elpased: 0.240378
+199.421
+num: 592 expanded: 5845 updated: 2332 path_len: 159 max_open: 6366 time_elpased: 0.60333
+211.149
+num: 593 expanded: 5059 updated: 1918 path_len: 167 max_open: 5631 time_elpased: 0.536687
+212.978
+num: 594 expanded: 3776 updated: 1850 path_len: 168 max_open: 4292 time_elpased: 0.406116
+221.765
+num: 595 expanded: 2650 updated: 1284 path_len: 183 max_open: 3211 time_elpased: 0.302483
+239.664
+num: 596 expanded: 2171 updated: 857 path_len: 198 max_open: 2541 time_elpased: 0.255125
+238.51
+num: 597 expanded: 2280 updated: 860 path_len: 213 max_open: 2694 time_elpased: 0.265342
+196.267
+num: 598 expanded: 6546 updated: 3007 path_len: 172 max_open: 7185 time_elpased: 0.675956
+118.167
+num: 599 expanded: 1326 updated: 598 path_len: 91 max_open: 1664 time_elpased: 0.182886
+241.149
+num: 600 expanded: 2131 updated: 975 path_len: 197 max_open: 2563 time_elpased: 0.251851
+243.167
+num: 601 expanded: 2301 updated: 921 path_len: 216 max_open: 2798 time_elpased: 0.269811
+133.054
+num: 602 expanded: 2727 updated: 1043 path_len: 115 max_open: 3155 time_elpased: 0.316561
+242.966
+num: 603 expanded: 2051 updated: 841 path_len: 210 max_open: 2389 time_elpased: 0.245274
+240.208
+num: 604 expanded: 2232 updated: 1274 path_len: 206 max_open: 2518 time_elpased: 0.26585
+174.066
+num: 605 expanded: 4192 updated: 2038 path_len: 144 max_open: 4780 time_elpased: 0.448783
+149.208
+num: 606 expanded: 2478 updated: 971 path_len: 115 max_open: 2891 time_elpased: 0.288097
+211.936
+num: 607 expanded: 7487 updated: 2666 path_len: 174 max_open: 8043 time_elpased: 0.753154
+181.569
+num: 608 expanded: 4765 updated: 2120 path_len: 166 max_open: 5464 time_elpased: 0.49515
+190.681
+num: 609 expanded: 5420 updated: 1644 path_len: 166 max_open: 6484 time_elpased: 0.568643
+239.569
+num: 610 expanded: 1963 updated: 936 path_len: 224 max_open: 2407 time_elpased: 0.237309
+175.983
+num: 611 expanded: 4180 updated: 1608 path_len: 160 max_open: 4984 time_elpased: 0.451708
+245.735
+num: 612 expanded: 3065 updated: 1497 path_len: 202 max_open: 3599 time_elpased: 0.339064
+138.853
+num: 613 expanded: 3194 updated: 1840 path_len: 115 max_open: 3596 time_elpased: 0.356081
+227.841
+num: 614 expanded: 3253 updated: 1568 path_len: 216 max_open: 3736 time_elpased: 0.364192
+244.35
+num: 615 expanded: 1892 updated: 720 path_len: 206 max_open: 2235 time_elpased: 0.228926
+239.108
+num: 616 expanded: 2878 updated: 1137 path_len: 202 max_open: 3440 time_elpased: 0.318375
+244.279
+num: 617 expanded: 1836 updated: 571 path_len: 208 max_open: 2156 time_elpased: 0.219361
+195.551
+num: 618 expanded: 5402 updated: 1875 path_len: 163 max_open: 6619 time_elpased: 0.554461
+110.556
+num: 619 expanded: 868 updated: 399 path_len: 107 max_open: 1209 time_elpased: 0.138007
+184.539
+num: 620 expanded: 4627 updated: 2077 path_len: 164 max_open: 5253 time_elpased: 0.488259
+244.397
+num: 621 expanded: 1386 updated: 465 path_len: 228 max_open: 1872 time_elpased: 0.197467
+241.694
+num: 622 expanded: 4315 updated: 1989 path_len: 205 max_open: 4853 time_elpased: 0.500194
+239.752
+num: 623 expanded: 9668 updated: 4564 path_len: 213 max_open: 10266 time_elpased: 1.03534
+124.64
+num: 624 expanded: 2249 updated: 738 path_len: 107 max_open: 2718 time_elpased: 0.293528
+229.77
+num: 625 expanded: 3908 updated: 2272 path_len: 220 max_open: 4396 time_elpased: 0.469367
+242.752
+num: 626 expanded: 1712 updated: 584 path_len: 216 max_open: 2072 time_elpased: 0.23411
+232.184
+num: 627 expanded: 3258 updated: 659 path_len: 222 max_open: 3917 time_elpased: 0.390134
+251.338
+num: 628 expanded: 1734 updated: 667 path_len: 225 max_open: 2055 time_elpased: 0.229325
+231.505
+num: 629 expanded: 3372 updated: 1319 path_len: 177 max_open: 3965 time_elpased: 0.420008
+254.534
+num: 630 expanded: 1960 updated: 796 path_len: 205 max_open: 2370 time_elpased: 0.259015
+243.777
+num: 631 expanded: 2316 updated: 1052 path_len: 193 max_open: 2864 time_elpased: 0.304325
+245.049
+num: 632 expanded: 2898 updated: 1136 path_len: 198 max_open: 3506 time_elpased: 0.349972
+246.564
+num: 633 expanded: 1603 updated: 544 path_len: 202 max_open: 2176 time_elpased: 0.217143
+245.292
+num: 634 expanded: 5054 updated: 2278 path_len: 197 max_open: 5571 time_elpased: 0.586255
+157.87
+num: 635 expanded: 1801 updated: 534 path_len: 151 max_open: 2263 time_elpased: 0.226538
+252.534
+num: 636 expanded: 2321 updated: 1040 path_len: 203 max_open: 2664 time_elpased: 0.26685
+251.593
+num: 637 expanded: 4173 updated: 1696 path_len: 212 max_open: 4770 time_elpased: 0.443909
+201.723
+num: 638 expanded: 2422 updated: 330 path_len: 170 max_open: 5320 time_elpased: 0.308041
+246.167
+num: 639 expanded: 1878 updated: 635 path_len: 219 max_open: 2219 time_elpased: 0.228684
+256.593
+num: 640 expanded: 2637 updated: 1071 path_len: 217 max_open: 2998 time_elpased: 0.298178
+241.669
+num: 641 expanded: 5853 updated: 3106 path_len: 229 max_open: 6417 time_elpased: 0.603723
+210.948
+num: 642 expanded: 4462 updated: 1784 path_len: 161 max_open: 5259 time_elpased: 0.466904
+226.576
+num: 643 expanded: 2117 updated: 919 path_len: 170 max_open: 2769 time_elpased: 0.252205
+256.593
+num: 644 expanded: 7656 updated: 2200 path_len: 217 max_open: 8427 time_elpased: 0.776022
+229.493
+num: 645 expanded: 8336 updated: 3261 path_len: 187 max_open: 9021 time_elpased: 0.895336
+242.841
+num: 646 expanded: 1330 updated: 541 path_len: 231 max_open: 1831 time_elpased: 0.184853
+256.493
+num: 647 expanded: 2045 updated: 746 path_len: 214 max_open: 2348 time_elpased: 0.239221
+258.292
+num: 648 expanded: 2402 updated: 1053 path_len: 210 max_open: 2793 time_elpased: 0.291134
+256.706
+num: 649 expanded: 1115 updated: 344 path_len: 208 max_open: 1707 time_elpased: 0.161168
+263.179
+num: 650 expanded: 3629 updated: 1542 path_len: 224 max_open: 4045 time_elpased: 0.40517
+188.907
+num: 651 expanded: 4054 updated: 2385 path_len: 146 max_open: 4560 time_elpased: 0.431538
+173.581
+num: 652 expanded: 2021 updated: 416 path_len: 146 max_open: 4459 time_elpased: 0.256417
+252.978
+num: 653 expanded: 3250 updated: 1698 path_len: 208 max_open: 3825 time_elpased: 0.361419
+185.451
+num: 654 expanded: 4733 updated: 2178 path_len: 150 max_open: 5485 time_elpased: 0.501102
+263.078
+num: 655 expanded: 2306 updated: 937 path_len: 221 max_open: 2780 time_elpased: 0.291159
+255.292
+num: 656 expanded: 1865 updated: 641 path_len: 207 max_open: 2414 time_elpased: 0.228451
+200.723
+num: 657 expanded: 5650 updated: 2241 path_len: 169 max_open: 6364 time_elpased: 0.582514
+211.522
+num: 658 expanded: 6391 updated: 2843 path_len: 174 max_open: 7006 time_elpased: 0.65927
+235.083
+num: 659 expanded: 3484 updated: 1623 path_len: 222 max_open: 4313 time_elpased: 0.374671
+170.664
+num: 660 expanded: 1735 updated: 719 path_len: 129 max_open: 2224 time_elpased: 0.213937
+258.38
+num: 661 expanded: 1901 updated: 713 path_len: 225 max_open: 2363 time_elpased: 0.230502
+233.385
+num: 662 expanded: 1493 updated: 761 path_len: 229 max_open: 1991 time_elpased: 0.19916
+205.711
+num: 663 expanded: 6086 updated: 2561 path_len: 186 max_open: 6804 time_elpased: 0.609484
+264.735
+num: 664 expanded: 3504 updated: 1459 path_len: 221 max_open: 3799 time_elpased: 0.373502
+225.02
+num: 665 expanded: 5491 updated: 2275 path_len: 173 max_open: 6340 time_elpased: 0.574537
+256.877
+num: 666 expanded: 2472 updated: 861 path_len: 209 max_open: 2995 time_elpased: 0.281516
+159.184
+num: 667 expanded: 1212 updated: 234 path_len: 149 max_open: 1576 time_elpased: 0.173528
+183.049
+num: 668 expanded: 2185 updated: 717 path_len: 136 max_open: 2708 time_elpased: 0.275428
+165.338
+num: 669 expanded: 3565 updated: 1726 path_len: 139 max_open: 4082 time_elpased: 0.391787
+268.836
+num: 670 expanded: 2184 updated: 745 path_len: 228 max_open: 2791 time_elpased: 0.25782
+269.735
+num: 671 expanded: 1322 updated: 477 path_len: 226 max_open: 1886 time_elpased: 0.179737
+250.564
+num: 672 expanded: 2147 updated: 837 path_len: 206 max_open: 2738 time_elpased: 0.253885
+271.99
+num: 673 expanded: 3042 updated: 1780 path_len: 215 max_open: 3449 time_elpased: 0.334529
+268.605
+num: 674 expanded: 1756 updated: 744 path_len: 217 max_open: 2224 time_elpased: 0.215192
+270.907
+num: 675 expanded: 1285 updated: 428 path_len: 228 max_open: 1827 time_elpased: 0.185358
+268.907
+num: 676 expanded: 8303 updated: 4273 path_len: 226 max_open: 8931 time_elpased: 0.832912
+123.414
+num: 677 expanded: 168 updated: 26 path_len: 124 max_open: 420 time_elpased: 0.073725
+218.333
+num: 678 expanded: 3536 updated: 1177 path_len: 163 max_open: 4176 time_elpased: 0.409645
+270.078
+num: 679 expanded: 3387 updated: 1327 path_len: 228 max_open: 3802 time_elpased: 0.370649
+275.392
+num: 680 expanded: 2275 updated: 1011 path_len: 230 max_open: 2724 time_elpased: 0.30595
+273.149
+num: 681 expanded: 2238 updated: 838 path_len: 229 max_open: 2588 time_elpased: 0.25968
+259.948
+num: 682 expanded: 3752 updated: 2182 path_len: 210 max_open: 4316 time_elpased: 0.408526
+191.622
+num: 683 expanded: 5946 updated: 2432 path_len: 157 max_open: 6511 time_elpased: 0.606287
+202.551
+num: 684 expanded: 7078 updated: 2872 path_len: 170 max_open: 7769 time_elpased: 0.719607
+270.806
+num: 685 expanded: 1802 updated: 688 path_len: 225 max_open: 2411 time_elpased: 0.225348
+274.593
+num: 686 expanded: 3392 updated: 1457 path_len: 235 max_open: 3776 time_elpased: 0.364955
+273.25
+num: 687 expanded: 3469 updated: 1744 path_len: 232 max_open: 3949 time_elpased: 0.369398
+266.752
+num: 688 expanded: 2014 updated: 774 path_len: 240 max_open: 2592 time_elpased: 0.241698
+257.233
+num: 689 expanded: 4225 updated: 2474 path_len: 199 max_open: 4825 time_elpased: 0.450474
+279.664
+num: 690 expanded: 2701 updated: 1108 path_len: 238 max_open: 3003 time_elpased: 0.303859
+277.907
+num: 691 expanded: 2448 updated: 1206 path_len: 235 max_open: 2868 time_elpased: 0.28918
+196.865
+num: 692 expanded: 6398 updated: 2450 path_len: 161 max_open: 6979 time_elpased: 0.656673
+269.091
+num: 693 expanded: 2471 updated: 1189 path_len: 215 max_open: 2930 time_elpased: 0.281354
+269.338
+num: 694 expanded: 1893 updated: 775 path_len: 243 max_open: 2359 time_elpased: 0.227613
+252.456
+num: 695 expanded: 2063 updated: 601 path_len: 246 max_open: 2574 time_elpased: 0.249613
+270.936
+num: 696 expanded: 3416 updated: 1153 path_len: 233 max_open: 4258 time_elpased: 0.3677
+267.635
+num: 697 expanded: 3815 updated: 1659 path_len: 221 max_open: 4125 time_elpased: 0.405371
+279.02
+num: 698 expanded: 2217 updated: 1180 path_len: 227 max_open: 2701 time_elpased: 0.260778
+276.12
+num: 699 expanded: 4382 updated: 2378 path_len: 227 max_open: 5032 time_elpased: 0.463527
+268.853
+num: 700 expanded: 3646 updated: 1180 path_len: 245 max_open: 4354 time_elpased: 0.392053
+276.35
+num: 701 expanded: 5302 updated: 1517 path_len: 238 max_open: 5878 time_elpased: 0.540965
+247.162
+num: 702 expanded: 1577 updated: 492 path_len: 191 max_open: 2119 time_elpased: 0.199973
+280.434
+num: 703 expanded: 2339 updated: 1035 path_len: 228 max_open: 2817 time_elpased: 0.271112
+266.083
+num: 704 expanded: 4149 updated: 601 path_len: 253 max_open: 5381 time_elpased: 0.446239
+274.752
+num: 705 expanded: 2281 updated: 809 path_len: 248 max_open: 2654 time_elpased: 0.264761
+282.179
+num: 706 expanded: 2828 updated: 1365 path_len: 243 max_open: 3237 time_elpased: 0.311964
+282.978
+num: 707 expanded: 2059 updated: 728 path_len: 238 max_open: 2435 time_elpased: 0.24275
+233.255
+num: 708 expanded: 5170 updated: 1948 path_len: 221 max_open: 6117 time_elpased: 0.540589
+264.091
+num: 709 expanded: 4834 updated: 1980 path_len: 210 max_open: 5584 time_elpased: 0.500276
+252.355
+num: 710 expanded: 3432 updated: 1301 path_len: 243 max_open: 4239 time_elpased: 0.375655
+229.77
+num: 711 expanded: 3923 updated: 1842 path_len: 220 max_open: 4625 time_elpased: 0.433339
+268.262
+num: 712 expanded: 4020 updated: 2011 path_len: 215 max_open: 4716 time_elpased: 0.420199
+287.191
+num: 713 expanded: 1422 updated: 454 path_len: 236 max_open: 2033 time_elpased: 0.195985
+281.978
+num: 714 expanded: 4410 updated: 1685 path_len: 237 max_open: 4996 time_elpased: 0.469695
+166.078
+num: 715 expanded: 2058 updated: 1311 path_len: 124 max_open: 2527 time_elpased: 0.250557
+218.078
+num: 716 expanded: 5629 updated: 2023 path_len: 176 max_open: 6729 time_elpased: 0.589009
+260.848
+num: 717 expanded: 5676 updated: 1980 path_len: 208 max_open: 6429 time_elpased: 0.587862
+246.392
+num: 718 expanded: 7236 updated: 2693 path_len: 201 max_open: 8056 time_elpased: 0.718929
+286.676
+num: 719 expanded: 3643 updated: 1485 path_len: 233 max_open: 3919 time_elpased: 0.382438
+271.948
+num: 720 expanded: 3013 updated: 1216 path_len: 222 max_open: 3681 time_elpased: 0.338726
+224.024
+num: 721 expanded: 8432 updated: 4620 path_len: 201 max_open: 8987 time_elpased: 0.831983
+261.89
+num: 722 expanded: 1225 updated: 356 path_len: 202 max_open: 1844 time_elpased: 0.173417
+256.314
+num: 723 expanded: 590 updated: 110 path_len: 254 max_open: 1108 time_elpased: 0.11182
+257.74
+num: 724 expanded: 1812 updated: 404 path_len: 243 max_open: 2672 time_elpased: 0.225312
+252.527
+num: 725 expanded: 791 updated: 153 path_len: 244 max_open: 1673 time_elpased: 0.133693
+291.89
+num: 726 expanded: 2427 updated: 961 path_len: 232 max_open: 2948 time_elpased: 0.278206
+229.546
+num: 727 expanded: 2419 updated: 842 path_len: 168 max_open: 3078 time_elpased: 0.288394
+272.475
+num: 728 expanded: 3523 updated: 1329 path_len: 213 max_open: 4234 time_elpased: 0.375719
+289.534
+num: 729 expanded: 1920 updated: 816 path_len: 240 max_open: 2523 time_elpased: 0.233965
+272.203
+num: 730 expanded: 2012 updated: 1226 path_len: 209 max_open: 2776 time_elpased: 0.243934
+210.919
+num: 731 expanded: 1035 updated: 535 path_len: 156 max_open: 1605 time_elpased: 0.151339
+210.995
+num: 732 expanded: 6244 updated: 3106 path_len: 183 max_open: 8491 time_elpased: 0.650716
+274.919
+num: 733 expanded: 3122 updated: 1896 path_len: 220 max_open: 3726 time_elpased: 0.340644
+182.48
+num: 734 expanded: 5397 updated: 2846 path_len: 152 max_open: 6239 time_elpased: 0.558472
+246.669
+num: 735 expanded: 4681 updated: 1980 path_len: 234 max_open: 5245 time_elpased: 0.495873
+295.806
+num: 736 expanded: 3362 updated: 1569 path_len: 250 max_open: 3742 time_elpased: 0.362992
+243.409
+num: 737 expanded: 9618 updated: 5167 path_len: 215 max_open: 10187 time_elpased: 0.957717
+274.083
+num: 738 expanded: 1286 updated: 436 path_len: 261 max_open: 1815 time_elpased: 0.17514
+216.782
+num: 739 expanded: 3022 updated: 1120 path_len: 195 max_open: 5218 time_elpased: 0.348061
+218.238
+num: 740 expanded: 5243 updated: 1874 path_len: 189 max_open: 5871 time_elpased: 0.545069
+287.647
+num: 741 expanded: 3652 updated: 1740 path_len: 229 max_open: 4110 time_elpased: 0.391145
+298.948
+num: 742 expanded: 2268 updated: 899 path_len: 249 max_open: 2809 time_elpased: 0.265216
+256.564
+num: 743 expanded: 8280 updated: 3350 path_len: 212 max_open: 8918 time_elpased: 0.81949
+203.848
+num: 744 expanded: 2711 updated: 2350 path_len: 151 max_open: 3313 time_elpased: 0.310797
+197.137
+num: 745 expanded: 4493 updated: 1760 path_len: 165 max_open: 6702 time_elpased: 0.485965
+287.262
+num: 746 expanded: 4362 updated: 2419 path_len: 234 max_open: 4947 time_elpased: 0.462454
+281.605
+num: 747 expanded: 4424 updated: 1917 path_len: 230 max_open: 5142 time_elpased: 0.461679
+205.64
+num: 748 expanded: 6281 updated: 2869 path_len: 188 max_open: 6889 time_elpased: 0.654972
+296.149
+num: 749 expanded: 4023 updated: 1749 path_len: 252 max_open: 4388 time_elpased: 0.417684
+302.664
+num: 750 expanded: 4344 updated: 2000 path_len: 261 max_open: 4664 time_elpased: 0.445948
+300.848
+num: 751 expanded: 4444 updated: 1885 path_len: 248 max_open: 4883 time_elpased: 0.459534
+302.99
+num: 752 expanded: 2833 updated: 1219 path_len: 246 max_open: 3302 time_elpased: 0.311563
+297.877
+num: 753 expanded: 4635 updated: 1786 path_len: 250 max_open: 5717 time_elpased: 0.49173
+229.51
+num: 754 expanded: 7179 updated: 2772 path_len: 204 max_open: 7861 time_elpased: 0.721009
+273.777
+num: 755 expanded: 3247 updated: 1344 path_len: 223 max_open: 3925 time_elpased: 0.353562
+303.564
+num: 756 expanded: 4067 updated: 1542 path_len: 259 max_open: 4562 time_elpased: 0.424538
+292.363
+num: 757 expanded: 5553 updated: 2179 path_len: 242 max_open: 6197 time_elpased: 0.564813
+299.132
+num: 758 expanded: 4872 updated: 2148 path_len: 238 max_open: 5559 time_elpased: 0.509889
+289.434
+num: 759 expanded: 3453 updated: 1424 path_len: 237 max_open: 4103 time_elpased: 0.379795
+306.877
+num: 760 expanded: 2256 updated: 913 path_len: 259 max_open: 2901 time_elpased: 0.2644
+152.694
+num: 761 expanded: 2208 updated: 702 path_len: 116 max_open: 2635 time_elpased: 0.263167
+306.676
+num: 762 expanded: 3309 updated: 1331 path_len: 253 max_open: 3748 time_elpased: 0.363153
+276.689
+num: 763 expanded: 3159 updated: 1885 path_len: 211 max_open: 3888 time_elpased: 0.355046
+214.451
+num: 764 expanded: 7559 updated: 3888 path_len: 179 max_open: 8093 time_elpased: 0.760175
+307.404
+num: 765 expanded: 2431 updated: 897 path_len: 250 max_open: 2964 time_elpased: 0.279104
+292.522
+num: 766 expanded: 2633 updated: 1079 path_len: 255 max_open: 3374 time_elpased: 0.298515
+290.297
+num: 767 expanded: 1891 updated: 571 path_len: 271 max_open: 2595 time_elpased: 0.236865
+271.546
+num: 768 expanded: 4386 updated: 3330 path_len: 210 max_open: 5047 time_elpased: 0.469001
+273.652
+num: 769 expanded: 11201 updated: 4989 path_len: 244 max_open: 11911 time_elpased: 1.10025
+249.108
+num: 770 expanded: 4890 updated: 1235 path_len: 212 max_open: 7736 time_elpased: 0.518722
+307.505
+num: 771 expanded: 2423 updated: 1032 path_len: 253 max_open: 3176 time_elpased: 0.279998
+310.505
+num: 772 expanded: 1505 updated: 516 path_len: 256 max_open: 2182 time_elpased: 0.196216
+308.806
+num: 773 expanded: 4157 updated: 1643 path_len: 263 max_open: 4617 time_elpased: 0.43019
+245.777
+num: 774 expanded: 9786 updated: 4813 path_len: 195 max_open: 10550 time_elpased: 0.972406
+310.392
+num: 775 expanded: 2461 updated: 1007 path_len: 265 max_open: 2916 time_elpased: 0.277771
+303.463
+num: 776 expanded: 3304 updated: 1224 path_len: 256 max_open: 4180 time_elpased: 0.363606
+290.054
+num: 777 expanded: 6020 updated: 3136 path_len: 272 max_open: 6658 time_elpased: 0.61832
+296.865
+num: 778 expanded: 5161 updated: 2345 path_len: 261 max_open: 5794 time_elpased: 0.532028
+235.468
+num: 779 expanded: 5817 updated: 2331 path_len: 217 max_open: 8375 time_elpased: 0.689972
+239.777
+num: 780 expanded: 6457 updated: 2511 path_len: 189 max_open: 7092 time_elpased: 0.65461
+194.078
+num: 781 expanded: 4623 updated: 1790 path_len: 152 max_open: 5213 time_elpased: 0.479339
+262.468
+num: 782 expanded: 8952 updated: 4099 path_len: 244 max_open: 9849 time_elpased: 0.901601
+197.392
+num: 783 expanded: 4390 updated: 1577 path_len: 152 max_open: 5003 time_elpased: 0.469263
+303.475
+num: 784 expanded: 3327 updated: 1564 path_len: 244 max_open: 3906 time_elpased: 0.364149
+313.007
+num: 785 expanded: 4236 updated: 1773 path_len: 273 max_open: 4655 time_elpased: 0.43477
+296.711
+num: 786 expanded: 1810 updated: 809 path_len: 277 max_open: 2374 time_elpased: 0.223764
+301.676
+num: 787 expanded: 1877 updated: 759 path_len: 248 max_open: 2577 time_elpased: 0.229551
+298.99
+num: 788 expanded: 2555 updated: 958 path_len: 242 max_open: 3250 time_elpased: 0.292873
+281.581
+num: 789 expanded: 3335 updated: 1350 path_len: 254 max_open: 3971 time_elpased: 0.361169
+254.689
+num: 790 expanded: 1339 updated: 435 path_len: 189 max_open: 2031 time_elpased: 0.179864
+317.605
+num: 791 expanded: 3773 updated: 1681 path_len: 266 max_open: 4165 time_elpased: 0.400039
+317.747
+num: 792 expanded: 3551 updated: 1607 path_len: 262 max_open: 4013 time_elpased: 0.376862
+316.404
+num: 793 expanded: 3620 updated: 1563 path_len: 259 max_open: 4115 time_elpased: 0.382173
+318.091
+num: 794 expanded: 3268 updated: 1110 path_len: 264 max_open: 3739 time_elpased: 0.350524
+309.061
+num: 795 expanded: 2389 updated: 770 path_len: 250 max_open: 3129 time_elpased: 0.275518
+257.493
+num: 796 expanded: 7925 updated: 3174 path_len: 215 max_open: 8711 time_elpased: 0.785372
+297.363
+num: 797 expanded: 5793 updated: 3383 path_len: 247 max_open: 6367 time_elpased: 0.597344
+269.546
+num: 798 expanded: 2895 updated: 1338 path_len: 208 max_open: 3546 time_elpased: 0.326783
+233.434
+num: 799 expanded: 5493 updated: 2901 path_len: 181 max_open: 6172 time_elpased: 0.567051
+240.782
+num: 800 expanded: 8403 updated: 3513 path_len: 219 max_open: 9438 time_elpased: 0.891203
+314.333
+num: 801 expanded: 2318 updated: 694 path_len: 259 max_open: 3058 time_elpased: 0.270216
+322.363
+num: 802 expanded: 4310 updated: 1638 path_len: 272 max_open: 4665 time_elpased: 0.445063
+302.877
+num: 803 expanded: 1539 updated: 508 path_len: 255 max_open: 2177 time_elpased: 0.198155
+292.983
+num: 804 expanded: 2866 updated: 1170 path_len: 277 max_open: 3713 time_elpased: 0.325044
+147.137
+num: 805 expanded: 2767 updated: 1052 path_len: 115 max_open: 3157 time_elpased: 0.312741
+312.208
+num: 806 expanded: 2415 updated: 832 path_len: 278 max_open: 2903 time_elpased: 0.277507
+313.51
+num: 807 expanded: 2781 updated: 1236 path_len: 288 max_open: 3246 time_elpased: 0.309915
+322.676
+num: 808 expanded: 4641 updated: 2179 path_len: 269 max_open: 4981 time_elpased: 0.477742
+305.468
+num: 809 expanded: 2224 updated: 753 path_len: 287 max_open: 2753 time_elpased: 0.2601
+305.853
+num: 810 expanded: 1977 updated: 867 path_len: 282 max_open: 2413 time_elpased: 0.240718
+272.694
+num: 811 expanded: 9967 updated: 4981 path_len: 236 max_open: 10706 time_elpased: 0.978899
+325.86
+num: 812 expanded: 2678 updated: 1389 path_len: 261 max_open: 3299 time_elpased: 0.305234
+309.51
+num: 813 expanded: 2386 updated: 1086 path_len: 284 max_open: 2881 time_elpased: 0.270759
+306.689
+num: 814 expanded: 3061 updated: 1331 path_len: 241 max_open: 3783 time_elpased: 0.337068
+195.333
+num: 815 expanded: 542 updated: 265 path_len: 140 max_open: 1100 time_elpased: 0.110107
+299.262
+num: 816 expanded: 3354 updated: 1611 path_len: 246 max_open: 3919 time_elpased: 0.363599
+308.517
+num: 817 expanded: 3206 updated: 1548 path_len: 242 max_open: 3948 time_elpased: 0.353383
+327.091
+num: 818 expanded: 2540 updated: 866 path_len: 273 max_open: 3080 time_elpased: 0.285296
+141.439
+num: 819 expanded: 3470 updated: 1398 path_len: 118 max_open: 3847 time_elpased: 0.378169
+301.002
+num: 820 expanded: 4425 updated: 1956 path_len: 232 max_open: 5196 time_elpased: 0.463141
+329.89
+num: 821 expanded: 4015 updated: 2399 path_len: 270 max_open: 4361 time_elpased: 0.424328
+97.3676
+num: 822 expanded: 1168 updated: 534 path_len: 76 max_open: 1434 time_elpased: 0.164221
+312.262
+num: 823 expanded: 6407 updated: 3320 path_len: 259 max_open: 7096 time_elpased: 0.643654
+323.149
+num: 824 expanded: 1926 updated: 547 path_len: 279 max_open: 2452 time_elpased: 0.231409
+320.961
+num: 825 expanded: 3546 updated: 1509 path_len: 259 max_open: 4313 time_elpased: 0.381988
+329.404
+num: 826 expanded: 3114 updated: 1336 path_len: 272 max_open: 3761 time_elpased: 0.344843
+311.404
+num: 827 expanded: 3684 updated: 1210 path_len: 254 max_open: 4720 time_elpased: 0.396517
+329.789
+num: 828 expanded: 3970 updated: 2214 path_len: 267 max_open: 4439 time_elpased: 0.416449
+331.718
+num: 829 expanded: 2095 updated: 758 path_len: 271 max_open: 2796 time_elpased: 0.248945
+307.539
+num: 830 expanded: 4123 updated: 1652 path_len: 287 max_open: 4822 time_elpased: 0.437186
+325.635
+num: 831 expanded: 1494 updated: 596 path_len: 279 max_open: 2166 time_elpased: 0.193339
+333.747
+num: 832 expanded: 3406 updated: 1936 path_len: 278 max_open: 3946 time_elpased: 0.368807
+324.132
+num: 833 expanded: 7016 updated: 3454 path_len: 263 max_open: 7662 time_elpased: 0.71287
+334.505
+num: 834 expanded: 4807 updated: 1921 path_len: 280 max_open: 5255 time_elpased: 0.48452
+332.404
+num: 835 expanded: 3129 updated: 1174 path_len: 275 max_open: 3604 time_elpased: 0.33773
+334.02
+num: 836 expanded: 3658 updated: 1602 path_len: 282 max_open: 4126 time_elpased: 0.384507
+269.103
+num: 837 expanded: 2236 updated: 1542 path_len: 203 max_open: 2898 time_elpased: 0.265466
+156.35
+num: 838 expanded: 2134 updated: 1091 path_len: 118 max_open: 2619 time_elpased: 0.254438
+150.208
+num: 839 expanded: 2392 updated: 998 path_len: 116 max_open: 2828 time_elpased: 0.27991
+337.032
+num: 840 expanded: 4025 updated: 1971 path_len: 273 max_open: 4577 time_elpased: 0.419254
+317.375
+num: 841 expanded: 4750 updated: 2574 path_len: 255 max_open: 5289 time_elpased: 0.486281
+313.61
+num: 842 expanded: 6640 updated: 3666 path_len: 291 max_open: 7349 time_elpased: 0.679118
+328.404
+num: 843 expanded: 6109 updated: 2757 path_len: 271 max_open: 6794 time_elpased: 0.617976
+330.304
+num: 844 expanded: 3136 updated: 1175 path_len: 270 max_open: 3873 time_elpased: 0.348412
+337.819
+num: 845 expanded: 4586 updated: 1987 path_len: 280 max_open: 4942 time_elpased: 0.466314
+107.48
+num: 846 expanded: 77 updated: 0 path_len: 77 max_open: 383 time_elpased: 0.065914
+294.12
+num: 847 expanded: 5912 updated: 1625 path_len: 245 max_open: 7700 time_elpased: 0.605298
+302.627
+num: 848 expanded: 1540 updated: 730 path_len: 297 max_open: 2156 time_elpased: 0.202942
+319.517
+num: 849 expanded: 2228 updated: 896 path_len: 253 max_open: 3036 time_elpased: 0.265242
+340.304
+num: 850 expanded: 3666 updated: 1292 path_len: 280 max_open: 4187 time_elpased: 0.386135
+333.676
+num: 851 expanded: 3431 updated: 1263 path_len: 280 max_open: 4778 time_elpased: 0.382177
+236.463
+num: 852 expanded: 5524 updated: 2433 path_len: 189 max_open: 6207 time_elpased: 0.569325
+250.877
+num: 853 expanded: 8357 updated: 3914 path_len: 203 max_open: 8993 time_elpased: 0.821517
+331.961
+num: 854 expanded: 1367 updated: 460 path_len: 270 max_open: 2098 time_elpased: 0.186271
+143.936
+num: 855 expanded: 660 updated: 164 path_len: 106 max_open: 1077 time_elpased: 0.116281
+253.149
+num: 856 expanded: 8382 updated: 3029 path_len: 209 max_open: 9103 time_elpased: 0.826953
+325.132
+num: 857 expanded: 3741 updated: 1041 path_len: 264 max_open: 4579 time_elpased: 0.400872
+332.877
+num: 858 expanded: 1760 updated: 609 path_len: 285 max_open: 2456 time_elpased: 0.220024
+289.681
+num: 859 expanded: 9280 updated: 4744 path_len: 265 max_open: 10558 time_elpased: 0.931339
+347.162
+num: 860 expanded: 2695 updated: 935 path_len: 291 max_open: 3199 time_elpased: 0.295052
+293.326
+num: 861 expanded: 6261 updated: 2068 path_len: 279 max_open: 8930 time_elpased: 0.656525
+346.948
+num: 862 expanded: 2685 updated: 1009 path_len: 297 max_open: 3300 time_elpased: 0.299102
+316.931
+num: 863 expanded: 5794 updated: 3742 path_len: 250 max_open: 6502 time_elpased: 0.593701
+330.64
+num: 864 expanded: 4791 updated: 1575 path_len: 313 max_open: 5730 time_elpased: 0.495968
+347.375
+num: 865 expanded: 5818 updated: 1735 path_len: 285 max_open: 6179 time_elpased: 0.57791
+324.711
+num: 866 expanded: 2786 updated: 904 path_len: 305 max_open: 3482 time_elpased: 0.319772
+336.89
+num: 867 expanded: 6721 updated: 3381 path_len: 277 max_open: 7363 time_elpased: 0.688917
+343.321
+num: 868 expanded: 2855 updated: 943 path_len: 300 max_open: 3455 time_elpased: 0.314127
+296.877
+num: 869 expanded: 5024 updated: 1194 path_len: 249 max_open: 6729 time_elpased: 0.519419
+137.279
+num: 870 expanded: 233 updated: 36 path_len: 101 max_open: 617 time_elpased: 0.081708
+348.162
+num: 871 expanded: 2565 updated: 1146 path_len: 292 max_open: 3208 time_elpased: 0.295145
+349.333
+num: 872 expanded: 4662 updated: 2945 path_len: 294 max_open: 5101 time_elpased: 0.484801
+339.73
+num: 873 expanded: 4417 updated: 2470 path_len: 267 max_open: 4936 time_elpased: 0.460113
+326.718
+num: 874 expanded: 5342 updated: 2715 path_len: 266 max_open: 5953 time_elpased: 0.547457
+350.546
+num: 875 expanded: 5308 updated: 2311 path_len: 289 max_open: 5654 time_elpased: 0.536657
+349.89
+num: 876 expanded: 4195 updated: 2374 path_len: 290 max_open: 4552 time_elpased: 0.437292
+333.174
+num: 877 expanded: 2542 updated: 900 path_len: 265 max_open: 3349 time_elpased: 0.288939
+348.02
+num: 878 expanded: 2794 updated: 1007 path_len: 296 max_open: 3359 time_elpased: 0.308986
+138.794
+num: 879 expanded: 1703 updated: 862 path_len: 105 max_open: 2111 time_elpased: 0.215001
+352.103
+num: 880 expanded: 2702 updated: 875 path_len: 286 max_open: 3498 time_elpased: 0.305449
+180.493
+num: 881 expanded: 1724 updated: 384 path_len: 138 max_open: 3190 time_elpased: 0.223401
+350.078
+num: 882 expanded: 1560 updated: 284 path_len: 308 max_open: 2471 time_elpased: 0.205893
+354.032
+num: 883 expanded: 5134 updated: 2224 path_len: 290 max_open: 5494 time_elpased: 0.513493
+336.581
+num: 884 expanded: 3962 updated: 1661 path_len: 309 max_open: 4668 time_elpased: 0.428134
+317.309
+num: 885 expanded: 8664 updated: 3326 path_len: 286 max_open: 9499 time_elpased: 0.844618
+355.233
+num: 886 expanded: 2397 updated: 943 path_len: 297 max_open: 3135 time_elpased: 0.280691
+335.689
+num: 887 expanded: 6312 updated: 3595 path_len: 270 max_open: 6996 time_elpased: 0.64248
+250.919
+num: 888 expanded: 8001 updated: 3810 path_len: 196 max_open: 8820 time_elpased: 0.815087
+354.262
+num: 889 expanded: 3617 updated: 1447 path_len: 301 max_open: 4228 time_elpased: 0.386163
+340.167
+num: 890 expanded: 5911 updated: 2954 path_len: 313 max_open: 6627 time_elpased: 0.603839
+358.806
+num: 891 expanded: 1838 updated: 574 path_len: 313 max_open: 2681 time_elpased: 0.225115
+289.174
+num: 892 expanded: 4954 updated: 3435 path_len: 221 max_open: 5692 time_elpased: 0.510995
+339.162
+num: 893 expanded: 4494 updated: 1892 path_len: 283 max_open: 5428 time_elpased: 0.47146
+340.517
+num: 894 expanded: 2606 updated: 866 path_len: 274 max_open: 3383 time_elpased: 0.302556
+270.422
+num: 895 expanded: 7805 updated: 2559 path_len: 230 max_open: 8500 time_elpased: 0.78385
+320.848
+num: 896 expanded: 9651 updated: 6435 path_len: 268 max_open: 10423 time_elpased: 0.965996
+333.723
+num: 897 expanded: 7652 updated: 4214 path_len: 302 max_open: 8393 time_elpased: 0.758466
+277.848
+num: 898 expanded: 9587 updated: 4885 path_len: 225 max_open: 10267 time_elpased: 0.942678
+349.973
+num: 899 expanded: 4160 updated: 2278 path_len: 276 max_open: 4715 time_elpased: 0.45334
+341.931
+num: 900 expanded: 6682 updated: 3682 path_len: 275 max_open: 7406 time_elpased: 0.665378
+360.446
+num: 901 expanded: 5570 updated: 2434 path_len: 296 max_open: 5906 time_elpased: 0.562549
+112.983
+num: 902 expanded: 2037 updated: 915 path_len: 97 max_open: 2445 time_elpased: 0.25322
+354.446
+num: 903 expanded: 2449 updated: 765 path_len: 290 max_open: 3250 time_elpased: 0.284728
+360.274
+num: 904 expanded: 4532 updated: 2538 path_len: 295 max_open: 5094 time_elpased: 0.487656
+308.144
+num: 905 expanded: 2206 updated: 931 path_len: 235 max_open: 2915 time_elpased: 0.258758
+361.576
+num: 906 expanded: 4859 updated: 2801 path_len: 305 max_open: 5277 time_elpased: 0.502722
+362.819
+num: 907 expanded: 4237 updated: 2400 path_len: 305 max_open: 4771 time_elpased: 0.44428
+354.203
+num: 908 expanded: 3793 updated: 1822 path_len: 291 max_open: 4593 time_elpased: 0.407496
+360.86
+num: 909 expanded: 3772 updated: 1453 path_len: 296 max_open: 4196 time_elpased: 0.394793
+334.012
+num: 910 expanded: 2389 updated: 900 path_len: 323 max_open: 2978 time_elpased: 0.276535
+347.689
+num: 911 expanded: 6831 updated: 2741 path_len: 282 max_open: 7499 time_elpased: 0.691179
+340.559
+num: 912 expanded: 2071 updated: 649 path_len: 267 max_open: 2810 time_elpased: 0.2529
+337.902
+num: 913 expanded: 3690 updated: 1592 path_len: 266 max_open: 4432 time_elpased: 0.396387
+265.907
+num: 914 expanded: 6900 updated: 3293 path_len: 223 max_open: 7718 time_elpased: 0.692593
+365.073
+num: 915 expanded: 3870 updated: 1594 path_len: 294 max_open: 4521 time_elpased: 0.40899
+313.848
+num: 916 expanded: 6842 updated: 2530 path_len: 261 max_open: 7650 time_elpased: 0.679856
+367.446
+num: 917 expanded: 4526 updated: 2417 path_len: 303 max_open: 4984 time_elpased: 0.46703
+348.689
+num: 918 expanded: 5686 updated: 2957 path_len: 283 max_open: 6393 time_elpased: 0.589209
+348.345
+num: 919 expanded: 3823 updated: 1386 path_len: 281 max_open: 4604 time_elpased: 0.40622
+368.061
+num: 920 expanded: 3353 updated: 1755 path_len: 309 max_open: 3953 time_elpased: 0.362465
+352.037
+num: 921 expanded: 2853 updated: 1276 path_len: 317 max_open: 3489 time_elpased: 0.321163
+262.414
+num: 922 expanded: 269 updated: 0 path_len: 263 max_open: 799 time_elpased: 0.084446
+107.439
+num: 923 expanded: 1468 updated: 626 path_len: 84 max_open: 1760 time_elpased: 0.190423
+304.848
+num: 924 expanded: 9701 updated: 6434 path_len: 252 max_open: 10512 time_elpased: 0.960212
+370.475
+num: 925 expanded: 4178 updated: 2396 path_len: 311 max_open: 4625 time_elpased: 0.435907
+371.132
+num: 926 expanded: 5359 updated: 2365 path_len: 310 max_open: 5726 time_elpased: 0.539194
+218.527
+num: 927 expanded: 3451 updated: 1905 path_len: 210 max_open: 4770 time_elpased: 0.382784
+352.618
+num: 928 expanded: 3836 updated: 1586 path_len: 289 max_open: 4769 time_elpased: 0.413548
+293.593
+num: 929 expanded: 8476 updated: 3985 path_len: 254 max_open: 9233 time_elpased: 0.844379
+372.89
+num: 930 expanded: 3596 updated: 1697 path_len: 313 max_open: 4195 time_elpased: 0.381054
+317.735
+num: 931 expanded: 9012 updated: 3364 path_len: 274 max_open: 9723 time_elpased: 0.889986
+325.434
+num: 932 expanded: 13296 updated: 8866 path_len: 273 max_open: 14110 time_elpased: 1.30354
+373.588
+num: 933 expanded: 6211 updated: 2681 path_len: 305 max_open: 6653 time_elpased: 0.614329
+350.551
+num: 934 expanded: 10383 updated: 5488 path_len: 318 max_open: 11253 time_elpased: 1.03276
+354.681
+num: 935 expanded: 2104 updated: 832 path_len: 330 max_open: 2758 time_elpased: 0.248492
+350.995
+num: 936 expanded: 5606 updated: 2790 path_len: 323 max_open: 6610 time_elpased: 0.572
+158.694
+num: 937 expanded: 2531 updated: 1064 path_len: 122 max_open: 2959 time_elpased: 0.294651
+364.735
+num: 938 expanded: 4012 updated: 1954 path_len: 321 max_open: 4657 time_elpased: 0.424808
+349.801
+num: 939 expanded: 1410 updated: 367 path_len: 275 max_open: 2227 time_elpased: 0.188792
+375.961
+num: 940 expanded: 5042 updated: 1898 path_len: 314 max_open: 6039 time_elpased: 0.531118
+376.588
+num: 941 expanded: 5664 updated: 2653 path_len: 308 max_open: 6185 time_elpased: 0.570476
+379.961
+num: 942 expanded: 4207 updated: 1967 path_len: 318 max_open: 4706 time_elpased: 0.433772
+337.882
+num: 943 expanded: 11007 updated: 6484 path_len: 319 max_open: 11824 time_elpased: 1.08474
+315.078
+num: 944 expanded: 6684 updated: 1755 path_len: 273 max_open: 9590 time_elpased: 0.684058
+370.417
+num: 945 expanded: 6200 updated: 2783 path_len: 301 max_open: 7009 time_elpased: 0.630396
+290.806
+num: 946 expanded: 9692 updated: 4983 path_len: 245 max_open: 10537 time_elpased: 0.961328
+377.718
+num: 947 expanded: 5150 updated: 2955 path_len: 317 max_open: 5620 time_elpased: 0.522676
+377.86
+num: 948 expanded: 4736 updated: 2864 path_len: 313 max_open: 5148 time_elpased: 0.489381
+368.488
+num: 949 expanded: 5332 updated: 2743 path_len: 297 max_open: 5830 time_elpased: 0.540699
+344.539
+num: 950 expanded: 3505 updated: 1610 path_len: 324 max_open: 4250 time_elpased: 0.372389
+170.806
+num: 951 expanded: 667 updated: 101 path_len: 125 max_open: 1152 time_elpased: 0.123864
+358.279
+num: 952 expanded: 10240 updated: 5523 path_len: 322 max_open: 11203 time_elpased: 1.02214
+377.605
+num: 953 expanded: 2332 updated: 927 path_len: 326 max_open: 3205 time_elpased: 0.274087
+307.86
+num: 954 expanded: 3012 updated: 1405 path_len: 243 max_open: 3711 time_elpased: 0.33505
+362.174
+num: 955 expanded: 8514 updated: 4490 path_len: 294 max_open: 9167 time_elpased: 0.836649
+317.073
+num: 956 expanded: 4004 updated: 2667 path_len: 246 max_open: 4882 time_elpased: 0.424571
+370.387
+num: 957 expanded: 3576 updated: 1723 path_len: 296 max_open: 4253 time_elpased: 0.382088
+352.015
+num: 958 expanded: 4546 updated: 2450 path_len: 271 max_open: 5291 time_elpased: 0.475189
+310.024
+num: 959 expanded: 7640 updated: 4094 path_len: 287 max_open: 8333 time_elpased: 0.762851
+377.115
+num: 960 expanded: 4028 updated: 1976 path_len: 299 max_open: 4744 time_elpased: 0.424321
+363.853
+num: 961 expanded: 2289 updated: 811 path_len: 340 max_open: 3071 time_elpased: 0.266225
+359.723
+num: 962 expanded: 10456 updated: 5490 path_len: 328 max_open: 11285 time_elpased: 1.04002
+369.51
+num: 963 expanded: 10443 updated: 5545 path_len: 344 max_open: 11325 time_elpased: 1.03482
+358.73
+num: 964 expanded: 2900 updated: 1317 path_len: 286 max_open: 3659 time_elpased: 0.322021
+368.054
+num: 965 expanded: 5348 updated: 1619 path_len: 350 max_open: 6258 time_elpased: 0.555685
+327.564
+num: 966 expanded: 13156 updated: 9266 path_len: 283 max_open: 13987 time_elpased: 1.28734
+385.618
+num: 967 expanded: 6534 updated: 2597 path_len: 322 max_open: 6872 time_elpased: 0.646797
+365.723
+num: 968 expanded: 6626 updated: 3031 path_len: 334 max_open: 7504 time_elpased: 0.67724
+387.931
+num: 969 expanded: 6009 updated: 2274 path_len: 321 max_open: 6479 time_elpased: 0.592948
+223.267
+num: 970 expanded: 6131 updated: 2523 path_len: 199 max_open: 7514 time_elpased: 0.633019
+292.363
+num: 971 expanded: 8210 updated: 3668 path_len: 242 max_open: 8906 time_elpased: 0.813929
+275.142
+num: 972 expanded: 2125 updated: 983 path_len: 272 max_open: 2883 time_elpased: 0.258924
+380.943
+num: 973 expanded: 1953 updated: 607 path_len: 302 max_open: 2855 time_elpased: 0.237026
+375.38
+num: 974 expanded: 7223 updated: 4047 path_len: 342 max_open: 7933 time_elpased: 0.728968
+339.25
+num: 975 expanded: 8499 updated: 3184 path_len: 298 max_open: 9383 time_elpased: 0.83834
+372.772
+num: 976 expanded: 6855 updated: 3058 path_len: 293 max_open: 7517 time_elpased: 0.684395
+142.723
+num: 977 expanded: 2317 updated: 855 path_len: 111 max_open: 2833 time_elpased: 0.271672
+381.529
+num: 978 expanded: 4510 updated: 2172 path_len: 303 max_open: 5235 time_elpased: 0.464498
+372.801
+num: 979 expanded: 3492 updated: 1190 path_len: 298 max_open: 4399 time_elpased: 0.37551
+370.186
+num: 980 expanded: 1912 updated: 791 path_len: 290 max_open: 2785 time_elpased: 0.237876
+199.309
+num: 981 expanded: 6363 updated: 2489 path_len: 168 max_open: 7473 time_elpased: 0.663687
+376.652
+num: 982 expanded: 3767 updated: 1687 path_len: 347 max_open: 4504 time_elpased: 0.402627
+392.605
+num: 983 expanded: 2485 updated: 846 path_len: 341 max_open: 3444 time_elpased: 0.288881
+384.806
+num: 984 expanded: 4227 updated: 2174 path_len: 339 max_open: 4833 time_elpased: 0.441598
+384.902
+num: 985 expanded: 6102 updated: 2597 path_len: 313 max_open: 7021 time_elpased: 0.629927
+252.042
+num: 986 expanded: 3153 updated: 1370 path_len: 246 max_open: 3977 time_elpased: 0.354827
+216.978
+num: 987 expanded: 6747 updated: 2848 path_len: 172 max_open: 7392 time_elpased: 0.684316
+393.872
+num: 988 expanded: 6744 updated: 2648 path_len: 317 max_open: 7098 time_elpased: 0.668383
+393.618
+num: 989 expanded: 6444 updated: 3686 path_len: 330 max_open: 6907 time_elpased: 0.642839
+320.86
+num: 990 expanded: 6609 updated: 2699 path_len: 256 max_open: 7399 time_elpased: 0.653467
+366.635
+num: 991 expanded: 5763 updated: 2696 path_len: 320 max_open: 6719 time_elpased: 0.584492
+338.6
+num: 992 expanded: 3115 updated: 2090 path_len: 258 max_open: 3950 time_elpased: 0.348084
+210.765
+num: 993 expanded: 6616 updated: 2500 path_len: 172 max_open: 7578 time_elpased: 0.667022
+371.694
+num: 994 expanded: 6476 updated: 2759 path_len: 335 max_open: 7286 time_elpased: 0.670419
+371.387
+num: 995 expanded: 8009 updated: 3772 path_len: 297 max_open: 8812 time_elpased: 0.801338
+146.865
+num: 996 expanded: 1892 updated: 659 path_len: 111 max_open: 2296 time_elpased: 0.233085
+228.279
+num: 997 expanded: 6869 updated: 2223 path_len: 192 max_open: 7638 time_elpased: 0.700372
+399.517
+num: 998 expanded: 5912 updated: 3108 path_len: 333 max_open: 6342 time_elpased: 0.593641
+382.024
+num: 999 expanded: 3337 updated: 1242 path_len: 359 max_open: 4175 time_elpased: 0.361341
+229.368
+num: 1000 expanded: 6999 updated: 3821 path_len: 208 max_open: 8769 time_elpased: 0.709534
+383.843
+num: 1001 expanded: 4344 updated: 1786 path_len: 302 max_open: 5171 time_elpased: 0.46226
+382.054
+num: 1002 expanded: 5252 updated: 2151 path_len: 364 max_open: 6192 time_elpased: 0.539084
+383.056
+num: 1003 expanded: 3646 updated: 1282 path_len: 295 max_open: 4394 time_elpased: 0.392071
+393.463
+num: 1004 expanded: 2285 updated: 928 path_len: 346 max_open: 3133 time_elpased: 0.267347
+312.73
+num: 1005 expanded: 3883 updated: 2180 path_len: 240 max_open: 4667 time_elpased: 0.418659
+202.38
+num: 1006 expanded: 7013 updated: 2533 path_len: 169 max_open: 7590 time_elpased: 0.700001
+402.63
+num: 1007 expanded: 7811 updated: 2450 path_len: 327 max_open: 8250 time_elpased: 0.764488
+401.316
+num: 1008 expanded: 6200 updated: 2542 path_len: 329 max_open: 6559 time_elpased: 0.609449
+161.61
+num: 1009 expanded: 4298 updated: 1681 path_len: 139 max_open: 4951 time_elpased: 0.461808
+404.417
+num: 1010 expanded: 5742 updated: 2603 path_len: 335 max_open: 6258 time_elpased: 0.583709
+388.907
+num: 1011 expanded: 1557 updated: 495 path_len: 346 max_open: 2372 time_elpased: 0.205245
+346.919
+num: 1012 expanded: 14644 updated: 8458 path_len: 292 max_open: 15601 time_elpased: 1.43344
+334.316
+num: 1013 expanded: 3643 updated: 1669 path_len: 262 max_open: 4358 time_elpased: 0.387807
+322.777
+num: 1014 expanded: 10884 updated: 5631 path_len: 272 max_open: 11679 time_elpased: 1.06399
+210.338
+num: 1015 expanded: 5717 updated: 1521 path_len: 184 max_open: 6437 time_elpased: 0.594677
+387.914
+num: 1016 expanded: 6499 updated: 3892 path_len: 304 max_open: 7240 time_elpased: 0.64969
+345.358
+num: 1017 expanded: 3637 updated: 2044 path_len: 266 max_open: 4511 time_elpased: 0.394152
+325.458
+num: 1018 expanded: 2341 updated: 944 path_len: 249 max_open: 3084 time_elpased: 0.272249
+349.12
+num: 1019 expanded: 16755 updated: 10328 path_len: 300 max_open: 17714 time_elpased: 1.63355
+384.078
+num: 1020 expanded: 6132 updated: 3066 path_len: 342 max_open: 7004 time_elpased: 0.627605
+392.551
+num: 1021 expanded: 13218 updated: 7858 path_len: 360 max_open: 14262 time_elpased: 1.26684
+410.345
+num: 1022 expanded: 6354 updated: 2891 path_len: 343 max_open: 6728 time_elpased: 0.627412
+390.47
+num: 1023 expanded: 6114 updated: 3478 path_len: 302 max_open: 6867 time_elpased: 0.613783
+214.414
+num: 1024 expanded: 272 updated: 5 path_len: 215 max_open: 708 time_elpased: 0.083016
+347.434
+num: 1025 expanded: 14891 updated: 8447 path_len: 295 max_open: 15793 time_elpased: 1.48321
+408.931
+num: 1026 expanded: 4064 updated: 1513 path_len: 342 max_open: 4681 time_elpased: 0.436954
+227.627
+num: 1027 expanded: 2691 updated: 1118 path_len: 222 max_open: 3445 time_elpased: 0.311063
+388.309
+num: 1028 expanded: 6039 updated: 2190 path_len: 357 max_open: 6707 time_elpased: 0.613173
+390.196
+num: 1029 expanded: 5778 updated: 1948 path_len: 368 max_open: 6654 time_elpased: 0.583242
+359.747
+num: 1030 expanded: 15934 updated: 9400 path_len: 304 max_open: 17084 time_elpased: 1.52305
+353.6
+num: 1031 expanded: 2953 updated: 1085 path_len: 273 max_open: 3771 time_elpased: 0.329923
+394.086
+num: 1032 expanded: 6303 updated: 2589 path_len: 311 max_open: 7187 time_elpased: 0.650658
+402.144
+num: 1033 expanded: 6023 updated: 3613 path_len: 329 max_open: 6508 time_elpased: 0.628527
+413.032
+num: 1034 expanded: 5883 updated: 3401 path_len: 349 max_open: 6356 time_elpased: 0.590855
+395.978
+num: 1035 expanded: 2108 updated: 750 path_len: 351 max_open: 3009 time_elpased: 0.252225
+210.414
+num: 1036 expanded: 409 updated: 122 path_len: 211 max_open: 836 time_elpased: 0.101216
+400.73
+num: 1037 expanded: 5642 updated: 2445 path_len: 328 max_open: 6306 time_elpased: 0.576769
+176.681
+num: 1038 expanded: 4819 updated: 2102 path_len: 152 max_open: 6017 time_elpased: 0.508263
+385.399
+num: 1039 expanded: 4497 updated: 2334 path_len: 299 max_open: 5190 time_elpased: 0.468909
+381.973
+num: 1040 expanded: 6547 updated: 2736 path_len: 308 max_open: 7368 time_elpased: 0.652825
+391.066
+num: 1041 expanded: 8074 updated: 3553 path_len: 361 max_open: 8916 time_elpased: 0.814578
+358.919
+num: 1042 expanded: 8893 updated: 2252 path_len: 304 max_open: 10878 time_elpased: 0.870234
+418.73
+num: 1043 expanded: 4605 updated: 1758 path_len: 346 max_open: 5151 time_elpased: 0.469403
+357.652
+num: 1044 expanded: 17844 updated: 10760 path_len: 328 max_open: 18834 time_elpased: 1.71454
+382.144
+num: 1045 expanded: 7386 updated: 2709 path_len: 309 max_open: 8228 time_elpased: 0.732194
+400.12
+num: 1046 expanded: 4377 updated: 2082 path_len: 351 max_open: 5471 time_elpased: 0.467644
+417.216
+num: 1047 expanded: 7427 updated: 3241 path_len: 342 max_open: 7846 time_elpased: 0.726223
+398.144
+num: 1048 expanded: 9143 updated: 5613 path_len: 325 max_open: 9949 time_elpased: 0.904836
+374.86
+num: 1049 expanded: 14012 updated: 8687 path_len: 310 max_open: 14860 time_elpased: 1.3621
+411.529
+num: 1050 expanded: 2815 updated: 1013 path_len: 333 max_open: 3754 time_elpased: 0.313215
+401.794
+num: 1051 expanded: 11715 updated: 5821 path_len: 368 max_open: 12678 time_elpased: 1.13464
+359.333
+num: 1052 expanded: 12769 updated: 7785 path_len: 304 max_open: 13624 time_elpased: 1.21555
+415.529
+num: 1053 expanded: 4308 updated: 1829 path_len: 337 max_open: 5261 time_elpased: 0.458265
+413.115
+num: 1054 expanded: 3663 updated: 1592 path_len: 335 max_open: 4591 time_elpased: 0.398836
+340.676
+num: 1055 expanded: 11759 updated: 6261 path_len: 287 max_open: 12649 time_elpased: 1.15507
+355.681
+num: 1056 expanded: 5206 updated: 2072 path_len: 331 max_open: 5953 time_elpased: 0.534451
+203.338
+num: 1057 expanded: 5840 updated: 2070 path_len: 177 max_open: 7360 time_elpased: 0.615107
+396.179
+num: 1058 expanded: 8290 updated: 2974 path_len: 357 max_open: 9523 time_elpased: 0.944107
+390.328
+num: 1059 expanded: 5443 updated: 2846 path_len: 306 max_open: 6110 time_elpased: 0.554213
+409.966
+num: 1060 expanded: 13778 updated: 8105 path_len: 377 max_open: 14878 time_elpased: 1.38096
+357.091
+num: 1061 expanded: 14176 updated: 8296 path_len: 303 max_open: 15099 time_elpased: 1.38395
+401.701
+num: 1062 expanded: 5994 updated: 2995 path_len: 324 max_open: 6705 time_elpased: 0.602566
+371.233
+num: 1063 expanded: 17256 updated: 9693 path_len: 313 max_open: 18239 time_elpased: 1.66031
+383.853
+num: 1064 expanded: 3837 updated: 1580 path_len: 360 max_open: 4447 time_elpased: 0.408004
+406.037
+num: 1065 expanded: 8998 updated: 4725 path_len: 371 max_open: 9870 time_elpased: 0.887796
+406.257
+num: 1066 expanded: 2586 updated: 907 path_len: 324 max_open: 3545 time_elpased: 0.297671
+416.115
+num: 1067 expanded: 4394 updated: 1656 path_len: 338 max_open: 5401 time_elpased: 0.458542
+408.551
+num: 1068 expanded: 12089 updated: 6623 path_len: 376 max_open: 13088 time_elpased: 1.17845
+390.024
+num: 1069 expanded: 10730 updated: 7001 path_len: 367 max_open: 11774 time_elpased: 1.06684
+367.162
+num: 1070 expanded: 14200 updated: 7886 path_len: 311 max_open: 15089 time_elpased: 1.39132
+216.167
+num: 1071 expanded: 7841 updated: 3698 path_len: 189 max_open: 8461 time_elpased: 0.800778
+396.267
+num: 1072 expanded: 12652 updated: 8153 path_len: 372 max_open: 13773 time_elpased: 1.23954
+374.635
+num: 1073 expanded: 20644 updated: 11733 path_len: 328 max_open: 21659 time_elpased: 2.00597
+199.096
+num: 1074 expanded: 6441 updated: 2657 path_len: 174 max_open: 7423 time_elpased: 0.661593
+173.397
+num: 1075 expanded: 2994 updated: 1441 path_len: 157 max_open: 3463 time_elpased: 0.338384
+411.571
+num: 1076 expanded: 3003 updated: 923 path_len: 326 max_open: 3976 time_elpased: 0.335402
+428.458
+num: 1077 expanded: 6576 updated: 2643 path_len: 352 max_open: 6941 time_elpased: 0.640342
+413.441
+num: 1078 expanded: 3262 updated: 890 path_len: 320 max_open: 4393 time_elpased: 0.357005
+381.618
+num: 1079 expanded: 8357 updated: 2614 path_len: 318 max_open: 9903 time_elpased: 0.821062
+382.032
+num: 1080 expanded: 8858 updated: 2905 path_len: 318 max_open: 9761 time_elpased: 0.863427
+376.132
+num: 1081 expanded: 14950 updated: 8728 path_len: 315 max_open: 15906 time_elpased: 1.46014
+396.174
+num: 1082 expanded: 20503 updated: 12078 path_len: 328 max_open: 21594 time_elpased: 2.00172
+348.434
+num: 1083 expanded: 11616 updated: 6165 path_len: 296 max_open: 12434 time_elpased: 1.11734
+370.505
+num: 1084 expanded: 15722 updated: 9201 path_len: 316 max_open: 16583 time_elpased: 1.52036
+224.64
+num: 1085 expanded: 4736 updated: 2365 path_len: 207 max_open: 6012 time_elpased: 0.503289
+361.576
+num: 1086 expanded: 7023 updated: 2676 path_len: 305 max_open: 7846 time_elpased: 0.734649
+338.966
+num: 1087 expanded: 9720 updated: 3813 path_len: 306 max_open: 10401 time_elpased: 0.950333
+354.676
+num: 1088 expanded: 10355 updated: 3829 path_len: 301 max_open: 11122 time_elpased: 0.997753
+371.551
+num: 1089 expanded: 18066 updated: 10342 path_len: 339 max_open: 19131 time_elpased: 1.75667
+343.061
+num: 1090 expanded: 9086 updated: 3521 path_len: 284 max_open: 9813 time_elpased: 0.890235
+242.284
+num: 1091 expanded: 4008 updated: 1930 path_len: 235 max_open: 4808 time_elpased: 0.428496
+402.581
+num: 1092 expanded: 4161 updated: 1789 path_len: 375 max_open: 4790 time_elpased: 0.432661
+438.458
+num: 1093 expanded: 5600 updated: 2697 path_len: 362 max_open: 6542 time_elpased: 0.579878
+393.689
+num: 1094 expanded: 14990 updated: 8884 path_len: 328 max_open: 15942 time_elpased: 1.46572
+405.096
+num: 1095 expanded: 11217 updated: 7197 path_len: 380 max_open: 12227 time_elpased: 1.11049
+371.475
+num: 1096 expanded: 14406 updated: 8408 path_len: 312 max_open: 15297 time_elpased: 1.40066
+353.622
+num: 1097 expanded: 16655 updated: 8759 path_len: 319 max_open: 17604 time_elpased: 1.62329
+439.701
+num: 1098 expanded: 7837 updated: 3465 path_len: 362 max_open: 8263 time_elpased: 0.769052
+383.605
+num: 1099 expanded: 9272 updated: 2538 path_len: 332 max_open: 11582 time_elpased: 0.907762
+443.843
+num: 1100 expanded: 8286 updated: 3577 path_len: 362 max_open: 8627 time_elpased: 0.803453
+258.267
+num: 1101 expanded: 4902 updated: 1469 path_len: 234 max_open: 8447 time_elpased: 0.528397
+427.978
+num: 1102 expanded: 8043 updated: 3205 path_len: 383 max_open: 8844 time_elpased: 0.790419
+375.463
+num: 1103 expanded: 19853 updated: 10096 path_len: 328 max_open: 21168 time_elpased: 1.91478
+389.723
+num: 1104 expanded: 16383 updated: 9611 path_len: 358 max_open: 17301 time_elpased: 1.58922
+356.63
+num: 1105 expanded: 9131 updated: 5689 path_len: 281 max_open: 10068 time_elpased: 0.907919
+389.571
+num: 1106 expanded: 6702 updated: 4214 path_len: 304 max_open: 7551 time_elpased: 0.677688
+422.948
+num: 1107 expanded: 8700 updated: 4426 path_len: 373 max_open: 9591 time_elpased: 0.851284
+423.622
+num: 1108 expanded: 5233 updated: 2451 path_len: 389 max_open: 6343 time_elpased: 0.53622
+431.885
+num: 1109 expanded: 8305 updated: 3855 path_len: 343 max_open: 9024 time_elpased: 0.832974
+430.157
+num: 1110 expanded: 4264 updated: 1818 path_len: 345 max_open: 5122 time_elpased: 0.446915
+412.38
+num: 1111 expanded: 4438 updated: 2545 path_len: 379 max_open: 5258 time_elpased: 0.460295
+374.451
+num: 1112 expanded: 16642 updated: 9552 path_len: 339 max_open: 17626 time_elpased: 1.60611
+376.966
+num: 1113 expanded: 20399 updated: 10780 path_len: 344 max_open: 21562 time_elpased: 1.96829
+398.02
+num: 1114 expanded: 17395 updated: 9684 path_len: 346 max_open: 18269 time_elpased: 1.68912
+427.613
+num: 1115 expanded: 5219 updated: 2446 path_len: 335 max_open: 5977 time_elpased: 0.529218
+427.25
+num: 1116 expanded: 10801 updated: 5675 path_len: 386 max_open: 11756 time_elpased: 1.06349
+224.9
+num: 1117 expanded: 1567 updated: 606 path_len: 223 max_open: 2094 time_elpased: 0.200873
+363.203
+num: 1118 expanded: 11664 updated: 6594 path_len: 300 max_open: 12645 time_elpased: 1.11974
+216.338
+num: 1119 expanded: 5805 updated: 2431 path_len: 190 max_open: 6868 time_elpased: 0.610135
+431.228
+num: 1120 expanded: 4054 updated: 1397 path_len: 344 max_open: 5077 time_elpased: 0.433917
+257.338
+num: 1121 expanded: 8639 updated: 5087 path_len: 231 max_open: 10521 time_elpased: 0.885049
+399.931
+num: 1122 expanded: 9756 updated: 3068 path_len: 333 max_open: 11429 time_elpased: 0.957983
+229.711
+num: 1123 expanded: 6850 updated: 2966 path_len: 210 max_open: 8343 time_elpased: 0.71535
+429.613
+num: 1124 expanded: 2270 updated: 617 path_len: 337 max_open: 3295 time_elpased: 0.266386
+436.973
+num: 1125 expanded: 3590 updated: 1281 path_len: 363 max_open: 4592 time_elpased: 0.392818
+349.794
+num: 1126 expanded: 15398 updated: 7609 path_len: 316 max_open: 16536 time_elpased: 1.47184
+368.309
+num: 1127 expanded: 19673 updated: 10387 path_len: 337 max_open: 20889 time_elpased: 1.90391
+418.338
+num: 1128 expanded: 14355 updated: 8701 path_len: 392 max_open: 15542 time_elpased: 1.37689
+424.997
+num: 1129 expanded: 4939 updated: 2972 path_len: 327 max_open: 5870 time_elpased: 0.512832
+427.441
+num: 1130 expanded: 1961 updated: 638 path_len: 334 max_open: 2977 time_elpased: 0.238567
+444.772
+num: 1131 expanded: 6484 updated: 3102 path_len: 365 max_open: 7317 time_elpased: 0.663652
+253.48
+num: 1132 expanded: 9673 updated: 3407 path_len: 223 max_open: 10811 time_elpased: 1.18454
+444.02
+num: 1133 expanded: 5297 updated: 2661 path_len: 392 max_open: 6043 time_elpased: 0.547977
+427.654
+num: 1134 expanded: 5998 updated: 2868 path_len: 328 max_open: 6931 time_elpased: 0.633424
+426.5
+num: 1135 expanded: 4373 updated: 1802 path_len: 343 max_open: 5332 time_elpased: 0.481106
+435.341
+num: 1136 expanded: 4227 updated: 1660 path_len: 339 max_open: 5364 time_elpased: 0.543593
+396.865
+num: 1137 expanded: 19157 updated: 10846 path_len: 361 max_open: 20073 time_elpased: 2.02956
+437.826
+num: 1138 expanded: 3497 updated: 1585 path_len: 339 max_open: 4548 time_elpased: 0.452955
+428.321
+num: 1139 expanded: 10493 updated: 4596 path_len: 385 max_open: 11464 time_elpased: 1.10102
+437.463
+num: 1140 expanded: 7542 updated: 2937 path_len: 390 max_open: 8322 time_elpased: 0.846961
+432.755
+num: 1141 expanded: 1658 updated: 670 path_len: 336 max_open: 2693 time_elpased: 0.224069
+267.895
+num: 1142 expanded: 10354 updated: 6082 path_len: 237 max_open: 12412 time_elpased: 1.08244
+424.167
+num: 1143 expanded: 4071 updated: 1900 path_len: 397 max_open: 4750 time_elpased: 0.435754
+445.6
+num: 1144 expanded: 3432 updated: 1328 path_len: 365 max_open: 4461 time_elpased: 0.380154
+405.843
+num: 1145 expanded: 6779 updated: 3561 path_len: 324 max_open: 7520 time_elpased: 0.680697
+370.559
+num: 1146 expanded: 11581 updated: 6884 path_len: 297 max_open: 12501 time_elpased: 1.23816
+436.534
+num: 1147 expanded: 6349 updated: 2905 path_len: 387 max_open: 7192 time_elpased: 0.715187
+403.819
+num: 1148 expanded: 12227 updated: 4339 path_len: 346 max_open: 13242 time_elpased: 1.26373
+362.895
+num: 1149 expanded: 6039 updated: 1811 path_len: 332 max_open: 7852 time_elpased: 0.6426
+460.429
+num: 1150 expanded: 7744 updated: 3680 path_len: 379 max_open: 8106 time_elpased: 0.766317
+442.784
+num: 1151 expanded: 5311 updated: 2114 path_len: 351 max_open: 6162 time_elpased: 0.546386
+447.772
+num: 1152 expanded: 3606 updated: 1464 path_len: 368 max_open: 4572 time_elpased: 0.393665
+447.191
+num: 1153 expanded: 7551 updated: 3757 path_len: 396 max_open: 8437 time_elpased: 0.759245
+267.066
+num: 1154 expanded: 10152 updated: 5737 path_len: 237 max_open: 12297 time_elpased: 1.02234
+403.304
+num: 1155 expanded: 11517 updated: 4493 path_len: 343 max_open: 12179 time_elpased: 1.11192
+433.269
+num: 1156 expanded: 2069 updated: 742 path_len: 339 max_open: 3088 time_elpased: 0.251267
+462.943
+num: 1157 expanded: 7555 updated: 3263 path_len: 384 max_open: 7906 time_elpased: 0.739524
+360.765
+num: 1158 expanded: 6301 updated: 1907 path_len: 322 max_open: 8513 time_elpased: 0.641995
+435.855
+num: 1159 expanded: 3005 updated: 1374 path_len: 342 max_open: 3937 time_elpased: 0.33671
+448.613
+num: 1160 expanded: 4276 updated: 1737 path_len: 356 max_open: 5368 time_elpased: 0.448078
+441.936
+num: 1161 expanded: 15395 updated: 8392 path_len: 404 max_open: 16495 time_elpased: 1.5053
+464.872
+num: 1162 expanded: 6990 updated: 2940 path_len: 388 max_open: 7652 time_elpased: 0.699952
+442.463
+num: 1163 expanded: 7342 updated: 2998 path_len: 395 max_open: 8229 time_elpased: 0.728619
+439.37
+num: 1164 expanded: 10099 updated: 5890 path_len: 348 max_open: 11113 time_elpased: 0.999856
+389.914
+num: 1165 expanded: 9966 updated: 6215 path_len: 306 max_open: 10893 time_elpased: 0.995166
+446.784
+num: 1166 expanded: 8891 updated: 4723 path_len: 355 max_open: 9728 time_elpased: 0.871769
+455.044
+num: 1167 expanded: 6269 updated: 3014 path_len: 379 max_open: 7131 time_elpased: 0.631095
+426.404
+num: 1168 expanded: 19580 updated: 11514 path_len: 369 max_open: 20528 time_elpased: 1.8881
+447.985
+num: 1169 expanded: 7926 updated: 4335 path_len: 362 max_open: 8790 time_elpased: 0.788908
+451.493
+num: 1170 expanded: 14902 updated: 8377 path_len: 409 max_open: 16048 time_elpased: 1.45759
+443.208
+num: 1171 expanded: 5919 updated: 2413 path_len: 409 max_open: 6816 time_elpased: 0.596783
+451.642
+num: 1172 expanded: 3676 updated: 1425 path_len: 364 max_open: 4927 time_elpased: 0.399467
+455.049
+num: 1173 expanded: 1911 updated: 726 path_len: 408 max_open: 2847 time_elpased: 0.235179
+453.056
+num: 1174 expanded: 4162 updated: 1622 path_len: 365 max_open: 5276 time_elpased: 0.448226
+407.304
+num: 1175 expanded: 8742 updated: 4436 path_len: 347 max_open: 9548 time_elpased: 0.848064
+220.083
+num: 1176 expanded: 4561 updated: 2198 path_len: 207 max_open: 5274 time_elpased: 0.477797
+443.554
+num: 1177 expanded: 3745 updated: 1805 path_len: 341 max_open: 4638 time_elpased: 0.424995
+452.819
+num: 1178 expanded: 8758 updated: 4253 path_len: 395 max_open: 9676 time_elpased: 0.868677
+429.742
+num: 1179 expanded: 8359 updated: 3760 path_len: 345 max_open: 9170 time_elpased: 0.812211
+436.956
+num: 1180 expanded: 7868 updated: 3416 path_len: 346 max_open: 8696 time_elpased: 0.776562
+453.907
+num: 1181 expanded: 4852 updated: 2401 path_len: 411 max_open: 5518 time_elpased: 0.498363
+442.25
+num: 1182 expanded: 5690 updated: 2528 path_len: 401 max_open: 6324 time_elpased: 0.577631
+459.198
+num: 1183 expanded: 7929 updated: 3612 path_len: 367 max_open: 8844 time_elpased: 0.795268
+456.404
+num: 1184 expanded: 8785 updated: 4588 path_len: 399 max_open: 9483 time_elpased: 0.862588
+445.713
+num: 1185 expanded: 3995 updated: 1912 path_len: 356 max_open: 4869 time_elpased: 0.4217
+435.985
+num: 1186 expanded: 8021 updated: 3500 path_len: 350 max_open: 8843 time_elpased: 0.798151
+431.316
+num: 1187 expanded: 17794 updated: 10392 path_len: 359 max_open: 18802 time_elpased: 1.71888
+458.47
+num: 1188 expanded: 2717 updated: 1035 path_len: 370 max_open: 3800 time_elpased: 0.307551
+456.191
+num: 1189 expanded: 9250 updated: 4611 path_len: 405 max_open: 10210 time_elpased: 0.91538
+433.086
+num: 1190 expanded: 8540 updated: 3609 path_len: 350 max_open: 9271 time_elpased: 0.832939
+396.517
+num: 1191 expanded: 13903 updated: 7782 path_len: 330 max_open: 14880 time_elpased: 1.36149
+419.789
+num: 1192 expanded: 18933 updated: 10382 path_len: 357 max_open: 19934 time_elpased: 1.82474
+462.806
+num: 1193 expanded: 3184 updated: 957 path_len: 417 max_open: 4077 time_elpased: 0.350323
+401.493
+num: 1194 expanded: 19760 updated: 10346 path_len: 359 max_open: 20693 time_elpased: 1.90752
+464.049
+num: 1195 expanded: 4385 updated: 1823 path_len: 417 max_open: 5217 time_elpased: 0.45467
+462.872
+num: 1196 expanded: 6894 updated: 3501 path_len: 386 max_open: 7739 time_elpased: 0.690862
+437.056
+num: 1197 expanded: 7497 updated: 3368 path_len: 349 max_open: 8276 time_elpased: 0.745545
+451.926
+num: 1198 expanded: 2540 updated: 1238 path_len: 356 max_open: 3532 time_elpased: 0.292427
+460.198
+num: 1199 expanded: 7479 updated: 3405 path_len: 368 max_open: 8312 time_elpased: 0.737081
+463.47
+num: 1200 expanded: 9030 updated: 3800 path_len: 375 max_open: 9929 time_elpased: 0.879318
+466.747
+num: 1201 expanded: 9394 updated: 4761 path_len: 411 max_open: 10282 time_elpased: 0.913025
+389.321
+num: 1202 expanded: 7809 updated: 3182 path_len: 346 max_open: 8455 time_elpased: 0.772383
+456.826
+num: 1203 expanded: 6019 updated: 2784 path_len: 358 max_open: 6942 time_elpased: 0.615316
+454.441
+num: 1204 expanded: 9830 updated: 5436 path_len: 361 max_open: 10790 time_elpased: 0.961111
+440.328
+num: 1205 expanded: 16419 updated: 9922 path_len: 356 max_open: 17439 time_elpased: 1.58105
+466.191
+num: 1206 expanded: 4992 updated: 2865 path_len: 415 max_open: 5757 time_elpased: 0.512928
+424.245
+num: 1207 expanded: 10456 updated: 3224 path_len: 354 max_open: 12587 time_elpased: 1.12431
+417.576
+num: 1208 expanded: 19459 updated: 10393 path_len: 361 max_open: 20552 time_elpased: 1.8831
+465.684
+num: 1209 expanded: 8707 updated: 4986 path_len: 371 max_open: 9607 time_elpased: 0.919319
+467.926
+num: 1210 expanded: 4081 updated: 1519 path_len: 372 max_open: 5178 time_elpased: 0.433275
+466.948
+num: 1211 expanded: 10062 updated: 4701 path_len: 417 max_open: 11096 time_elpased: 1.00369
+403.429
+num: 1212 expanded: 12245 updated: 7441 path_len: 322 max_open: 13230 time_elpased: 1.19316
+444.664
+num: 1213 expanded: 7599 updated: 3764 path_len: 403 max_open: 8719 time_elpased: 0.75396
+455.897
+num: 1214 expanded: 7625 updated: 4304 path_len: 355 max_open: 8541 time_elpased: 0.757879
+467.897
+num: 1215 expanded: 7624 updated: 3353 path_len: 367 max_open: 8521 time_elpased: 0.752482
+468.198
+num: 1216 expanded: 8375 updated: 3809 path_len: 376 max_open: 9372 time_elpased: 0.834225
+395.735
+num: 1217 expanded: 17988 updated: 9365 path_len: 352 max_open: 19037 time_elpased: 1.72629
+416.885
+num: 1218 expanded: 12022 updated: 7541 path_len: 328 max_open: 12996 time_elpased: 1.16817
+471.162
+num: 1219 expanded: 12368 updated: 6065 path_len: 415 max_open: 13293 time_elpased: 1.20575
+464.049
+num: 1220 expanded: 13848 updated: 6382 path_len: 417 max_open: 15029 time_elpased: 1.36794
+491.216
+num: 1221 expanded: 8154 updated: 2898 path_len: 416 max_open: 8543 time_elpased: 0.794803
+444.914
+num: 1222 expanded: 16515 updated: 9636 path_len: 361 max_open: 17591 time_elpased: 1.60929
+464.777
+num: 1223 expanded: 12075 updated: 5105 path_len: 414 max_open: 13272 time_elpased: 1.194
+440.073
+num: 1224 expanded: 20605 updated: 11666 path_len: 369 max_open: 21706 time_elpased: 1.99729
+436.144
+num: 1225 expanded: 19475 updated: 10770 path_len: 363 max_open: 20543 time_elpased: 1.87354
+445.287
+num: 1226 expanded: 20328 updated: 11655 path_len: 368 max_open: 21426 time_elpased: 1.97468
+473.392
+num: 1227 expanded: 10189 updated: 3102 path_len: 428 max_open: 11756 time_elpased: 0.982278
+472.684
+num: 1228 expanded: 5944 updated: 2348 path_len: 378 max_open: 7141 time_elpased: 0.600236
+471.919
+num: 1229 expanded: 14951 updated: 7575 path_len: 417 max_open: 15970 time_elpased: 1.45814
+471.534
+num: 1230 expanded: 8528 updated: 3933 path_len: 422 max_open: 9484 time_elpased: 0.822437
+439.571
+num: 1231 expanded: 8367 updated: 3776 path_len: 354 max_open: 9106 time_elpased: 0.810681
+471.89
+num: 1232 expanded: 9019 updated: 4290 path_len: 412 max_open: 9919 time_elpased: 0.885216
+474.919
+num: 1233 expanded: 12560 updated: 5835 path_len: 420 max_open: 13568 time_elpased: 1.2058
+432.22
+num: 1234 expanded: 20048 updated: 10557 path_len: 386 max_open: 21165 time_elpased: 1.92654
+477.091
+num: 1235 expanded: 7354 updated: 3480 path_len: 423 max_open: 7978 time_elpased: 0.724115
+476.642
+num: 1236 expanded: 6854 updated: 3396 path_len: 389 max_open: 7801 time_elpased: 0.678619
+470.311
+num: 1237 expanded: 6971 updated: 3329 path_len: 369 max_open: 7915 time_elpased: 0.704302
+479.333
+num: 1238 expanded: 9630 updated: 4425 path_len: 424 max_open: 10506 time_elpased: 0.933569
+473.12
+num: 1239 expanded: 12295 updated: 5958 path_len: 424 max_open: 13326 time_elpased: 1.1993
+473.635
+num: 1240 expanded: 7497 updated: 3229 path_len: 427 max_open: 8251 time_elpased: 0.739975
+467.493
+num: 1241 expanded: 13981 updated: 7078 path_len: 425 max_open: 15177 time_elpased: 1.36174
+464.978
+num: 1242 expanded: 12158 updated: 5894 path_len: 420 max_open: 13345 time_elpased: 1.19625
+428.931
+num: 1243 expanded: 17784 updated: 9191 path_len: 362 max_open: 18849 time_elpased: 1.73167
+480.605
+num: 1244 expanded: 2528 updated: 826 path_len: 429 max_open: 3547 time_elpased: 0.307618
+479.684
+num: 1245 expanded: 9059 updated: 4590 path_len: 385 max_open: 9956 time_elpased: 0.884225
+481.784
+num: 1246 expanded: 4064 updated: 1344 path_len: 390 max_open: 5207 time_elpased: 0.437337
+479.483
+num: 1247 expanded: 3042 updated: 1436 path_len: 379 max_open: 4132 time_elpased: 0.332448
+419.149
+num: 1248 expanded: 8366 updated: 3631 path_len: 375 max_open: 9178 time_elpased: 0.814138
+445.429
+num: 1249 expanded: 11056 updated: 4455 path_len: 364 max_open: 11919 time_elpased: 1.05599
+482.796
+num: 1250 expanded: 7386 updated: 3512 path_len: 379 max_open: 8247 time_elpased: 0.727436
+478.99
+num: 1251 expanded: 15989 updated: 8049 path_len: 422 max_open: 16896 time_elpased: 1.52827
+487.505
+num: 1252 expanded: 7770 updated: 3429 path_len: 433 max_open: 8768 time_elpased: 0.777385
+483.262
+num: 1253 expanded: 15372 updated: 7659 path_len: 430 max_open: 16363 time_elpased: 1.46343
+484.262
+num: 1254 expanded: 12391 updated: 5850 path_len: 431 max_open: 13365 time_elpased: 1.21134
+485.99
+num: 1255 expanded: 8807 updated: 4494 path_len: 429 max_open: 9471 time_elpased: 0.852673
+445.701
+num: 1256 expanded: 10193 updated: 3638 path_len: 368 max_open: 11099 time_elpased: 0.992462
+454.843
+num: 1257 expanded: 14991 updated: 8768 path_len: 373 max_open: 15971 time_elpased: 1.46149
+418.007
+num: 1258 expanded: 16635 updated: 8639 path_len: 378 max_open: 17629 time_elpased: 1.61506
+483.505
+num: 1259 expanded: 6090 updated: 3007 path_len: 429 max_open: 6759 time_elpased: 0.608616
+484.191
+num: 1260 expanded: 6195 updated: 3004 path_len: 433 max_open: 6857 time_elpased: 0.619263
+486.399
+num: 1261 expanded: 7653 updated: 3410 path_len: 400 max_open: 8606 time_elpased: 0.753831
+449.772
+num: 1262 expanded: 9890 updated: 3302 path_len: 370 max_open: 11458 time_elpased: 1.03049
+488.725
+num: 1263 expanded: 4622 updated: 1858 path_len: 387 max_open: 5804 time_elpased: 0.482312
+449.049
+num: 1264 expanded: 20729 updated: 11378 path_len: 402 max_open: 21813 time_elpased: 2.05506
+443.186
+num: 1265 expanded: 14300 updated: 8341 path_len: 363 max_open: 15342 time_elpased: 1.41392
+456.086
+num: 1266 expanded: 11741 updated: 4682 path_len: 373 max_open: 12601 time_elpased: 1.13156
+467.814
+num: 1267 expanded: 11285 updated: 3983 path_len: 381 max_open: 12629 time_elpased: 1.07871
+484.453
+num: 1268 expanded: 6855 updated: 2959 path_len: 379 max_open: 7754 time_elpased: 0.684412
+486.642
+num: 1269 expanded: 8205 updated: 4765 path_len: 399 max_open: 9105 time_elpased: 0.81454
+490.855
+num: 1270 expanded: 5652 updated: 2546 path_len: 397 max_open: 6805 time_elpased: 0.571296
+467.978
+num: 1271 expanded: 19826 updated: 10625 path_len: 423 max_open: 20947 time_elpased: 1.9087
+488.162
+num: 1272 expanded: 6084 updated: 3208 path_len: 432 max_open: 6752 time_elpased: 0.612987
+446.843
+num: 1273 expanded: 9027 updated: 4443 path_len: 365 max_open: 9664 time_elpased: 0.906388
+429.848
+num: 1274 expanded: 20450 updated: 10344 path_len: 377 max_open: 21621 time_elpased: 2.04325
+472.664
+num: 1275 expanded: 14235 updated: 7968 path_len: 431 max_open: 15485 time_elpased: 1.39516
+413.877
+num: 1276 expanded: 9509 updated: 3975 path_len: 366 max_open: 10430 time_elpased: 0.923377
+490.784
+num: 1277 expanded: 8849 updated: 4401 path_len: 399 max_open: 9844 time_elpased: 0.857908
+478.341
+num: 1278 expanded: 7812 updated: 3918 path_len: 382 max_open: 8529 time_elpased: 0.766718
+493.814
+num: 1279 expanded: 4970 updated: 1720 path_len: 407 max_open: 6151 time_elpased: 0.516963
+490.755
+num: 1280 expanded: 7459 updated: 2983 path_len: 394 max_open: 8450 time_elpased: 0.746605
+489.068
+num: 1281 expanded: 9843 updated: 4913 path_len: 389 max_open: 10890 time_elpased: 0.96736
+445.76
+num: 1282 expanded: 11045 updated: 4168 path_len: 378 max_open: 13613 time_elpased: 1.06839
+471.22
+num: 1283 expanded: 20370 updated: 10711 path_len: 425 max_open: 21373 time_elpased: 1.98947
+482.068
+num: 1284 expanded: 4508 updated: 2157 path_len: 382 max_open: 5419 time_elpased: 0.468328
+495.37
+num: 1285 expanded: 7963 updated: 4293 path_len: 404 max_open: 8976 time_elpased: 0.783043
+495.848
+num: 1286 expanded: 6252 updated: 3337 path_len: 443 max_open: 6943 time_elpased: 0.621733
+497.333
+num: 1287 expanded: 9221 updated: 4248 path_len: 442 max_open: 10063 time_elpased: 0.892357
+472.328
+num: 1288 expanded: 21131 updated: 11858 path_len: 388 max_open: 22252 time_elpased: 1.99713
+447.86
+num: 1289 expanded: 12636 updated: 5105 path_len: 383 max_open: 13404 time_elpased: 1.19584
+447.777
+num: 1290 expanded: 19469 updated: 10044 path_len: 397 max_open: 20565 time_elpased: 1.84935
+499.718
+num: 1291 expanded: 10373 updated: 5058 path_len: 439 max_open: 11398 time_elpased: 1.0235
+498.47
+num: 1292 expanded: 10441 updated: 5537 path_len: 410 max_open: 11372 time_elpased: 1.01883
+472.978
+num: 1293 expanded: 20084 updated: 9989 path_len: 428 max_open: 21086 time_elpased: 1.93434
+502.404
+num: 1294 expanded: 13191 updated: 6405 path_len: 445 max_open: 14370 time_elpased: 1.27344
+479.299
+num: 1295 expanded: 8802 updated: 4276 path_len: 390 max_open: 9511 time_elpased: 0.876953
+499.512
+num: 1296 expanded: 10875 updated: 6513 path_len: 404 max_open: 11789 time_elpased: 1.05387
+496.819
+num: 1297 expanded: 17545 updated: 9376 path_len: 439 max_open: 18591 time_elpased: 1.67325
+469.605
+num: 1298 expanded: 19971 updated: 10445 path_len: 418 max_open: 21121 time_elpased: 1.92384
+464.701
+num: 1299 expanded: 12430 updated: 4713 path_len: 387 max_open: 13073 time_elpased: 1.18355
+440.747
+num: 1300 expanded: 20515 updated: 10108 path_len: 385 max_open: 21647 time_elpased: 1.99248
+499.806
+num: 1301 expanded: 8654 updated: 3959 path_len: 454 max_open: 9517 time_elpased: 0.848328
+491.725
+num: 1302 expanded: 8122 updated: 4785 path_len: 390 max_open: 9127 time_elpased: 0.804903
+501.897
+num: 1303 expanded: 4217 updated: 1807 path_len: 401 max_open: 5388 time_elpased: 0.448163
+458.801
+num: 1304 expanded: 13918 updated: 5363 path_len: 384 max_open: 14911 time_elpased: 1.31367
+507.032
+num: 1305 expanded: 9651 updated: 4977 path_len: 443 max_open: 10747 time_elpased: 0.954835
+497.363
+num: 1306 expanded: 8526 updated: 3902 path_len: 447 max_open: 9459 time_elpased: 0.829455
+506.505
+num: 1307 expanded: 9897 updated: 4836 path_len: 452 max_open: 10915 time_elpased: 0.957901
+473.191
+num: 1308 expanded: 10458 updated: 4096 path_len: 422 max_open: 11526 time_elpased: 1.00971
+504.382
+num: 1309 expanded: 9061 updated: 4894 path_len: 401 max_open: 10037 time_elpased: 0.884387
+509.262
+num: 1310 expanded: 10002 updated: 3730 path_len: 456 max_open: 10942 time_elpased: 0.964448
+440.132
+num: 1311 expanded: 19212 updated: 9278 path_len: 379 max_open: 20296 time_elpased: 1.84293
+501.605
+num: 1312 expanded: 17861 updated: 8677 path_len: 450 max_open: 19023 time_elpased: 1.73145
+456.404
+num: 1313 expanded: 12238 updated: 5143 path_len: 399 max_open: 13261 time_elpased: 1.17118
+503.091
+num: 1314 expanded: 6758 updated: 4040 path_len: 449 max_open: 7391 time_elpased: 0.674745
+506.027
+num: 1315 expanded: 7011 updated: 3032 path_len: 413 max_open: 8196 time_elpased: 0.694312
+490.978
+num: 1316 expanded: 6017 updated: 2925 path_len: 446 max_open: 6662 time_elpased: 0.604656
+499.706
+num: 1317 expanded: 7936 updated: 3147 path_len: 451 max_open: 8648 time_elpased: 0.773911
+502.968
+num: 1318 expanded: 7599 updated: 3623 path_len: 400 max_open: 8637 time_elpased: 0.759406
+508.99
+num: 1319 expanded: 9854 updated: 3994 path_len: 452 max_open: 11015 time_elpased: 0.953489
+513.826
+num: 1320 expanded: 9743 updated: 4266 path_len: 415 max_open: 10821 time_elpased: 0.951592
+511.505
+num: 1321 expanded: 6698 updated: 3559 path_len: 457 max_open: 7402 time_elpased: 0.66237
+456.576
+num: 1322 expanded: 19272 updated: 10163 path_len: 400 max_open: 20372 time_elpased: 1.87543
+473.287
+num: 1323 expanded: 10992 updated: 3733 path_len: 396 max_open: 13664 time_elpased: 1.06257
+425.534
+num: 1324 expanded: 16670 updated: 8229 path_len: 376 max_open: 17767 time_elpased: 1.62624
+466.144
+num: 1325 expanded: 12972 updated: 4870 path_len: 393 max_open: 13707 time_elpased: 1.23308
+503.777
+num: 1326 expanded: 8037 updated: 3378 path_len: 453 max_open: 8784 time_elpased: 0.78695
+495.198
+num: 1327 expanded: 13954 updated: 8448 path_len: 403 max_open: 15141 time_elpased: 1.38341
+485.441
+num: 1328 expanded: 13029 updated: 7810 path_len: 392 max_open: 14098 time_elpased: 1.26104
+510.068
+num: 1329 expanded: 4466 updated: 1956 path_len: 410 max_open: 5635 time_elpased: 0.468107
+516.441
+num: 1330 expanded: 7642 updated: 2760 path_len: 423 max_open: 8821 time_elpased: 0.765277
+513.747
+num: 1331 expanded: 18851 updated: 9936 path_len: 458 max_open: 20129 time_elpased: 1.82128
+473.328
+num: 1332 expanded: 10361 updated: 4498 path_len: 389 max_open: 11040 time_elpased: 0.990812
+503.363
+num: 1333 expanded: 6963 updated: 3486 path_len: 453 max_open: 7658 time_elpased: 0.693587
+487.855
+num: 1334 expanded: 11892 updated: 7506 path_len: 394 max_open: 12944 time_elpased: 1.15963
+485.985
+num: 1335 expanded: 16511 updated: 9640 path_len: 400 max_open: 17620 time_elpased: 1.60527
+509.282
+num: 1336 expanded: 7024 updated: 3233 path_len: 403 max_open: 8085 time_elpased: 0.706807
+517.169
+num: 1337 expanded: 5045 updated: 2171 path_len: 420 max_open: 6240 time_elpased: 0.518572
+511.961
+num: 1338 expanded: 6699 updated: 3538 path_len: 450 max_open: 7388 time_elpased: 0.669002
+513.571
+num: 1339 expanded: 5768 updated: 2025 path_len: 428 max_open: 6975 time_elpased: 0.588515
+519.855
+num: 1340 expanded: 6833 updated: 2757 path_len: 426 max_open: 8287 time_elpased: 0.687666
+486.529
+num: 1341 expanded: 18803 updated: 10592 path_len: 408 max_open: 19946 time_elpased: 1.82956
+506.997
+num: 1342 expanded: 5597 updated: 3117 path_len: 409 max_open: 6417 time_elpased: 0.561597
+475.145
+num: 1343 expanded: 11035 updated: 3693 path_len: 402 max_open: 14059 time_elpased: 1.05988
+510.363
+num: 1344 expanded: 13911 updated: 6075 path_len: 460 max_open: 15145 time_elpased: 1.37184
+488.399
+num: 1345 expanded: 16435 updated: 9560 path_len: 402 max_open: 17513 time_elpased: 1.57754
+513.676
+num: 1346 expanded: 9482 updated: 4555 path_len: 460 max_open: 10498 time_elpased: 0.923356
+484.814
+num: 1347 expanded: 16053 updated: 9376 path_len: 398 max_open: 17218 time_elpased: 1.58763
+498.613
+num: 1348 expanded: 17726 updated: 10216 path_len: 406 max_open: 18871 time_elpased: 1.80868
+519.747
+num: 1349 expanded: 7637 updated: 4221 path_len: 464 max_open: 8176 time_elpased: 0.829511
+465.203
+num: 1350 expanded: 12156 updated: 6153 path_len: 402 max_open: 14165 time_elpased: 1.29443
+522.617
+num: 1351 expanded: 8264 updated: 3848 path_len: 459 max_open: 9021 time_elpased: 0.892738
+495.228
+num: 1352 expanded: 15481 updated: 9080 path_len: 408 max_open: 16445 time_elpased: 1.63011
+476.488
+num: 1353 expanded: 11591 updated: 4126 path_len: 405 max_open: 14475 time_elpased: 1.32581
+495.713
+num: 1354 expanded: 8686 updated: 4309 path_len: 406 max_open: 9390 time_elpased: 0.853481
+523.434
+num: 1355 expanded: 9767 updated: 5184 path_len: 471 max_open: 10691 time_elpased: 0.948279
+513.039
+num: 1356 expanded: 7575 updated: 3931 path_len: 408 max_open: 8624 time_elpased: 0.753747
+515.848
+num: 1357 expanded: 8870 updated: 3787 path_len: 463 max_open: 9588 time_elpased: 0.865592
+457.931
+num: 1358 expanded: 13456 updated: 5096 path_len: 391 max_open: 14213 time_elpased: 1.27711
+498.956
+num: 1359 expanded: 12089 updated: 4846 path_len: 408 max_open: 13000 time_elpased: 1.15259
+492.086
+num: 1360 expanded: 21470 updated: 11544 path_len: 409 max_open: 22679 time_elpased: 2.07798
+505.948
+num: 1361 expanded: 12196 updated: 5397 path_len: 456 max_open: 13467 time_elpased: 1.20198
+518.392
+num: 1362 expanded: 8491 updated: 3915 path_len: 473 max_open: 9241 time_elpased: 0.816673
+526.546
+num: 1363 expanded: 18989 updated: 9791 path_len: 465 max_open: 20186 time_elpased: 1.8201
+521.747
+num: 1364 expanded: 15691 updated: 7176 path_len: 466 max_open: 17026 time_elpased: 1.52676
+501.676
+num: 1365 expanded: 22964 updated: 12326 path_len: 448 max_open: 24088 time_elpased: 2.18618
+497.571
+num: 1366 expanded: 14375 updated: 5865 path_len: 412 max_open: 15286 time_elpased: 1.37376
+465.061
+num: 1367 expanded: 21067 updated: 10120 path_len: 406 max_open: 22189 time_elpased: 2.01137
+489.713
+num: 1368 expanded: 7904 updated: 4089 path_len: 400 max_open: 8608 time_elpased: 0.778658
+526.47
+num: 1369 expanded: 10900 updated: 4686 path_len: 438 max_open: 11876 time_elpased: 1.05641
+474.902
+num: 1370 expanded: 21469 updated: 10368 path_len: 403 max_open: 22701 time_elpased: 2.07661
+481.316
+num: 1371 expanded: 14705 updated: 6708 path_len: 409 max_open: 15616 time_elpased: 1.38881
+485.99
+num: 1372 expanded: 22311 updated: 11117 path_len: 429 max_open: 23529 time_elpased: 2.129
+455.919
+num: 1373 expanded: 19776 updated: 9531 path_len: 401 max_open: 20787 time_elpased: 1.89738
+533.232
+num: 1374 expanded: 15319 updated: 7247 path_len: 475 max_open: 16394 time_elpased: 1.46444
+466.488
+num: 1375 expanded: 12870 updated: 5601 path_len: 395 max_open: 13638 time_elpased: 1.23676
+474.144
+num: 1376 expanded: 21340 updated: 10271 path_len: 401 max_open: 22433 time_elpased: 2.14333
+487.144
+num: 1377 expanded: 22969 updated: 11568 path_len: 414 max_open: 24088 time_elpased: 2.23676
+501.605
+num: 1378 expanded: 10580 updated: 5095 path_len: 450 max_open: 11494 time_elpased: 1.08251
+508.613
+num: 1379 expanded: 13163 updated: 7811 path_len: 416 max_open: 14324 time_elpased: 1.28664
+498.299
+num: 1380 expanded: 10817 updated: 4531 path_len: 409 max_open: 11571 time_elpased: 1.10498
+511.542
+num: 1381 expanded: 15629 updated: 9050 path_len: 421 max_open: 16866 time_elpased: 1.51363
+465.76
+num: 1382 expanded: 10080 updated: 3800 path_len: 398 max_open: 12515 time_elpased: 0.996607
+503.914
+num: 1383 expanded: 23512 updated: 12624 path_len: 420 max_open: 24757 time_elpased: 2.25814
+531.747
+num: 1384 expanded: 8465 updated: 4467 path_len: 476 max_open: 9209 time_elpased: 0.826818
+536.747
+num: 1385 expanded: 18015 updated: 8827 path_len: 481 max_open: 19351 time_elpased: 1.74044
+531.191
+num: 1386 expanded: 7964 updated: 4076 path_len: 480 max_open: 8573 time_elpased: 0.78523
+463.446
+num: 1387 expanded: 19422 updated: 9836 path_len: 399 max_open: 20586 time_elpased: 1.87485
+490.944
+num: 1388 expanded: 15406 updated: 6862 path_len: 412 max_open: 16189 time_elpased: 1.45541
+531.262
+num: 1389 expanded: 7821 updated: 4107 path_len: 478 max_open: 8423 time_elpased: 0.759248
+529.877
+num: 1390 expanded: 16913 updated: 8782 path_len: 482 max_open: 18309 time_elpased: 1.63542
+512.784
+num: 1391 expanded: 9173 updated: 4863 path_len: 421 max_open: 9855 time_elpased: 0.890124
+465.274
+num: 1392 expanded: 13271 updated: 4945 path_len: 400 max_open: 13925 time_elpased: 1.31049
+503.429
+num: 1393 expanded: 21903 updated: 11986 path_len: 422 max_open: 23128 time_elpased: 2.24036
+531.162
+num: 1394 expanded: 12780 updated: 5398 path_len: 475 max_open: 14207 time_elpased: 1.30541
+511.399
+num: 1395 expanded: 20179 updated: 11245 path_len: 425 max_open: 21387 time_elpased: 2.05579
+521.027
+num: 1396 expanded: 10289 updated: 4371 path_len: 428 max_open: 11133 time_elpased: 1.07167
+523.605
+num: 1397 expanded: 13782 updated: 6738 path_len: 472 max_open: 15178 time_elpased: 1.44485
+505.115
+num: 1398 expanded: 14875 updated: 6140 path_len: 427 max_open: 15870 time_elpased: 1.56503
+493.056
+num: 1399 expanded: 10259 updated: 4842 path_len: 405 max_open: 10894 time_elpased: 1.02434
+510.919
+num: 1400 expanded: 20602 updated: 10581 path_len: 456 max_open: 21803 time_elpased: 2.1163
+504.742
+num: 1401 expanded: 19190 updated: 10349 path_len: 420 max_open: 20379 time_elpased: 1.92892
+482.274
+num: 1402 expanded: 14375 updated: 5734 path_len: 417 max_open: 15308 time_elpased: 1.37781
+485.801
+num: 1403 expanded: 20525 updated: 10012 path_len: 411 max_open: 21780 time_elpased: 1.97243
+531.12
+num: 1404 expanded: 7609 updated: 4107 path_len: 482 max_open: 8222 time_elpased: 0.753534
+517.127
+num: 1405 expanded: 18758 updated: 10513 path_len: 427 max_open: 20122 time_elpased: 1.95759
+491.404
+num: 1406 expanded: 8492 updated: 3702 path_len: 434 max_open: 10359 time_elpased: 0.860504
+545.89
+num: 1407 expanded: 19672 updated: 10370 path_len: 486 max_open: 20955 time_elpased: 1.91241
+534.534
+num: 1408 expanded: 7663 updated: 3709 path_len: 485 max_open: 8311 time_elpased: 0.750017
+544.99
+num: 1409 expanded: 19472 updated: 10364 path_len: 488 max_open: 20789 time_elpased: 1.99428
+545.132
+num: 1410 expanded: 14229 updated: 6986 path_len: 484 max_open: 15552 time_elpased: 1.4504
+537.747
+num: 1411 expanded: 16971 updated: 8507 path_len: 482 max_open: 18307 time_elpased: 1.71894
+535.505
+num: 1412 expanded: 15474 updated: 7279 path_len: 481 max_open: 16840 time_elpased: 1.63976
+548.919
+num: 1413 expanded: 8013 updated: 3882 path_len: 494 max_open: 8718 time_elpased: 0.815835
+477.446
+num: 1414 expanded: 21339 updated: 9704 path_len: 413 max_open: 22448 time_elpased: 2.08058
+524.955
+num: 1415 expanded: 20947 updated: 11731 path_len: 434 max_open: 22079 time_elpased: 2.13188
+545.274
+num: 1416 expanded: 7279 updated: 3522 path_len: 480 max_open: 8056 time_elpased: 0.727719
+550.747
+num: 1417 expanded: 17010 updated: 8184 path_len: 495 max_open: 18364 time_elpased: 1.68798
+545.002
+num: 1418 expanded: 6992 updated: 3692 path_len: 476 max_open: 7734 time_elpased: 0.72829
+538.777
+num: 1419 expanded: 14070 updated: 6414 path_len: 488 max_open: 15455 time_elpased: 1.3711
+524.848
+num: 1420 expanded: 21754 updated: 11234 path_len: 472 max_open: 23012 time_elpased: 2.10385
+469.931
+num: 1421 expanded: 13210 updated: 5207 path_len: 403 max_open: 14069 time_elpased: 1.29846
+542.818
+num: 1422 expanded: 16655 updated: 7847 path_len: 485 max_open: 17960 time_elpased: 1.65077
+544.889
+num: 1423 expanded: 7098 updated: 3797 path_len: 485 max_open: 7753 time_elpased: 0.747472
+535.12
+num: 1424 expanded: 18199 updated: 9256 path_len: 486 max_open: 19520 time_elpased: 1.87868
+544.132
+num: 1425 expanded: 20056 updated: 10709 path_len: 483 max_open: 21247 time_elpased: 1.99588
+552.576
+num: 1426 expanded: 7373 updated: 3891 path_len: 496 max_open: 8008 time_elpased: 0.760894
+508.747
+num: 1427 expanded: 9382 updated: 3906 path_len: 453 max_open: 11379 time_elpased: 1.2299
+487.103
+num: 1428 expanded: 13537 updated: 5713 path_len: 421 max_open: 14372 time_elpased: 1.31105
+546.019
+num: 1429 expanded: 19127 updated: 9958 path_len: 494 max_open: 20401 time_elpased: 1.97504
+525.056
+num: 1430 expanded: 21639 updated: 12073 path_len: 437 max_open: 23036 time_elpased: 2.10841
+531.777
+num: 1431 expanded: 8438 updated: 4585 path_len: 481 max_open: 9229 time_elpased: 0.867484
+486.103
+num: 1432 expanded: 12702 updated: 6269 path_len: 420 max_open: 14557 time_elpased: 1.26219
+495.446
+num: 1433 expanded: 23677 updated: 11387 path_len: 431 max_open: 24852 time_elpased: 2.48003
+544.948
+num: 1434 expanded: 7877 updated: 4074 path_len: 495 max_open: 8538 time_elpased: 0.793708
+487.103
+num: 1435 expanded: 15089 updated: 6557 path_len: 421 max_open: 16098 time_elpased: 1.44707
+530.818
+num: 1436 expanded: 21072 updated: 11223 path_len: 473 max_open: 22415 time_elpased: 2.04512
+510.429
+num: 1437 expanded: 20803 updated: 10975 path_len: 429 max_open: 22055 time_elpased: 2.05585
+481.961
+num: 1438 expanded: 18736 updated: 9455 path_len: 420 max_open: 19880 time_elpased: 1.79717
+527.157
+num: 1439 expanded: 11259 updated: 4172 path_len: 442 max_open: 12848 time_elpased: 1.09362
+524.813
+num: 1440 expanded: 15218 updated: 6704 path_len: 438 max_open: 16085 time_elpased: 1.452
+522.718
+num: 1441 expanded: 9495 updated: 3886 path_len: 462 max_open: 11563 time_elpased: 0.935646
+547.362
+num: 1442 expanded: 7549 updated: 4160 path_len: 497 max_open: 8157 time_elpased: 0.737819
+557.333
+num: 1443 expanded: 16273 updated: 7892 path_len: 502 max_open: 17776 time_elpased: 1.59485
+550.777
+num: 1444 expanded: 18318 updated: 9737 path_len: 500 max_open: 19611 time_elpased: 1.80611
+548.706
+num: 1445 expanded: 14457 updated: 6786 path_len: 500 max_open: 15868 time_elpased: 1.4515
+510.5
+num: 1446 expanded: 10820 updated: 4428 path_len: 427 max_open: 11635 time_elpased: 1.15191
+530.227
+num: 1447 expanded: 22166 updated: 12647 path_len: 443 max_open: 23499 time_elpased: 2.12457
+482.647
+num: 1448 expanded: 18458 updated: 9351 path_len: 424 max_open: 19675 time_elpased: 1.79687
+520.299
+num: 1449 expanded: 18396 updated: 10093 path_len: 431 max_open: 19619 time_elpased: 1.86942
+535.818
+num: 1450 expanded: 8759 updated: 4117 path_len: 478 max_open: 10360 time_elpased: 0.854302
+542.706
+num: 1451 expanded: 6948 updated: 3936 path_len: 494 max_open: 7527 time_elpased: 0.687139
+563.576
+num: 1452 expanded: 19877 updated: 10252 path_len: 507 max_open: 21309 time_elpased: 1.99318
+563.333
+num: 1453 expanded: 8144 updated: 4434 path_len: 508 max_open: 8860 time_elpased: 0.82640
+494.517
+num: 1454 expanded: 22658 updated: 10538 path_len: 428 max_open: 23839 time_elpased: 2.46884
+563.889
+num: 1455 expanded: 7520 updated: 4185 path_len: 504 max_open: 8173 time_elpased: 0.858934
+513.529
+num: 1456 expanded: 11061 updated: 4352 path_len: 435 max_open: 14056 time_elpased: 1.15422
+483.961
+num: 1457 expanded: 19992 updated: 9425 path_len: 422 max_open: 21176 time_elpased: 2.10231
+557.676
+num: 1458 expanded: 8033 updated: 4248 path_len: 504 max_open: 8727 time_elpased: 0.873321
+561.576
+num: 1459 expanded: 16366 updated: 7701 path_len: 505 max_open: 17906 time_elpased: 1.64719
+568.061
+num: 1460 expanded: 18248 updated: 8874 path_len: 509 max_open: 19714 time_elpased: 1.98456
+539.884
+num: 1461 expanded: 11756 updated: 4503 path_len: 451 max_open: 13336 time_elpased: 1.18168
+564.232
+num: 1462 expanded: 7189 updated: 3906 path_len: 506 max_open: 7853 time_elpased: 0.725592
+569.233
+num: 1463 expanded: 20028 updated: 10790 path_len: 511 max_open: 21385 time_elpased: 2.02295
+509.316
+num: 1464 expanded: 15082 updated: 6092 path_len: 437 max_open: 15828 time_elpased: 1.57089
+568.404
+num: 1465 expanded: 10145 updated: 5158 path_len: 511 max_open: 11136 time_elpased: 1.08962
+543.855
+num: 1466 expanded: 12057 updated: 4199 path_len: 450 max_open: 13356 time_elpased: 1.19345
+504.002
+num: 1467 expanded: 15142 updated: 6417 path_len: 435 max_open: 16165 time_elpased: 1.48579
+510.843
+num: 1468 expanded: 18393 updated: 9553 path_len: 429 max_open: 19614 time_elpased: 1.83149
+536.57
+num: 1469 expanded: 18980 updated: 10754 path_len: 451 max_open: 20341 time_elpased: 1.93116
+571.99
+num: 1470 expanded: 7466 updated: 4000 path_len: 515 max_open: 8122 time_elpased: 0.763079
+536.227
+num: 1471 expanded: 13336 updated: 6095 path_len: 449 max_open: 14052 time_elpased: 1.32125
+560.605
+num: 1472 expanded: 8297 updated: 4277 path_len: 509 max_open: 8932 time_elpased: 0.840811
+503.304
+num: 1473 expanded: 20171 updated: 9993 path_len: 443 max_open: 21343 time_elpased: 1.98359
+493.961
+num: 1474 expanded: 18625 updated: 9376 path_len: 432 max_open: 19843 time_elpased: 1.84796
+501.446
+num: 1475 expanded: 19583 updated: 9607 path_len: 437 max_open: 20757 time_elpased: 1.93992
+568.99
+num: 1476 expanded: 18003 updated: 9193 path_len: 512 max_open: 19475 time_elpased: 1.79404
+517.973
+num: 1477 expanded: 13757 updated: 6272 path_len: 444 max_open: 14532 time_elpased: 1.36126
+560.363
+num: 1478 expanded: 17022 updated: 8849 path_len: 510 max_open: 18428 time_elpased: 1.7066
+527.328
+num: 1479 expanded: 17759 updated: 9685 path_len: 443 max_open: 19091 time_elpased: 1.75475
+520.688
+num: 1480 expanded: 24374 updated: 11668 path_len: 455 max_open: 25669 time_elpased: 2.41645
+573.031
+num: 1481 expanded: 19544 updated: 10066 path_len: 509 max_open: 20955 time_elpased: 1.94899
+547.96
+num: 1482 expanded: 22222 updated: 11407 path_len: 486 max_open: 23562 time_elpased: 2.19356
+529.328
+num: 1483 expanded: 12146 updated: 4638 path_len: 445 max_open: 14676 time_elpased: 1.21682
+507.588
+num: 1484 expanded: 21755 updated: 10395 path_len: 439 max_open: 23021 time_elpased: 2.20343
+539.499
+num: 1485 expanded: 20740 updated: 11365 path_len: 456 max_open: 22121 time_elpased: 2.16217
+572.303
+num: 1486 expanded: 7577 updated: 3996 path_len: 512 max_open: 8432 time_elpased: 0.786008
+540.747
+num: 1487 expanded: 7830 updated: 3926 path_len: 485 max_open: 8440 time_elpased: 0.820424
+541.157
+num: 1488 expanded: 12102 updated: 4483 path_len: 456 max_open: 14254 time_elpased: 1.24941
+540.156
+num: 1489 expanded: 12417 updated: 5590 path_len: 455 max_open: 13181 time_elpased: 1.24174
+546.99
+num: 1490 expanded: 23026 updated: 11906 path_len: 490 max_open: 24395 time_elpased: 2.25333
+534.6
+num: 1491 expanded: 12382 updated: 4540 path_len: 454 max_open: 15324 time_elpased: 1.21972
+516.345
+num: 1492 expanded: 23017 updated: 10726 path_len: 449 max_open: 24383 time_elpased: 2.23107
+563.706
+num: 1493 expanded: 16211 updated: 8246 path_len: 515 max_open: 17752 time_elpased: 1.60088
+528.115
+num: 1494 expanded: 22991 updated: 11217 path_len: 450 max_open: 24326 time_elpased: 2.36857
+506.345
+num: 1495 expanded: 14772 updated: 6383 path_len: 439 max_open: 15568 time_elpased: 1.43593
+551.333
+num: 1496 expanded: 20118 updated: 10452 path_len: 496 max_open: 21535 time_elpased: 1.97425
+535.96
+num: 1497 expanded: 9997 updated: 4224 path_len: 474 max_open: 12243 time_elpased: 0.990158
+512.718
+num: 1498 expanded: 10046 updated: 4548 path_len: 452 max_open: 10765 time_elpased: 1.0158
+517.659
+num: 1499 expanded: 13673 updated: 6014 path_len: 447 max_open: 14772 time_elpased: 1.33356
+543.961
+num: 1500 expanded: 8968 updated: 4107 path_len: 482 max_open: 11365 time_elpased: 0.895233
+530.6
+num: 1501 expanded: 20066 updated: 10375 path_len: 450 max_open: 21289 time_elpased: 1.9987
+517.417
+num: 1502 expanded: 11374 updated: 4201 path_len: 448 max_open: 14342 time_elpased: 1.12811
+537.701
+num: 1503 expanded: 12800 updated: 5868 path_len: 460 max_open: 15387 time_elpased: 1.26897
+541.6
+num: 1504 expanded: 10936 updated: 4082 path_len: 461 max_open: 13360 time_elpased: 1.09207
+542.671
+num: 1505 expanded: 12729 updated: 4815 path_len: 460 max_open: 15215 time_elpased: 1.31021
+545.404
+num: 1506 expanded: 8638 updated: 4352 path_len: 488 max_open: 9389 time_elpased: 0.855154
+528.86
+num: 1507 expanded: 12839 updated: 5773 path_len: 464 max_open: 13801 time_elpased: 1.24609
+584.303
+num: 1508 expanded: 21023 updated: 11152 path_len: 524 max_open: 22620 time_elpased: 2.05795
+527.86
+num: 1509 expanded: 23795 updated: 11595 path_len: 463 max_open: 25087 time_elpased: 2.41429
+530.529
+num: 1510 expanded: 14399 updated: 6920 path_len: 452 max_open: 16345 time_elpased: 1.41348
+522.659
+num: 1511 expanded: 14929 updated: 7036 path_len: 452 max_open: 16751 time_elpased: 1.45016
+520.032
+num: 1512 expanded: 12125 updated: 5392 path_len: 456 max_open: 13054 time_elpased: 1.18344
+519.245
+num: 1513 expanded: 23769 updated: 11058 path_len: 449 max_open: 25048 time_elpased: 2.36317
+512.902
+num: 1514 expanded: 20930 updated: 9871 path_len: 441 max_open: 22239 time_elpased: 2.04375
+504.375
+num: 1515 expanded: 18097 updated: 9231 path_len: 442 max_open: 19350 time_elpased: 1.78456
+524.96
+num: 1516 expanded: 21220 updated: 10585 path_len: 463 max_open: 22484 time_elpased: 2.08908
+540.529
+num: 1517 expanded: 14282 updated: 6696 path_len: 462 max_open: 15172 time_elpased: 1.38109
+522.659
+num: 1518 expanded: 24118 updated: 11288 path_len: 452 max_open: 25446 time_elpased: 2.3563
+544.57
+num: 1519 expanded: 24151 updated: 12126 path_len: 459 max_open: 25507 time_elpased: 2.36525
+543.357
+num: 1520 expanded: 20776 updated: 10661 path_len: 464 max_open: 22116 time_elpased: 2.04661
+512.488
+num: 1521 expanded: 19948 updated: 9760 path_len: 441 max_open: 21300 time_elpased: 1.95166
+555.575
+num: 1522 expanded: 20810 updated: 10836 path_len: 499 max_open: 22212 time_elpased: 2.03066
+525.96
+num: 1523 expanded: 20457 updated: 10263 path_len: 464 max_open: 21745 time_elpased: 1.99609
+536.132
+num: 1524 expanded: 21146 updated: 10371 path_len: 475 max_open: 22412 time_elpased: 2.06013
+526.546
+num: 1525 expanded: 12258 updated: 5474 path_len: 465 max_open: 13351 time_elpased: 1.19306
+519.487
+num: 1526 expanded: 21337 updated: 10034 path_len: 448 max_open: 22731 time_elpased: 2.08057
+543.747
+num: 1527 expanded: 20043 updated: 9935 path_len: 488 max_open: 21368 time_elpased: 1.95891
+538.629
+num: 1528 expanded: 23695 updated: 11414 path_len: 463 max_open: 24950 time_elpased: 2.29462
+550.257
+num: 1529 expanded: 12546 updated: 5666 path_len: 468 max_open: 13342 time_elpased: 1.22958
+524.002
+num: 1530 expanded: 22432 updated: 10487 path_len: 455 max_open: 23699 time_elpased: 2.174
+549.96
+num: 1531 expanded: 22909 updated: 11512 path_len: 488 max_open: 24198 time_elpased: 2.22121
+552.641
+num: 1532 expanded: 11503 updated: 5597 path_len: 465 max_open: 12394 time_elpased: 1.13546
+548.546
+num: 1533 expanded: 21941 updated: 11201 path_len: 487 max_open: 23338 time_elpased: 2.17456
+541.458
+num: 1534 expanded: 23314 updated: 10831 path_len: 465 max_open: 24668 time_elpased: 2.29436
+535.475
+num: 1535 expanded: 20849 updated: 10144 path_len: 476 max_open: 22160 time_elpased: 2.04969
+519.416
+num: 1536 expanded: 19511 updated: 9610 path_len: 450 max_open: 20823 time_elpased: 1.94301
+520.96
+num: 1537 expanded: 19547 updated: 9403 path_len: 459 max_open: 20775 time_elpased: 1.95474
+525.203
+num: 1538 expanded: 10229 updated: 4307 path_len: 462 max_open: 12612 time_elpased: 1.01501
+532.387
+num: 1539 expanded: 23984 updated: 11297 path_len: 458 max_open: 25330 time_elpased: 2.35425
+559.031
+num: 1540 expanded: 23041 updated: 11528 path_len: 495 max_open: 24495 time_elpased: 2.2649
+544.115
+num: 1541 expanded: 11913 updated: 4826 path_len: 466 max_open: 12814 time_elpased: 1.16595
+552.943
+num: 1542 expanded: 12313 updated: 4945 path_len: 474 max_open: 15168 time_elpased: 1.22615
+550.374
+num: 1543 expanded: 22370 updated: 11047 path_len: 488 max_open: 23704 time_elpased: 2.19531
+547.717
+num: 1544 expanded: 20333 updated: 10178 path_len: 487 max_open: 21688 time_elpased: 1.99802
+537.115
+num: 1545 expanded: 9477 updated: 4519 path_len: 459 max_open: 10151 time_elpased: 0.933462
+			5755.780255		2741.766879				6439.667516		0.599086597
+
+531.647
+num: 1546 expanded: 9062 updated: 4676 path_len: 473 max_open: 9704 time_elpased: 0.903525
+548.647
+num: 1547 expanded: 8567 updated: 4336 path_len: 490 max_open: 9277 time_elpased: 0.857707
+524.659
+num: 1548 expanded: 10379 updated: 4159 path_len: 454 max_open: 12991 time_elpased: 1.05047
+544.487
+num: 1549 expanded: 23475 updated: 11525 path_len: 473 max_open: 24877 time_elpased: 2.29324
+545.386
+num: 1550 expanded: 20090 updated: 9928 path_len: 471 max_open: 21448 time_elpased: 1.99389
+535.144
+num: 1551 expanded: 24156 updated: 11100 path_len: 462 max_open: 25496 time_elpased: 2.36045
+551.546
+num: 1552 expanded: 7855 updated: 4254 path_len: 490 max_open: 8420 time_elpased: 0.783069
+532.002
+num: 1553 expanded: 12819 updated: 5766 path_len: 463 max_open: 13447 time_elpased: 1.24005
+533.245
+num: 1554 expanded: 21098 updated: 10157 path_len: 463 max_open: 22418 time_elpased: 2.05938
+534.032
+num: 1555 expanded: 11544 updated: 4615 path_len: 470 max_open: 12488 time_elpased: 1.13033
+536.073
+num: 1556 expanded: 21917 updated: 10232 path_len: 465 max_open: 23233 time_elpased: 2.13318
+559.843
+num: 1557 expanded: 12698 updated: 4795 path_len: 478 max_open: 15572 time_elpased: 1.26446
+531.588
+num: 1558 expanded: 21221 updated: 10137 path_len: 463 max_open: 22637 time_elpased: 2.06815
+535.245
+num: 1559 expanded: 11687 updated: 5088 path_len: 465 max_open: 12616 time_elpased: 1.13942
+537.831
+num: 1560 expanded: 11281 updated: 4780 path_len: 468 max_open: 13868 time_elpased: 1.11635
+553.173
+num: 1561 expanded: 24735 updated: 12129 path_len: 485 max_open: 26097 time_elpased: 2.44144
+542.286
+num: 1562 expanded: 14171 updated: 6696 path_len: 465 max_open: 16208 time_elpased: 1.39564
+544.689
+num: 1563 expanded: 12662 updated: 6883 path_len: 479 max_open: 14356 time_elpased: 1.24461
+527.688
+num: 1564 expanded: 10350 updated: 4489 path_len: 462 max_open: 12210 time_elpased: 1.02793
+540.475
+num: 1565 expanded: 8475 updated: 4281 path_len: 481 max_open: 9146 time_elpased: 0.840879
+539.96
+num: 1566 expanded: 20130 updated: 10213 path_len: 478 max_open: 21461 time_elpased: 1.98234
+542.215
+num: 1567 expanded: 20033 updated: 9850 path_len: 467 max_open: 21496 time_elpased: 1.95873
+538.73
+num: 1568 expanded: 11213 updated: 4602 path_len: 466 max_open: 12111 time_elpased: 1.22763
+537.215
+num: 1569 expanded: 10490 updated: 4293 path_len: 462 max_open: 13053 time_elpased: 1.08305
+Program ended with exit code: 0
