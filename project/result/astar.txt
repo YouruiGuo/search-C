@@ -1,3 +1,5 @@
+			7457.198089		3903.236306				7736.238854		0.101070766
+
 3.82843
 num: 0 expanded: 5 updated: 0 path_len: 4 max_open: 19 time_elpased: 0.008397
 3.82843

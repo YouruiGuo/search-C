@@ -1,3 +1,5 @@
+			7479.028025		30.28280255				7596.79172		0.049495522
+
 num: 0 expanded: 5 updated: 0 path_len: 4 max_open: 15 time_elpased: 0.008499
 num: 1 expanded: 5 updated: 0 path_len: 4 max_open: 15 time_elpased: 0.010563
 num: 2 expanded: 3 updated: 0 path_len: 3 max_open: 9 time_elpased: 0.010722
