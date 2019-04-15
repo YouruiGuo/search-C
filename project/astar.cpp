@@ -150,7 +150,9 @@ private:
     Heap openlist;
     std::vector<State> succes;
     std::vector<int> parent, cur, act, isuccess_t, isuccess_g;
+    
 public:
+    float totalcost;
     int expanded;
     int updated;
     int max_open;
@@ -161,9 +163,10 @@ public:
     bool boundedJPS();
     bool canonicalDijkstra();
     bool canonicalWeightedAstar();
-    
+    bool CanonicalOrdering(int child, int parent, int depth, float cost);
     std::vector<State> getPath();
     Action prevAction(StateInfo st);
+    Action prevAction(int child, int par);
 };
 
 Astar::Astar(State s, State g) {
@@ -198,6 +201,19 @@ Action Astar::prevAction(StateInfo st) {
     act.clear();
     parent = env.allStates[st.parent].getState().getState();
     cur = st.getState().getState();
+    for (int i = 0; i < parent.size(); i++) {
+        act.push_back(cur[i]-parent[i]);
+    }
+    return Action({act});
+}
+
+Action Astar::prevAction(int child, int par) {
+    if (par == -1) {
+        return Action({10, 10});
+    }
+    act.clear();
+    cur = env.allStates[child].getState().getState();
+    parent = env.allStates[par].getState().getState();
     for (int i = 0; i < parent.size(); i++) {
         act.push_back(cur[i]-parent[i]);
     }
@@ -256,6 +272,67 @@ bool Astar::canonicalAstar() {
 
 
 bool Astar::boundedJPS() {
+    bool result = false;
+    std::vector<State> paths;
+    int index;
+    int depth = 4;
+    State start = env.getStart();
+    openlist.heap_push(start_index, heu.HCost(start));
+    max_open++;
+    while (openlist.getQueueLength() != 0) {
+        index = openlist.heap_pop();
+        //env.allStates[index].open_id = -1;
+        expanded++;
+        result = CanonicalOrdering(index, env.allStates[index].parent, depth, env.allStates[index].gcost);
+        if (result) {
+            //paths = getPath();
+            return true;
+        }
+    }
+    return false;
+    //return true;
+}
+
+bool Astar::CanonicalOrdering(int child, int parent, int depth, float cost) {
+    std::vector<Action> actions;
+    StateInfo st = env.allStates[child];
+    int open_id = env.allStates[child].open_id;
+    Action prevaction = prevAction(child, parent);
+    
+    if (env.isSuccess(st.getState())) {
+        totalcost = cost;
+        return true;
+    }
+    if (open_id == -1) {
+        if (st.gcost > cost) {
+            env.allStates[child].gcost = cost;
+            env.allStates[child].parent = parent;
+            updated++;
+        }
+        return false;
+    }
+    if (depth == 0 || env.isJumpPoint(st.getState(), prevaction)) {
+        env.allStates[child].gcost = cost;
+        env.allStates[child].parent = parent;
+        if (open_id == -1 || open_id == -10) {
+            openlist.heap_push(child, heu.HCost(st.getState()));
+            return false;
+        }
+    }
+    max_open++;
+    env.allStates[child].gcost = cost;
+    env.allStates[child].parent = parent;
+    env.allStates[child].open_id = -1;
+    env.getActions(st.getState(), prevaction, &actions);
+    for (std::vector<Action>::size_type i = 0; i < actions.size(); i++) {
+        int next = env.applyActionCopy(actions[i], st.getState());
+        StateInfo next_state = env.allStates[next];
+        float gcost = env.cost(next_state.getState(), st.getState());
+        bool p = CanonicalOrdering(next, child, depth-1, cost+gcost);
+        if (p) {
+            return true;
+        }
+    }
     
     return false;
 }
@@ -286,7 +363,7 @@ bool Astar::canonicalDijkstra(){
             State st = env.allStates[index].getState();
             env.allStates[index].open_id = -1; // add to closed list
             expanded++;
-
+            
             parentstate = env.allStates[index];
             prevaction = prevAction(parentstate);
             // get all possible actions / successors
@@ -298,7 +375,7 @@ bool Astar::canonicalDijkstra(){
                 currentstate = env.allStates[next];
                 open_id = env.allStates[next].open_id;
                 next_gcost = env.cost(currentstate.getState(), parentstate.getState());
-
+                
                 isjp = env.isJumpPoint(currentstate.getState(), action);
                 
                 if (open_id == -1) { // closed list
@@ -351,7 +428,7 @@ std::vector<State> Astar::getPath() {
         path.push_back(env.allStates[state.parent].getState());
         state = env.allStates[state.parent];
     }while (state.parent != -1);
-    //cout << pathcost << endl;
+    std::cout << pathcost << std::endl;
     return path;
 }
 
@@ -414,13 +491,14 @@ int main(int argc, char const *argv[])
         loadGridFile(i, &s, &g);
         Astar search = Astar(s, g);
         clock_t begin = clock();
-        bool result = search.canonicalAstar();
+        bool result = search.boundedJPS();
+        //bool result = search.canonicalAstar();
         //bool result = search.canonicalDijkstra();
         clock_t end = clock();
         //std::queue<State> *path = search.getPath();
         if (result == true){
             std::cout << "num: " << i <<" expanded: " << search.expanded << " updated: " <<
-            search.updated << " path_len: " << search.path.size() << " max_open: " << search.max_open << " time_elpased: "
+            search.updated << " cost: " << search.totalcost << " max_open: " << search.max_open << " time_elpased: "
             << double(end - begin) / CLOCKS_PER_SEC << std::endl;
         }
         //break;
