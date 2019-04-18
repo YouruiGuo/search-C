@@ -173,7 +173,7 @@ State Grid_env::unranking(unsigned long long h) {
 }
 
 void Grid_env::getAllActions(State st, Action prev) {
-
+    
     bool isjp = isJumpPoint(st, prev);
     act = prev.getAction();
     
@@ -229,7 +229,7 @@ bool Grid_env::isJumpPoint(State st, Action prev) {
     unsigned long long hv;
     acttemp.clear();
     acttemp = prev.getAction();
-
+    
     if (acttemp[0] == 0 || acttemp[1] == 0) {
         jpactions.clear();
         if (acttemp[0] == 0) {
@@ -367,9 +367,9 @@ void Grid_env::loadMap() {
     s.resize(2, 0);
     State st;
     unsigned long long h;
-    std::string filename = "/Users/margaret/Documents/cmput652/search-C1/asg4/data/brc101d.map";
+    std::string filename = "/Users/margaret/Documents/cmput652/search-C1/asg4/data/AcrosstheCape.map";
     std::ifstream src (filename);
-
+    
     int line = 0;
     std::string input;
     while (line < 4 && std::getline(src, input)) {
@@ -385,7 +385,7 @@ void Grid_env::loadMap() {
     while (src && line < mapsize[1]) {
         std::getline (src, input);
         for (size_t i = 0; i < mapsize[0]; i++) {
-            if (input[i] != '.') {
+            if (input[i] != '.' && input[i] != 'G') {
                 s.clear();
                 s.push_back((int)i);
                 s.push_back(line);

@@ -275,7 +275,7 @@ bool Astar::boundedJPS() {
     bool result = false;
     std::vector<State> paths;
     int index;
-    int depth = 4;
+    int depth = 10000;
     State start = env.getStart();
     openlist.heap_push(start_index, heu.HCost(start));
     max_open++;
@@ -410,11 +410,6 @@ bool Astar::canonicalDijkstra(){
     return true;
 }
 
-bool Astar::canonicalWeightedAstar(){
-    
-    
-    return false;
-}
 
 std::vector<State> Astar::getPath() {
     float pathcost = 0;
@@ -460,7 +455,7 @@ void loadGridFile(int index, std::vector<int> *s, std::vector<int> *g) {
     s->clear();
     g->clear();
     std::vector<State> instances;
-    std::string df = "/Users/margaret/Documents/cmput652/search-C1/asg4/data/brc101d.map.scen";
+    std::string df = "/Users/margaret/Documents/cmput652/search-C1/asg4/data/AcrosstheCape.map.scen";
     std::ifstream infile(df);
     std::string line;
     int count = -1;
@@ -485,7 +480,7 @@ int main(int argc, char const *argv[])
     std::vector<int> v;
     
     
-    for (int i = 0; i < 1570; ++i){
+    for (int i = 1; i < 1570; ++i){
         std::vector<int> s, g;
         //load3dfile(i, &s, &g);
         loadGridFile(i, &s, &g);
@@ -501,7 +496,7 @@ int main(int argc, char const *argv[])
             search.updated << " cost: " << search.totalcost << " max_open: " << search.max_open << " time_elpased: "
             << double(end - begin) / CLOCKS_PER_SEC << std::endl;
         }
-        //break;
+        break;
     }
     
     //State benchmark = loadstpFile(index, &si);
