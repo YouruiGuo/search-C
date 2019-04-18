@@ -201,10 +201,10 @@ Action Astar::prevAction(StateInfo st) {
     act.clear();
     parent = env.allStates[st.parent].getState().getState();
     cur = st.getState().getState();
-    for (int i = 0; i < parent.size(); i++) {
+    for (unsigned int i = 0; i < parent.size(); i++) {
         act.push_back(cur[i]-parent[i]);
     }
-    return Action({act});
+    return Action(act);
 }
 
 Action Astar::prevAction(int child, int par) {
@@ -214,10 +214,10 @@ Action Astar::prevAction(int child, int par) {
     act.clear();
     cur = env.allStates[child].getState().getState();
     parent = env.allStates[par].getState().getState();
-    for (int i = 0; i < parent.size(); i++) {
+    for (unsigned int i = 0; i < parent.size(); i++) {
         act.push_back(cur[i]-parent[i]);
     }
-    return Action({act});
+    return Action(act);
 }
 
 bool Astar::canonicalAstar() {
@@ -340,7 +340,7 @@ bool Astar::CanonicalOrdering(int child, int parent, int depth, float cost) {
 bool Astar::canonicalDijkstra(){
     int next, index, open_id;
     StateInfo parentstate, currentstate;
-    float next_gcost, gcost;
+    float next_gcost;
     std::vector<Action> actions;
     bool isjp = false;
     Action action = Action({0});
@@ -357,7 +357,7 @@ bool Astar::canonicalDijkstra(){
         index = openlist.heap_pop();
         Q.push(std::make_pair(0, index));
         while (!Q.empty()) { // dijkstra's algorithm
-            gcost = Q.top().first;
+            //gcost = Q.top().first;
             index = Q.top().second;
             Q.pop(); // pop the top element in queue
             State st = env.allStates[index].getState();
@@ -455,7 +455,7 @@ void loadGridFile(int index, std::vector<int> *s, std::vector<int> *g) {
     s->clear();
     g->clear();
     std::vector<State> instances;
-    std::string df = "/Users/margaret/Documents/cmput652/search-C1/asg4/data/AcrosstheCape.map.scen";
+    std::string df = "/home/yourui/Documents/cmput652/search-C/asg4/data/AcrosstheCape.map.scen";
     std::ifstream infile(df);
     std::string line;
     int count = -1;

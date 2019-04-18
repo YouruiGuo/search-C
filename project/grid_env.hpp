@@ -183,7 +183,7 @@ void Grid_env::getAllActions(State st, Action prev) {
     ly.push_back(0);
     
     if (isjp) {
-        for (int i = 0; i < jp.size(); i++) {
+        for (unsigned int i = 0; i < jp.size(); i++) {
             if (jp[i][0] != 0) {
                 lx.push_back(jp[i][0]);
             }
@@ -367,7 +367,7 @@ void Grid_env::loadMap() {
     s.resize(2, 0);
     State st;
     unsigned long long h;
-    std::string filename = "/Users/margaret/Documents/cmput652/search-C1/asg4/data/AcrosstheCape.map";
+    std::string filename = "/home/yourui/Documents/cmput652/search-C/asg4/data/AcrosstheCape.map";
     std::ifstream src (filename);
     
     int line = 0;
@@ -384,7 +384,7 @@ void Grid_env::loadMap() {
     line = 0;
     while (src && line < mapsize[1]) {
         std::getline (src, input);
-        for (size_t i = 0; i < mapsize[0]; i++) {
+        for (int i = 0; i < mapsize[0]; i++) {
             if (input[i] != '.' && input[i] != 'G') {
                 s.clear();
                 s.push_back((int)i);
